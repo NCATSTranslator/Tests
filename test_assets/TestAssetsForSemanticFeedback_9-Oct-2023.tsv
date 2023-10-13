@@ -1,0 +1,59 @@
+AssetIdentifier	Query	Settings	InputName (user choice)	InputID, node normalized	OutputID	OutputName	Expected Output	Persona	Well Known	GitHubIssue	Source?
+Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/506	Github user feedback
+Asset:2	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33247	organic group ***?	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	Github user feedback
+Asset:3	Treats	Inferred	NARP Syndrome	MONDO:0010794	DRUGBANK:DB00313	Valproic Acid	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/147	Github user feedback
+Asset:4	Treats	Inferred	NARP Syndrome	MONDO:0010794		Barbiturates	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/147	
+Asset:5	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:12358480	Hexadrin	NeverShow	clinical		https://github.com/NCATSTranslator/Feedback/issues/490	Github user feedback
+Asset:6	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	Busulfan	NeverShow	clinical		https://github.com/NCATSTranslator/Feedback/issues/490	
+Asset:7	Treats	Inferred	Castleman Disease	MONDO:0015564	MESH:D001335	Vehicle Emissions	NeverShow	clinical		https://github.com/NCATSTranslator/Feedback/issues/480	Github user feedback
+Asset:8	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		fingolimod	1_TopAnswer	look-up			
+Asset:9	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		natalizumab	1_TopAnswer	look-up			
+Asset:10	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		lead	4_NeverShow	look-up			
+Asset:11	Treats	Inferred	Castleman's	MONDO:0015564		sirolimus	1_TopAnswer	look-up			
+Asset:12	Treats	Inferred	Castleman's	MONDO:0015564		rituximab	1_TopAnswer	look-up			
+Asset:13	Treats	Inferred	Castleman's	MONDO:0015564		anakinra	1_TopAnswer	look-up			
+Asset:14	Treats	Inferred	Castleman's	MONDO:0015564		interferon-alpha	1_TopAnswer	look-up			
+Asset:15	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		iron	4_NeverShow	look-up			
+Asset:16	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		desferrioxamine	1_TopAnswer	look-up			
+Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	NeverShow	mechanistic		https://github.com/NCATSTranslator/Feedback/issues/506	
+Asset:18	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D009930	Organic Chemicals	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:19	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:23367	molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:20	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25367	molecule	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:21	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25806	oxygen molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:22	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:36357	polyatomic entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:23	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33582	carbon group molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:24	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D007287	inorganic chemicals	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:25	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33285	heteroorganic entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:26	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33579	main group molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:27	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:37577	heteroatomic molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:28	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33595	cyclic compound	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:29	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D006571 	heterocyclic compounds	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:30	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24836	inorganic oxide	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:31	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24431	chemical entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
+Asset:32											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+Asset:1	Treats, creative		multiple sclerosis	MONDO:0005301		fingolimod	1_TopAnswer		High		
+Asset:2	Treats, creative		multiple sclerosis	MONDO:0005301		natalizumab	1_TopAnswer		High		
+Asset:3	Treats, creative		multiple sclerosis	MONDO:0005301		lead	4_NeverShow		NotApplicable		
+Asset:4	Treats, creative		Castleman's	MONDO:0015564		sirolimus	1_TopAnswer				
+Asset:5	Treats, creative		Castleman's	MONDO:0015564		rituximab	1_TopAnswer				
+Asset:6	Treats, creative		Castleman's	MONDO:0015564		anakinra	1_TopAnswer				
+Asset:7	Treats, creative		Castleman's	MONDO:0015564		interferon-alpha	1_TopAnswer				
+Asset:8	Treats, creative		Aceruloplasminemia	MONDO:0011426		iron	4_NeverShow				
+Asset:9	Treats, creative		Aceruloplasminemia	MONDO:0011426		desferrioxamine	1_TopAnswer				
+Asset: 10	Upregulates										
+							Acceptable		High		
+	For TACT: Need personas - use cases						BadButForgivable		Low		
+	Merge? Andrew Su merge persona _Persons who expects DrugBank						NeverShow				
+	Recommend top next: Block list										
+	Do we need other metadata - ex: top 500 github Y/N										
+	After the first 500, what are the next 10,000 (Sandrine's 3 examples)										
+	Future test cases needed: node normalizer, name resolver										
