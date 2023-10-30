@@ -12,5 +12,8 @@
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
-    "well_known": true
+    "well_known": true,
+    "runner_settings": [
+        "inferred"
+    ]
 }
