@@ -1,0 +1,16 @@
+{
+    "id": "Asset:1",
+    "name": "Asset:1",
+    "description": "Asset:1",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "predicate": "Treats",
+    "output_id": "DRUGBANK:DB01592",
+    "output_name": "Iron (PUBCHEM)",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

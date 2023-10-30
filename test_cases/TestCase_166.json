@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_166",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:167",
+            "name": "Asset:167",
+            "description": "Asset:167",
+            "tags": [],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "predicate": "Treats",
+            "output_id": "CHEBI:25367",
+            "output_name": "Molecule",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

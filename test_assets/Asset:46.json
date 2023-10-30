@@ -1,0 +1,16 @@
+{
+    "id": "Asset:46",
+    "name": "Asset:46",
+    "description": "Asset:46",
+    "tags": [],
+    "input_id": "",
+    "input_name": "Autism",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Valproic acid",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

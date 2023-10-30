@@ -1,0 +1,16 @@
+{
+    "id": "Asset:146",
+    "name": "Asset:146",
+    "description": "Asset:146",
+    "tags": [],
+    "input_id": "MONDO:0004758",
+    "input_name": "scotoma",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Prednisone",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

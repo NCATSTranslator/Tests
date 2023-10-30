@@ -1,0 +1,16 @@
+{
+    "id": "Asset:69",
+    "name": "Asset:69",
+    "description": "Asset:69",
+    "tags": [],
+    "input_id": "",
+    "input_name": "Gaucher Disease type1",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Velaglucerase-alfa",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

@@ -1,0 +1,16 @@
+{
+    "id": "Asset:164",
+    "name": "Asset:164",
+    "description": "Asset:164",
+    "tags": [],
+    "input_id": "MONDO:0010808",
+    "input_name": "Fatal familial insomnia",
+    "predicate": "Treats",
+    "output_id": "CHEBI:24471",
+    "output_name": "Halogen molecular entity",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_151",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:152",
+            "name": "Asset:152",
+            "description": "Asset:152",
+            "tags": [],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "predicate": "Treats",
+            "output_id": "UMLS:C0002932",
+            "output_name": "Anesthetics",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

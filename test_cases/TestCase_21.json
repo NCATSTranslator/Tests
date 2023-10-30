@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_21",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:22",
+            "name": "Asset:22",
+            "description": "Asset:22",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "Treats",
+            "output_id": "CHEBI:36357",
+            "output_name": "polyatomic entity",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

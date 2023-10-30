@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_76",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:77",
+            "name": "Asset:77",
+            "description": "Asset:77",
+            "tags": [],
+            "input_id": "",
+            "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "Evolocumab",
+            "expected_output": "number_1_TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

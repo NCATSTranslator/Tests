@@ -1,0 +1,16 @@
+{
+    "id": "Asset:65",
+    "name": "Asset:65",
+    "description": "Asset:65",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:6758",
+    "output_name": "Rotenone",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

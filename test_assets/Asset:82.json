@@ -1,0 +1,16 @@
+{
+    "id": "Asset:82",
+    "name": "Asset:82",
+    "description": "Asset:82",
+    "tags": [],
+    "input_id": "MONDO:0001119",
+    "input_name": "Premature Menopause",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Lasofoxifene",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

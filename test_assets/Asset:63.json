@@ -1,0 +1,16 @@
+{
+    "id": "Asset:63",
+    "name": "Asset:63",
+    "description": "Asset:63",
+    "tags": [],
+    "input_id": "UMLS:C0871534",
+    "input_name": "Toxic waste",
+    "predicate": "upregulated",
+    "output_id": "",
+    "output_name": "",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

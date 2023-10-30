@@ -1,0 +1,16 @@
+{
+    "id": "Asset:67",
+    "name": "Asset:67",
+    "description": "Asset:67",
+    "tags": [],
+    "input_id": "",
+    "input_name": "Gaucher Disease type1",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Imiglucerase",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}
