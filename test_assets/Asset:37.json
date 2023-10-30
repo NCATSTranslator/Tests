@@ -1,0 +1,16 @@
+{
+    "id": "Asset:37",
+    "name": "Asset:37",
+    "description": "Asset:37",
+    "tags": [],
+    "input_id": "MONDO:0100345",
+    "input_name": "Lactose intolerance",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Ergocalciferol",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

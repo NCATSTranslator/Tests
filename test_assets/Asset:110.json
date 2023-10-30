@@ -1,0 +1,16 @@
+{
+    "id": "Asset:110",
+    "name": "Asset:110",
+    "description": "Asset:110",
+    "tags": [],
+    "input_id": "MONDO:0005301",
+    "input_name": "Multiple Sclerosis",
+    "predicate": "Treats",
+    "output_id": "UMLS:C0243192",
+    "output_name": "Agonists",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

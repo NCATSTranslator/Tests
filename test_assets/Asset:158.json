@@ -1,0 +1,16 @@
+{
+    "id": "Asset:158",
+    "name": "Asset:158",
+    "description": "Asset:158",
+    "tags": [],
+    "input_id": "MONDO:0010808",
+    "input_name": "Fatal familial insomnia",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:962",
+    "output_name": "Water",
+    "expected_output": "number_3_BadButForgivable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

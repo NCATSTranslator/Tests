@@ -1,0 +1,16 @@
+{
+    "id": "Asset:94",
+    "name": "Asset:94",
+    "description": "Asset:94",
+    "tags": [],
+    "input_id": "MONDO:0020333",
+    "input_name": "Aggressive Systemic Mastocytosis",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "calcitriol",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

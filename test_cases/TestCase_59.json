@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_59",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:60",
+            "name": "Asset:60",
+            "description": "Asset:60",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "Treats",
+            "output_id": "UNII:1BJ477IO2L",
+            "output_name": "Gadobutrol",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

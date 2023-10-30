@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_173",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:174",
+            "name": "Asset:174",
+            "description": "Asset:174",
+            "tags": [],
+            "input_id": "MONDO:0006497",
+            "input_name": "Cerebral palsy",
+            "predicate": "Treats",
+            "output_id": "UMLS:C0003232",
+            "output_name": "Antibiotics",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

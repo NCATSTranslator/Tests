@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_168",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:169",
+            "name": "Asset:169",
+            "description": "Asset:169",
+            "tags": [],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "predicate": "Treats",
+            "output_id": "MESH:D009930",
+            "output_name": "Organic chemicals",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

@@ -1,0 +1,16 @@
+{
+    "id": "Asset:15",
+    "name": "Asset:15",
+    "description": "Asset:15",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "iron",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false
+}

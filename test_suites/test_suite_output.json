@@ -1,0 +1,5191 @@
+{
+    "id": "TestSuite_1",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_metadata": null,
+    "test_persona": null,
+    "test_cases": {
+        "TestCase_0": {
+            "id": "TestCase_0",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:1",
+                    "name": "Asset:1",
+                    "description": "Asset:1",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "DRUGBANK:DB01592",
+                    "output_name": "Iron (PUBCHEM)",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_1": {
+            "id": "TestCase_1",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:2",
+                    "name": "Asset:2",
+                    "description": "Asset:2",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33247",
+                    "output_name": "organic group",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_2": {
+            "id": "TestCase_2",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:3",
+                    "name": "Asset:3",
+                    "description": "Asset:3",
+                    "tags": [],
+                    "input_id": "MONDO:0010794",
+                    "input_name": "NARP Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "DRUGBANK:DB00313",
+                    "output_name": "Valproic Acid",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_3": {
+            "id": "TestCase_3",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:4",
+                    "name": "Asset:4",
+                    "description": "Asset:4",
+                    "tags": [],
+                    "input_id": "MONDO:0010794",
+                    "input_name": "NARP Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Barbiturates",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_4": {
+            "id": "TestCase_4",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:5",
+                    "name": "Asset:5",
+                    "description": "Asset:5",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:12358480",
+                    "output_name": "Hexadrin",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_5": {
+            "id": "TestCase_5",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:6",
+                    "name": "Asset:6",
+                    "description": "Asset:6",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:2478",
+                    "output_name": "Busulfan",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_6": {
+            "id": "TestCase_6",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:7",
+                    "name": "Asset:7",
+                    "description": "Asset:7",
+                    "tags": [],
+                    "input_id": "MONDO:0015564",
+                    "input_name": "Castleman Disease",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D001335",
+                    "output_name": "Vehicle Emissions",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_7": {
+            "id": "TestCase_7",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:8",
+                    "name": "Asset:8",
+                    "description": "Asset:8",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "fingolimod",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_8": {
+            "id": "TestCase_8",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:9",
+                    "name": "Asset:9",
+                    "description": "Asset:9",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "natalizumab",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_9": {
+            "id": "TestCase_9",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:10",
+                    "name": "Asset:10",
+                    "description": "Asset:10",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "lead",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_10": {
+            "id": "TestCase_10",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:11",
+                    "name": "Asset:11",
+                    "description": "Asset:11",
+                    "tags": [],
+                    "input_id": "MONDO:0015564",
+                    "input_name": "Castleman's",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:5284616",
+                    "output_name": "sirolimus",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_11": {
+            "id": "TestCase_11",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:12",
+                    "name": "Asset:12",
+                    "description": "Asset:12",
+                    "tags": [],
+                    "input_id": "MONDO:0015564",
+                    "input_name": "Castleman's",
+                    "predicate": "Treats",
+                    "output_id": "UNII:4F4X42SYQ6",
+                    "output_name": "rituximab",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_12": {
+            "id": "TestCase_12",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:13",
+                    "name": "Asset:13",
+                    "description": "Asset:13",
+                    "tags": [],
+                    "input_id": "MONDO:0015564",
+                    "input_name": "Castleman's",
+                    "predicate": "Treats",
+                    "output_id": "UNII:9013DUQ28K",
+                    "output_name": "anakinra",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_13": {
+            "id": "TestCase_13",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:14",
+                    "name": "Asset:14",
+                    "description": "Asset:14",
+                    "tags": [],
+                    "input_id": "MONDO:0015564",
+                    "input_name": "Castleman's",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0002199",
+                    "output_name": "interferon-alpha",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_14": {
+            "id": "TestCase_14",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:15",
+                    "name": "Asset:15",
+                    "description": "Asset:15",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "iron",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_15": {
+            "id": "TestCase_15",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:16",
+                    "name": "Asset:16",
+                    "description": "Asset:16",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "desferrioxamine",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_16": {
+            "id": "TestCase_16",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:17",
+                    "name": "Asset:17",
+                    "description": "Asset:17",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "DRUGBANK:DB01592",
+                    "output_name": "Iron (PUBCHEM)",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_17": {
+            "id": "TestCase_17",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:18",
+                    "name": "Asset:18",
+                    "description": "Asset:18",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D009930",
+                    "output_name": "Organic Chemicals",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_18": {
+            "id": "TestCase_18",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:19",
+                    "name": "Asset:19",
+                    "description": "Asset:19",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:23367",
+                    "output_name": "molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_19": {
+            "id": "TestCase_19",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:20",
+                    "name": "Asset:20",
+                    "description": "Asset:20",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:25367",
+                    "output_name": "molecule",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_20": {
+            "id": "TestCase_20",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:21",
+                    "name": "Asset:21",
+                    "description": "Asset:21",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:25806",
+                    "output_name": "oxygen molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_21": {
+            "id": "TestCase_21",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:22",
+                    "name": "Asset:22",
+                    "description": "Asset:22",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:36357",
+                    "output_name": "polyatomic entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_22": {
+            "id": "TestCase_22",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:23",
+                    "name": "Asset:23",
+                    "description": "Asset:23",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33582",
+                    "output_name": "carbon group molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_23": {
+            "id": "TestCase_23",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:24",
+                    "name": "Asset:24",
+                    "description": "Asset:24",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D007287",
+                    "output_name": "inorganic chemicals",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_24": {
+            "id": "TestCase_24",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:25",
+                    "name": "Asset:25",
+                    "description": "Asset:25",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33285",
+                    "output_name": "heteroorganic entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_25": {
+            "id": "TestCase_25",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:26",
+                    "name": "Asset:26",
+                    "description": "Asset:26",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33579",
+                    "output_name": "main group molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_26": {
+            "id": "TestCase_26",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:27",
+                    "name": "Asset:27",
+                    "description": "Asset:27",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:37577",
+                    "output_name": "heteroatomic molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_27": {
+            "id": "TestCase_27",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:28",
+                    "name": "Asset:28",
+                    "description": "Asset:28",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33595",
+                    "output_name": "cyclic compound",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_28": {
+            "id": "TestCase_28",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:29",
+                    "name": "Asset:29",
+                    "description": "Asset:29",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D006571 ",
+                    "output_name": "heterocyclic compounds",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_29": {
+            "id": "TestCase_29",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:30",
+                    "name": "Asset:30",
+                    "description": "Asset:30",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:24836",
+                    "output_name": "inorganic oxide",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_30": {
+            "id": "TestCase_30",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:31",
+                    "name": "Asset:31",
+                    "description": "Asset:31",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:24431",
+                    "output_name": "chemical entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_31": {
+            "id": "TestCase_31",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:32",
+                    "name": "Asset:32",
+                    "description": "Asset:32",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "CHEMBL.COMPOUND:2108505",
+                    "output_name": "Lactase",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": true
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_32": {
+            "id": "TestCase_32",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:33",
+                    "name": "Asset:33",
+                    "description": "Asset:33",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:6134",
+                    "output_name": "beta-Lactose",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_33": {
+            "id": "TestCase_33",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:34",
+                    "name": "Asset:34",
+                    "description": "Asset:34",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D010936",
+                    "output_name": "Plant extracts",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_34": {
+            "id": "TestCase_34",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:35",
+                    "name": "Asset:35",
+                    "description": "Asset:35",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D028321",
+                    "output_name": "Plant preparations",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_35": {
+            "id": "TestCase_35",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:36",
+                    "name": "Asset:36",
+                    "description": "Asset:36",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:6134",
+                    "output_name": "alpha-Lactose",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_36": {
+            "id": "TestCase_36",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:37",
+                    "name": "Asset:37",
+                    "description": "Asset:37",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Ergocalciferol",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_37": {
+            "id": "TestCase_37",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:38",
+                    "name": "Asset:38",
+                    "description": "Asset:38",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Mebendazole",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_38": {
+            "id": "TestCase_38",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:39",
+                    "name": "Asset:39",
+                    "description": "Asset:39",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Bithionol",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_39": {
+            "id": "TestCase_39",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:40",
+                    "name": "Asset:40",
+                    "description": "Asset:40",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Thiabendazole",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_40": {
+            "id": "TestCase_40",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:41",
+                    "name": "Asset:41",
+                    "description": "Asset:41",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Levamisole",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_41": {
+            "id": "TestCase_41",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:42",
+                    "name": "Asset:42",
+                    "description": "Asset:42",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Methamidophos",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_42": {
+            "id": "TestCase_42",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:43",
+                    "name": "Asset:43",
+                    "description": "Asset:43",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Potassium bicarbonate",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_43": {
+            "id": "TestCase_43",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:44",
+                    "name": "Asset:44",
+                    "description": "Asset:44",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Triclosan",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_44": {
+            "id": "TestCase_44",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:45",
+                    "name": "Asset:45",
+                    "description": "Asset:45",
+                    "tags": [],
+                    "input_id": "MONDO:0100345",
+                    "input_name": "Lactose intolerance",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Tacrolimus",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_45": {
+            "id": "TestCase_45",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:46",
+                    "name": "Asset:46",
+                    "description": "Asset:46",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Autism",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Valproic acid",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_46": {
+            "id": "TestCase_46",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:47",
+                    "name": "Asset:47",
+                    "description": "Asset:47",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Autism",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Pesticides",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_47": {
+            "id": "TestCase_47",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:48",
+                    "name": "Asset:48",
+                    "description": "Asset:48",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Basis",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_48": {
+            "id": "TestCase_48",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:49",
+                    "name": "Asset:49",
+                    "description": "Asset:49",
+                    "tags": [],
+                    "input_id": "MONDO:0017314",
+                    "input_name": "Ehlers-Danlos Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "methylphenidate",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_49": {
+            "id": "TestCase_49",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:50",
+                    "name": "Asset:50",
+                    "description": "Asset:50",
+                    "tags": [],
+                    "input_id": " ",
+                    "input_name": "Allergic Asthma",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "particulate matter",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_50": {
+            "id": "TestCase_50",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:51",
+                    "name": "Asset:51",
+                    "description": "Asset:51",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Histamine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_51": {
+            "id": "TestCase_51",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:52",
+                    "name": "Asset:52",
+                    "description": "Asset:52",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Hookworm Infectious Disease",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Mebendazole",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_52": {
+            "id": "TestCase_52",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:53",
+                    "name": "Asset:53",
+                    "description": "Asset:53",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Hookworm Infectious Disease",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Pyranthel",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_53": {
+            "id": "TestCase_53",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:54",
+                    "name": "Asset:54",
+                    "description": "Asset:54",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Hookworm Infectious Disease",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Thiabendazole",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_54": {
+            "id": "TestCase_54",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:55",
+                    "name": "Asset:55",
+                    "description": "Asset:55",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Hookworm Infectious Disease",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Dichlorophen",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_55": {
+            "id": "TestCase_55",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:56",
+                    "name": "Asset:56",
+                    "description": "Asset:56",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D002467",
+                    "output_name": "cell nucleus",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_56": {
+            "id": "TestCase_56",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:57",
+                    "name": "Asset:57",
+                    "description": "Asset:57",
+                    "tags": [],
+                    "input_id": "MONDO:0000001",
+                    "input_name": "Disease",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_57": {
+            "id": "TestCase_57",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:58",
+                    "name": "Asset:58",
+                    "description": "Asset:58",
+                    "tags": [],
+                    "input_id": "MONDO:0004975",
+                    "input_name": "Alzheimer Disease",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0013227",
+                    "output_name": "Pharmaceutical preparations",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_58": {
+            "id": "TestCase_58",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:59",
+                    "name": "Asset:59",
+                    "description": "Asset:59",
+                    "tags": [],
+                    "input_id": "MONDO:0017314",
+                    "input_name": "Ehlers-Danlos Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:24847884",
+                    "output_name": "Omniscan",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_59": {
+            "id": "TestCase_59",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:60",
+                    "name": "Asset:60",
+                    "description": "Asset:60",
+                    "tags": [],
+                    "input_id": "MONDO:0017314",
+                    "input_name": "Ehlers-Danlos Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "UNII:1BJ477IO2L",
+                    "output_name": "Gadobutrol",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_60": {
+            "id": "TestCase_60",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:61",
+                    "name": "Asset:61",
+                    "description": "Asset:61",
+                    "tags": [],
+                    "input_id": "MONDO:0017314",
+                    "input_name": "Ehlers-Danlos Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:73415823",
+                    "output_name": "Gadopentetate dimeglumine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_61": {
+            "id": "TestCase_61",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:62",
+                    "name": "Asset:62",
+                    "description": "Asset:62",
+                    "tags": [],
+                    "input_id": "UMLS:C0871534",
+                    "input_name": "Toxic waste",
+                    "predicate": "downregulated",
+                    "output_id": "",
+                    "output_name": "",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_62": {
+            "id": "TestCase_62",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:63",
+                    "name": "Asset:63",
+                    "description": "Asset:63",
+                    "tags": [],
+                    "input_id": "UMLS:C0871534",
+                    "input_name": "Toxic waste",
+                    "predicate": "upregulated",
+                    "output_id": "",
+                    "output_name": "",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_63": {
+            "id": "TestCase_63",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:64",
+                    "name": "Asset:64",
+                    "description": "Asset:64",
+                    "tags": [],
+                    "input_id": "MONDO:0005015",
+                    "input_name": "Diabetes Milletus",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "",
+                    "expected_output": null,
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_64": {
+            "id": "TestCase_64",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:65",
+                    "name": "Asset:65",
+                    "description": "Asset:65",
+                    "tags": [],
+                    "input_id": "MONDO:0011426",
+                    "input_name": "Aceruloplasminemia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:6758",
+                    "output_name": "Rotenone",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_65": {
+            "id": "TestCase_65",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:66",
+                    "name": "Asset:66",
+                    "description": "Asset:66",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Gaucher Disease type1",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Eliglustat",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_66": {
+            "id": "TestCase_66",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:67",
+                    "name": "Asset:67",
+                    "description": "Asset:67",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Gaucher Disease type1",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Imiglucerase",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_67": {
+            "id": "TestCase_67",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:68",
+                    "name": "Asset:68",
+                    "description": "Asset:68",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Gaucher Disease type1",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Taliglucerase alfa",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_68": {
+            "id": "TestCase_68",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:69",
+                    "name": "Asset:69",
+                    "description": "Asset:69",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Gaucher Disease type1",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Velaglucerase-alfa",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_69": {
+            "id": "TestCase_69",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:70",
+                    "name": "Asset:70",
+                    "description": "Asset:70",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Gaucher Disease type1",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Miglustat",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_70": {
+            "id": "TestCase_70",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:71",
+                    "name": "Asset:71",
+                    "description": "Asset:71",
+                    "tags": [],
+                    "input_id": "MONDO:0007147",
+                    "input_name": "Obstructive Sleep Apnea",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D053260",
+                    "output_name": "Soot",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_71": {
+            "id": "TestCase_71",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:72",
+                    "name": "Asset:72",
+                    "description": "Asset:72",
+                    "tags": [],
+                    "input_id": "MONDO:0007147",
+                    "input_name": "Obstructive Sleep Apnea",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D053260",
+                    "output_name": "Soot",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_72": {
+            "id": "TestCase_72",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:73",
+                    "name": "Asset:73",
+                    "description": "Asset:73",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Niemann-Pick type C",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "miglustat",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_73": {
+            "id": "TestCase_73",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:74",
+                    "name": "Asset:74",
+                    "description": "Asset:74",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Rosuvastatin",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_74": {
+            "id": "TestCase_74",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:75",
+                    "name": "Asset:75",
+                    "description": "Asset:75",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Lomitapide",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_75": {
+            "id": "TestCase_75",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:76",
+                    "name": "Asset:76",
+                    "description": "Asset:76",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Mipomersen",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_76": {
+            "id": "TestCase_76",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:77",
+                    "name": "Asset:77",
+                    "description": "Asset:77",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Evolocumab",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_77": {
+            "id": "TestCase_77",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:78",
+                    "name": "Asset:78",
+                    "description": "Asset:78",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia heterozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Rosuvastatin",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_78": {
+            "id": "TestCase_78",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:79",
+                    "name": "Asset:79",
+                    "description": "Asset:79",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial hypercholesterolemia heterozygous (LDLR)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Evolocumab",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_79": {
+            "id": "TestCase_79",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:80",
+                    "name": "Asset:80",
+                    "description": "Asset:80",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial defective apolipoprotein B (APOB)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Rosuvastatin",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_80": {
+            "id": "TestCase_80",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:81",
+                    "name": "Asset:81",
+                    "description": "Asset:81",
+                    "tags": [],
+                    "input_id": "",
+                    "input_name": "Approved for Familial defective apolipoprotein B (APOB)",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Evolocumab",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_81": {
+            "id": "TestCase_81",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:82",
+                    "name": "Asset:82",
+                    "description": "Asset:82",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Lasofoxifene",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_82": {
+            "id": "TestCase_82",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:83",
+                    "name": "Asset:83",
+                    "description": "Asset:83",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Busulfan",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_83": {
+            "id": "TestCase_83",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:84",
+                    "name": "Asset:84",
+                    "description": "Asset:84",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "estradiol",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_84": {
+            "id": "TestCase_84",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:85",
+                    "name": "Asset:85",
+                    "description": "Asset:85",
+                    "tags": [],
+                    "input_id": "MONDO:0001119",
+                    "input_name": "Premature Menopause",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "progestin",
+                    "expected_output": "number_1_TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_85": {
+            "id": "TestCase_85",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:86",
+                    "name": "Asset:86",
+                    "description": "Asset:86",
+                    "tags": [],
+                    "input_id": "MONDO:0043233",
+                    "input_name": "Exfoliative Dermatitis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Imatinib",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_86": {
+            "id": "TestCase_86",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:87",
+                    "name": "Asset:87",
+                    "description": "Asset:87",
+                    "tags": [],
+                    "input_id": "MONDO:0043233",
+                    "input_name": "Exfoliative Dermatitis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Sorafenib",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_87": {
+            "id": "TestCase_87",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:88",
+                    "name": "Asset:88",
+                    "description": "Asset:88",
+                    "tags": [],
+                    "input_id": "MONDO:0043233",
+                    "input_name": "Exfoliative Dermatitis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:1140",
+                    "output_name": "Toluene",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_88": {
+            "id": "TestCase_88",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:89",
+                    "name": "Asset:89",
+                    "description": "Asset:89",
+                    "tags": [],
+                    "input_id": "MONDO:0043233",
+                    "input_name": "Exfoliative Dermatitis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:84098",
+                    "output_name": "Isoxaflutole",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_89": {
+            "id": "TestCase_89",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:90",
+                    "name": "Asset:90",
+                    "description": "Asset:90",
+                    "tags": [],
+                    "input_id": "MONDO:0043233",
+                    "input_name": "Exfoliative Dermatitis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:3036",
+                    "output_name": "Clofenotane",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_90": {
+            "id": "TestCase_90",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:91",
+                    "name": "Asset:91",
+                    "description": "Asset:91",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "ibuprofen",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_91": {
+            "id": "TestCase_91",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:92",
+                    "name": "Asset:92",
+                    "description": "Asset:92",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "botulinum toxin",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_92": {
+            "id": "TestCase_92",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:93",
+                    "name": "Asset:93",
+                    "description": "Asset:93",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "dinoprostone",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_93": {
+            "id": "TestCase_93",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:94",
+                    "name": "Asset:94",
+                    "description": "Asset:94",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "calcitriol",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_94": {
+            "id": "TestCase_94",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:95",
+                    "name": "Asset:95",
+                    "description": "Asset:95",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "ergocalciferol",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_95": {
+            "id": "TestCase_95",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:96",
+                    "name": "Asset:96",
+                    "description": "Asset:96",
+                    "tags": [],
+                    "input_id": "MONDO:0005267",
+                    "input_name": "Heart Disorder",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "fibrinogen",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_96": {
+            "id": "TestCase_96",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:97",
+                    "name": "Asset:97",
+                    "description": "Asset:97",
+                    "tags": [],
+                    "input_id": "MONDO:0020333",
+                    "input_name": "Aggressive Systemic Mastocytosis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:1727",
+                    "output_name": "4-Aminopyridine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_97": {
+            "id": "TestCase_97",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:98",
+                    "name": "Asset:98",
+                    "description": "Asset:98",
+                    "tags": [],
+                    "input_id": "MONDO:0008251",
+                    "input_name": "familial pityriasis rubra pilaris",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "retinol",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_98": {
+            "id": "TestCase_98",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:99",
+                    "name": "Asset:99",
+                    "description": "Asset:99",
+                    "tags": [],
+                    "input_id": "MONDO:0019173",
+                    "input_name": "Rabies",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Methionine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_99": {
+            "id": "TestCase_99",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:100",
+                    "name": "Asset:100",
+                    "description": "Asset:100",
+                    "tags": [],
+                    "input_id": "MONDO:0019173",
+                    "input_name": "Rabies",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Cefaclor",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_100": {
+            "id": "TestCase_100",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:101",
+                    "name": "Asset:101",
+                    "description": "Asset:101",
+                    "tags": [],
+                    "input_id": "MONDO:0008251",
+                    "input_name": "familial pityriasis rubra pilaris",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000438",
+                    "output_name": "Alcohols",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_101": {
+            "id": "TestCase_101",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:102",
+                    "name": "Asset:102",
+                    "description": "Asset:102",
+                    "tags": [],
+                    "input_id": "MONDO:0019600",
+                    "input_name": "Xeroderma Pigmentosum",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "cadmium",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_102": {
+            "id": "TestCase_102",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:103",
+                    "name": "Asset:103",
+                    "description": "Asset:103",
+                    "tags": [],
+                    "input_id": "MONDO:0019600",
+                    "input_name": "Xeroderma Pigmentosum",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "mercury",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_103": {
+            "id": "TestCase_103",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:104",
+                    "name": "Asset:104",
+                    "description": "Asset:104",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "multiple sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D014612",
+                    "output_name": "vaccines",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_104": {
+            "id": "TestCase_104",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:105",
+                    "name": "Asset:105",
+                    "description": "Asset:105",
+                    "tags": [],
+                    "input_id": "MONDO:0017314",
+                    "input_name": "Ehlers-Danlos Syndrome",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "alendronic acid",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_105": {
+            "id": "TestCase_105",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:106",
+                    "name": "Asset:106",
+                    "description": "Asset:106",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C5387588",
+                    "output_name": "Covid-19 vaccines",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_106": {
+            "id": "TestCase_106",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:107",
+                    "name": "Asset:107",
+                    "description": "Asset:107",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "CHEMBL2109042",
+                    "output_name": "Influenza vaccines",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_107": {
+            "id": "TestCase_107",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:108",
+                    "name": "Asset:108",
+                    "description": "Asset:108",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Vaccines, peptide",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_108": {
+            "id": "TestCase_108",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:109",
+                    "name": "Asset:109",
+                    "description": "Asset:109",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0699680",
+                    "output_name": "Metric",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_109": {
+            "id": "TestCase_109",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:110",
+                    "name": "Asset:110",
+                    "description": "Asset:110",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0243192",
+                    "output_name": "Agonists",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_110": {
+            "id": "TestCase_110",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:111",
+                    "name": "Asset:111",
+                    "description": "Asset:111",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C1611640",
+                    "output_name": "Therapeutic agent",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_111": {
+            "id": "TestCase_111",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:112",
+                    "name": "Asset:112",
+                    "description": "Asset:112",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0302837",
+                    "output_name": "Vitamin supplementation",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_112": {
+            "id": "TestCase_112",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:113",
+                    "name": "Asset:113",
+                    "description": "Asset:113",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0003209",
+                    "output_name": "Anti-inflammatory agents",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_113": {
+            "id": "TestCase_113",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:114",
+                    "name": "Asset:114",
+                    "description": "Asset:114",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000276",
+                    "output_name": "Adjuvants, immunologic",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_114": {
+            "id": "TestCase_114",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:115",
+                    "name": "Asset:115",
+                    "description": "Asset:115",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000906",
+                    "output_name": "Antibodies",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_115": {
+            "id": "TestCase_115",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:116",
+                    "name": "Asset:116",
+                    "description": "Asset:116",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0040616",
+                    "output_name": "Anti-anxiety agents",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_116": {
+            "id": "TestCase_116",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:117",
+                    "name": "Asset:117",
+                    "description": "Asset:117",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000911",
+                    "output_name": "Antibodies, monoclonal",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_117": {
+            "id": "TestCase_117",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:118",
+                    "name": "Asset:118",
+                    "description": "Asset:118",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLSC0005522",
+                    "output_name": "Biological products",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_118": {
+            "id": "TestCase_118",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:119",
+                    "name": "Asset:119",
+                    "description": "Asset:119",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0242912",
+                    "output_name": "Neuroprotective agents",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_119": {
+            "id": "TestCase_119",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:120",
+                    "name": "Asset:120",
+                    "description": "Asset:120",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0003232",
+                    "output_name": "Antibiotics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_120": {
+            "id": "TestCase_120",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:121",
+                    "name": "Asset:121",
+                    "description": "Asset:121",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C1874451",
+                    "output_name": "basis",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_121": {
+            "id": "TestCase_121",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:122",
+                    "name": "Asset:122",
+                    "description": "Asset:122",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0242896",
+                    "output_name": "Anticholinergic agents",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_122": {
+            "id": "TestCase_122",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:123",
+                    "name": "Asset:123",
+                    "description": "Asset:123",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000700",
+                    "output_name": "Analgesics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_123": {
+            "id": "TestCase_123",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:124",
+                    "name": "Asset:124",
+                    "description": "Asset:124",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:23931",
+                    "output_name": "Mercury",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_124": {
+            "id": "TestCase_124",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:125",
+                    "name": "Asset:125",
+                    "description": "Asset:125",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D005227",
+                    "output_name": "Fatty acids",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_125": {
+            "id": "TestCase_125",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:126",
+                    "name": "Asset:126",
+                    "description": "Asset:126",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D010936",
+                    "output_name": "Plant extracts",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_126": {
+            "id": "TestCase_126",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:127",
+                    "name": "Asset:127",
+                    "description": "Asset:127",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D004365",
+                    "output_name": "Drugs, chinese herbal",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_127": {
+            "id": "TestCase_127",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:128",
+                    "name": "Asset:128",
+                    "description": "Asset:128",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:5462310",
+                    "output_name": "Carbon",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_128": {
+            "id": "TestCase_128",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:129",
+                    "name": "Asset:129",
+                    "description": "Asset:129",
+                    "tags": [],
+                    "input_id": "MONDO:0005301",
+                    "input_name": "Multiple Sclerosis",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:962",
+                    "output_name": "Water",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_129": {
+            "id": "TestCase_129",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:130",
+                    "name": "Asset:130",
+                    "description": "Asset:130",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D011972",
+                    "output_name": "Receptor, insulin",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_130": {
+            "id": "TestCase_130",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:131",
+                    "name": "Asset:131",
+                    "description": "Asset:131",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D001323",
+                    "output_name": "Autoantibodies",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_131": {
+            "id": "TestCase_131",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:132",
+                    "name": "Asset:132",
+                    "description": "Asset:132",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:53462828",
+                    "output_name": "Thyroid hormones",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_132": {
+            "id": "TestCase_132",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:133",
+                    "name": "Asset:133",
+                    "description": "Asset:133",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D004798",
+                    "output_name": "Enzymes",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_133": {
+            "id": "TestCase_133",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:134",
+                    "name": "Asset:134",
+                    "description": "Asset:134",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D017526",
+                    "output_name": "Receptor, IGF Type 1",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_134": {
+            "id": "TestCase_134",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:135",
+                    "name": "Asset:135",
+                    "description": "Asset:135",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D003165",
+                    "output_name": "Complement system proteins",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_135": {
+            "id": "TestCase_135",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:136",
+                    "name": "Asset:136",
+                    "description": "Asset:136",
+                    "tags": [],
+                    "input_id": "MONDO:0018911",
+                    "input_name": "Maturity-onset Diabetes Of The Young",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:6623",
+                    "output_name": "bisphenol A",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_136": {
+            "id": "TestCase_136",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:137",
+                    "name": "Asset:137",
+                    "description": "Asset:137",
+                    "tags": [],
+                    "input_id": "MONDO:0015364",
+                    "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D016756",
+                    "output_name": "Immunoglobulins, intravenous",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_137": {
+            "id": "TestCase_137",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:138",
+                    "name": "Asset:138",
+                    "description": "Asset:138",
+                    "tags": [],
+                    "input_id": "MONDO:0015364",
+                    "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:84098",
+                    "output_name": "Isoxaflutole",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_138": {
+            "id": "TestCase_138",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:139",
+                    "name": "Asset:139",
+                    "description": "Asset:139",
+                    "tags": [],
+                    "input_id": "MONDO:0009746",
+                    "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Carbon",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_139": {
+            "id": "TestCase_139",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:140",
+                    "name": "Asset:140",
+                    "description": "Asset:140",
+                    "tags": [],
+                    "input_id": "MONDO:0009746",
+                    "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Botulinum toxin type a",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_140": {
+            "id": "TestCase_140",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:141",
+                    "name": "Asset:141",
+                    "description": "Asset:141",
+                    "tags": [],
+                    "input_id": "NCBI Gene:8653",
+                    "input_name": "DDX3Y",
+                    "predicate": "downregulate",
+                    "output_id": "",
+                    "output_name": "dna double stranded",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_141": {
+            "id": "TestCase_141",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:142",
+                    "name": "Asset:142",
+                    "description": "Asset:142",
+                    "tags": [],
+                    "input_id": "NCBI Gene:8653",
+                    "input_name": "DDX3Y",
+                    "predicate": "downregulate",
+                    "output_id": "",
+                    "output_name": "Small molecule",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_142": {
+            "id": "TestCase_142",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:143",
+                    "name": "Asset:143",
+                    "description": "Asset:143",
+                    "tags": [],
+                    "input_id": "MONDO:0009746",
+                    "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:4096",
+                    "output_name": "Methamidophos",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_143": {
+            "id": "TestCase_143",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:144",
+                    "name": "Asset:144",
+                    "description": "Asset:144",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Halothane",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_144": {
+            "id": "TestCase_144",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:145",
+                    "name": "Asset:145",
+                    "description": "Asset:145",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "isoflurane",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_145": {
+            "id": "TestCase_145",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:146",
+                    "name": "Asset:146",
+                    "description": "Asset:146",
+                    "tags": [],
+                    "input_id": "MONDO:0004758",
+                    "input_name": "scotoma",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Prednisone",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_146": {
+            "id": "TestCase_146",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:147",
+                    "name": "Asset:147",
+                    "description": "Asset:147",
+                    "tags": [],
+                    "input_id": "MONDO:0004758",
+                    "input_name": "scotoma",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "vigabatrin",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_147": {
+            "id": "TestCase_147",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:148",
+                    "name": "Asset:148",
+                    "description": "Asset:148",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "",
+                    "output_name": "Pharmaceutical preparations",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_148": {
+            "id": "TestCase_148",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:149",
+                    "name": "Asset:149",
+                    "description": "Asset:149",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:5462310",
+                    "output_name": "Carbon",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_149": {
+            "id": "TestCase_149",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:150",
+                    "name": "Asset:150",
+                    "description": "Asset:150",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000779",
+                    "output_name": "Anesthetics, local",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_150": {
+            "id": "TestCase_150",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:151",
+                    "name": "Asset:151",
+                    "description": "Asset:151",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:1727",
+                    "output_name": "4-aminopyridine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_151": {
+            "id": "TestCase_151",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:152",
+                    "name": "Asset:152",
+                    "description": "Asset:152",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0002932",
+                    "output_name": "Anesthetics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_152": {
+            "id": "TestCase_152",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:153",
+                    "name": "Asset:153",
+                    "description": "Asset:153",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0003232",
+                    "output_name": "Antibiotics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_153": {
+            "id": "TestCase_153",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:154",
+                    "name": "Asset:154",
+                    "description": "Asset:154",
+                    "tags": [],
+                    "input_id": "MONDO:0018493",
+                    "input_name": "Malignant Hyperthermia Of Anesthesia",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C1874451",
+                    "output_name": "basis",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_154": {
+            "id": "TestCase_154",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:155",
+                    "name": "Asset:155",
+                    "description": "Asset:155",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:33250",
+                    "output_name": "Atom",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_155": {
+            "id": "TestCase_155",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:156",
+                    "name": "Asset:156",
+                    "description": "Asset:156",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D002467",
+                    "output_name": "Cell nucleus",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_156": {
+            "id": "TestCase_156",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:157",
+                    "name": "Asset:157",
+                    "description": "Asset:157",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D012492",
+                    "output_name": "salts",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_157": {
+            "id": "TestCase_157",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:158",
+                    "name": "Asset:158",
+                    "description": "Asset:158",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:962",
+                    "output_name": "Water",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_158": {
+            "id": "TestCase_158",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:159",
+                    "name": "Asset:159",
+                    "description": "Asset:159",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:962",
+                    "output_name": "Hydrogen(.)",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_159": {
+            "id": "TestCase_159",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:160",
+                    "name": "Asset:160",
+                    "description": "Asset:160",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D004583",
+                    "output_name": "Electrons",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_160": {
+            "id": "TestCase_160",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:161",
+                    "name": "Asset:161",
+                    "description": "Asset:161",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000838",
+                    "output_name": "Anions",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_161": {
+            "id": "TestCase_161",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:162",
+                    "name": "Asset:162",
+                    "description": "Asset:162",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:977",
+                    "output_name": "Oxygen",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_162": {
+            "id": "TestCase_162",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:163",
+                    "name": "Asset:163",
+                    "description": "Asset:163",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D002412",
+                    "output_name": "Cations",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_163": {
+            "id": "TestCase_163",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:164",
+                    "name": "Asset:164",
+                    "description": "Asset:164",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:24471",
+                    "output_name": "Halogen molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_164": {
+            "id": "TestCase_164",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:165",
+                    "name": "Asset:165",
+                    "description": "Asset:165",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:51143",
+                    "output_name": "Nitrogen molecular entity",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_165": {
+            "id": "TestCase_165",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:166",
+                    "name": "Asset:166",
+                    "description": "Asset:166",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000438",
+                    "output_name": "Alcohols",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_166": {
+            "id": "TestCase_166",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:167",
+                    "name": "Asset:167",
+                    "description": "Asset:167",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:25367",
+                    "output_name": "Molecule",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_167": {
+            "id": "TestCase_167",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:168",
+                    "name": "Asset:168",
+                    "description": "Asset:168",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:24868",
+                    "output_name": "Organic salt",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_168": {
+            "id": "TestCase_168",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:169",
+                    "name": "Asset:169",
+                    "description": "Asset:169",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D009930",
+                    "output_name": "Organic chemicals",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_169": {
+            "id": "TestCase_169",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:170",
+                    "name": "Asset:170",
+                    "description": "Asset:170",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:36094",
+                    "output_name": "Organic chloride salt",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_170": {
+            "id": "TestCase_170",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:171",
+                    "name": "Asset:171",
+                    "description": "Asset:171",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0030054",
+                    "output_name": "Oxygen",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_171": {
+            "id": "TestCase_171",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:172",
+                    "name": "Asset:172",
+                    "description": "Asset:172",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "MESH:D000700",
+                    "output_name": "Analgesics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_172": {
+            "id": "TestCase_172",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:173",
+                    "name": "Asset:173",
+                    "description": "Asset:173",
+                    "tags": [],
+                    "input_id": "MONDO:0010808",
+                    "input_name": "Fatal familial insomnia",
+                    "predicate": "Treats",
+                    "output_id": "CHEBI:134179",
+                    "output_name": "Volatile organic compound",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_173": {
+            "id": "TestCase_173",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:174",
+                    "name": "Asset:174",
+                    "description": "Asset:174",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0003232",
+                    "output_name": "Antibiotics",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_174": {
+            "id": "TestCase_174",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:175",
+                    "name": "Asset:175",
+                    "description": "Asset:175",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "UMLS:C0013227",
+                    "output_name": "Pharmaceutical preparations",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_175": {
+            "id": "TestCase_175",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:176",
+                    "name": "Asset:176",
+                    "description": "Asset:176",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:3672",
+                    "output_name": "Ibuprofen",
+                    "expected_output": "number_3_BadButForgivable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_176": {
+            "id": "TestCase_176",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:177",
+                    "name": "Asset:177",
+                    "description": "Asset:177",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:2284",
+                    "output_name": "Baclofen",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_177": {
+            "id": "TestCase_177",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:178",
+                    "name": "Asset:178",
+                    "description": "Asset:178",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "CHEBML:CHEMBL1201569",
+                    "output_name": "Botulinum toxin type b",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_178": {
+            "id": "TestCase_178",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:179",
+                    "name": "Asset:179",
+                    "description": "Asset:179",
+                    "tags": [],
+                    "input_id": "MONDO:0006497",
+                    "input_name": "Cerebral palsy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:2554",
+                    "output_name": "Carbamazepine",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_179": {
+            "id": "TestCase_179",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:180",
+                    "name": "Asset:180",
+                    "description": "Asset:180",
+                    "tags": [],
+                    "input_id": "MONDO:0018958 ",
+                    "input_name": "Nemaline myopathy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:6057",
+                    "output_name": "Tyrosine",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_180": {
+            "id": "TestCase_180",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:181",
+                    "name": "Asset:181",
+                    "description": "Asset:181",
+                    "tags": [],
+                    "input_id": "MONDO:0018958 ",
+                    "input_name": "Nemaline myopathy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:460612",
+                    "output_name": "Melphalan",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_181": {
+            "id": "TestCase_181",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:182",
+                    "name": "Asset:182",
+                    "description": "Asset:182",
+                    "tags": [],
+                    "input_id": "MONDO:0018958 ",
+                    "input_name": "Nemaline myopathy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:15625",
+                    "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_182": {
+            "id": "TestCase_182",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:183",
+                    "name": "Asset:183",
+                    "description": "Asset:183",
+                    "tags": [],
+                    "input_id": "MONDO:0018958 ",
+                    "input_name": "Nemaline myopathy",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:5426",
+                    "output_name": "Thalidimide",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_183": {
+            "id": "TestCase_183",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:184",
+                    "name": "Asset:184",
+                    "description": "Asset:184",
+                    "tags": [],
+                    "input_id": "MONDO:0007743",
+                    "input_name": "ADHD",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:446220",
+                    "output_name": "Cocaine",
+                    "expected_output": "number_4_NeverShow",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        },
+        "TestCase_184": {
+            "id": "TestCase_184",
+            "name": null,
+            "description": null,
+            "tags": [],
+            "test_env": null,
+            "test_case_type": null,
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset:185",
+                    "name": "Asset:185",
+                    "description": "Asset:185",
+                    "tags": [],
+                    "input_id": "MONDO:0007743",
+                    "input_name": "ADHD",
+                    "predicate": "Treats",
+                    "output_id": "PUBCHEM.COMPOUND:4158",
+                    "output_name": "Methylphenidate",
+                    "expected_output": "number_2_Acceptable",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false
+                }
+            ],
+            "preconditions": []
+        }
+    },
+    "test_case_specification": null
+}

@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_105",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:106",
+            "name": "Asset:106",
+            "description": "Asset:106",
+            "tags": [],
+            "input_id": "MONDO:0005301",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "Treats",
+            "output_id": "UMLS:C5387588",
+            "output_name": "Covid-19 vaccines",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}

@@ -1,0 +1,28 @@
+{
+    "id": "TestCase_104",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:105",
+            "name": "Asset:105",
+            "description": "Asset:105",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "alendronic acid",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false
+        }
+    ],
+    "preconditions": []
+}
