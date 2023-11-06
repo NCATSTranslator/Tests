@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_122",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:123",
+            "name": "Asset:123",
+            "description": "Asset:123",
+            "tags": [],
+            "input_id": "MONDO:0005301",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "Treats",
+            "output_id": "MESH:D000700",
+            "output_name": "Analgesics",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

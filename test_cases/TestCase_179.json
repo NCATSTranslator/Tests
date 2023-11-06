@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_179",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:180",
+            "name": "Asset:180",
+            "description": "Asset:180",
+            "tags": [],
+            "input_id": "MONDO:0018958 ",
+            "input_name": "Nemaline myopathy",
+            "predicate": "Treats",
+            "output_id": "PUBCHEM.COMPOUND:6057",
+            "output_name": "Tyrosine",
+            "expected_output": "number_2_Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

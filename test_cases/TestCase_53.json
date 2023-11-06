@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_53",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:54",
+            "name": "Asset:54",
+            "description": "Asset:54",
+            "tags": [],
+            "input_id": "",
+            "input_name": "Hookworm Infectious Disease",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "Thiabendazole",
+            "expected_output": "number_1_TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

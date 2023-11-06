@@ -1,0 +1,19 @@
+{
+    "id": "Asset:14",
+    "name": "Asset:14",
+    "description": "Asset:14",
+    "tags": [],
+    "input_id": "MONDO:0015564",
+    "input_name": "Castleman's",
+    "predicate": "Treats",
+    "output_id": "UMLS:C0002199",
+    "output_name": "interferon-alpha",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

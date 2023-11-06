@@ -1,0 +1,19 @@
+{
+    "id": "Asset:90",
+    "name": "Asset:90",
+    "description": "Asset:90",
+    "tags": [],
+    "input_id": "MONDO:0043233",
+    "input_name": "Exfoliative Dermatitis",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:3036",
+    "output_name": "Clofenotane",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

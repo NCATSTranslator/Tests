@@ -1,0 +1,19 @@
+{
+    "id": "Asset:125",
+    "name": "Asset:125",
+    "description": "Asset:125",
+    "tags": [],
+    "input_id": "MONDO:0005301",
+    "input_name": "Multiple Sclerosis",
+    "predicate": "Treats",
+    "output_id": "MESH:D005227",
+    "output_name": "Fatty acids",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

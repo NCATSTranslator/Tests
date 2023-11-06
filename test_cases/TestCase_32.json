@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_32",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:33",
+            "name": "Asset:33",
+            "description": "Asset:33",
+            "tags": [],
+            "input_id": "MONDO:0100345",
+            "input_name": "Lactose intolerance",
+            "predicate": "Treats",
+            "output_id": "PUBCHEM.COMPOUND:6134",
+            "output_name": "beta-Lactose",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

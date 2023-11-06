@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_148",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:149",
+            "name": "Asset:149",
+            "description": "Asset:149",
+            "tags": [],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "predicate": "Treats",
+            "output_id": "PUBCHEM.COMPOUND:5462310",
+            "output_name": "Carbon",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

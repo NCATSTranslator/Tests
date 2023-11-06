@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_50",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:51",
+            "name": "Asset:51",
+            "description": "Asset:51",
+            "tags": [],
+            "input_id": "",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "Histamine",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

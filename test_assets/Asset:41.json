@@ -1,0 +1,19 @@
+{
+    "id": "Asset:41",
+    "name": "Asset:41",
+    "description": "Asset:41",
+    "tags": [],
+    "input_id": "MONDO:0100345",
+    "input_name": "Lactose intolerance",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Levamisole",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

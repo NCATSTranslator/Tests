@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_25",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:26",
+            "name": "Asset:26",
+            "description": "Asset:26",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "Treats",
+            "output_id": "CHEBI:33579",
+            "output_name": "main group molecular entity",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

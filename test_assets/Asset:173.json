@@ -1,0 +1,19 @@
+{
+    "id": "Asset:173",
+    "name": "Asset:173",
+    "description": "Asset:173",
+    "tags": [],
+    "input_id": "MONDO:0010808",
+    "input_name": "Fatal familial insomnia",
+    "predicate": "Treats",
+    "output_id": "CHEBI:134179",
+    "output_name": "Volatile organic compound",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

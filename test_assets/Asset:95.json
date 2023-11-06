@@ -1,0 +1,19 @@
+{
+    "id": "Asset:95",
+    "name": "Asset:95",
+    "description": "Asset:95",
+    "tags": [],
+    "input_id": "MONDO:0020333",
+    "input_name": "Aggressive Systemic Mastocytosis",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "ergocalciferol",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

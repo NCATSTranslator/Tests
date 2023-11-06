@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_56",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:57",
+            "name": "Asset:57",
+            "description": "Asset:57",
+            "tags": [],
+            "input_id": "MONDO:0000001",
+            "input_name": "Disease",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

@@ -1,0 +1,19 @@
+{
+    "id": "Asset:32",
+    "name": "Asset:32",
+    "description": "Asset:32",
+    "tags": [],
+    "input_id": "MONDO:0100345",
+    "input_name": "Lactose intolerance",
+    "predicate": "Treats",
+    "output_id": "CHEMBL.COMPOUND:2108505",
+    "output_name": "Lactase",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "runner_settings": [
+        "inferred"
+    ]
+}

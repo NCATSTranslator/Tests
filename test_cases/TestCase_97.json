@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_97",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:98",
+            "name": "Asset:98",
+            "description": "Asset:98",
+            "tags": [],
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
+            "predicate": "Treats",
+            "output_id": "",
+            "output_name": "retinol",
+            "expected_output": "number_3_BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

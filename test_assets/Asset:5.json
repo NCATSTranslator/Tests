@@ -1,0 +1,19 @@
+{
+    "id": "Asset:5",
+    "name": "Asset:5",
+    "description": "Asset:5",
+    "tags": [],
+    "input_id": "MONDO:0001119",
+    "input_name": "Premature Menopause",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:12358480",
+    "output_name": "Hexadrin",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

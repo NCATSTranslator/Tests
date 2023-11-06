@@ -1,0 +1,31 @@
+{
+    "id": "TestCase_96",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_env": null,
+    "test_case_type": null,
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset:97",
+            "name": "Asset:97",
+            "description": "Asset:97",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "Treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-Aminopyridine",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": []
+}

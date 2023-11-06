@@ -1,0 +1,19 @@
+{
+    "id": "Asset:6",
+    "name": "Asset:6",
+    "description": "Asset:6",
+    "tags": [],
+    "input_id": "MONDO:0001119",
+    "input_name": "Premature Menopause",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:2478",
+    "output_name": "Busulfan",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

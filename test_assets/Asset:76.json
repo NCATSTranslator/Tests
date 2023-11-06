@@ -1,0 +1,19 @@
+{
+    "id": "Asset:76",
+    "name": "Asset:76",
+    "description": "Asset:76",
+    "tags": [],
+    "input_id": "",
+    "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Mipomersen",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

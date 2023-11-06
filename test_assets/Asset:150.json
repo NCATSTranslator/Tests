@@ -1,0 +1,19 @@
+{
+    "id": "Asset:150",
+    "name": "Asset:150",
+    "description": "Asset:150",
+    "tags": [],
+    "input_id": "MONDO:0018493",
+    "input_name": "Malignant Hyperthermia Of Anesthesia",
+    "predicate": "Treats",
+    "output_id": "MESH:D000779",
+    "output_name": "Anesthetics, local",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

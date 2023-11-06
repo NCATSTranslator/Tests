@@ -1,0 +1,19 @@
+{
+    "id": "Asset:160",
+    "name": "Asset:160",
+    "description": "Asset:160",
+    "tags": [],
+    "input_id": "MONDO:0010808",
+    "input_name": "Fatal familial insomnia",
+    "predicate": "Treats",
+    "output_id": "MESH:D004583",
+    "output_name": "Electrons",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

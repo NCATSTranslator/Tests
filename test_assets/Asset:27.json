@@ -1,0 +1,19 @@
+{
+    "id": "Asset:27",
+    "name": "Asset:27",
+    "description": "Asset:27",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "predicate": "Treats",
+    "output_id": "CHEBI:37577",
+    "output_name": "heteroatomic molecular entity",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

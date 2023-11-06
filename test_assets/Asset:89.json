@@ -1,0 +1,19 @@
+{
+    "id": "Asset:89",
+    "name": "Asset:89",
+    "description": "Asset:89",
+    "tags": [],
+    "input_id": "MONDO:0043233",
+    "input_name": "Exfoliative Dermatitis",
+    "predicate": "Treats",
+    "output_id": "PUBCHEM.COMPOUND:84098",
+    "output_name": "Isoxaflutole",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

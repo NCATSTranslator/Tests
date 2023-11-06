@@ -1,0 +1,19 @@
+{
+    "id": "Asset:112",
+    "name": "Asset:112",
+    "description": "Asset:112",
+    "tags": [],
+    "input_id": "MONDO:0005301",
+    "input_name": "Multiple Sclerosis",
+    "predicate": "Treats",
+    "output_id": "UMLS:C0302837",
+    "output_name": "Vitamin supplementation",
+    "expected_output": "number_4_NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}

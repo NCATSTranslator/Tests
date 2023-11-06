@@ -1,0 +1,19 @@
+{
+    "id": "Asset:79",
+    "name": "Asset:79",
+    "description": "Asset:79",
+    "tags": [],
+    "input_id": "",
+    "input_name": "Approved for Familial hypercholesterolemia heterozygous (LDLR)",
+    "predicate": "Treats",
+    "output_id": "",
+    "output_name": "Evolocumab",
+    "expected_output": "number_1_TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "runner_settings": [
+        "inferred"
+    ]
+}
