@@ -1,14 +1,14 @@
 {
     "id": "TestCase_47",
-    "name": null,
-    "description": null,
+    "name": "Asset:48",
+    "description": "Asset:48",
     "tags": [],
     "test_env": null,
-    "test_case_type": null,
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:48",
+            "id": "Asset_48",
             "name": "Asset:48",
             "description": "Asset:48",
             "tags": [],
