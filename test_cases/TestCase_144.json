@@ -3,7 +3,7 @@
     "name": "Asset:145",
     "description": "Asset:145",
     "tags": [],
-    "test_env": null,
+    "test_env": "ci",
     "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
@@ -27,5 +27,9 @@
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }
