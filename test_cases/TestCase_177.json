@@ -1,7 +1,7 @@
 {
     "id": "TestCase_177",
-    "name": "Asset:178",
-    "description": "Asset:178",
+    "name": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
+    "description": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_178",
-            "name": "Asset:178",
-            "description": "Asset:178",
+            "name": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
+            "description": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBML:CHEMBL1201569",
             "output_name": "Botulinum toxin type b",
             "expected_output": "number_2_Acceptable",

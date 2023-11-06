@@ -1,7 +1,7 @@
 {
     "id": "TestCase_103",
-    "name": "Asset:104",
-    "description": "Asset:104",
+    "name": "vaccines_treats_multiple_sclerosis",
+    "description": "vaccines_treats_multiple_sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_104",
-            "name": "Asset:104",
-            "description": "Asset:104",
+            "name": "vaccines_treats_multiple_sclerosis",
+            "description": "vaccines_treats_multiple_sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "multiple sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D014612",
             "output_name": "vaccines",
             "expected_output": "number_4_NeverShow",

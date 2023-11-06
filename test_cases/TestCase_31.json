@@ -1,7 +1,7 @@
 {
     "id": "TestCase_31",
-    "name": "Asset:32",
-    "description": "Asset:32",
+    "name": "Lactase_treats_Lactose_intolerance",
+    "description": "Lactase_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_32",
-            "name": "Asset:32",
-            "description": "Asset:32",
+            "name": "Lactase_treats_Lactose_intolerance",
+            "description": "Lactase_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEMBL.COMPOUND:2108505",
             "output_name": "Lactase",
             "expected_output": "number_1_TopAnswer",

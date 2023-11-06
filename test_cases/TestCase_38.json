@@ -1,7 +1,7 @@
 {
     "id": "TestCase_38",
-    "name": "Asset:39",
-    "description": "Asset:39",
+    "name": "Bithionol_treats_Lactose_intolerance",
+    "description": "Bithionol_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_39",
-            "name": "Asset:39",
-            "description": "Asset:39",
+            "name": "Bithionol_treats_Lactose_intolerance",
+            "description": "Bithionol_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Bithionol",
             "expected_output": "number_4_NeverShow",

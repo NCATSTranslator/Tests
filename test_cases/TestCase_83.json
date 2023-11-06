@@ -1,7 +1,7 @@
 {
     "id": "TestCase_83",
-    "name": "Asset:84",
-    "description": "Asset:84",
+    "name": "estradiol_treats_Premature_Menopause",
+    "description": "estradiol_treats_Premature_Menopause",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_84",
-            "name": "Asset:84",
-            "description": "Asset:84",
+            "name": "estradiol_treats_Premature_Menopause",
+            "description": "estradiol_treats_Premature_Menopause",
             "tags": [],
             "input_id": "MONDO:0001119",
             "input_name": "Premature Menopause",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "estradiol",
             "expected_output": "number_1_TopAnswer",

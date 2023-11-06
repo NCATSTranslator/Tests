@@ -1,7 +1,7 @@
 {
     "id": "TestCase_155",
-    "name": "Asset:156",
-    "description": "Asset:156",
+    "name": "Cell_nucleus_treats_Fatal_familial_insomnia",
+    "description": "Cell_nucleus_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_156",
-            "name": "Asset:156",
-            "description": "Asset:156",
+            "name": "Cell_nucleus_treats_Fatal_familial_insomnia",
+            "description": "Cell_nucleus_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D002467",
             "output_name": "Cell nucleus",
             "expected_output": "number_4_NeverShow",

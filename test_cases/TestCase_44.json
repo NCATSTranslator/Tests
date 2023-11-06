@@ -1,7 +1,7 @@
 {
     "id": "TestCase_44",
-    "name": "Asset:45",
-    "description": "Asset:45",
+    "name": "Tacrolimus_treats_Lactose_intolerance",
+    "description": "Tacrolimus_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_45",
-            "name": "Asset:45",
-            "description": "Asset:45",
+            "name": "Tacrolimus_treats_Lactose_intolerance",
+            "description": "Tacrolimus_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Tacrolimus",
             "expected_output": "number_4_NeverShow",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_5",
-    "name": "Asset:6",
-    "description": "Asset:6",
+    "name": "Busulfan_treats_Premature_Menopause",
+    "description": "Busulfan_treats_Premature_Menopause",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_6",
-            "name": "Asset:6",
-            "description": "Asset:6",
+            "name": "Busulfan_treats_Premature_Menopause",
+            "description": "Busulfan_treats_Premature_Menopause",
             "tags": [],
             "input_id": "MONDO:0001119",
             "input_name": "Premature Menopause",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:2478",
             "output_name": "Busulfan",
             "expected_output": "number_4_NeverShow",

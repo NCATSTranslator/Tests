@@ -1,7 +1,7 @@
 {
     "id": "TestCase_13",
-    "name": "Asset:14",
-    "description": "Asset:14",
+    "name": "interferon-alpha_treats_Castleman's",
+    "description": "interferon-alpha_treats_Castleman's",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_14",
-            "name": "Asset:14",
-            "description": "Asset:14",
+            "name": "interferon-alpha_treats_Castleman's",
+            "description": "interferon-alpha_treats_Castleman's",
             "tags": [],
             "input_id": "MONDO:0015564",
             "input_name": "Castleman's",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0002199",
             "output_name": "interferon-alpha",
             "expected_output": "number_1_TopAnswer",

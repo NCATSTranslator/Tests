@@ -1,7 +1,7 @@
 {
     "id": "TestCase_24",
-    "name": "Asset:25",
-    "description": "Asset:25",
+    "name": "heteroorganic_entity_treats_Aceruloplasminemia",
+    "description": "heteroorganic_entity_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_25",
-            "name": "Asset:25",
-            "description": "Asset:25",
+            "name": "heteroorganic_entity_treats_Aceruloplasminemia",
+            "description": "heteroorganic_entity_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:33285",
             "output_name": "heteroorganic entity",
             "expected_output": "number_4_NeverShow",

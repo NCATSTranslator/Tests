@@ -1,7 +1,7 @@
 {
     "id": "TestCase_135",
-    "name": "Asset:136",
-    "description": "Asset:136",
+    "name": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_136",
-            "name": "Asset:136",
-            "description": "Asset:136",
+            "name": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:6623",
             "output_name": "bisphenol A",
             "expected_output": "number_4_NeverShow",

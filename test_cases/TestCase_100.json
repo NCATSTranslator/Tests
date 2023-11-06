@@ -1,7 +1,7 @@
 {
     "id": "TestCase_100",
-    "name": "Asset:101",
-    "description": "Asset:101",
+    "name": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+    "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_101",
-            "name": "Asset:101",
-            "description": "Asset:101",
+            "name": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
             "tags": [],
             "input_id": "MONDO:0008251",
             "input_name": "familial pityriasis rubra pilaris",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D000438",
             "output_name": "Alcohols",
             "expected_output": "number_4_NeverShow",

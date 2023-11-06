@@ -1,7 +1,7 @@
 {
     "id": "TestCase_134",
-    "name": "Asset:135",
-    "description": "Asset:135",
+    "name": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_135",
-            "name": "Asset:135",
-            "description": "Asset:135",
+            "name": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D003165",
             "output_name": "Complement system proteins",
             "expected_output": "number_4_NeverShow",

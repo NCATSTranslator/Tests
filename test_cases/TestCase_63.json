@@ -1,7 +1,7 @@
 {
     "id": "TestCase_63",
-    "name": "Asset:64",
-    "description": "Asset:64",
+    "name": "_treats_Diabetes_Milletus",
+    "description": "_treats_Diabetes_Milletus",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_64",
-            "name": "Asset:64",
-            "description": "Asset:64",
+            "name": "_treats_Diabetes_Milletus",
+            "description": "_treats_Diabetes_Milletus",
             "tags": [],
             "input_id": "MONDO:0005015",
             "input_name": "Diabetes Milletus",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "",
             "expected_output": null,

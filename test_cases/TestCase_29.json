@@ -1,7 +1,7 @@
 {
     "id": "TestCase_29",
-    "name": "Asset:30",
-    "description": "Asset:30",
+    "name": "inorganic_oxide_treats_Aceruloplasminemia",
+    "description": "inorganic_oxide_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_30",
-            "name": "Asset:30",
-            "description": "Asset:30",
+            "name": "inorganic_oxide_treats_Aceruloplasminemia",
+            "description": "inorganic_oxide_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:24836",
             "output_name": "inorganic oxide",
             "expected_output": "number_4_NeverShow",

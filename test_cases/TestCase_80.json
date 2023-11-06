@@ -1,7 +1,7 @@
 {
     "id": "TestCase_80",
-    "name": "Asset:81",
-    "description": "Asset:81",
+    "name": "Evolocumab_treats_Approved_for_Familial_defective_apolipoprotein_B_(APOB)",
+    "description": "Evolocumab_treats_Approved_for_Familial_defective_apolipoprotein_B_(APOB)",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_81",
-            "name": "Asset:81",
-            "description": "Asset:81",
+            "name": "Evolocumab_treats_Approved_for_Familial_defective_apolipoprotein_B_(APOB)",
+            "description": "Evolocumab_treats_Approved_for_Familial_defective_apolipoprotein_B_(APOB)",
             "tags": [],
             "input_id": "",
             "input_name": "Approved for Familial defective apolipoprotein B (APOB)",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Evolocumab",
             "expected_output": "number_1_TopAnswer",

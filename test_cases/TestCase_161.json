@@ -1,7 +1,7 @@
 {
     "id": "TestCase_161",
-    "name": "Asset:162",
-    "description": "Asset:162",
+    "name": "Oxygen_treats_Fatal_familial_insomnia",
+    "description": "Oxygen_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_162",
-            "name": "Asset:162",
-            "description": "Asset:162",
+            "name": "Oxygen_treats_Fatal_familial_insomnia",
+            "description": "Oxygen_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:977",
             "output_name": "Oxygen",
             "expected_output": "number_4_NeverShow",

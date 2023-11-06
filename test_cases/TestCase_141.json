@@ -1,7 +1,7 @@
 {
     "id": "TestCase_141",
-    "name": "Asset:142",
-    "description": "Asset:142",
+    "name": "Small_molecule_downregulate_DDX3Y",
+    "description": "Small_molecule_downregulate_DDX3Y",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,8 +9,8 @@
     "test_assets": [
         {
             "id": "Asset_142",
-            "name": "Asset:142",
-            "description": "Asset:142",
+            "name": "Small_molecule_downregulate_DDX3Y",
+            "description": "Small_molecule_downregulate_DDX3Y",
             "tags": [],
             "input_id": "NCBI Gene:8653",
             "input_name": "DDX3Y",

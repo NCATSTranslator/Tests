@@ -1,7 +1,7 @@
 {
     "id": "TestCase_143",
-    "name": "Asset:144",
-    "description": "Asset:144",
+    "name": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_144",
-            "name": "Asset:144",
-            "description": "Asset:144",
+            "name": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Halothane",
             "expected_output": "number_4_NeverShow",

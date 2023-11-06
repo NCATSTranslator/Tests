@@ -1,7 +1,7 @@
 {
     "id": "TestCase_145",
-    "name": "Asset:146",
-    "description": "Asset:146",
+    "name": "Prednisone_treats_scotoma",
+    "description": "Prednisone_treats_scotoma",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_146",
-            "name": "Asset:146",
-            "description": "Asset:146",
+            "name": "Prednisone_treats_scotoma",
+            "description": "Prednisone_treats_scotoma",
             "tags": [],
             "input_id": "MONDO:0004758",
             "input_name": "scotoma",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Prednisone",
             "expected_output": "number_4_NeverShow",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_173",
-    "name": "Asset:174",
-    "description": "Asset:174",
+    "name": "Antibiotics_treats_Cerebral_palsy",
+    "description": "Antibiotics_treats_Cerebral_palsy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_174",
-            "name": "Asset:174",
-            "description": "Asset:174",
+            "name": "Antibiotics_treats_Cerebral_palsy",
+            "description": "Antibiotics_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0003232",
             "output_name": "Antibiotics",
             "expected_output": "number_4_NeverShow",

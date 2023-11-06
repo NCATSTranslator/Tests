@@ -1,7 +1,7 @@
 {
     "id": "TestCase_37",
-    "name": "Asset:38",
-    "description": "Asset:38",
+    "name": "Mebendazole_treats_Lactose_intolerance",
+    "description": "Mebendazole_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_38",
-            "name": "Asset:38",
-            "description": "Asset:38",
+            "name": "Mebendazole_treats_Lactose_intolerance",
+            "description": "Mebendazole_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Mebendazole",
             "expected_output": "number_4_NeverShow",

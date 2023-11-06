@@ -1,7 +1,7 @@
 {
     "id": "TestCase_56",
-    "name": "Asset:57",
-    "description": "Asset:57",
+    "name": "_treats_Disease",
+    "description": "_treats_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_57",
-            "name": "Asset:57",
-            "description": "Asset:57",
+            "name": "_treats_Disease",
+            "description": "_treats_Disease",
             "tags": [],
             "input_id": "MONDO:0000001",
             "input_name": "Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "",
             "expected_output": "number_4_NeverShow",

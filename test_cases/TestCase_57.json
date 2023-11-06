@@ -1,7 +1,7 @@
 {
     "id": "TestCase_57",
-    "name": "Asset:58",
-    "description": "Asset:58",
+    "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+    "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_58",
-            "name": "Asset:58",
-            "description": "Asset:58",
+            "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+            "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
             "tags": [],
             "input_id": "MONDO:0004975",
             "input_name": "Alzheimer Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0013227",
             "output_name": "Pharmaceutical preparations",
             "expected_output": "number_4_NeverShow",

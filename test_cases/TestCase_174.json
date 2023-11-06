@@ -1,7 +1,7 @@
 {
     "id": "TestCase_174",
-    "name": "Asset:175",
-    "description": "Asset:175",
+    "name": "Pharmaceutical_preparations_treats_Cerebral_palsy",
+    "description": "Pharmaceutical_preparations_treats_Cerebral_palsy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_175",
-            "name": "Asset:175",
-            "description": "Asset:175",
+            "name": "Pharmaceutical_preparations_treats_Cerebral_palsy",
+            "description": "Pharmaceutical_preparations_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0013227",
             "output_name": "Pharmaceutical preparations",
             "expected_output": "number_4_NeverShow",

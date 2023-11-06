@@ -1,7 +1,7 @@
 {
     "id": "TestCase_68",
-    "name": "Asset:69",
-    "description": "Asset:69",
+    "name": "Velaglucerase-alfa_treats_Gaucher_Disease_type1",
+    "description": "Velaglucerase-alfa_treats_Gaucher_Disease_type1",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_69",
-            "name": "Asset:69",
-            "description": "Asset:69",
+            "name": "Velaglucerase-alfa_treats_Gaucher_Disease_type1",
+            "description": "Velaglucerase-alfa_treats_Gaucher_Disease_type1",
             "tags": [],
             "input_id": "",
             "input_name": "Gaucher Disease type1",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Velaglucerase-alfa",
             "expected_output": "number_1_TopAnswer",

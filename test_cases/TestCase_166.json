@@ -1,7 +1,7 @@
 {
     "id": "TestCase_166",
-    "name": "Asset:167",
-    "description": "Asset:167",
+    "name": "Molecule_treats_Fatal_familial_insomnia",
+    "description": "Molecule_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_167",
-            "name": "Asset:167",
-            "description": "Asset:167",
+            "name": "Molecule_treats_Fatal_familial_insomnia",
+            "description": "Molecule_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:25367",
             "output_name": "Molecule",
             "expected_output": "number_4_NeverShow",

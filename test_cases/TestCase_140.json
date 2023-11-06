@@ -1,7 +1,7 @@
 {
     "id": "TestCase_140",
-    "name": "Asset:141",
-    "description": "Asset:141",
+    "name": "dna_double_stranded_downregulate_DDX3Y",
+    "description": "dna_double_stranded_downregulate_DDX3Y",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,8 +9,8 @@
     "test_assets": [
         {
             "id": "Asset_141",
-            "name": "Asset:141",
-            "description": "Asset:141",
+            "name": "dna_double_stranded_downregulate_DDX3Y",
+            "description": "dna_double_stranded_downregulate_DDX3Y",
             "tags": [],
             "input_id": "NCBI Gene:8653",
             "input_name": "DDX3Y",

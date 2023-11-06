@@ -1,7 +1,7 @@
 {
     "id": "TestCase_6",
-    "name": "Asset:7",
-    "description": "Asset:7",
+    "name": "Vehicle_Emissions_treats_Castleman_Disease",
+    "description": "Vehicle_Emissions_treats_Castleman_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_7",
-            "name": "Asset:7",
-            "description": "Asset:7",
+            "name": "Vehicle_Emissions_treats_Castleman_Disease",
+            "description": "Vehicle_Emissions_treats_Castleman_Disease",
             "tags": [],
             "input_id": "MONDO:0015564",
             "input_name": "Castleman Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D001335",
             "output_name": "Vehicle Emissions",
             "expected_output": "number_4_NeverShow",

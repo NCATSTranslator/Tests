@@ -1,7 +1,7 @@
 {
     "id": "TestCase_51",
-    "name": "Asset:52",
-    "description": "Asset:52",
+    "name": "Mebendazole_treats_Hookworm_Infectious_Disease",
+    "description": "Mebendazole_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_52",
-            "name": "Asset:52",
-            "description": "Asset:52",
+            "name": "Mebendazole_treats_Hookworm_Infectious_Disease",
+            "description": "Mebendazole_treats_Hookworm_Infectious_Disease",
             "tags": [],
             "input_id": "",
             "input_name": "Hookworm Infectious Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Mebendazole",
             "expected_output": "number_1_TopAnswer",

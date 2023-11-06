@@ -1,7 +1,7 @@
 {
     "id": "TestCase_55",
-    "name": "Asset:56",
-    "description": "Asset:56",
+    "name": "cell_nucleus_treats_Aceruloplasminemia",
+    "description": "cell_nucleus_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_56",
-            "name": "Asset:56",
-            "description": "Asset:56",
+            "name": "cell_nucleus_treats_Aceruloplasminemia",
+            "description": "cell_nucleus_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D002467",
             "output_name": "cell nucleus",
             "expected_output": "number_4_NeverShow",

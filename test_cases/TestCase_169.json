@@ -1,7 +1,7 @@
 {
     "id": "TestCase_169",
-    "name": "Asset:170",
-    "description": "Asset:170",
+    "name": "Organic_chloride_salt_treats_Fatal_familial_insomnia",
+    "description": "Organic_chloride_salt_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_170",
-            "name": "Asset:170",
-            "description": "Asset:170",
+            "name": "Organic_chloride_salt_treats_Fatal_familial_insomnia",
+            "description": "Organic_chloride_salt_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:36094",
             "output_name": "Organic chloride salt",
             "expected_output": "number_4_NeverShow",

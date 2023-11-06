@@ -1,7 +1,7 @@
 {
     "id": "TestCase_71",
-    "name": "Asset:72",
-    "description": "Asset:72",
+    "name": "Soot_treats_Obstructive_Sleep_Apnea",
+    "description": "Soot_treats_Obstructive_Sleep_Apnea",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_72",
-            "name": "Asset:72",
-            "description": "Asset:72",
+            "name": "Soot_treats_Obstructive_Sleep_Apnea",
+            "description": "Soot_treats_Obstructive_Sleep_Apnea",
             "tags": [],
             "input_id": "MONDO:0007147",
             "input_name": "Obstructive Sleep Apnea",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D053260",
             "output_name": "Soot",
             "expected_output": "number_2_Acceptable",

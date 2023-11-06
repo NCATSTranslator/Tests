@@ -1,7 +1,7 @@
 {
     "id": "TestCase_14",
-    "name": "Asset:15",
-    "description": "Asset:15",
+    "name": "iron_treats_Aceruloplasminemia",
+    "description": "iron_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_15",
-            "name": "Asset:15",
-            "description": "Asset:15",
+            "name": "iron_treats_Aceruloplasminemia",
+            "description": "iron_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "iron",
             "expected_output": "number_4_NeverShow",

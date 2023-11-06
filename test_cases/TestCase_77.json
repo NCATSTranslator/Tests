@@ -1,7 +1,7 @@
 {
     "id": "TestCase_77",
-    "name": "Asset:78",
-    "description": "Asset:78",
+    "name": "Rosuvastatin_treats_Approved_for_Familial_hypercholesterolemia_heterozygous_(LDLR)",
+    "description": "Rosuvastatin_treats_Approved_for_Familial_hypercholesterolemia_heterozygous_(LDLR)",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_78",
-            "name": "Asset:78",
-            "description": "Asset:78",
+            "name": "Rosuvastatin_treats_Approved_for_Familial_hypercholesterolemia_heterozygous_(LDLR)",
+            "description": "Rosuvastatin_treats_Approved_for_Familial_hypercholesterolemia_heterozygous_(LDLR)",
             "tags": [],
             "input_id": "",
             "input_name": "Approved for Familial hypercholesterolemia heterozygous (LDLR)",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Rosuvastatin",
             "expected_output": "number_1_TopAnswer",

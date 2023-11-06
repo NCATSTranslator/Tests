@@ -1,7 +1,7 @@
 {
     "id": "TestCase_41",
-    "name": "Asset:42",
-    "description": "Asset:42",
+    "name": "Methamidophos_treats_Lactose_intolerance",
+    "description": "Methamidophos_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_42",
-            "name": "Asset:42",
-            "description": "Asset:42",
+            "name": "Methamidophos_treats_Lactose_intolerance",
+            "description": "Methamidophos_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Methamidophos",
             "expected_output": "number_4_NeverShow",

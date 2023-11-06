@@ -1,7 +1,7 @@
 {
     "id": "TestCase_114",
-    "name": "Asset:115",
-    "description": "Asset:115",
+    "name": "Antibodies_treats_Multiple_Sclerosis",
+    "description": "Antibodies_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_115",
-            "name": "Asset:115",
-            "description": "Asset:115",
+            "name": "Antibodies_treats_Multiple_Sclerosis",
+            "description": "Antibodies_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D000906",
             "output_name": "Antibodies",
             "expected_output": "number_4_NeverShow",

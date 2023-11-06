@@ -1,7 +1,7 @@
 {
     "id": "TestCase_64",
-    "name": "Asset:65",
-    "description": "Asset:65",
+    "name": "Rotenone_treats_Aceruloplasminemia",
+    "description": "Rotenone_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_65",
-            "name": "Asset:65",
-            "description": "Asset:65",
+            "name": "Rotenone_treats_Aceruloplasminemia",
+            "description": "Rotenone_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:6758",
             "output_name": "Rotenone",
             "expected_output": "number_4_NeverShow",

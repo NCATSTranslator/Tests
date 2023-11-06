@@ -1,7 +1,7 @@
 {
     "id": "TestCase_105",
-    "name": "Asset:106",
-    "description": "Asset:106",
+    "name": "Covid-19_vaccines_treats_Multiple_Sclerosis",
+    "description": "Covid-19_vaccines_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_106",
-            "name": "Asset:106",
-            "description": "Asset:106",
+            "name": "Covid-19_vaccines_treats_Multiple_Sclerosis",
+            "description": "Covid-19_vaccines_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C5387588",
             "output_name": "Covid-19 vaccines",
             "expected_output": "number_4_NeverShow",

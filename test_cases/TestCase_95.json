@@ -1,7 +1,7 @@
 {
     "id": "TestCase_95",
-    "name": "Asset:96",
-    "description": "Asset:96",
+    "name": "fibrinogen_treats_Heart_Disorder",
+    "description": "fibrinogen_treats_Heart_Disorder",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_96",
-            "name": "Asset:96",
-            "description": "Asset:96",
+            "name": "fibrinogen_treats_Heart_Disorder",
+            "description": "fibrinogen_treats_Heart_Disorder",
             "tags": [],
             "input_id": "MONDO:0005267",
             "input_name": "Heart Disorder",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "fibrinogen",
             "expected_output": "number_4_NeverShow",

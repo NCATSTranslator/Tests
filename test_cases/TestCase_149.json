@@ -1,7 +1,7 @@
 {
     "id": "TestCase_149",
-    "name": "Asset:150",
-    "description": "Asset:150",
+    "name": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_150",
-            "name": "Asset:150",
-            "description": "Asset:150",
+            "name": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D000779",
             "output_name": "Anesthetics, local",
             "expected_output": "number_4_NeverShow",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_172",
-    "name": "Asset:173",
-    "description": "Asset:173",
+    "name": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
+    "description": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_173",
-            "name": "Asset:173",
-            "description": "Asset:173",
+            "name": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
+            "description": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:134179",
             "output_name": "Volatile organic compound",
             "expected_output": "number_4_NeverShow",

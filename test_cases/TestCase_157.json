@@ -1,7 +1,7 @@
 {
     "id": "TestCase_157",
-    "name": "Asset:158",
-    "description": "Asset:158",
+    "name": "Water_treats_Fatal_familial_insomnia",
+    "description": "Water_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_158",
-            "name": "Asset:158",
-            "description": "Asset:158",
+            "name": "Water_treats_Fatal_familial_insomnia",
+            "description": "Water_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:962",
             "output_name": "Water",
             "expected_output": "number_3_BadButForgivable",

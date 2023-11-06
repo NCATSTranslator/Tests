@@ -1,7 +1,7 @@
 {
     "id": "TestCase_87",
-    "name": "Asset:88",
-    "description": "Asset:88",
+    "name": "Toluene_treats_Exfoliative_Dermatitis",
+    "description": "Toluene_treats_Exfoliative_Dermatitis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_88",
-            "name": "Asset:88",
-            "description": "Asset:88",
+            "name": "Toluene_treats_Exfoliative_Dermatitis",
+            "description": "Toluene_treats_Exfoliative_Dermatitis",
             "tags": [],
             "input_id": "MONDO:0043233",
             "input_name": "Exfoliative Dermatitis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:1140",
             "output_name": "Toluene",
             "expected_output": "number_4_NeverShow",

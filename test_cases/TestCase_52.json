@@ -1,7 +1,7 @@
 {
     "id": "TestCase_52",
-    "name": "Asset:53",
-    "description": "Asset:53",
+    "name": "Pyranthel_treats_Hookworm_Infectious_Disease",
+    "description": "Pyranthel_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_53",
-            "name": "Asset:53",
-            "description": "Asset:53",
+            "name": "Pyranthel_treats_Hookworm_Infectious_Disease",
+            "description": "Pyranthel_treats_Hookworm_Infectious_Disease",
             "tags": [],
             "input_id": "",
             "input_name": "Hookworm Infectious Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Pyranthel",
             "expected_output": "number_1_TopAnswer",

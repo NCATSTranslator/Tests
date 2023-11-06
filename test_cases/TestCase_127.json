@@ -1,7 +1,7 @@
 {
     "id": "TestCase_127",
-    "name": "Asset:128",
-    "description": "Asset:128",
+    "name": "Carbon_treats_Multiple_Sclerosis",
+    "description": "Carbon_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_128",
-            "name": "Asset:128",
-            "description": "Asset:128",
+            "name": "Carbon_treats_Multiple_Sclerosis",
+            "description": "Carbon_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:5462310",
             "output_name": "Carbon",
             "expected_output": "number_4_NeverShow",

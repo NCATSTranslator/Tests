@@ -1,7 +1,7 @@
 {
     "id": "TestCase_179",
-    "name": "Asset:180",
-    "description": "Asset:180",
+    "name": "Tyrosine_treats_Nemaline_myopathy",
+    "description": "Tyrosine_treats_Nemaline_myopathy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_180",
-            "name": "Asset:180",
-            "description": "Asset:180",
+            "name": "Tyrosine_treats_Nemaline_myopathy",
+            "description": "Tyrosine_treats_Nemaline_myopathy",
             "tags": [],
             "input_id": "MONDO:0018958 ",
             "input_name": "Nemaline myopathy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:6057",
             "output_name": "Tyrosine",
             "expected_output": "number_2_Acceptable",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_23",
-    "name": "Asset:24",
-    "description": "Asset:24",
+    "name": "inorganic_chemicals_treats_Aceruloplasminemia",
+    "description": "inorganic_chemicals_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_24",
-            "name": "Asset:24",
-            "description": "Asset:24",
+            "name": "inorganic_chemicals_treats_Aceruloplasminemia",
+            "description": "inorganic_chemicals_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D007287",
             "output_name": "inorganic chemicals",
             "expected_output": "number_4_NeverShow",

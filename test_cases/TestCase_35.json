@@ -1,7 +1,7 @@
 {
     "id": "TestCase_35",
-    "name": "Asset:36",
-    "description": "Asset:36",
+    "name": "alpha-Lactose_treats_Lactose_intolerance",
+    "description": "alpha-Lactose_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_36",
-            "name": "Asset:36",
-            "description": "Asset:36",
+            "name": "alpha-Lactose_treats_Lactose_intolerance",
+            "description": "alpha-Lactose_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:6134",
             "output_name": "alpha-Lactose",
             "expected_output": "number_4_NeverShow",

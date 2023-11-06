@@ -1,7 +1,7 @@
 {
     "id": "TestCase_54",
-    "name": "Asset:55",
-    "description": "Asset:55",
+    "name": "Dichlorophen_treats_Hookworm_Infectious_Disease",
+    "description": "Dichlorophen_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_55",
-            "name": "Asset:55",
-            "description": "Asset:55",
+            "name": "Dichlorophen_treats_Hookworm_Infectious_Disease",
+            "description": "Dichlorophen_treats_Hookworm_Infectious_Disease",
             "tags": [],
             "input_id": "",
             "input_name": "Hookworm Infectious Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Dichlorophen",
             "expected_output": "number_3_BadButForgivable",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_85",
-    "name": "Asset:86",
-    "description": "Asset:86",
+    "name": "Imatinib_treats_Exfoliative_Dermatitis",
+    "description": "Imatinib_treats_Exfoliative_Dermatitis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_86",
-            "name": "Asset:86",
-            "description": "Asset:86",
+            "name": "Imatinib_treats_Exfoliative_Dermatitis",
+            "description": "Imatinib_treats_Exfoliative_Dermatitis",
             "tags": [],
             "input_id": "MONDO:0043233",
             "input_name": "Exfoliative Dermatitis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Imatinib",
             "expected_output": "number_4_NeverShow",

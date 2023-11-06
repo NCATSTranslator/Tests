@@ -1,7 +1,7 @@
 {
     "id": "TestCase_48",
-    "name": "Asset:49",
-    "description": "Asset:49",
+    "name": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
+    "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_49",
-            "name": "Asset:49",
-            "description": "Asset:49",
+            "name": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
+            "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
             "tags": [],
             "input_id": "MONDO:0017314",
             "input_name": "Ehlers-Danlos Syndrome",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "methylphenidate",
             "expected_output": "number_4_NeverShow",

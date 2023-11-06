@@ -1,7 +1,7 @@
 {
     "id": "TestCase_148",
-    "name": "Asset:149",
-    "description": "Asset:149",
+    "name": "Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_149",
-            "name": "Asset:149",
-            "description": "Asset:149",
+            "name": "Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:5462310",
             "output_name": "Carbon",
             "expected_output": "number_4_NeverShow",

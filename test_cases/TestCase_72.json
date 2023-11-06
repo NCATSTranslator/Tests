@@ -1,7 +1,7 @@
 {
     "id": "TestCase_72",
-    "name": "Asset:73",
-    "description": "Asset:73",
+    "name": "miglustat_treats_Niemann-Pick_type_C",
+    "description": "miglustat_treats_Niemann-Pick_type_C",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_73",
-            "name": "Asset:73",
-            "description": "Asset:73",
+            "name": "miglustat_treats_Niemann-Pick_type_C",
+            "description": "miglustat_treats_Niemann-Pick_type_C",
             "tags": [],
             "input_id": "",
             "input_name": "Niemann-Pick type C",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "miglustat",
             "expected_output": "number_1_TopAnswer",

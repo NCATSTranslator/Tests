@@ -1,7 +1,7 @@
 {
     "id": "TestCase_65",
-    "name": "Asset:66",
-    "description": "Asset:66",
+    "name": "Eliglustat_treats_Gaucher_Disease_type1",
+    "description": "Eliglustat_treats_Gaucher_Disease_type1",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_66",
-            "name": "Asset:66",
-            "description": "Asset:66",
+            "name": "Eliglustat_treats_Gaucher_Disease_type1",
+            "description": "Eliglustat_treats_Gaucher_Disease_type1",
             "tags": [],
             "input_id": "",
             "input_name": "Gaucher Disease type1",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Eliglustat",
             "expected_output": "number_1_TopAnswer",

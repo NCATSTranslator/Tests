@@ -1,7 +1,7 @@
 {
     "id": "TestCase_10",
-    "name": "Asset:11",
-    "description": "Asset:11",
+    "name": "sirolimus_treats_Castleman's",
+    "description": "sirolimus_treats_Castleman's",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_11",
-            "name": "Asset:11",
-            "description": "Asset:11",
+            "name": "sirolimus_treats_Castleman's",
+            "description": "sirolimus_treats_Castleman's",
             "tags": [],
             "input_id": "MONDO:0015564",
             "input_name": "Castleman's",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:5284616",
             "output_name": "sirolimus",
             "expected_output": "number_1_TopAnswer",

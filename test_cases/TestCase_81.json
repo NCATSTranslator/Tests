@@ -1,7 +1,7 @@
 {
     "id": "TestCase_81",
-    "name": "Asset:82",
-    "description": "Asset:82",
+    "name": "Lasofoxifene_treats_Premature_Menopause",
+    "description": "Lasofoxifene_treats_Premature_Menopause",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_82",
-            "name": "Asset:82",
-            "description": "Asset:82",
+            "name": "Lasofoxifene_treats_Premature_Menopause",
+            "description": "Lasofoxifene_treats_Premature_Menopause",
             "tags": [],
             "input_id": "MONDO:0001119",
             "input_name": "Premature Menopause",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Lasofoxifene",
             "expected_output": "number_4_NeverShow",

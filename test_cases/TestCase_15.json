@@ -1,7 +1,7 @@
 {
     "id": "TestCase_15",
-    "name": "Asset:16",
-    "description": "Asset:16",
+    "name": "desferrioxamine_treats_Aceruloplasminemia",
+    "description": "desferrioxamine_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_16",
-            "name": "Asset:16",
-            "description": "Asset:16",
+            "name": "desferrioxamine_treats_Aceruloplasminemia",
+            "description": "desferrioxamine_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "desferrioxamine",
             "expected_output": "number_1_TopAnswer",

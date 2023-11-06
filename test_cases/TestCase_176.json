@@ -1,7 +1,7 @@
 {
     "id": "TestCase_176",
-    "name": "Asset:177",
-    "description": "Asset:177",
+    "name": "Baclofen_treats_Cerebral_palsy",
+    "description": "Baclofen_treats_Cerebral_palsy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_177",
-            "name": "Asset:177",
-            "description": "Asset:177",
+            "name": "Baclofen_treats_Cerebral_palsy",
+            "description": "Baclofen_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:2284",
             "output_name": "Baclofen",
             "expected_output": "number_2_Acceptable",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_34",
-    "name": "Asset:35",
-    "description": "Asset:35",
+    "name": "Plant_preparations_treats_Lactose_intolerance",
+    "description": "Plant_preparations_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_35",
-            "name": "Asset:35",
-            "description": "Asset:35",
+            "name": "Plant_preparations_treats_Lactose_intolerance",
+            "description": "Plant_preparations_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D028321",
             "output_name": "Plant preparations",
             "expected_output": "number_4_NeverShow",

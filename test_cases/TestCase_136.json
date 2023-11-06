@@ -1,7 +1,7 @@
 {
     "id": "TestCase_136",
-    "name": "Asset:137",
-    "description": "Asset:137",
+    "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+    "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_137",
-            "name": "Asset:137",
-            "description": "Asset:137",
+            "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D016756",
             "output_name": "Immunoglobulins, intravenous",
             "expected_output": "number_4_NeverShow",

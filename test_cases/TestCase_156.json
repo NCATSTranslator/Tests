@@ -1,7 +1,7 @@
 {
     "id": "TestCase_156",
-    "name": "Asset:157",
-    "description": "Asset:157",
+    "name": "salts_treats_Fatal_familial_insomnia",
+    "description": "salts_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_157",
-            "name": "Asset:157",
-            "description": "Asset:157",
+            "name": "salts_treats_Fatal_familial_insomnia",
+            "description": "salts_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D012492",
             "output_name": "salts",
             "expected_output": "number_4_NeverShow",

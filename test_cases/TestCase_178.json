@@ -1,7 +1,7 @@
 {
     "id": "TestCase_178",
-    "name": "Asset:179",
-    "description": "Asset:179",
+    "name": "Carbamazepine_treats_Cerebral_palsy",
+    "description": "Carbamazepine_treats_Cerebral_palsy",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_179",
-            "name": "Asset:179",
-            "description": "Asset:179",
+            "name": "Carbamazepine_treats_Cerebral_palsy",
+            "description": "Carbamazepine_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:2554",
             "output_name": "Carbamazepine",
             "expected_output": "number_2_Acceptable",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_125",
-    "name": "Asset:126",
-    "description": "Asset:126",
+    "name": "Plant_extracts_treats_Multiple_Sclerosis",
+    "description": "Plant_extracts_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_126",
-            "name": "Asset:126",
-            "description": "Asset:126",
+            "name": "Plant_extracts_treats_Multiple_Sclerosis",
+            "description": "Plant_extracts_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D010936",
             "output_name": "Plant extracts",
             "expected_output": "number_4_NeverShow",

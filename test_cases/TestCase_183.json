@@ -1,7 +1,7 @@
 {
     "id": "TestCase_183",
-    "name": "Asset:184",
-    "description": "Asset:184",
+    "name": "Cocaine_treats_ADHD",
+    "description": "Cocaine_treats_ADHD",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_184",
-            "name": "Asset:184",
-            "description": "Asset:184",
+            "name": "Cocaine_treats_ADHD",
+            "description": "Cocaine_treats_ADHD",
             "tags": [],
             "input_id": "MONDO:0007743",
             "input_name": "ADHD",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:446220",
             "output_name": "Cocaine",
             "expected_output": "number_4_NeverShow",

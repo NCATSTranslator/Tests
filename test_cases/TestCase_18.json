@@ -1,7 +1,7 @@
 {
     "id": "TestCase_18",
-    "name": "Asset:19",
-    "description": "Asset:19",
+    "name": "molecular_entity_treats_Aceruloplasminemia",
+    "description": "molecular_entity_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_19",
-            "name": "Asset:19",
-            "description": "Asset:19",
+            "name": "molecular_entity_treats_Aceruloplasminemia",
+            "description": "molecular_entity_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:23367",
             "output_name": "molecular entity",
             "expected_output": "number_4_NeverShow",

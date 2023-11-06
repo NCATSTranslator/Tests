@@ -1,7 +1,7 @@
 {
     "id": "TestCase_139",
-    "name": "Asset:140",
-    "description": "Asset:140",
+    "name": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+    "description": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_140",
-            "name": "Asset:140",
-            "description": "Asset:140",
+            "name": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "description": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
             "tags": [],
             "input_id": "MONDO:0009746",
             "input_name": "Hereditary sensory and autonomic neuropathy type 4",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Botulinum toxin type a",
             "expected_output": "number_4_NeverShow",

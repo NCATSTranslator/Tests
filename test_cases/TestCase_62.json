@@ -1,7 +1,7 @@
 {
     "id": "TestCase_62",
-    "name": "Asset:63",
-    "description": "Asset:63",
+    "name": "_upregulated_Toxic_waste",
+    "description": "_upregulated_Toxic_waste",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,8 +9,8 @@
     "test_assets": [
         {
             "id": "Asset_63",
-            "name": "Asset:63",
-            "description": "Asset:63",
+            "name": "_upregulated_Toxic_waste",
+            "description": "_upregulated_Toxic_waste",
             "tags": [],
             "input_id": "UMLS:C0871534",
             "input_name": "Toxic waste",

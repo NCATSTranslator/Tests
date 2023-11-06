@@ -1,7 +1,7 @@
 {
     "id": "TestCase_123",
-    "name": "Asset:124",
-    "description": "Asset:124",
+    "name": "Mercury_treats_Multiple_Sclerosis",
+    "description": "Mercury_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_124",
-            "name": "Asset:124",
-            "description": "Asset:124",
+            "name": "Mercury_treats_Multiple_Sclerosis",
+            "description": "Mercury_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:23931",
             "output_name": "Mercury",
             "expected_output": "number_4_NeverShow",

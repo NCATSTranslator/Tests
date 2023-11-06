@@ -1,7 +1,7 @@
 {
     "id": "TestCase_97",
-    "name": "Asset:98",
-    "description": "Asset:98",
+    "name": "retinol_treats_familial_pityriasis_rubra_pilaris",
+    "description": "retinol_treats_familial_pityriasis_rubra_pilaris",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_98",
-            "name": "Asset:98",
-            "description": "Asset:98",
+            "name": "retinol_treats_familial_pityriasis_rubra_pilaris",
+            "description": "retinol_treats_familial_pityriasis_rubra_pilaris",
             "tags": [],
             "input_id": "MONDO:0008251",
             "input_name": "familial pityriasis rubra pilaris",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "retinol",
             "expected_output": "number_3_BadButForgivable",

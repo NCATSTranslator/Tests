@@ -1,7 +1,7 @@
 {
     "id": "TestCase_126",
-    "name": "Asset:127",
-    "description": "Asset:127",
+    "name": "Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
+    "description": "Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_127",
-            "name": "Asset:127",
-            "description": "Asset:127",
+            "name": "Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
+            "description": "Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D004365",
             "output_name": "Drugs, chinese herbal",
             "expected_output": "number_4_NeverShow",

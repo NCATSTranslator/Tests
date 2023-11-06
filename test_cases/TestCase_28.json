@@ -1,7 +1,7 @@
 {
     "id": "TestCase_28",
-    "name": "Asset:29",
-    "description": "Asset:29",
+    "name": "heterocyclic_compounds_treats_Aceruloplasminemia",
+    "description": "heterocyclic_compounds_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_29",
-            "name": "Asset:29",
-            "description": "Asset:29",
+            "name": "heterocyclic_compounds_treats_Aceruloplasminemia",
+            "description": "heterocyclic_compounds_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D006571 ",
             "output_name": "heterocyclic compounds",
             "expected_output": "number_4_NeverShow",

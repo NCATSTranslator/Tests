@@ -1,7 +1,7 @@
 {
     "id": "TestCase_163",
-    "name": "Asset:164",
-    "description": "Asset:164",
+    "name": "Halogen_molecular_entity_treats_Fatal_familial_insomnia",
+    "description": "Halogen_molecular_entity_treats_Fatal_familial_insomnia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_164",
-            "name": "Asset:164",
-            "description": "Asset:164",
+            "name": "Halogen_molecular_entity_treats_Fatal_familial_insomnia",
+            "description": "Halogen_molecular_entity_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:24471",
             "output_name": "Halogen molecular entity",
             "expected_output": "number_4_NeverShow",

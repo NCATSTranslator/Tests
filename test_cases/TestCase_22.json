@@ -1,7 +1,7 @@
 {
     "id": "TestCase_22",
-    "name": "Asset:23",
-    "description": "Asset:23",
+    "name": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+    "description": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_23",
-            "name": "Asset:23",
-            "description": "Asset:23",
+            "name": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+            "description": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:33582",
             "output_name": "carbon group molecular entity",
             "expected_output": "number_4_NeverShow",

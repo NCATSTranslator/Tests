@@ -1,7 +1,7 @@
 {
     "id": "TestCase_184",
-    "name": "Asset:185",
-    "description": "Asset:185",
+    "name": "Methylphenidate_treats_ADHD",
+    "description": "Methylphenidate_treats_ADHD",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_185",
-            "name": "Asset:185",
-            "description": "Asset:185",
+            "name": "Methylphenidate_treats_ADHD",
+            "description": "Methylphenidate_treats_ADHD",
             "tags": [],
             "input_id": "MONDO:0007743",
             "input_name": "ADHD",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:4158",
             "output_name": "Methylphenidate",
             "expected_output": "number_2_Acceptable",

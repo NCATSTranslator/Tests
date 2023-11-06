@@ -1,7 +1,7 @@
 {
     "id": "TestCase_17",
-    "name": "Asset:18",
-    "description": "Asset:18",
+    "name": "Organic_Chemicals_treats_Aceruloplasminemia",
+    "description": "Organic_Chemicals_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_18",
-            "name": "Asset:18",
-            "description": "Asset:18",
+            "name": "Organic_Chemicals_treats_Aceruloplasminemia",
+            "description": "Organic_Chemicals_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D009930",
             "output_name": "Organic Chemicals",
             "expected_output": "number_4_NeverShow",

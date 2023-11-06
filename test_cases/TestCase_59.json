@@ -1,7 +1,7 @@
 {
     "id": "TestCase_59",
-    "name": "Asset:60",
-    "description": "Asset:60",
+    "name": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+    "description": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_60",
-            "name": "Asset:60",
-            "description": "Asset:60",
+            "name": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+            "description": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
             "tags": [],
             "input_id": "MONDO:0017314",
             "input_name": "Ehlers-Danlos Syndrome",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UNII:1BJ477IO2L",
             "output_name": "Gadobutrol",
             "expected_output": "number_4_NeverShow",

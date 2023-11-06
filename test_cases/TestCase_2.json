@@ -1,7 +1,7 @@
 {
     "id": "TestCase_2",
-    "name": "Asset:3",
-    "description": "Asset:3",
+    "name": "Valproic_Acid_treats_NARP_Syndrome",
+    "description": "Valproic_Acid_treats_NARP_Syndrome",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_3",
-            "name": "Asset:3",
-            "description": "Asset:3",
+            "name": "Valproic_Acid_treats_NARP_Syndrome",
+            "description": "Valproic_Acid_treats_NARP_Syndrome",
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "DRUGBANK:DB00313",
             "output_name": "Valproic Acid",
             "expected_output": "number_4_NeverShow",

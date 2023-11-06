@@ -1,7 +1,7 @@
 {
     "id": "TestCase_36",
-    "name": "Asset:37",
-    "description": "Asset:37",
+    "name": "Ergocalciferol_treats_Lactose_intolerance",
+    "description": "Ergocalciferol_treats_Lactose_intolerance",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_37",
-            "name": "Asset:37",
-            "description": "Asset:37",
+            "name": "Ergocalciferol_treats_Lactose_intolerance",
+            "description": "Ergocalciferol_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Ergocalciferol",
             "expected_output": "number_4_NeverShow",

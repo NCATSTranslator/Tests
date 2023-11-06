@@ -1,7 +1,7 @@
 {
     "id": "TestCase_133",
-    "name": "Asset:134",
-    "description": "Asset:134",
+    "name": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_134",
-            "name": "Asset:134",
-            "description": "Asset:134",
+            "name": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D017526",
             "output_name": "Receptor, IGF Type 1",
             "expected_output": "number_4_NeverShow",

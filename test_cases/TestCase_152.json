@@ -1,7 +1,7 @@
 {
     "id": "TestCase_152",
-    "name": "Asset:153",
-    "description": "Asset:153",
+    "name": "Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
     "test_env": "ci",
     "test_case_type": "acceptance",
@@ -9,12 +9,12 @@
     "test_assets": [
         {
             "id": "Asset_153",
-            "name": "Asset:153",
-            "description": "Asset:153",
+            "name": "Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0003232",
             "output_name": "Antibiotics",
             "expected_output": "number_4_NeverShow",
