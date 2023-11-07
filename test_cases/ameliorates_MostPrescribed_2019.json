@@ -1,0 +1,19 @@
+{
+    "id": "ameliorates",
+    "name": "MostPrescribed_2019",
+    "description": "ameliorates_MostPrescribed_2019",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": "ameliorates",
+    "components": [
+        "ars",
+        "arax",
+        "bte",
+        "improving",
+        "aragorn"
+    ]
+}

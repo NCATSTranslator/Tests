@@ -1,0 +1,19 @@
+{
+    "id": "three_hop",
+    "name": "DrugMechDB",
+    "description": "three_hop_DrugMechDB",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": "three_hop",
+    "components": [
+        "ars",
+        "arax",
+        "bte",
+        "improving",
+        "aragorn"
+    ]
+}

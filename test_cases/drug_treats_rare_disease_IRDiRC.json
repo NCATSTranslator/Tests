@@ -1,0 +1,19 @@
+{
+    "id": "drug_treats_rare_disease",
+    "name": "IRDiRC",
+    "description": "drug_treats_rare_disease_IRDiRC",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": "drug_treats_rare_disease",
+    "components": [
+        "ars",
+        "arax",
+        "bte",
+        "improving",
+        "aragorn"
+    ]
+}
