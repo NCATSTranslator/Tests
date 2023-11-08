@@ -1,0 +1,15 @@
+{
+    "id": "DrugCentral_creative",
+    "name": "DrugCentral_creative",
+    "description": "DrugCentral_creative",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

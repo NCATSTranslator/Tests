@@ -1,0 +1,15 @@
+{
+    "id": "CPIC",
+    "name": "CPIC",
+    "description": "CPIC",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}
