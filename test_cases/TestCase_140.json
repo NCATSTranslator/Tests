@@ -1,16 +1,16 @@
 {
     "id": "TestCase_140",
-    "name": null,
-    "description": null,
+    "name": "dna_double_stranded_downregulate_DDX3Y",
+    "description": "dna_double_stranded_downregulate_DDX3Y",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:141",
-            "name": "Asset:141",
-            "description": "Asset:141",
+            "id": "Asset_141",
+            "name": "dna_double_stranded_downregulate_DDX3Y",
+            "description": "dna_double_stranded_downregulate_DDX3Y",
             "tags": [],
             "input_id": "NCBI Gene:8653",
             "input_name": "DDX3Y",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

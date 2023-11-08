@@ -1,20 +1,20 @@
 {
     "id": "TestCase_147",
-    "name": null,
-    "description": null,
+    "name": "Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:148",
-            "name": "Asset:148",
-            "description": "Asset:148",
+            "id": "Asset_148",
+            "name": "Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Pharmaceutical preparations",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

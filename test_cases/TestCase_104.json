@@ -1,20 +1,20 @@
 {
     "id": "TestCase_104",
-    "name": null,
-    "description": null,
+    "name": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+    "description": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:105",
-            "name": "Asset:105",
-            "description": "Asset:105",
+            "id": "Asset_105",
+            "name": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+            "description": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
             "tags": [],
             "input_id": "MONDO:0017314",
             "input_name": "Ehlers-Danlos Syndrome",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "alendronic acid",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

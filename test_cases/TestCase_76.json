@@ -1,20 +1,20 @@
 {
     "id": "TestCase_76",
-    "name": null,
-    "description": null,
+    "name": "Evolocumab_treats_Approved_for_Familial_hypercholesterolemia_homozygous_(LDLR)",
+    "description": "Evolocumab_treats_Approved_for_Familial_hypercholesterolemia_homozygous_(LDLR)",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:77",
-            "name": "Asset:77",
-            "description": "Asset:77",
+            "id": "Asset_77",
+            "name": "Evolocumab_treats_Approved_for_Familial_hypercholesterolemia_homozygous_(LDLR)",
+            "description": "Evolocumab_treats_Approved_for_Familial_hypercholesterolemia_homozygous_(LDLR)",
             "tags": [],
             "input_id": "",
             "input_name": "Approved for Familial hypercholesterolemia homozygous (LDLR)",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Evolocumab",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

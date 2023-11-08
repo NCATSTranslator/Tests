@@ -1,20 +1,20 @@
 {
     "id": "TestCase_51",
-    "name": null,
-    "description": null,
+    "name": "Mebendazole_treats_Hookworm_Infectious_Disease",
+    "description": "Mebendazole_treats_Hookworm_Infectious_Disease",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:52",
-            "name": "Asset:52",
-            "description": "Asset:52",
+            "id": "Asset_52",
+            "name": "Mebendazole_treats_Hookworm_Infectious_Disease",
+            "description": "Mebendazole_treats_Hookworm_Infectious_Disease",
             "tags": [],
             "input_id": "",
             "input_name": "Hookworm Infectious Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Mebendazole",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

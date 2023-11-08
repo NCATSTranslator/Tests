@@ -1,20 +1,20 @@
 {
     "id": "TestCase_115",
-    "name": null,
-    "description": null,
+    "name": "Anti-anxiety_agents_treats_Multiple_Sclerosis",
+    "description": "Anti-anxiety_agents_treats_Multiple_Sclerosis",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:116",
-            "name": "Asset:116",
-            "description": "Asset:116",
+            "id": "Asset_116",
+            "name": "Anti-anxiety_agents_treats_Multiple_Sclerosis",
+            "description": "Anti-anxiety_agents_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "UMLS:C0040616",
             "output_name": "Anti-anxiety agents",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

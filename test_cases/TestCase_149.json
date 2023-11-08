@@ -1,20 +1,20 @@
 {
     "id": "TestCase_149",
-    "name": null,
-    "description": null,
+    "name": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:150",
-            "name": "Asset:150",
-            "description": "Asset:150",
+            "id": "Asset_150",
+            "name": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "description": "Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D000779",
             "output_name": "Anesthetics, local",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

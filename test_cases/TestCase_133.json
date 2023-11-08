@@ -1,20 +1,20 @@
 {
     "id": "TestCase_133",
-    "name": null,
-    "description": null,
+    "name": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:134",
-            "name": "Asset:134",
-            "description": "Asset:134",
+            "id": "Asset_134",
+            "name": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D017526",
             "output_name": "Receptor, IGF Type 1",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

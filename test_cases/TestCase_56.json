@@ -1,20 +1,20 @@
 {
     "id": "TestCase_56",
-    "name": null,
-    "description": null,
+    "name": "_treats_Disease",
+    "description": "_treats_Disease",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:57",
-            "name": "Asset:57",
-            "description": "Asset:57",
+            "id": "Asset_57",
+            "name": "_treats_Disease",
+            "description": "_treats_Disease",
             "tags": [],
             "input_id": "MONDO:0000001",
             "input_name": "Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

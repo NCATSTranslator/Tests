@@ -1,20 +1,20 @@
 {
     "id": "TestCase_176",
-    "name": null,
-    "description": null,
+    "name": "Baclofen_treats_Cerebral_palsy",
+    "description": "Baclofen_treats_Cerebral_palsy",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:177",
-            "name": "Asset:177",
-            "description": "Asset:177",
+            "id": "Asset_177",
+            "name": "Baclofen_treats_Cerebral_palsy",
+            "description": "Baclofen_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:2284",
             "output_name": "Baclofen",
             "expected_output": "number_2_Acceptable",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

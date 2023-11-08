@@ -1,20 +1,20 @@
 {
     "id": "TestCase_66",
-    "name": null,
-    "description": null,
+    "name": "Imiglucerase_treats_Gaucher_Disease_type1",
+    "description": "Imiglucerase_treats_Gaucher_Disease_type1",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:67",
-            "name": "Asset:67",
-            "description": "Asset:67",
+            "id": "Asset_67",
+            "name": "Imiglucerase_treats_Gaucher_Disease_type1",
+            "description": "Imiglucerase_treats_Gaucher_Disease_type1",
             "tags": [],
             "input_id": "",
             "input_name": "Gaucher Disease type1",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Imiglucerase",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

@@ -1,20 +1,20 @@
 {
     "id": "TestCase_8",
-    "name": null,
-    "description": null,
+    "name": "natalizumab_treats_Multiple_Sclerosis",
+    "description": "natalizumab_treats_Multiple_Sclerosis",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:9",
-            "name": "Asset:9",
-            "description": "Asset:9",
+            "id": "Asset_9",
+            "name": "natalizumab_treats_Multiple_Sclerosis",
+            "description": "natalizumab_treats_Multiple_Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "natalizumab",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

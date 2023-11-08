@@ -1,20 +1,20 @@
 {
     "id": "TestCase_91",
-    "name": null,
-    "description": null,
+    "name": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:92",
-            "name": "Asset:92",
-            "description": "Asset:92",
+            "id": "Asset_92",
+            "name": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
             "tags": [],
             "input_id": "MONDO:0020333",
             "input_name": "Aggressive Systemic Mastocytosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "botulinum toxin",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

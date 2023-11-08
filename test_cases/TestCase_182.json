@@ -1,20 +1,20 @@
 {
     "id": "TestCase_182",
-    "name": null,
-    "description": null,
+    "name": "Thalidimide_treats_Nemaline_myopathy",
+    "description": "Thalidimide_treats_Nemaline_myopathy",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:183",
-            "name": "Asset:183",
-            "description": "Asset:183",
+            "id": "Asset_183",
+            "name": "Thalidimide_treats_Nemaline_myopathy",
+            "description": "Thalidimide_treats_Nemaline_myopathy",
             "tags": [],
             "input_id": "MONDO:0018958 ",
             "input_name": "Nemaline myopathy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:5426",
             "output_name": "Thalidimide",
             "expected_output": "number_2_Acceptable",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

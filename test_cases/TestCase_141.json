@@ -1,16 +1,16 @@
 {
     "id": "TestCase_141",
-    "name": null,
-    "description": null,
+    "name": "Small_molecule_downregulate_DDX3Y",
+    "description": "Small_molecule_downregulate_DDX3Y",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:142",
-            "name": "Asset:142",
-            "description": "Asset:142",
+            "id": "Asset_142",
+            "name": "Small_molecule_downregulate_DDX3Y",
+            "description": "Small_molecule_downregulate_DDX3Y",
             "tags": [],
             "input_id": "NCBI Gene:8653",
             "input_name": "DDX3Y",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

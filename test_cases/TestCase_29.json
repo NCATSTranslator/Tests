@@ -1,20 +1,20 @@
 {
     "id": "TestCase_29",
-    "name": null,
-    "description": null,
+    "name": "inorganic_oxide_treats_Aceruloplasminemia",
+    "description": "inorganic_oxide_treats_Aceruloplasminemia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:30",
-            "name": "Asset:30",
-            "description": "Asset:30",
+            "id": "Asset_30",
+            "name": "inorganic_oxide_treats_Aceruloplasminemia",
+            "description": "inorganic_oxide_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:24836",
             "output_name": "inorganic oxide",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

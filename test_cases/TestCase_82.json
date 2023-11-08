@@ -1,20 +1,20 @@
 {
     "id": "TestCase_82",
-    "name": null,
-    "description": null,
+    "name": "Busulfan_treats_Premature_Menopause",
+    "description": "Busulfan_treats_Premature_Menopause",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:83",
-            "name": "Asset:83",
-            "description": "Asset:83",
+            "id": "Asset_83",
+            "name": "Busulfan_treats_Premature_Menopause",
+            "description": "Busulfan_treats_Premature_Menopause",
             "tags": [],
             "input_id": "MONDO:0001119",
             "input_name": "Premature Menopause",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Busulfan",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

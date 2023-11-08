@@ -1,20 +1,20 @@
 {
     "id": "TestCase_177",
-    "name": null,
-    "description": null,
+    "name": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
+    "description": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:178",
-            "name": "Asset:178",
-            "description": "Asset:178",
+            "id": "Asset_178",
+            "name": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
+            "description": "Botulinum_toxin_type_b_treats_Cerebral_palsy",
             "tags": [],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBML:CHEMBL1201569",
             "output_name": "Botulinum toxin type b",
             "expected_output": "number_2_Acceptable",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

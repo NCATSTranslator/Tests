@@ -1,20 +1,20 @@
 {
     "id": "TestCase_37",
-    "name": null,
-    "description": null,
+    "name": "Mebendazole_treats_Lactose_intolerance",
+    "description": "Mebendazole_treats_Lactose_intolerance",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:38",
-            "name": "Asset:38",
-            "description": "Asset:38",
+            "id": "Asset_38",
+            "name": "Mebendazole_treats_Lactose_intolerance",
+            "description": "Mebendazole_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Mebendazole",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

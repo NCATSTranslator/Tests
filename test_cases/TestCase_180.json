@@ -1,20 +1,20 @@
 {
     "id": "TestCase_180",
-    "name": null,
-    "description": null,
+    "name": "Melphalan_treats_Nemaline_myopathy",
+    "description": "Melphalan_treats_Nemaline_myopathy",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:181",
-            "name": "Asset:181",
-            "description": "Asset:181",
+            "id": "Asset_181",
+            "name": "Melphalan_treats_Nemaline_myopathy",
+            "description": "Melphalan_treats_Nemaline_myopathy",
             "tags": [],
             "input_id": "MONDO:0018958 ",
             "input_name": "Nemaline myopathy",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:460612",
             "output_name": "Melphalan",
             "expected_output": "number_2_Acceptable",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

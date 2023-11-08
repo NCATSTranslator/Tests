@@ -1,20 +1,20 @@
 {
     "id": "TestCase_160",
-    "name": null,
-    "description": null,
+    "name": "Anions_treats_Fatal_familial_insomnia",
+    "description": "Anions_treats_Fatal_familial_insomnia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:161",
-            "name": "Asset:161",
-            "description": "Asset:161",
+            "id": "Asset_161",
+            "name": "Anions_treats_Fatal_familial_insomnia",
+            "description": "Anions_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D000838",
             "output_name": "Anions",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

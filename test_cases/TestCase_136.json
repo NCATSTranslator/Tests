@@ -1,20 +1,20 @@
 {
     "id": "TestCase_136",
-    "name": null,
-    "description": null,
+    "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+    "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:137",
-            "name": "Asset:137",
-            "description": "Asset:137",
+            "id": "Asset_137",
+            "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D016756",
             "output_name": "Immunoglobulins, intravenous",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

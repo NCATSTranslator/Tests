@@ -1,20 +1,20 @@
 {
     "id": "TestCase_92",
-    "name": null,
-    "description": null,
+    "name": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:93",
-            "name": "Asset:93",
-            "description": "Asset:93",
+            "id": "Asset_93",
+            "name": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
             "tags": [],
             "input_id": "MONDO:0020333",
             "input_name": "Aggressive Systemic Mastocytosis",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "dinoprostone",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

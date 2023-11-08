@@ -1,20 +1,20 @@
 {
     "id": "TestCase_52",
-    "name": null,
-    "description": null,
+    "name": "Pyranthel_treats_Hookworm_Infectious_Disease",
+    "description": "Pyranthel_treats_Hookworm_Infectious_Disease",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:53",
-            "name": "Asset:53",
-            "description": "Asset:53",
+            "id": "Asset_53",
+            "name": "Pyranthel_treats_Hookworm_Infectious_Disease",
+            "description": "Pyranthel_treats_Hookworm_Infectious_Disease",
             "tags": [],
             "input_id": "",
             "input_name": "Hookworm Infectious Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Pyranthel",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

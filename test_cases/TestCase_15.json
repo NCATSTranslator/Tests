@@ -1,20 +1,20 @@
 {
     "id": "TestCase_15",
-    "name": null,
-    "description": null,
+    "name": "desferrioxamine_treats_Aceruloplasminemia",
+    "description": "desferrioxamine_treats_Aceruloplasminemia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:16",
-            "name": "Asset:16",
-            "description": "Asset:16",
+            "id": "Asset_16",
+            "name": "desferrioxamine_treats_Aceruloplasminemia",
+            "description": "desferrioxamine_treats_Aceruloplasminemia",
             "tags": [],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "desferrioxamine",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

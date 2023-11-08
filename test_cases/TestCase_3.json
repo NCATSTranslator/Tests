@@ -1,20 +1,20 @@
 {
     "id": "TestCase_3",
-    "name": null,
-    "description": null,
+    "name": "Barbiturates_treats_NARP_Syndrome",
+    "description": "Barbiturates_treats_NARP_Syndrome",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:4",
-            "name": "Asset:4",
-            "description": "Asset:4",
+            "id": "Asset_4",
+            "name": "Barbiturates_treats_NARP_Syndrome",
+            "description": "Barbiturates_treats_NARP_Syndrome",
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Barbiturates",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

@@ -1,20 +1,20 @@
 {
     "id": "TestCase_172",
-    "name": null,
-    "description": null,
+    "name": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
+    "description": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:173",
-            "name": "Asset:173",
-            "description": "Asset:173",
+            "id": "Asset_173",
+            "name": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
+            "description": "Volatile_organic_compound_treats_Fatal_familial_insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "CHEBI:134179",
             "output_name": "Volatile organic compound",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

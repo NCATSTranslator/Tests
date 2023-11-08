@@ -1,20 +1,20 @@
 {
     "id": "TestCase_32",
-    "name": null,
-    "description": null,
+    "name": "beta-Lactose_treats_Lactose_intolerance",
+    "description": "beta-Lactose_treats_Lactose_intolerance",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:33",
-            "name": "Asset:33",
-            "description": "Asset:33",
+            "id": "Asset_33",
+            "name": "beta-Lactose_treats_Lactose_intolerance",
+            "description": "beta-Lactose_treats_Lactose_intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:6134",
             "output_name": "beta-Lactose",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

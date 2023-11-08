@@ -1,0 +1,15 @@
+{
+    "id": "drug_treats_rare_disease",
+    "name": "drug_treats_rare_disease",
+    "description": "drug_treats_rare_disease",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

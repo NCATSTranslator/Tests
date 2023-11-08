@@ -1,0 +1,15 @@
+{
+    "id": "three_hop",
+    "name": "three_hop",
+    "description": "three_hop",
+    "tags": [],
+    "test_env": "ci",
+    "test_case_type": "quantitative",
+    "query_type": null,
+    "test_assets": [],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

@@ -1,20 +1,20 @@
 {
     "id": "TestCase_102",
-    "name": null,
-    "description": null,
+    "name": "mercury_treats_Xeroderma_Pigmentosum",
+    "description": "mercury_treats_Xeroderma_Pigmentosum",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:103",
-            "name": "Asset:103",
-            "description": "Asset:103",
+            "id": "Asset_103",
+            "name": "mercury_treats_Xeroderma_Pigmentosum",
+            "description": "mercury_treats_Xeroderma_Pigmentosum",
             "tags": [],
             "input_id": "MONDO:0019600",
             "input_name": "Xeroderma Pigmentosum",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "mercury",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

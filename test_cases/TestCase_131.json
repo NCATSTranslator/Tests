@@ -1,20 +1,20 @@
 {
     "id": "TestCase_131",
-    "name": null,
-    "description": null,
+    "name": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:132",
-            "name": "Asset:132",
-            "description": "Asset:132",
+            "id": "Asset_132",
+            "name": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "PUBCHEM.COMPOUND:53462828",
             "output_name": "Thyroid hormones",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

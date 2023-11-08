@@ -1,20 +1,20 @@
 {
     "id": "TestCase_6",
-    "name": null,
-    "description": null,
+    "name": "Vehicle_Emissions_treats_Castleman_Disease",
+    "description": "Vehicle_Emissions_treats_Castleman_Disease",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:7",
-            "name": "Asset:7",
-            "description": "Asset:7",
+            "id": "Asset_7",
+            "name": "Vehicle_Emissions_treats_Castleman_Disease",
+            "description": "Vehicle_Emissions_treats_Castleman_Disease",
             "tags": [],
             "input_id": "MONDO:0015564",
             "input_name": "Castleman Disease",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "MESH:D001335",
             "output_name": "Vehicle Emissions",
             "expected_output": "number_4_NeverShow",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }

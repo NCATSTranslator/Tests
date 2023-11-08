@@ -1,20 +1,20 @@
 {
     "id": "TestCase_65",
-    "name": null,
-    "description": null,
+    "name": "Eliglustat_treats_Gaucher_Disease_type1",
+    "description": "Eliglustat_treats_Gaucher_Disease_type1",
     "tags": [],
-    "test_env": null,
-    "test_case_type": null,
+    "test_env": "ci",
+    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset:66",
-            "name": "Asset:66",
-            "description": "Asset:66",
+            "id": "Asset_66",
+            "name": "Eliglustat_treats_Gaucher_Disease_type1",
+            "description": "Eliglustat_treats_Gaucher_Disease_type1",
             "tags": [],
             "input_id": "",
             "input_name": "Gaucher Disease type1",
-            "predicate": "Treats",
+            "predicate": "treats",
             "output_id": "",
             "output_name": "Eliglustat",
             "expected_output": "number_1_TopAnswer",
@@ -22,10 +22,15 @@
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
+            "test_reference": null,
             "runner_settings": [
                 "inferred"
             ]
         }
     ],
-    "preconditions": []
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
 }
