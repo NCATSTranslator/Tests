@@ -4,7 +4,6 @@
     "description": "desferrioxamine_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
@@ -15,7 +14,7 @@
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "predicate": "treats",
-            "output_id": "",
+            "output_id": "CHEBI:50453",
             "output_name": "desferrioxamine",
             "expected_output": "number_1_TopAnswer",
             "test_issue": null,

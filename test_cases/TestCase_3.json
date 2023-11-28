@@ -4,7 +4,6 @@
     "description": "Barbiturates_treats_NARP_Syndrome",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
@@ -15,7 +14,7 @@
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
             "predicate": "treats",
-            "output_id": "",
+            "output_id": "MESH:D001463",
             "output_name": "Barbiturates",
             "expected_output": "number_4_NeverShow",
             "test_issue": null,

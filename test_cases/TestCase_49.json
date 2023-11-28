@@ -4,7 +4,6 @@
     "description": "particulate_matter_treats_Allergic_Asthma",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
@@ -12,10 +11,10 @@
             "name": "particulate_matter_treats_Allergic_Asthma",
             "description": "particulate_matter_treats_Allergic_Asthma",
             "tags": [],
-            "input_id": " ",
+            "input_id": "MONDO:0004784",
             "input_name": "Allergic Asthma",
             "predicate": "treats",
-            "output_id": "",
+            "output_id": "MESH:D052638",
             "output_name": "particulate matter",
             "expected_output": "number_4_NeverShow",
             "test_issue": null,

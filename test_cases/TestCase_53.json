@@ -4,7 +4,6 @@
     "description": "Thiabendazole_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
@@ -12,10 +11,10 @@
             "name": "Thiabendazole_treats_Hookworm_Infectious_Disease",
             "description": "Thiabendazole_treats_Hookworm_Infectious_Disease",
             "tags": [],
-            "input_id": "",
+            "input_id": "MONDO:0005799",
             "input_name": "Hookworm Infectious Disease",
             "predicate": "treats",
-            "output_id": "",
+            "output_id": "PUBCHEM.COMPOUND:5430",
             "output_name": "Thiabendazole",
             "expected_output": "number_1_TopAnswer",
             "test_issue": null,

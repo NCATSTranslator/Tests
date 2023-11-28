@@ -4,7 +4,6 @@
     "description": "DrugCentral_creative",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "quantitative",
     "query_type": null,
     "test_assets": [],
     "preconditions": [],

@@ -4,7 +4,6 @@
     "description": "fingolimod_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
@@ -15,7 +14,7 @@
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
             "predicate": "treats",
-            "output_id": "",
+            "output_id": "PUBCHEM.COMPOUND:107970",
             "output_name": "fingolimod",
             "expected_output": "number_1_TopAnswer",
             "test_issue": null,
