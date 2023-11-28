@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_258",
+    "name": "Blood_glucose_treats_Gastroesophageal_Reflux_Disease",
+    "description": "Blood_glucose_treats_Gastroesophageal_Reflux_Disease",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_259",
+            "name": "Blood_glucose_treats_Gastroesophageal_Reflux_Disease",
+            "description": "Blood_glucose_treats_Gastroesophageal_Reflux_Disease",
+            "tags": [],
+            "input_id": "MONDO:0007186",
+            "input_name": "Gastroesophageal Reflux Disease",
+            "predicate": "treats",
+            "output_id": "MESH:D001786",
+            "output_name": "Blood glucose",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

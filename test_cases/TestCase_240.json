@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_240",
+    "name": "Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
+    "description": "Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_241",
+            "name": "Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
+            "description": "Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
+            "tags": [],
+            "input_id": "MONDO:0004260",
+            "input_name": "Peptic Ulcer Perforation",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:784",
+            "output_name": "Hydrogen peroxide",
+            "expected_output": "number_3_BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

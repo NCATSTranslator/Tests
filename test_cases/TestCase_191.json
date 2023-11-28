@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_191",
+    "name": "Aerosols_treats_Cerebral_Palsy",
+    "description": "Aerosols_treats_Cerebral_Palsy",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_192",
+            "name": "Aerosols_treats_Cerebral_Palsy",
+            "description": "Aerosols_treats_Cerebral_Palsy",
+            "tags": [],
+            "input_id": "MONDO:0006497",
+            "input_name": "Cerebral Palsy",
+            "predicate": "treats",
+            "output_id": "MESH:D000336",
+            "output_name": "Aerosols",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

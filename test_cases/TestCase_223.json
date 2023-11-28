@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_223",
+    "name": "Anions_treats_Peptic_Ulcer_Perforation",
+    "description": "Anions_treats_Peptic_Ulcer_Perforation",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_224",
+            "name": "Anions_treats_Peptic_Ulcer_Perforation",
+            "description": "Anions_treats_Peptic_Ulcer_Perforation",
+            "tags": [],
+            "input_id": "MONDO:0004260",
+            "input_name": "Peptic Ulcer Perforation",
+            "predicate": "treats",
+            "output_id": "MESH:D000838",
+            "output_name": "Anions",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

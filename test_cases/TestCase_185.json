@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_185",
+    "name": "Insulin_human_treats_Diabetes_Mellitus",
+    "description": "Insulin_human_treats_Diabetes_Mellitus",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_186",
+            "name": "Insulin_human_treats_Diabetes_Mellitus",
+            "description": "Insulin_human_treats_Diabetes_Mellitus",
+            "tags": [],
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Mellitus",
+            "predicate": "treats",
+            "output_id": "UNII:1Y17CTI5SR",
+            "output_name": "Insulin human",
+            "expected_output": "number_1_TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

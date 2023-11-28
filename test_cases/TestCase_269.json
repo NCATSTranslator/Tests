@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_269",
+    "name": "Gadolinium_treats_Cowden_Disease",
+    "description": "Gadolinium_treats_Cowden_Disease",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_270",
+            "name": "Gadolinium_treats_Cowden_Disease",
+            "description": "Gadolinium_treats_Cowden_Disease",
+            "tags": [],
+            "input_id": "MONDO:0016063",
+            "input_name": "Cowden Disease",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:23982",
+            "output_name": "Gadolinium",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

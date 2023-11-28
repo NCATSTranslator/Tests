@@ -1,0 +1,35 @@
+{
+    "id": "TestCase_271",
+    "name": "Oxide_treats_Cowden_Disease",
+    "description": "Oxide_treats_Cowden_Disease",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_272",
+            "name": "Oxide_treats_Cowden_Disease",
+            "description": "Oxide_treats_Cowden_Disease",
+            "tags": [],
+            "input_id": "MONDO:0016063",
+            "input_name": "Cowden Disease",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:190217",
+            "output_name": "Oxide",
+            "expected_output": "number_4_NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ]
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}
