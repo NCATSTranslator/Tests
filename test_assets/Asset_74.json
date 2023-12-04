@@ -1,0 +1,30 @@
+{
+    "id": "Asset_74",
+    "name": "Evolocumab_treats_Homozygous_Familial_Hypercholesterolemia",
+    "description": "Evolocumab_treats_Homozygous_Familial_Hypercholesterolemia",
+    "tags": [],
+    "input_id": "MONDO:0018328",
+    "input_name": "Homozygous Familial Hypercholesterolemia",
+    "predicate": "treats",
+    "output_id": "UNII:LKC0U3A8NJ",
+    "output_name": "Evolocumab",
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

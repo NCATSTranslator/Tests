@@ -1,0 +1,30 @@
+{
+    "id": "Asset_30",
+    "name": "inorganic_oxide_treats_Aceruloplasminemia",
+    "description": "inorganic_oxide_treats_Aceruloplasminemia",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "predicate": "treats",
+    "output_id": "CHEBI:24836",
+    "output_name": "inorganic oxide",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "Asset_91",
+    "name": "4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+    "tags": [],
+    "input_id": "MONDO:0020333",
+    "input_name": "Aggressive Systemic Mastocytosis",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:1727",
+    "output_name": "4-Aminopyridine",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "Asset_151",
+    "name": "salts_treats_Fatal_familial_insomnia",
+    "description": "salts_treats_Fatal_familial_insomnia",
+    "tags": [],
+    "input_id": "MONDO:0010808",
+    "input_name": "Fatal familial insomnia",
+    "predicate": "treats",
+    "output_id": "MESH:D012492",
+    "output_name": "salts",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "Asset_41",
+    "name": "Levamisole_treats_Lactose_intolerance",
+    "description": "Levamisole_treats_Lactose_intolerance",
+    "tags": [],
+    "input_id": "MONDO:0100345",
+    "input_name": "Lactose intolerance",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:26879",
+    "output_name": "Levamisole",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

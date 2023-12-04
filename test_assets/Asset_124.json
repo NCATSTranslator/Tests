@@ -1,0 +1,30 @@
+{
+    "id": "Asset_124",
+    "name": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "tags": [],
+    "input_id": "MONDO:0018911",
+    "input_name": "Maturity-onset Diabetes Of The Young",
+    "predicate": "treats",
+    "output_id": "MESH:D011972",
+    "output_name": "Receptor, insulin",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

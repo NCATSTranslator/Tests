@@ -1,0 +1,30 @@
+{
+    "id": "Asset_185",
+    "name": "Metformin_treats_Diabetes_Mellitus",
+    "description": "Metformin_treats_Diabetes_Mellitus",
+    "tags": [],
+    "input_id": "MONDO:0005015",
+    "input_name": "Diabetes Mellitus",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:4091",
+    "output_name": "Metformin",
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

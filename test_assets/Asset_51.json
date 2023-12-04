@@ -1,0 +1,30 @@
+{
+    "id": "Asset_51",
+    "name": "Histamine_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "Histamine_treats_Aggressive_Systemic_Mastocytosis",
+    "tags": [],
+    "input_id": "MONDO:0020333",
+    "input_name": "Aggressive Systemic Mastocytosis",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:774",
+    "output_name": "Histamine",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

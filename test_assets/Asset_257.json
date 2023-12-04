@@ -1,0 +1,30 @@
+{
+    "id": "Asset_257",
+    "name": "Tobacco_smoke_pollution_treats_Gastroesophageal_Reflux_Disease",
+    "description": "Tobacco_smoke_pollution_treats_Gastroesophageal_Reflux_Disease",
+    "tags": [],
+    "input_id": "MONDO:0007186",
+    "input_name": "Gastroesophageal Reflux Disease",
+    "predicate": "treats",
+    "output_id": "MESH:D014028",
+    "output_name": "Tobacco smoke pollution",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

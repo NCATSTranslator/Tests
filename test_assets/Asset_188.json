@@ -1,0 +1,30 @@
+{
+    "id": "Asset_188",
+    "name": "Air_treats_Cerebral_Palsy",
+    "description": "Air_treats_Cerebral_Palsy",
+    "tags": [],
+    "input_id": "MONDO:0006497",
+    "input_name": "Cerebral Palsy",
+    "predicate": "treats",
+    "output_id": "UMLS:C3536832",
+    "output_name": "Air",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

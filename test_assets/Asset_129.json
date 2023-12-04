@@ -1,0 +1,30 @@
+{
+    "id": "Asset_129",
+    "name": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "tags": [],
+    "input_id": "MONDO:0018911",
+    "input_name": "Maturity-onset Diabetes Of The Young",
+    "predicate": "treats",
+    "output_id": "MESH:D003165",
+    "output_name": "Complement system proteins",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

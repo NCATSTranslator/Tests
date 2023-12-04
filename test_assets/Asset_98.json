@@ -1,0 +1,30 @@
+{
+    "id": "Asset_98",
+    "name": "vaccines_treats_multiple_sclerosis",
+    "description": "vaccines_treats_multiple_sclerosis",
+    "tags": [],
+    "input_id": "MONDO:0005301",
+    "input_name": "multiple sclerosis",
+    "predicate": "treats",
+    "output_id": "MESH:D014612",
+    "output_name": "vaccines",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/431",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

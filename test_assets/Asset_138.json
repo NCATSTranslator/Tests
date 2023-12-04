@@ -1,0 +1,30 @@
+{
+    "id": "Asset_138",
+    "name": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "tags": [],
+    "input_id": "MONDO:0018493",
+    "input_name": "Malignant Hyperthermia Of Anesthesia",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:3562",
+    "output_name": "Halothane",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

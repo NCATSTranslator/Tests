@@ -1,0 +1,30 @@
+{
+    "id": "Asset_183",
+    "name": "Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "description": "Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "tags": [],
+    "input_id": "MONDO:0015364",
+    "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+    "predicate": "treats",
+    "output_id": "MONDO:0009131",
+    "output_name": "Riley-day Syndrome",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

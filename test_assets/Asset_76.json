@@ -1,0 +1,30 @@
+{
+    "id": "Asset_76",
+    "name": "Lasofoxifene_treats_Premature_Menopause",
+    "description": "Lasofoxifene_treats_Premature_Menopause",
+    "tags": [],
+    "input_id": "MONDO:0001119",
+    "input_name": "Premature Menopause",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:216416",
+    "output_name": "Lasofoxifene",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

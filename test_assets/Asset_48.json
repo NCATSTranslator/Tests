@@ -1,0 +1,30 @@
+{
+    "id": "Asset_48",
+    "name": "Basis_treats_Premature_Menopause",
+    "description": "Basis_treats_Premature_Menopause",
+    "tags": [],
+    "input_id": "MONDO:0001119",
+    "input_name": "Premature Menopause",
+    "predicate": "treats",
+    "output_id": "UMLS:C1874451",
+    "output_name": "Basis",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

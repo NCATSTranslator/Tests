@@ -1,0 +1,30 @@
+{
+    "id": "Asset_13",
+    "name": "anakinra_treats_Multiple_Sclerosis",
+    "description": "anakinra_treats_Multiple_Sclerosis",
+    "tags": [],
+    "input_id": "MONDO:0015564",
+    "input_name": "Multiple Sclerosis",
+    "predicate": "treats",
+    "output_id": "UNII:9013DUQ28K",
+    "output_name": "anakinra",
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

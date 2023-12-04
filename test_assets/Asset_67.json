@@ -1,0 +1,30 @@
+{
+    "id": "Asset_67",
+    "name": "Miglustat_treats_Gaucher_Disease_type1",
+    "description": "Miglustat_treats_Gaucher_Disease_type1",
+    "tags": [],
+    "input_id": "MONDO:0009265",
+    "input_name": "Gaucher Disease type1",
+    "predicate": "treats",
+    "output_id": "PUBCHEM.COMPOUND:51634",
+    "output_name": "Miglustat",
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

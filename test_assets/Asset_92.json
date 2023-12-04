@@ -1,0 +1,30 @@
+{
+    "id": "Asset_92",
+    "name": "retinol_treats_familial_pityriasis_rubra_pilaris",
+    "description": "retinol_treats_familial_pityriasis_rubra_pilaris",
+    "tags": [],
+    "input_id": "MONDO:0008251",
+    "input_name": "familial pityriasis rubra pilaris",
+    "predicate": "treats",
+    "output_id": "",
+    "output_name": "retinol",
+    "expected_output": "BadButForgivable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/473",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

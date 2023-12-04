@@ -1,0 +1,30 @@
+{
+    "id": "Asset_59",
+    "name": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+    "description": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+    "tags": [],
+    "input_id": "MONDO:0017314",
+    "input_name": "Ehlers-Danlos Syndrome",
+    "predicate": "treats",
+    "output_id": "UNII:1BJ477IO2L",
+    "output_name": "Gadobutrol",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

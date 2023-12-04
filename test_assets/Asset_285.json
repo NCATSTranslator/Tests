@@ -1,0 +1,30 @@
+{
+    "id": "Asset_285",
+    "name": "Nucleons_treats_Cowden_Disease",
+    "description": "Nucleons_treats_Cowden_Disease",
+    "tags": [],
+    "input_id": "MONDO:0016063",
+    "input_name": "Cowden Disease",
+    "predicate": "treats",
+    "output_id": "MESH:D000071940",
+    "output_name": "Nucleons",
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
