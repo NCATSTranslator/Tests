@@ -1,23 +1,22 @@
 {
     "id": "TestCase_27",
-    "name": "cyclic_compound_treats_Aceruloplasminemia",
-    "description": "cyclic_compound_treats_Aceruloplasminemia",
+    "name": "Prednisone_treats_scotoma, vigabatrin_treats_scotoma",
+    "description": "Prednisone_treats_scotoma; vigabatrin_treats_scotoma",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_28",
-            "name": "cyclic_compound_treats_Aceruloplasminemia",
-            "description": "cyclic_compound_treats_Aceruloplasminemia",
+            "id": "Asset_140",
+            "name": "Prednisone_treats_scotoma",
+            "description": "Prednisone_treats_scotoma",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
             "predicate": "treats",
-            "output_id": "CHEBI:33595",
-            "output_name": "cyclic compound",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "Prednisone",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,47 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_141",
+            "name": "vigabatrin_treats_scotoma",
+            "description": "vigabatrin_treats_scotoma",
+            "tags": [],
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5665",
+            "output_name": "vigabatrin",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

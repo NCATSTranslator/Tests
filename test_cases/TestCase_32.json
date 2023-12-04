@@ -1,23 +1,22 @@
 {
     "id": "TestCase_32",
-    "name": "beta-Lactose_treats_Lactose_intolerance",
-    "description": "beta-Lactose_treats_Lactose_intolerance",
+    "name": "Pegloticase_treats_Gout, Prednisone_treats_Gout",
+    "description": "Pegloticase_treats_Gout; Prednisone_treats_Gout",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_33",
-            "name": "beta-Lactose_treats_Lactose_intolerance",
-            "description": "beta-Lactose_treats_Lactose_intolerance",
+            "id": "Asset_180",
+            "name": "Pegloticase_treats_Gout",
+            "description": "Pegloticase_treats_Gout",
             "tags": [],
-            "input_id": "MONDO:0100345",
-            "input_name": "Lactose intolerance",
+            "input_id": "MONDO:0005393",
+            "input_name": "Gout",
             "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:6134",
-            "output_name": "beta-Lactose",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "UNNI:R581OT55EA",
+            "output_name": "Pegloticase",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,47 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_181",
+            "name": "Prednisone_treats_Gout",
+            "description": "Prednisone_treats_Gout",
+            "tags": [],
+            "input_id": "MONDO:0005393",
+            "input_name": "Gout",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "Prednisone",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

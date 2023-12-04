@@ -1,23 +1,22 @@
 {
     "id": "TestCase_7",
-    "name": "fingolimod_treats_Multiple_Sclerosis",
-    "description": "fingolimod_treats_Multiple_Sclerosis",
+    "name": "methylphenidate_treats_Ehlers-Danlos_Syndrome, Omniscan_treats_Ehlers-Danlos_Syndrome, Gadobutrol_treats_Ehlers-Danlos_Syndrome, Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome, alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+    "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome; Omniscan_treats_Ehlers-Danlos_Syndrome; Gadobutrol_treats_Ehlers-Danlos_Syndrome; Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome; alendronic_acid_treats_Ehlers-Danlos_Syndrome",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_8",
-            "name": "fingolimod_treats_Multiple_Sclerosis",
-            "description": "fingolimod_treats_Multiple_Sclerosis",
+            "id": "Asset_49",
+            "name": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
+            "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
             "tags": [],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "predicate": "treats",
-            "output_id": "",
-            "output_name": "fingolimod",
-            "expected_output": "number_1_TopAnswer",
+            "output_id": "PUBCHEM.COMPOUND:4158",
+            "output_name": "methylphenidate",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,137 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/562",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_58",
+            "name": "Omniscan_treats_Ehlers-Danlos_Syndrome",
+            "description": "Omniscan_treats_Ehlers-Danlos_Syndrome",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:24847884",
+            "output_name": "Omniscan",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_59",
+            "name": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+            "description": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "treats",
+            "output_id": "UNII:1BJ477IO2L",
+            "output_name": "Gadobutrol",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_60",
+            "name": "Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
+            "description": "Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:73415823",
+            "output_name": "Gadopentetate dimeglumine",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_99",
+            "name": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+            "description": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+            "tags": [],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "predicate": "treats",
+            "output_id": "",
+            "output_name": "alendronic acid",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

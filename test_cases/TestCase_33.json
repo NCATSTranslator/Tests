@@ -1,23 +1,22 @@
 {
     "id": "TestCase_33",
-    "name": "Plant_extracts_treats_Lactose_intolerance",
-    "description": "Plant_extracts_treats_Lactose_intolerance",
+    "name": "Ethanol_treats_alcoholic_hepatitis, Ethanol_treats_alcoholic_hepatitis, Fenthion_treats_alcoholic_hepatitis, Isoxaflutole_treats_alcoholic_hepatitis, Rotenone_treats_alcoholic_hepatitis, Lindane_treats_alcoholic_hepatitis, Pharmaceutical_preparations_treats_alcoholic_hepatitis, Acetaminophen_treats_alcoholic_hepatitis, Nanotubes,_carbon_treats_alcoholic_hepatitis, Bisphenol_a_treats_alcoholic_hepatitis, Water_treats_alcoholic_hepatitis, Ketorolac_treats_alcoholic_hepatitis, Ouabain_treats_alcoholic_hepatitis, Formaldehyde_treats_alcoholic_hepatitis, Cocaine_treats_alcoholic_hepatitis, Coumarin_treats_alcoholic_hepatitis, Mineral_oil_treats_alcoholic_hepatitis, Methamphetamine_treats_alcoholic_hepatitis",
+    "description": "Ethanol_treats_alcoholic_hepatitis; Ethanol_treats_alcoholic_hepatitis; Fenthion_treats_alcoholic_hepatitis; Isoxaflutole_treats_alcoholic_hepatitis; Rotenone_treats_alcoholic_hepatitis; Lindane_treats_alcoholic_hepatitis; Pharmaceutical_preparations_treats_alcoholic_hepatitis; Acetaminophen_treats_alcoholic_hepatitis; Nanotubes,_carbon_treats_alcoholic_hepatitis; Bisphenol_a_treats_alcoholic_hepatitis; Water_treats_alcoholic_hepatitis; Ketorolac_treats_alcoholic_hepatitis; Ouabain_treats_alcoholic_hepatitis; Formaldehyde_treats_alcoholic_hepatitis; Cocaine_treats_alcoholic_hepatitis; Coumarin_treats_alcoholic_hepatitis; Mineral_oil_treats_alcoholic_hepatitis; Methamphetamine_treats_alcoholic_hepatitis",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_34",
-            "name": "Plant_extracts_treats_Lactose_intolerance",
-            "description": "Plant_extracts_treats_Lactose_intolerance",
+            "id": "Asset_195",
+            "name": "Ethanol_treats_alcoholic_hepatitis",
+            "description": "Ethanol_treats_alcoholic_hepatitis",
             "tags": [],
-            "input_id": "MONDO:0100345",
-            "input_name": "Lactose intolerance",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "predicate": "treats",
-            "output_id": "MESH:D010936",
-            "output_name": "Plant extracts",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "PUBCHEM.COMPOUND:702",
+            "output_name": "Ethanol",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,527 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_196",
+            "name": "Ethanol_treats_alcoholic_hepatitis",
+            "description": "Ethanol_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:702",
+            "output_name": "Ethanol",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_197",
+            "name": "Fenthion_treats_alcoholic_hepatitis",
+            "description": "Fenthion_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3346",
+            "output_name": "Fenthion",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_198",
+            "name": "Isoxaflutole_treats_alcoholic_hepatitis",
+            "description": "Isoxaflutole_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_199",
+            "name": "Rotenone_treats_alcoholic_hepatitis",
+            "description": "Rotenone_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6758",
+            "output_name": "Rotenone",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_200",
+            "name": "Lindane_treats_alcoholic_hepatitis",
+            "description": "Lindane_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "UNII:59NEE7PCAB",
+            "output_name": "Lindane",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_201",
+            "name": "Pharmaceutical_preparations_treats_alcoholic_hepatitis",
+            "description": "Pharmaceutical_preparations_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_202",
+            "name": "Acetaminophen_treats_alcoholic_hepatitis",
+            "description": "Acetaminophen_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1983",
+            "output_name": "Acetaminophen",
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_203",
+            "name": "Nanotubes,_carbon_treats_alcoholic_hepatitis",
+            "description": "Nanotubes,_carbon_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "MESH:D037742",
+            "output_name": "Nanotubes, carbon",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_204",
+            "name": "Bisphenol_a_treats_alcoholic_hepatitis",
+            "description": "Bisphenol_a_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6623",
+            "output_name": "Bisphenol a",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_205",
+            "name": "Water_treats_alcoholic_hepatitis",
+            "description": "Water_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:962",
+            "output_name": "Water",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_206",
+            "name": "Ketorolac_treats_alcoholic_hepatitis",
+            "description": "Ketorolac_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3826",
+            "output_name": "Ketorolac",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_207",
+            "name": "Ouabain_treats_alcoholic_hepatitis",
+            "description": "Ouabain_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:439501",
+            "output_name": "Ouabain",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_208",
+            "name": "Formaldehyde_treats_alcoholic_hepatitis",
+            "description": "Formaldehyde_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:712",
+            "output_name": "Formaldehyde",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_209",
+            "name": "Cocaine_treats_alcoholic_hepatitis",
+            "description": "Cocaine_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:446220",
+            "output_name": "Cocaine",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_210",
+            "name": "Coumarin_treats_alcoholic_hepatitis",
+            "description": "Coumarin_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:323",
+            "output_name": "Coumarin",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_211",
+            "name": "Mineral_oil_treats_alcoholic_hepatitis",
+            "description": "Mineral_oil_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "CHEMBL:2109152",
+            "output_name": "Mineral oil",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_212",
+            "name": "Methamphetamine_treats_alcoholic_hepatitis",
+            "description": "Methamphetamine_treats_alcoholic_hepatitis",
+            "tags": [],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:10836",
+            "output_name": "Methamphetamine",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

@@ -1,23 +1,22 @@
 {
     "id": "TestCase_12",
-    "name": "anakinra_treats_Castleman's",
-    "description": "anakinra_treats_Castleman's",
+    "name": "_treats_Diabetes_Milletus, Pharmaceutical_preparations_treats_Diabetes_Mellitus, Metformin_treats_Diabetes_Mellitus, Insulin_human_treats_Diabetes_Mellitus, Insulin_detremir_treats_Diabetes_Mellitus",
+    "description": "_treats_Diabetes_Milletus; Pharmaceutical_preparations_treats_Diabetes_Mellitus; Metformin_treats_Diabetes_Mellitus; Insulin_human_treats_Diabetes_Mellitus; Insulin_detremir_treats_Diabetes_Mellitus",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_13",
-            "name": "anakinra_treats_Castleman's",
-            "description": "anakinra_treats_Castleman's",
+            "id": "Asset_61",
+            "name": "_treats_Diabetes_Milletus",
+            "description": "_treats_Diabetes_Milletus",
             "tags": [],
-            "input_id": "MONDO:0015564",
-            "input_name": "Castleman's",
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Milletus",
             "predicate": "treats",
-            "output_id": "UNII:9013DUQ28K",
-            "output_name": "anakinra",
-            "expected_output": "number_1_TopAnswer",
+            "output_id": "",
+            "output_name": "",
+            "expected_output": null,
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,137 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_184",
+            "name": "Pharmaceutical_preparations_treats_Diabetes_Mellitus",
+            "description": "Pharmaceutical_preparations_treats_Diabetes_Mellitus",
+            "tags": [],
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Mellitus",
+            "predicate": "treats",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "expected_output": null,
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_185",
+            "name": "Metformin_treats_Diabetes_Mellitus",
+            "description": "Metformin_treats_Diabetes_Mellitus",
+            "tags": [],
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Mellitus",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:4091",
+            "output_name": "Metformin",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_186",
+            "name": "Insulin_human_treats_Diabetes_Mellitus",
+            "description": "Insulin_human_treats_Diabetes_Mellitus",
+            "tags": [],
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Mellitus",
+            "predicate": "treats",
+            "output_id": "UNII:1Y17CTI5SR",
+            "output_name": "Insulin human",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_187",
+            "name": "Insulin_detremir_treats_Diabetes_Mellitus",
+            "description": "Insulin_detremir_treats_Diabetes_Mellitus",
+            "tags": [],
+            "input_id": "MONDO:0005015",
+            "input_name": "Diabetes Mellitus",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:16137271",
+            "output_name": "Insulin detremir",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

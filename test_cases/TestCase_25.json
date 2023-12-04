@@ -1,23 +1,22 @@
 {
     "id": "TestCase_25",
-    "name": "main_group_molecular_entity_treats_Aceruloplasminemia",
-    "description": "main_group_molecular_entity_treats_Aceruloplasminemia",
+    "name": "dna_double_stranded_downregulate_DDX3Y, Small_molecule_downregulate_DDX3Y",
+    "description": "dna_double_stranded_downregulate_DDX3Y; Small_molecule_downregulate_DDX3Y",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_26",
-            "name": "main_group_molecular_entity_treats_Aceruloplasminemia",
-            "description": "main_group_molecular_entity_treats_Aceruloplasminemia",
+            "id": "Asset_135",
+            "name": "dna_double_stranded_downregulate_DDX3Y",
+            "description": "dna_double_stranded_downregulate_DDX3Y",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "predicate": "treats",
-            "output_id": "CHEBI:33579",
-            "output_name": "main group molecular entity",
-            "expected_output": "number_4_NeverShow",
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "predicate": "downregulate",
+            "output_id": "UMLS:C0311474",
+            "output_name": "dna double stranded",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,47 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_136",
+            "name": "Small_molecule_downregulate_DDX3Y",
+            "description": "Small_molecule_downregulate_DDX3Y",
+            "tags": [],
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "predicate": "downregulate",
+            "output_id": "UMLS:C1328819",
+            "output_name": "Small molecule",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

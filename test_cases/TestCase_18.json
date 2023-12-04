@@ -1,23 +1,22 @@
 {
     "id": "TestCase_18",
-    "name": "molecular_entity_treats_Aceruloplasminemia",
-    "description": "molecular_entity_treats_Aceruloplasminemia",
+    "name": "fibrinogen_treats_Heart_Disorder",
+    "description": "fibrinogen_treats_Heart_Disorder",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_19",
-            "name": "molecular_entity_treats_Aceruloplasminemia",
-            "description": "molecular_entity_treats_Aceruloplasminemia",
+            "id": "Asset_90",
+            "name": "fibrinogen_treats_Heart_Disorder",
+            "description": "fibrinogen_treats_Heart_Disorder",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
+            "input_id": "MONDO:0005267",
+            "input_name": "Heart Disorder",
             "predicate": "treats",
-            "output_id": "CHEBI:23367",
-            "output_name": "molecular entity",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "",
+            "output_name": "fibrinogen",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,7 +24,17 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
