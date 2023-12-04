@@ -1,0 +1,135 @@
+{
+    "id": "TestCase_23",
+    "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type, Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type, Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy, Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type; Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type; Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy; Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_131",
+            "name": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "description": "Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "tags": [],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "predicate": "treats",
+            "output_id": "MESH:D016756",
+            "output_name": "Immunoglobulins, intravenous",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_132",
+            "name": "Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "description": "Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "tags": [],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_182",
+            "name": "Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "description": "Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "tags": [],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "predicate": "treats",
+            "output_id": "MONDO:0016028",
+            "output_name": "Erythromelalgia",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_183",
+            "name": "Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "description": "Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "tags": [],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "predicate": "treats",
+            "output_id": "MONDO:0009131",
+            "output_name": "Riley-day Syndrome",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}

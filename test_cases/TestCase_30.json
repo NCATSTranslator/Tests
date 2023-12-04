@@ -1,0 +1,135 @@
+{
+    "id": "TestCase_30",
+    "name": "Tyrosine_treats_Nemaline_myopathy, Melphalan_treats_Nemaline_myopathy, 2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy, Thalidimide_treats_Nemaline_myopathy",
+    "description": "Tyrosine_treats_Nemaline_myopathy; Melphalan_treats_Nemaline_myopathy; 2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy; Thalidimide_treats_Nemaline_myopathy",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_174",
+            "name": "Tyrosine_treats_Nemaline_myopathy",
+            "description": "Tyrosine_treats_Nemaline_myopathy",
+            "tags": [],
+            "input_id": "MONDO:0018958 ",
+            "input_name": "Nemaline myopathy",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6057",
+            "output_name": "Tyrosine",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_175",
+            "name": "Melphalan_treats_Nemaline_myopathy",
+            "description": "Melphalan_treats_Nemaline_myopathy",
+            "tags": [],
+            "input_id": "MONDO:0018958 ",
+            "input_name": "Nemaline myopathy",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:460612",
+            "output_name": "Melphalan",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_176",
+            "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy",
+            "description": "2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy",
+            "tags": [],
+            "input_id": "MONDO:0018958 ",
+            "input_name": "Nemaline myopathy",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:15625",
+            "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_177",
+            "name": "Thalidimide_treats_Nemaline_myopathy",
+            "description": "Thalidimide_treats_Nemaline_myopathy",
+            "tags": [],
+            "input_id": "MONDO:0018958 ",
+            "input_name": "Nemaline myopathy",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5426",
+            "output_name": "Thalidimide",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ]
+}
