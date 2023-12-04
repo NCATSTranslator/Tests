@@ -1,22 +1,22 @@
 {
     "id": "TestCase_9",
-    "name": "lead_treats_Multiple_Sclerosis",
-    "description": "lead_treats_Multiple_Sclerosis",
+    "name": "Histamine_treats_Aggressive_Systemic_Mastocytosis, ibuprofen_treats_Aggressive_Systemic_Mastocytosis, botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis, dinoprostone_treats_Aggressive_Systemic_Mastocytosis, calcitriol_treats_Aggressive_Systemic_Mastocytosis, ergocalciferol_treats_Aggressive_Systemic_Mastocytosis, 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "Histamine_treats_Aggressive_Systemic_Mastocytosis; ibuprofen_treats_Aggressive_Systemic_Mastocytosis; botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis; dinoprostone_treats_Aggressive_Systemic_Mastocytosis; calcitriol_treats_Aggressive_Systemic_Mastocytosis; ergocalciferol_treats_Aggressive_Systemic_Mastocytosis; 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_10",
-            "name": "lead_treats_Multiple_Sclerosis",
-            "description": "lead_treats_Multiple_Sclerosis",
+            "id": "Asset_51",
+            "name": "Histamine_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "Histamine_treats_Aggressive_Systemic_Mastocytosis",
             "tags": [],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5352425",
-            "output_name": "lead",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "PUBCHEM.COMPOUND:774",
+            "output_name": "Histamine",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,197 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_85",
+            "name": "ibuprofen_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "ibuprofen_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3672",
+            "output_name": "ibuprofen",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_86",
+            "name": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "NCIT:C163032",
+            "output_name": "botulinum toxin",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_87",
+            "name": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "",
+            "output_name": "dinoprostone",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_88",
+            "name": "calcitriol_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "calcitriol_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "",
+            "output_name": "calcitriol",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_89",
+            "name": "ergocalciferol_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "ergocalciferol_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5280793",
+            "output_name": "ergocalciferol",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_91",
+            "name": "4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-Aminopyridine",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

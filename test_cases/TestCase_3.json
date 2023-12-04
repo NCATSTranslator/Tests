@@ -1,22 +1,22 @@
 {
     "id": "TestCase_3",
-    "name": "Barbiturates_treats_NARP_Syndrome",
-    "description": "Barbiturates_treats_NARP_Syndrome",
+    "name": "Vehicle_Emissions_treats_Castleman_Disease, sirolimus_treats_Multiple_Sclerosis, rituximab_treats_Multiple_Sclerosis, anakinra_treats_Multiple_Sclerosis, interferon-alpha_treats_Multiple_Sclerosis",
+    "description": "Vehicle_Emissions_treats_Castleman_Disease; sirolimus_treats_Multiple_Sclerosis; rituximab_treats_Multiple_Sclerosis; anakinra_treats_Multiple_Sclerosis; interferon-alpha_treats_Multiple_Sclerosis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_4",
-            "name": "Barbiturates_treats_NARP_Syndrome",
-            "description": "Barbiturates_treats_NARP_Syndrome",
+            "id": "Asset_7",
+            "name": "Vehicle_Emissions_treats_Castleman_Disease",
+            "description": "Vehicle_Emissions_treats_Castleman_Disease",
             "tags": [],
-            "input_id": "MONDO:0010794",
-            "input_name": "NARP Syndrome",
+            "input_id": "MONDO:0015564",
+            "input_name": "Castleman Disease",
             "predicate": "treats",
-            "output_id": "MESH:D001463",
-            "output_name": "Barbiturates",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "MESH:D001335",
+            "output_name": "Vehicle Emissions",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,137 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/480",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_11",
+            "name": "sirolimus_treats_Multiple_Sclerosis",
+            "description": "sirolimus_treats_Multiple_Sclerosis",
+            "tags": [],
+            "input_id": "MONDO:0015564",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5284616",
+            "output_name": "sirolimus",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_12",
+            "name": "rituximab_treats_Multiple_Sclerosis",
+            "description": "rituximab_treats_Multiple_Sclerosis",
+            "tags": [],
+            "input_id": "MONDO:0015564",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "treats",
+            "output_id": "UNII:4F4X42SYQ6",
+            "output_name": "rituximab",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_13",
+            "name": "anakinra_treats_Multiple_Sclerosis",
+            "description": "anakinra_treats_Multiple_Sclerosis",
+            "tags": [],
+            "input_id": "MONDO:0015564",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "treats",
+            "output_id": "UNII:9013DUQ28K",
+            "output_name": "anakinra",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_14",
+            "name": "interferon-alpha_treats_Multiple_Sclerosis",
+            "description": "interferon-alpha_treats_Multiple_Sclerosis",
+            "tags": [],
+            "input_id": "MONDO:0015564",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "treats",
+            "output_id": "UMLS:C0002199",
+            "output_name": "interferon-alpha",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

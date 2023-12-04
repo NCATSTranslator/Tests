@@ -1,22 +1,22 @@
 {
     "id": "TestCase_24",
-    "name": "heteroorganic_entity_treats_Aceruloplasminemia",
-    "description": "heteroorganic_entity_treats_Aceruloplasminemia",
+    "name": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4, Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4, Methamidophos_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+    "description": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4; Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4; Methamidophos_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_25",
-            "name": "heteroorganic_entity_treats_Aceruloplasminemia",
-            "description": "heteroorganic_entity_treats_Aceruloplasminemia",
+            "id": "Asset_133",
+            "name": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "description": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
             "predicate": "treats",
-            "output_id": "CHEBI:33285",
-            "output_name": "heteroorganic entity",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "PUBCHEM.COMPOUND:5462310",
+            "output_name": "Carbon",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,77 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/404",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_134",
+            "name": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "description": "Botulinum_toxin_type_a_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "tags": [],
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+            "predicate": "treats",
+            "output_id": "UNII:E211KPY694",
+            "output_name": "Botulinum toxin type a",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/405",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_137",
+            "name": "Methamidophos_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "description": "Methamidophos_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+            "tags": [],
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:4096",
+            "output_name": "Methamidophos",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

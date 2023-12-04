@@ -1,22 +1,22 @@
 {
     "id": "TestCase_11",
-    "name": "rituximab_treats_Multiple_Sclerosis",
-    "description": "rituximab_treats_Multiple_Sclerosis",
+    "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+    "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_12",
-            "name": "rituximab_treats_Multiple_Sclerosis",
-            "description": "rituximab_treats_Multiple_Sclerosis",
+            "id": "Asset_57",
+            "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+            "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
             "tags": [],
-            "input_id": "MONDO:0015564",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0004975",
+            "input_name": "Alzheimer Disease",
             "predicate": "treats",
-            "output_id": "UNII:4F4X42SYQ6",
-            "output_name": "rituximab",
-            "expected_output": "number_1_TopAnswer",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,17 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

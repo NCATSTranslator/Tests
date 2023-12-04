@@ -1,7 +1,7 @@
 {
     "id": "TestCase_0",
-    "name": "Iron_(PUBCHEM)_treats_Aceruloplasminemia",
-    "description": "Iron_(PUBCHEM)_treats_Aceruloplasminemia",
+    "name": "Iron_(PUBCHEM)_treats_Aceruloplasminemia, organic_group_treats_Aceruloplasminemia, iron_treats_Multiple_Sclerosis, desferrioxamine_treats_Aceruloplasminemia, Iron_(PUBCHEM)_treats_Aceruloplasminemia, Organic_Chemicals_treats_Aceruloplasminemia, molecular_entity_treats_Aceruloplasminemia, molecule_treats_Aceruloplasminemia, oxygen_molecular_entity_treats_Aceruloplasminemia, polyatomic_entity_treats_Aceruloplasminemia, carbon_group_molecular_entity_treats_Aceruloplasminemia, inorganic_chemicals_treats_Aceruloplasminemia, heteroorganic_entity_treats_Aceruloplasminemia, main_group_molecular_entity_treats_Aceruloplasminemia, heteroatomic_molecular_entity_treats_Aceruloplasminemia, cyclic_compound_treats_Aceruloplasminemia, heterocyclic_compounds_treats_Aceruloplasminemia, inorganic_oxide_treats_Aceruloplasminemia, chemical_entity_treats_Aceruloplasminemia, cell_nucleus_treats_Aceruloplasminemia, Rotenone_treats_Aceruloplasminemia",
+    "description": "Iron_(PUBCHEM)_treats_Aceruloplasminemia; organic_group_treats_Aceruloplasminemia; iron_treats_Multiple_Sclerosis; desferrioxamine_treats_Aceruloplasminemia; Iron_(PUBCHEM)_treats_Aceruloplasminemia; Organic_Chemicals_treats_Aceruloplasminemia; molecular_entity_treats_Aceruloplasminemia; molecule_treats_Aceruloplasminemia; oxygen_molecular_entity_treats_Aceruloplasminemia; polyatomic_entity_treats_Aceruloplasminemia; carbon_group_molecular_entity_treats_Aceruloplasminemia; inorganic_chemicals_treats_Aceruloplasminemia; heteroorganic_entity_treats_Aceruloplasminemia; main_group_molecular_entity_treats_Aceruloplasminemia; heteroatomic_molecular_entity_treats_Aceruloplasminemia; cyclic_compound_treats_Aceruloplasminemia; heterocyclic_compounds_treats_Aceruloplasminemia; inorganic_oxide_treats_Aceruloplasminemia; chemical_entity_treats_Aceruloplasminemia; cell_nucleus_treats_Aceruloplasminemia; Rotenone_treats_Aceruloplasminemia",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
@@ -16,7 +16,7 @@
             "predicate": "treats",
             "output_id": "DRUGBANK:DB01592",
             "output_name": "Iron (PUBCHEM)",
-            "expected_output": "number_4_NeverShow",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,617 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_2",
+            "name": "organic_group_treats_Aceruloplasminemia",
+            "description": "organic_group_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:33247",
+            "output_name": "organic group",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_15",
+            "name": "iron_treats_Multiple_Sclerosis",
+            "description": "iron_treats_Multiple_Sclerosis",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Multiple Sclerosis",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:23925",
+            "output_name": "iron",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_16",
+            "name": "desferrioxamine_treats_Aceruloplasminemia",
+            "description": "desferrioxamine_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:50453",
+            "output_name": "desferrioxamine",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_17",
+            "name": "Iron_(PUBCHEM)_treats_Aceruloplasminemia",
+            "description": "Iron_(PUBCHEM)_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "DRUGBANK:DB01592",
+            "output_name": "Iron (PUBCHEM)",
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_18",
+            "name": "Organic_Chemicals_treats_Aceruloplasminemia",
+            "description": "Organic_Chemicals_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "MESH:D009930",
+            "output_name": "Organic Chemicals",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_19",
+            "name": "molecular_entity_treats_Aceruloplasminemia",
+            "description": "molecular_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:23367",
+            "output_name": "molecular entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_20",
+            "name": "molecule_treats_Aceruloplasminemia",
+            "description": "molecule_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:25367",
+            "output_name": "molecule",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_21",
+            "name": "oxygen_molecular_entity_treats_Aceruloplasminemia",
+            "description": "oxygen_molecular_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:25806",
+            "output_name": "oxygen molecular entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_22",
+            "name": "polyatomic_entity_treats_Aceruloplasminemia",
+            "description": "polyatomic_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:36357",
+            "output_name": "polyatomic entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_23",
+            "name": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+            "description": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:33582",
+            "output_name": "carbon group molecular entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_24",
+            "name": "inorganic_chemicals_treats_Aceruloplasminemia",
+            "description": "inorganic_chemicals_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "MESH:D007287",
+            "output_name": "inorganic chemicals",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_25",
+            "name": "heteroorganic_entity_treats_Aceruloplasminemia",
+            "description": "heteroorganic_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:33285",
+            "output_name": "heteroorganic entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_26",
+            "name": "main_group_molecular_entity_treats_Aceruloplasminemia",
+            "description": "main_group_molecular_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:33579",
+            "output_name": "main group molecular entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_27",
+            "name": "heteroatomic_molecular_entity_treats_Aceruloplasminemia",
+            "description": "heteroatomic_molecular_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:37577",
+            "output_name": "heteroatomic molecular entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_28",
+            "name": "cyclic_compound_treats_Aceruloplasminemia",
+            "description": "cyclic_compound_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:33595",
+            "output_name": "cyclic compound",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_29",
+            "name": "heterocyclic_compounds_treats_Aceruloplasminemia",
+            "description": "heterocyclic_compounds_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "MESH:D006571 ",
+            "output_name": "heterocyclic compounds",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_30",
+            "name": "inorganic_oxide_treats_Aceruloplasminemia",
+            "description": "inorganic_oxide_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:24836",
+            "output_name": "inorganic oxide",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_31",
+            "name": "chemical_entity_treats_Aceruloplasminemia",
+            "description": "chemical_entity_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "CHEBI:24431",
+            "output_name": "chemical entity",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_56",
+            "name": "cell_nucleus_treats_Aceruloplasminemia",
+            "description": "cell_nucleus_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "MESH:D002467",
+            "output_name": "cell nucleus",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_62",
+            "name": "Rotenone_treats_Aceruloplasminemia",
+            "description": "Rotenone_treats_Aceruloplasminemia",
+            "tags": [],
+            "input_id": "MONDO:0011426",
+            "input_name": "Aceruloplasminemia",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6758",
+            "output_name": "Rotenone",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/505",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

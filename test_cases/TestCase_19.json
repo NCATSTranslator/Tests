@@ -1,22 +1,22 @@
 {
     "id": "TestCase_19",
-    "name": "molecule_treats_Aceruloplasminemia",
-    "description": "molecule_treats_Aceruloplasminemia",
+    "name": "retinol_treats_familial_pityriasis_rubra_pilaris, Alcohols_treats_familial_pityriasis_rubra_pilaris",
+    "description": "retinol_treats_familial_pityriasis_rubra_pilaris; Alcohols_treats_familial_pityriasis_rubra_pilaris",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_20",
-            "name": "molecule_treats_Aceruloplasminemia",
-            "description": "molecule_treats_Aceruloplasminemia",
+            "id": "Asset_92",
+            "name": "retinol_treats_familial_pityriasis_rubra_pilaris",
+            "description": "retinol_treats_familial_pityriasis_rubra_pilaris",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
             "predicate": "treats",
-            "output_id": "CHEBI:25367",
-            "output_name": "molecule",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "",
+            "output_name": "retinol",
+            "expected_output": "BadButForgivable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,47 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/473",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_95",
+            "name": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "tags": [],
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
+            "predicate": "treats",
+            "output_id": "MESH:D000438",
+            "output_name": "Alcohols",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

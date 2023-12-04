@@ -1,22 +1,22 @@
 {
     "id": "TestCase_22",
-    "name": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
-    "description": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+    "name": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young, Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young, Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young, Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young, Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young, Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young, bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young; Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young; Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young; Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young; Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young; Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young; bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_23",
-            "name": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
-            "description": "carbon_group_molecular_entity_treats_Aceruloplasminemia",
+            "id": "Asset_124",
+            "name": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "predicate": "treats",
-            "output_id": "CHEBI:33582",
-            "output_name": "carbon group molecular entity",
-            "expected_output": "number_4_NeverShow",
+            "output_id": "MESH:D011972",
+            "output_name": "Receptor, insulin",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -24,7 +24,197 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_125",
+            "name": "Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "MESH:D001323",
+            "output_name": "Autoantibodies",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_126",
+            "name": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:53462828",
+            "output_name": "Thyroid hormones",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_127",
+            "name": "Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "MESH:D004798",
+            "output_name": "Enzymes",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_128",
+            "name": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "MESH:D017526",
+            "output_name": "Receptor, IGF Type 1",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_129",
+            "name": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "MESH:D003165",
+            "output_name": "Complement system proteins",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_130",
+            "name": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "description": "bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "tags": [],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "predicate": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6623",
+            "output_name": "bisphenol A",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],

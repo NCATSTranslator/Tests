@@ -5,7 +5,36 @@
     "tags": [],
     "test_env": "ci",
     "query_type": null,
-    "test_assets": [],
+    "test_assets": [
+        {
+            "id": "drug_treats_rare_disease",
+            "name": "drug_treats_rare_disease",
+            "description": "drug_treats_rare_disease",
+            "tags": [],
+            "input_id": null,
+            "input_name": null,
+            "predicate": null,
+            "output_id": null,
+            "output_name": null,
+            "expected_output": null,
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": null,
+            "test_reference": null,
+            "runner_settings": [],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "QuantitativeTest",
+                "test_annotations": []
+            }
+        }
+    ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
