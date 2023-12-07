@@ -84,7 +84,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate": "downregulate",
+    "test_case_predicate_name": "downregulate",
+    "test_case_predicate_id": "biolink:downregulate",
     "test_case_input_id": "NCBI Gene:8653",
     "test_case_runner_settings": [
         "inferred"

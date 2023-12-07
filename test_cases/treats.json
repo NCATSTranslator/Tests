@@ -47,7 +47,8 @@
     ],
     "test_case_objective": "QuantitativeTest",
     "test_case_source": null,
-    "test_case_predicate": null,
+    "test_case_predicate_name": null,
+    "test_case_predicate_id": null,
     "test_case_input_id": null,
     "test_case_runner_settings": []
 }

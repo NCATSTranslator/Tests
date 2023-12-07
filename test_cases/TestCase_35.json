@@ -714,7 +714,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate": "treats",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0007186",
     "test_case_runner_settings": [
         "inferred"
