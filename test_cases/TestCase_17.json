@@ -1,141 +1,26 @@
 {
     "id": "TestCase_17",
-    "name": "Imatinib_treats_Exfoliative_Dermatitis, Sorafenib_treats_Exfoliative_Dermatitis, Toluene_treats_Exfoliative_Dermatitis, Isoxaflutole_treats_Exfoliative_Dermatitis, Clofenotane_treats_Exfoliative_Dermatitis",
-    "description": "Imatinib_treats_Exfoliative_Dermatitis; Sorafenib_treats_Exfoliative_Dermatitis; Toluene_treats_Exfoliative_Dermatitis; Isoxaflutole_treats_Exfoliative_Dermatitis; Clofenotane_treats_Exfoliative_Dermatitis",
+    "name": "what treats MONDO:0008251",
+    "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_80",
-            "name": "Imatinib_treats_Exfoliative_Dermatitis",
-            "description": "Imatinib_treats_Exfoliative_Dermatitis",
+            "id": "Asset_95",
+            "name": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
             "tags": [],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5291",
-            "output_name": "Imatinib",
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_81",
-            "name": "Sorafenib_treats_Exfoliative_Dermatitis",
-            "description": "Sorafenib_treats_Exfoliative_Dermatitis",
-            "tags": [],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216239",
-            "output_name": "Sorafenib",
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_82",
-            "name": "Toluene_treats_Exfoliative_Dermatitis",
-            "description": "Toluene_treats_Exfoliative_Dermatitis",
-            "tags": [],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1140",
-            "output_name": "Toluene",
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_83",
-            "name": "Isoxaflutole_treats_Exfoliative_Dermatitis",
-            "description": "Isoxaflutole_treats_Exfoliative_Dermatitis",
-            "tags": [],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_84",
-            "name": "Clofenotane_treats_Exfoliative_Dermatitis",
-            "description": "Clofenotane_treats_Exfoliative_Dermatitis",
-            "tags": [],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3036",
-            "output_name": "Clofenotane",
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000438",
+            "output_name": "Alcohols",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -161,5 +46,7 @@
     "trapi_template": null,
     "components": [
         "ars"
-    ]
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": "SMURF"
 }

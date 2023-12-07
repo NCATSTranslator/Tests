@@ -1,6 +1,6 @@
 {
     "id": "TestCase_11",
-    "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+    "name": "what treats MONDO:0004975",
     "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
     "tags": [],
     "test_env": "ci",
@@ -13,9 +13,14 @@
             "tags": [],
             "input_id": "MONDO:0004975",
             "input_name": "Alzheimer Disease",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "UMLS:C0013227",
             "output_name": "Pharmaceutical preparations",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -41,5 +46,7 @@
     "trapi_template": null,
     "components": [
         "ars"
-    ]
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": "SMURF"
 }

@@ -1,6 +1,6 @@
 {
     "id": "TestCase_8",
-    "name": "particulate_matter_treats_Allergic_Asthma",
+    "name": "what treats MONDO:0004784",
     "description": "particulate_matter_treats_Allergic_Asthma",
     "tags": [],
     "test_env": "ci",
@@ -13,9 +13,14 @@
             "tags": [],
             "input_id": "MONDO:0004784",
             "input_name": "Allergic Asthma",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "MESH:D052638",
             "output_name": "particulate matter",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -41,5 +46,7 @@
     "trapi_template": null,
     "components": [
         "ars"
-    ]
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": "SMURF"
 }

@@ -1,6 +1,6 @@
 {
     "id": "TestCase_6",
-    "name": "Valproic_acid_treats_Autism, Pesticides_treats_Autism",
+    "name": "what treats MONDO:0005260",
     "description": "Valproic_acid_treats_Autism; Pesticides_treats_Autism",
     "tags": [],
     "test_env": "ci",
@@ -13,9 +13,14 @@
             "tags": [],
             "input_id": "MONDO:0005260",
             "input_name": "Autism",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "PUBCHEM.COMPOUND:3121",
             "output_name": "Valproic acid",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -43,9 +48,14 @@
             "tags": [],
             "input_id": "MONDO:0005260",
             "input_name": "Autism",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "MESH:D010575",
             "output_name": "Pesticides",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -71,5 +81,7 @@
     "trapi_template": null,
     "components": [
         "ars"
-    ]
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": "SMURF"
 }

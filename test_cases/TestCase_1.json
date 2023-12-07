@@ -1,6 +1,6 @@
 {
     "id": "TestCase_1",
-    "name": "Valproic_Acid_treats_NARP_Syndrome, Barbiturates_treats_NARP_Syndrome",
+    "name": "what treats MONDO:0010794",
     "description": "Valproic_Acid_treats_NARP_Syndrome; Barbiturates_treats_NARP_Syndrome",
     "tags": [],
     "test_env": "ci",
@@ -13,9 +13,14 @@
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "DRUGBANK:DB00313",
             "output_name": "Valproic Acid",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -43,9 +48,14 @@
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
-            "predicate": "treats",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
             "output_id": "MESH:D001463",
             "output_name": "Barbiturates",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -71,5 +81,7 @@
     "trapi_template": null,
     "components": [
         "ars"
-    ]
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": "SMURF"
 }
