@@ -1,7 +1,7 @@
 {
     "id": "TestCase_9",
     "name": "what treats MONDO:0020333",
-    "description": "Histamine_treats_Aggressive_Systemic_Mastocytosis; ibuprofen_treats_Aggressive_Systemic_Mastocytosis; botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis; ergocalciferol_treats_Aggressive_Systemic_Mastocytosis; 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+    "description": "Histamine_treats_Aggressive_Systemic_Mastocytosis; ibuprofen_treats_Aggressive_Systemic_Mastocytosis; botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis; dinoprostone_treats_Aggressive_Systemic_Mastocytosis; calcitriol_treats_Aggressive_Systemic_Mastocytosis; ergocalciferol_treats_Aggressive_Systemic_Mastocytosis; 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
@@ -112,6 +112,76 @@
             }
         },
         {
+            "id": "Asset_87",
+            "name": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "dinoprostone_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "dinoprostone",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_88",
+            "name": "calcitriol_treats_Aggressive_Systemic_Mastocytosis",
+            "description": "calcitriol_treats_Aggressive_Systemic_Mastocytosis",
+            "tags": [],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "calcitriol",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
             "id": "Asset_89",
             "name": "ergocalciferol_treats_Aggressive_Systemic_Mastocytosis",
             "description": "ergocalciferol_treats_Aggressive_Systemic_Mastocytosis",
@@ -188,5 +258,10 @@
         "ars"
     ],
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": "SMURF"
+    "test_case_source": null,
+    "test_case_predicate": "treats",
+    "test_case_input_id": "MONDO:0020333",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
 }

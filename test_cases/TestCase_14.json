@@ -1,27 +1,62 @@
 {
     "id": "TestCase_14",
-    "name": "what treats MONDO:0018982",
-    "description": "Miglustat_treats_Niemann-Pick_type_C",
+    "name": "what treats MONDO:0007147",
+    "description": "Soot_treats_Obstructive_Sleep_Apnea; Soot_treats_Obstructive_Sleep_Apnea",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_70",
-            "name": "Miglustat_treats_Niemann-Pick_type_C",
-            "description": "Miglustat_treats_Niemann-Pick_type_C",
+            "id": "Asset_68",
+            "name": "Soot_treats_Obstructive_Sleep_Apnea",
+            "description": "Soot_treats_Obstructive_Sleep_Apnea",
             "tags": [],
-            "input_id": "MONDO:0018982",
-            "input_name": "Niemann-Pick type C",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": null,
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": null,
             "association": null,
             "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_69",
+            "name": "Soot_treats_Obstructive_Sleep_Apnea",
+            "description": "Soot_treats_Obstructive_Sleep_Apnea",
+            "tags": [],
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -48,5 +83,10 @@
         "ars"
     ],
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": "SMURF"
+    "test_case_source": null,
+    "test_case_predicate": "treats",
+    "test_case_input_id": "MONDO:0007147",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
 }

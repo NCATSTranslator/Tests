@@ -188,5 +188,10 @@
         "ars"
     ],
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": "SMURF"
+    "test_case_source": null,
+    "test_case_predicate": "treats",
+    "test_case_input_id": "MONDO:0015564",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
 }

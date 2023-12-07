@@ -1,23 +1,23 @@
 {
     "id": "TestCase_27",
-    "name": "what treats MONDO:0007743",
-    "description": "Cocaine_treats_ADHD; Methylphenidate_treats_ADHD",
+    "name": "what treats MONDO:0004758",
+    "description": "Prednisone_treats_scotoma; vigabatrin_treats_scotoma",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_178",
-            "name": "Cocaine_treats_ADHD",
-            "description": "Cocaine_treats_ADHD",
+            "id": "Asset_140",
+            "name": "Prednisone_treats_scotoma",
+            "description": "Prednisone_treats_scotoma",
             "tags": [],
-            "input_id": "MONDO:0007743",
-            "input_name": "ADHD",
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
             "input_category": null,
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446220",
-            "output_name": "Cocaine",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "Prednisone",
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -36,27 +36,27 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_179",
-            "name": "Methylphenidate_treats_ADHD",
-            "description": "Methylphenidate_treats_ADHD",
+            "id": "Asset_141",
+            "name": "vigabatrin_treats_scotoma",
+            "description": "vigabatrin_treats_scotoma",
             "tags": [],
-            "input_id": "MONDO:0007743",
-            "input_name": "ADHD",
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
             "input_category": null,
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4158",
-            "output_name": "Methylphenidate",
+            "output_id": "PUBCHEM.COMPOUND:5665",
+            "output_name": "vigabatrin",
             "output_category": null,
             "association": null,
             "qualifiers": [],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -71,7 +71,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -83,5 +83,10 @@
         "ars"
     ],
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": "SMURF"
+    "test_case_source": null,
+    "test_case_predicate": "treats",
+    "test_case_input_id": "MONDO:0004758",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
 }

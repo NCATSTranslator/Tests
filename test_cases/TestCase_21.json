@@ -1,23 +1,23 @@
 {
     "id": "TestCase_21",
-    "name": "what downregulate NCBI Gene:8653",
-    "description": "dna_double_stranded_downregulate_DDX3Y; Small_molecule_downregulate_DDX3Y",
+    "name": "what treats MONDO:0019600",
+    "description": "cadmium_treats_Xeroderma_Pigmentosum; mercury_treats_Xeroderma_Pigmentosum",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_135",
-            "name": "dna_double_stranded_downregulate_DDX3Y",
-            "description": "dna_double_stranded_downregulate_DDX3Y",
+            "id": "Asset_96",
+            "name": "cadmium_treats_Xeroderma_Pigmentosum",
+            "description": "cadmium_treats_Xeroderma_Pigmentosum",
             "tags": [],
-            "input_id": "NCBI Gene:8653",
-            "input_name": "DDX3Y",
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": null,
-            "predicate_id": "biolink:downregulate",
-            "predicate_name": "downregulate",
-            "output_id": "UMLS:C0311474",
-            "output_name": "dna double stranded",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "cadmium",
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -36,23 +36,23 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_136",
-            "name": "Small_molecule_downregulate_DDX3Y",
-            "description": "Small_molecule_downregulate_DDX3Y",
+            "id": "Asset_97",
+            "name": "mercury_treats_Xeroderma_Pigmentosum",
+            "description": "mercury_treats_Xeroderma_Pigmentosum",
             "tags": [],
-            "input_id": "NCBI Gene:8653",
-            "input_name": "DDX3Y",
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": null,
-            "predicate_id": "biolink:downregulate",
-            "predicate_name": "downregulate",
-            "output_id": "UMLS:C1328819",
-            "output_name": "Small molecule",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "mercury",
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -71,7 +71,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -83,5 +83,10 @@
         "ars"
     ],
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": "SMURF"
+    "test_case_source": null,
+    "test_case_predicate": "treats",
+    "test_case_input_id": "MONDO:0019600",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
 }
