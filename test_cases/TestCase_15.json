@@ -1,23 +1,27 @@
 {
     "id": "TestCase_15",
-    "name": "desferrioxamine_treats_Aceruloplasminemia",
-    "description": "desferrioxamine_treats_Aceruloplasminemia",
+    "name": "what treats MONDO:0018982",
+    "description": "Miglustat_treats_Niemann-Pick_type_C",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_16",
-            "name": "desferrioxamine_treats_Aceruloplasminemia",
-            "description": "desferrioxamine_treats_Aceruloplasminemia",
+            "id": "Asset_70",
+            "name": "Miglustat_treats_Niemann-Pick_type_C",
+            "description": "Miglustat_treats_Niemann-Pick_type_C",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "predicate": "treats",
-            "output_id": "",
-            "output_name": "desferrioxamine",
-            "expected_output": "number_1_TopAnswer",
+            "input_id": "MONDO:0018982",
+            "input_name": "Niemann-Pick type C",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:51634",
+            "output_name": "Miglustat",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,30 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0018982",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }

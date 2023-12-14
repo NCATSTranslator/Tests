@@ -1,0 +1,35 @@
+{
+    "id": "Asset_83",
+    "name": "Isoxaflutole_treats_Exfoliative_Dermatitis",
+    "description": "Isoxaflutole_treats_Exfoliative_Dermatitis",
+    "tags": [],
+    "input_id": "MONDO:0043233",
+    "input_name": "Exfoliative Dermatitis",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:84098",
+    "output_name": "Isoxaflutole",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

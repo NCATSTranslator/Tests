@@ -1,0 +1,35 @@
+{
+    "id": "Asset_56",
+    "name": "cell_nucleus_treats_Aceruloplasminemia",
+    "description": "cell_nucleus_treats_Aceruloplasminemia",
+    "tags": [],
+    "input_id": "MONDO:0011426",
+    "input_name": "Aceruloplasminemia",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "MESH:D002467",
+    "output_name": "cell nucleus",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

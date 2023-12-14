@@ -1,0 +1,35 @@
+{
+    "id": "Asset_32",
+    "name": "Lactase_treats_Lactose_intolerance",
+    "description": "Lactase_treats_Lactose_intolerance",
+    "tags": [],
+    "input_id": "MONDO:0100345",
+    "input_name": "Lactose intolerance",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "CHEMBL.COMPOUND:2108505",
+    "output_name": "Lactase",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

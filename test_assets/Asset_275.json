@@ -1,0 +1,35 @@
+{
+    "id": "Asset_275",
+    "name": "Cations_treats_Cowden_Disease",
+    "description": "Cations_treats_Cowden_Disease",
+    "tags": [],
+    "input_id": "MONDO:0016063",
+    "input_name": "Cowden Disease",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "MESH:D002412",
+    "output_name": "Cations",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

@@ -1,23 +1,27 @@
 {
     "id": "TestCase_6",
-    "name": "Vehicle_Emissions_treats_Castleman_Disease",
-    "description": "Vehicle_Emissions_treats_Castleman_Disease",
+    "name": "what treats MONDO:0005260",
+    "description": "Valproic_acid_treats_Autism; Pesticides_treats_Autism",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_7",
-            "name": "Vehicle_Emissions_treats_Castleman_Disease",
-            "description": "Vehicle_Emissions_treats_Castleman_Disease",
+            "id": "Asset_46",
+            "name": "Valproic_acid_treats_Autism",
+            "description": "Valproic_acid_treats_Autism",
             "tags": [],
-            "input_id": "MONDO:0015564",
-            "input_name": "Castleman Disease",
-            "predicate": "treats",
-            "output_id": "MESH:D001335",
-            "output_name": "Vehicle Emissions",
-            "expected_output": "number_4_NeverShow",
+            "input_id": "MONDO:0005260",
+            "input_name": "Autism",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3121",
+            "output_name": "Valproic acid",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,65 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_47",
+            "name": "Pesticides_treats_Autism",
+            "description": "Pesticides_treats_Autism",
+            "tags": [],
+            "input_id": "MONDO:0005260",
+            "input_name": "Autism",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D010575",
+            "output_name": "Pesticides",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0005260",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }

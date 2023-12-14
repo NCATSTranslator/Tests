@@ -1,0 +1,35 @@
+{
+    "id": "Asset_133",
+    "name": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+    "description": "Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+    "tags": [],
+    "input_id": "MONDO:0009746",
+    "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:5462310",
+    "output_name": "Carbon",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/404",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

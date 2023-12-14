@@ -1,0 +1,35 @@
+{
+    "id": "Asset_264",
+    "name": "Talcid_treats_Gastroesophageal_Reflux_Disease",
+    "description": "Talcid_treats_Gastroesophageal_Reflux_Disease",
+    "tags": [],
+    "input_id": "MONDO:0007186",
+    "input_name": "Gastroesophageal Reflux Disease",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:56842000",
+    "output_name": "Talcid",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

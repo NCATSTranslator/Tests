@@ -1,23 +1,27 @@
 {
     "id": "TestCase_11",
-    "name": "rituximab_treats_Castleman's",
-    "description": "rituximab_treats_Castleman's",
+    "name": "what treats MONDO:0004975",
+    "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_12",
-            "name": "rituximab_treats_Castleman's",
-            "description": "rituximab_treats_Castleman's",
+            "id": "Asset_57",
+            "name": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
+            "description": "Pharmaceutical_preparations_treats_Alzheimer_Disease",
             "tags": [],
-            "input_id": "MONDO:0015564",
-            "input_name": "Castleman's",
-            "predicate": "treats",
-            "output_id": "UNII:4F4X42SYQ6",
-            "output_name": "rituximab",
-            "expected_output": "number_1_TopAnswer",
+            "input_id": "MONDO:0004975",
+            "input_name": "Alzheimer Disease",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,30 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0004975",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }

@@ -1,23 +1,27 @@
 {
     "id": "TestCase_8",
-    "name": "natalizumab_treats_Multiple_Sclerosis",
-    "description": "natalizumab_treats_Multiple_Sclerosis",
+    "name": "what treats MONDO:0004784",
+    "description": "particulate_matter_treats_Allergic_Asthma",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_9",
-            "name": "natalizumab_treats_Multiple_Sclerosis",
-            "description": "natalizumab_treats_Multiple_Sclerosis",
+            "id": "Asset_50",
+            "name": "particulate_matter_treats_Allergic_Asthma",
+            "description": "particulate_matter_treats_Allergic_Asthma",
             "tags": [],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "predicate": "treats",
-            "output_id": "",
-            "output_name": "natalizumab",
-            "expected_output": "number_1_TopAnswer",
+            "input_id": "MONDO:0004784",
+            "input_name": "Allergic Asthma",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D052638",
+            "output_name": "particulate matter",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,30 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0004784",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }

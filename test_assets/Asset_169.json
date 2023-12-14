@@ -1,0 +1,35 @@
+{
+    "id": "Asset_169",
+    "name": "Pharmaceutical_preparations_treats_Cerebral_palsy",
+    "description": "Pharmaceutical_preparations_treats_Cerebral_palsy",
+    "tags": [],
+    "input_id": "MONDO:0006497",
+    "input_name": "Cerebral palsy",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "UMLS:C0013227",
+    "output_name": "Pharmaceutical preparations",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

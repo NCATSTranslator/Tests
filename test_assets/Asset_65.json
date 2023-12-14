@@ -1,0 +1,35 @@
+{
+    "id": "Asset_65",
+    "name": "Taliglucerase_alfa_treats_Gaucher_Disease_type1",
+    "description": "Taliglucerase_alfa_treats_Gaucher_Disease_type1",
+    "tags": [],
+    "input_id": "MONDO:0009265",
+    "input_name": "Gaucher Disease type1",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "UNII:0R4NLX88O4",
+    "output_name": "Taliglucerase alfa",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

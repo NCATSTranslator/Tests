@@ -1,23 +1,27 @@
 {
     "id": "TestCase_10",
-    "name": "sirolimus_treats_Castleman's",
-    "description": "sirolimus_treats_Castleman's",
+    "name": "what treats MONDO:0005799",
+    "description": "Mebendazole_treats_Hookworm_Infectious_Disease; Pyrantel_treats_Hookworm_Infectious_Disease; Thiabendazole_treats_Hookworm_Infectious_Disease; Dichlorophen_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_11",
-            "name": "sirolimus_treats_Castleman's",
-            "description": "sirolimus_treats_Castleman's",
+            "id": "Asset_52",
+            "name": "Mebendazole_treats_Hookworm_Infectious_Disease",
+            "description": "Mebendazole_treats_Hookworm_Infectious_Disease",
             "tags": [],
-            "input_id": "MONDO:0015564",
-            "input_name": "Castleman's",
-            "predicate": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
-            "output_name": "sirolimus",
-            "expected_output": "number_1_TopAnswer",
+            "input_id": "MONDO:0005799",
+            "input_name": "Hookworm Infectious Disease",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:4030",
+            "output_name": "Mebendazole",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,135 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_53",
+            "name": "Pyrantel_treats_Hookworm_Infectious_Disease",
+            "description": "Pyrantel_treats_Hookworm_Infectious_Disease",
+            "tags": [],
+            "input_id": "MONDO:0005799",
+            "input_name": "Hookworm Infectious Disease",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:708857",
+            "output_name": "Pyrantel",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_54",
+            "name": "Thiabendazole_treats_Hookworm_Infectious_Disease",
+            "description": "Thiabendazole_treats_Hookworm_Infectious_Disease",
+            "tags": [],
+            "input_id": "MONDO:0005799",
+            "input_name": "Hookworm Infectious Disease",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5430",
+            "output_name": "Thiabendazole",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_55",
+            "name": "Dichlorophen_treats_Hookworm_Infectious_Disease",
+            "description": "Dichlorophen_treats_Hookworm_Infectious_Disease",
+            "tags": [],
+            "input_id": "MONDO:0005799",
+            "input_name": "Hookworm Infectious Disease",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3037",
+            "output_name": "Dichlorophen",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0005799",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }

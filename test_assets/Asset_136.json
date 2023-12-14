@@ -1,0 +1,35 @@
+{
+    "id": "Asset_136",
+    "name": "Small_molecule_downregulate_DDX3Y",
+    "description": "Small_molecule_downregulate_DDX3Y",
+    "tags": [],
+    "input_id": "NCBI Gene:8653",
+    "input_name": "DDX3Y",
+    "input_category": null,
+    "predicate_id": "biolink:downregulate",
+    "predicate_name": "downregulate",
+    "output_id": "UMLS:C1328819",
+    "output_name": "Small molecule",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

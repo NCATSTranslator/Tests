@@ -1,23 +1,27 @@
 {
     "id": "TestCase_1",
-    "name": "organic_group_treats_Aceruloplasminemia",
-    "description": "organic_group_treats_Aceruloplasminemia",
+    "name": "what treats MONDO:0010794",
+    "description": "Valproic_Acid_treats_NARP_Syndrome; Barbiturates_treats_NARP_Syndrome",
     "tags": [],
     "test_env": "ci",
-    "test_case_type": "acceptance",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_2",
-            "name": "organic_group_treats_Aceruloplasminemia",
-            "description": "organic_group_treats_Aceruloplasminemia",
+            "id": "Asset_3",
+            "name": "Valproic_Acid_treats_NARP_Syndrome",
+            "description": "Valproic_Acid_treats_NARP_Syndrome",
             "tags": [],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "predicate": "treats",
-            "output_id": "CHEBI:33247",
-            "output_name": "organic group",
-            "expected_output": "number_4_NeverShow",
+            "input_id": "MONDO:0010794",
+            "input_name": "NARP Syndrome",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "DRUGBANK:DB00313",
+            "output_name": "Valproic Acid",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -25,12 +29,65 @@
             "test_reference": null,
             "runner_settings": [
                 "inferred"
-            ]
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_4",
+            "name": "Barbiturates_treats_NARP_Syndrome",
+            "description": "Barbiturates_treats_NARP_Syndrome",
+            "tags": [],
+            "input_id": "MONDO:0010794",
+            "input_name": "NARP Syndrome",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D001463",
+            "output_name": "Barbiturates",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
     "trapi_template": null,
     "components": [
         "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0010794",
+    "test_case_runner_settings": [
+        "inferred"
     ]
 }
