@@ -1,15 +1,15 @@
 {
-    "id": "DrugCentral_creative",
-    "name": "DrugCentral_creative",
-    "description": "DrugCentral_creative",
+    "id": "DrugCentral_subset",
+    "name": "DrugCentral_subset",
+    "description": "DrugCentral_subset",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "DrugCentral_creative",
-            "name": "DrugCentral_creative",
-            "description": "DrugCentral_creative",
+            "id": "DrugCentral_subset",
+            "name": "DrugCentral_subset",
+            "description": "DrugCentral_subset",
             "tags": [],
             "input_id": null,
             "input_name": null,
