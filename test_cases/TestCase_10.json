@@ -36,7 +36,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -71,7 +71,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -106,7 +106,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -141,7 +141,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }

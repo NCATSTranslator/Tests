@@ -8,7 +8,7 @@
     "input_category": null,
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UMLSC0005522",
+    "output_id": "UMLS:C0005522",
     "output_name": "Biological products",
     "output_category": null,
     "association": null,

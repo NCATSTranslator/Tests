@@ -1,10 +1,10 @@
 {
     "id": "Asset_7",
-    "name": "Vehicle_Emissions_treats_Castleman_Disease",
-    "description": "Vehicle_Emissions_treats_Castleman_Disease",
+    "name": "Vehicle_Emissions_treats_Multiple_Sclerosis",
+    "description": "Vehicle_Emissions_treats_Multiple_Sclerosis",
     "tags": [],
     "input_id": "MONDO:0015564",
-    "input_name": "Castleman Disease",
+    "input_name": "Multiple Sclerosis",
     "input_category": null,
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
@@ -28,7 +28,7 @@
         "description": null,
         "tags": [],
         "test_source": "SMURF",
-        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/480",
+        "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     }
