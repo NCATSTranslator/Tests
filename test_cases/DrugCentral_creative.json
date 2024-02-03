@@ -50,5 +50,7 @@
     "test_case_predicate_name": null,
     "test_case_predicate_id": null,
     "test_case_input_id": null,
-    "test_case_runner_settings": []
+    "test_case_runner_settings": [
+        "limit_queries"
+    ]
 }
