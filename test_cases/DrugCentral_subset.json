@@ -1,0 +1,56 @@
+{
+    "id": "DrugCentral_subset",
+    "name": "DrugCentral_subset",
+    "description": "DrugCentral_subset",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "DrugCentral_subset",
+            "name": "DrugCentral_subset",
+            "description": "DrugCentral_subset",
+            "tags": [],
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": null,
+            "predicate_name": null,
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": null,
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": null,
+            "test_reference": null,
+            "runner_settings": [],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "QuantitativeTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ],
+    "test_case_objective": "QuantitativeTest",
+    "test_case_source": null,
+    "test_case_predicate_name": null,
+    "test_case_predicate_id": null,
+    "test_case_input_id": null,
+    "test_case_runner_settings": [
+        "limit_queries"
+    ]
+}

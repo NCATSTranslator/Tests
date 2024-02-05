@@ -106,7 +106,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -141,7 +141,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }

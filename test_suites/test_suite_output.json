@@ -53,7 +53,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -88,7 +88,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -123,7 +123,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -158,7 +158,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -193,7 +193,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -321,7 +321,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -356,7 +356,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -974,7 +974,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -1009,7 +1009,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -1067,7 +1067,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -1381,7 +1381,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -1416,7 +1416,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -1474,7 +1474,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -2477,7 +2477,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/431",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -2628,7 +2628,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -2663,7 +2663,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -2698,7 +2698,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -2733,7 +2733,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3001,7 +3001,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3036,7 +3036,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3071,7 +3071,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3106,7 +3106,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3141,7 +3141,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3176,7 +3176,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3211,7 +3211,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3269,7 +3269,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3304,7 +3304,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3455,7 +3455,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/473",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3548,7 +3548,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3583,7 +3583,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3618,7 +3618,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3653,7 +3653,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3688,7 +3688,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3746,7 +3746,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/404",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3781,7 +3781,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/405",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3874,7 +3874,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -3909,7 +3909,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4655,7 +4655,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4690,7 +4690,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4760,7 +4760,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4865,7 +4865,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5320,7 +5320,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5355,7 +5355,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/505",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5588,7 +5588,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5623,7 +5623,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5856,7 +5856,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/480",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5914,7 +5914,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/562",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5949,7 +5949,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -5984,7 +5984,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6019,7 +6019,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6054,7 +6054,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6112,7 +6112,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6147,7 +6147,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6182,7 +6182,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6217,7 +6217,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6252,7 +6252,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6310,7 +6310,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6345,7 +6345,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6648,7 +6648,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6823,7 +6823,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -6858,7 +6858,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7079,7 +7079,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7137,7 +7137,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7172,7 +7172,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7230,7 +7230,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7265,7 +7265,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7323,7 +7323,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7358,7 +7358,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7393,7 +7393,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7428,7 +7428,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7463,7 +7463,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7498,7 +7498,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7591,7 +7591,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7626,7 +7626,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7789,7 +7789,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7824,7 +7824,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7929,7 +7929,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7964,7 +7964,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -7999,7 +7999,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8034,7 +8034,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8069,7 +8069,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8104,7 +8104,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8139,7 +8139,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8174,7 +8174,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8209,7 +8209,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8244,7 +8244,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8302,7 +8302,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8337,7 +8337,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8372,7 +8372,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8407,7 +8407,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -8442,7 +8442,7 @@
                         "description": null,
                         "tags": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -12309,118 +12309,6 @@
                 "inferred"
             ]
         },
-        "ameliorates": {
-            "id": "ameliorates",
-            "name": "ameliorates",
-            "description": "ameliorates",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "ameliorates",
-                    "name": "ameliorates",
-                    "description": "ameliorates",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "treats": {
-            "id": "treats",
-            "name": "treats",
-            "description": "treats",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "treats",
-                    "name": "treats",
-                    "description": "treats",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
         "DrugCentral_subset": {
             "id": "DrugCentral_subset",
             "name": "DrugCentral_subset",
@@ -12489,342 +12377,6 @@
                     "id": "DrugCentral_creative",
                     "name": "DrugCentral_creative",
                     "description": "DrugCentral_creative",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "three_hop": {
-            "id": "three_hop",
-            "name": "three_hop",
-            "description": "three_hop",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "three_hop",
-                    "name": "three_hop",
-                    "description": "three_hop",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "drug_treats_rare_disease": {
-            "id": "drug_treats_rare_disease",
-            "name": "drug_treats_rare_disease",
-            "description": "drug_treats_rare_disease",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "drug_treats_rare_disease",
-                    "name": "drug_treats_rare_disease",
-                    "description": "drug_treats_rare_disease",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "CPIC": {
-            "id": "CPIC",
-            "name": "CPIC",
-            "description": "CPIC",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "CPIC",
-                    "name": "CPIC",
-                    "description": "CPIC",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "GTRx": {
-            "id": "GTRx",
-            "name": "GTRx",
-            "description": "GTRx",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "GTRx",
-                    "name": "GTRx",
-                    "description": "GTRx",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "OOPD": {
-            "id": "OOPD",
-            "name": "OOPD",
-            "description": "OOPD",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "OOPD",
-                    "name": "OOPD",
-                    "description": "OOPD",
-                    "tags": [],
-                    "input_id": null,
-                    "input_name": null,
-                    "input_category": null,
-                    "predicate_id": null,
-                    "predicate_name": null,
-                    "output_id": null,
-                    "output_name": null,
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": null,
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": null,
-                    "test_reference": null,
-                    "runner_settings": [],
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "QuantitativeTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "components": [
-                "ars"
-            ],
-            "test_case_objective": "QuantitativeTest",
-            "test_case_source": null,
-            "test_case_predicate_name": null,
-            "test_case_predicate_id": null,
-            "test_case_input_id": null,
-            "test_case_runner_settings": [
-                "limit_queries"
-            ]
-        },
-        "RareDisease": {
-            "id": "RareDisease",
-            "name": "RareDisease",
-            "description": "RareDisease",
-            "tags": [],
-            "test_env": "ci",
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "RareDisease",
-                    "name": "RareDisease",
-                    "description": "RareDisease",
                     "tags": [],
                     "input_id": null,
                     "input_name": null,
