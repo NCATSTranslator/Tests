@@ -1,0 +1,35 @@
+{
+    "id": "Asset_306",
+    "name": "interferon-beta_1b_treats_Multiple_Sclerosis",
+    "description": "interferon-beta_1b_treats_Multiple_Sclerosis",
+    "tags": [],
+    "input_id": "MONDO:0015564",
+    "input_name": "Multiple Sclerosis",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "CHEMBL.COMPOUND:1201563",
+    "output_name": "interferon-beta 1b",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
