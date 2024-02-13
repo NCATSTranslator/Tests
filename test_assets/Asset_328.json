@@ -1,0 +1,35 @@
+{
+    "id": "Asset_328",
+    "name": "Ridaforolimus_treats_Lymphangioleiomyomatosis",
+    "description": "Ridaforolimus_treats_Lymphangioleiomyomatosis",
+    "tags": [],
+    "input_id": "MONDO:0011705",
+    "input_name": "Lymphangioleiomyomatosis",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:11520894",
+    "output_name": "Ridaforolimus",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

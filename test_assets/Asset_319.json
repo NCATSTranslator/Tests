@@ -1,0 +1,35 @@
+{
+    "id": "Asset_319",
+    "name": "AZD9668_treats_Cystic_fibrosis",
+    "description": "AZD9668_treats_Cystic_fibrosis",
+    "tags": [],
+    "input_id": "MONDO:0009061",
+    "input_name": "Cystic fibrosis",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "UMLS:C3489797",
+    "output_name": "AZD9668",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

@@ -8,7 +8,7 @@
     "input_category": null,
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEMBL2109042",
+    "output_id": "CHEMBL:2109042",
     "output_name": "Influenza vaccines",
     "output_category": null,
     "association": null,

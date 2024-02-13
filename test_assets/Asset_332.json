@@ -1,0 +1,35 @@
+{
+    "id": "Asset_332",
+    "name": "Dextromethorphan_treats_Primary_ciliary_dyskinesia",
+    "description": "Dextromethorphan_treats_Primary_ciliary_dyskinesia",
+    "tags": [],
+    "input_id": "MONDO:0016575",
+    "input_name": "Primary ciliary dyskinesia",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:5360696",
+    "output_name": "Dextromethorphan",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
