@@ -1,10 +1,10 @@
 {
     "id": "Asset_98",
-    "name": "vaccines_treats_multiple_sclerosis",
-    "description": "vaccines_treats_multiple_sclerosis",
+    "name": "vaccines_treats_Multiple_Sclerosis",
+    "description": "vaccines_treats_Multiple_Sclerosis",
     "tags": [],
     "input_id": "MONDO:0005301",
-    "input_name": "multiple sclerosis",
+    "input_name": "Multiple Sclerosis",
     "input_category": null,
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
@@ -31,5 +31,10 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/431",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    }
+    },
+    "biolink_qualified_predicate": null,
+    "biolink_subject_aspect_qualifier": null,
+    "biolink_subject_direction_qualifier": null,
+    "biolink_object_aspect_qualifier": null,
+    "biolink_object_direction_qualifier": null
 }
