@@ -1,0 +1,103 @@
+{
+    "id": "TestCase_56",
+    "name": "what treats MONDO:0019173",
+    "description": "Methionine_treats_Rabies; Cefaclor_treats_Rabies",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_93",
+            "name": "Methionine_treats_Rabies",
+            "description": "Methionine_treats_Rabies",
+            "tags": [],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "Methionine",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        },
+        {
+            "id": "Asset_94",
+            "name": "Cefaclor_treats_Rabies",
+            "description": "Cefaclor_treats_Rabies",
+            "tags": [],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "Cefaclor",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0019173",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
+}

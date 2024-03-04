@@ -1,0 +1,103 @@
+{
+    "id": "TestCase_55",
+    "name": "what treats MONDO:0008251",
+    "description": "retinol_treats_familial_pityriasis_rubra_pilaris; Alcohols_treats_familial_pityriasis_rubra_pilaris",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_92",
+            "name": "retinol_treats_familial_pityriasis_rubra_pilaris",
+            "description": "retinol_treats_familial_pityriasis_rubra_pilaris",
+            "tags": [],
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "retinol",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/473",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        },
+        {
+            "id": "Asset_95",
+            "name": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "description": "Alcohols_treats_familial_pityriasis_rubra_pilaris",
+            "tags": [],
+            "input_id": "MONDO:0008251",
+            "input_name": "familial pityriasis rubra pilaris",
+            "input_category": null,
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000438",
+            "output_name": "Alcohols",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0008251",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
+}

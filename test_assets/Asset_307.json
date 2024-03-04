@@ -1,0 +1,40 @@
+{
+    "id": "Asset_307",
+    "name": "Albuterol_increases activity or abundance of _Beta_2_adrenergic_(ADRB2)",
+    "description": "Albuterol_increases activity or abundance of _Beta_2_adrenergic_(ADRB2)",
+    "tags": [],
+    "input_id": "NCBIGene:154",
+    "input_name": "Beta 2 adrenergic (ADRB2)",
+    "input_category": null,
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "PUBCHEM.COMPOUND:2083",
+    "output_name": "Albuterol",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    },
+    "biolink_qualified_predicate": null,
+    "biolink_subject_aspect_qualifier": null,
+    "biolink_subject_direction_qualifier": null,
+    "biolink_object_aspect_qualifier": null,
+    "biolink_object_direction_qualifier": null
+}

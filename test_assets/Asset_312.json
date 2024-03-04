@@ -1,0 +1,40 @@
+{
+    "id": "Asset_312",
+    "name": "cancer_decreases activity or abundance of_MYC_proto-oncogene,_bHLH_transcription_factor",
+    "description": "cancer_decreases activity or abundance of_MYC_proto-oncogene,_bHLH_transcription_factor",
+    "tags": [],
+    "input_id": "NCBIGene:7553",
+    "input_name": "MYC proto-oncogene, bHLH transcription factor",
+    "input_category": null,
+    "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
+    "predicate_name": "biolink:decreases_activity_or_abundance_of",
+    "output_id": "MONDO:0004992",
+    "output_name": "cancer",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    },
+    "biolink_qualified_predicate": null,
+    "biolink_subject_aspect_qualifier": null,
+    "biolink_subject_direction_qualifier": null,
+    "biolink_object_aspect_qualifier": null,
+    "biolink_object_direction_qualifier": null
+}
