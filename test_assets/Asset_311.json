@@ -1,15 +1,15 @@
 {
     "id": "Asset_311",
-    "name": "Benazapril_decreases activity or abundance of_ACE",
+    "name": "TopAnswer: Benazapril_decreases activity or abundance of_ACE",
     "description": "Benazapril_decreases activity or abundance of_ACE",
     "tags": [],
     "input_id": "NCBIGene:1636",
     "input_name": "ACE",
-    "input_category": null,
-    "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-    "predicate_name": "biolink:decreases_activity_or_abundance_of",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "decreases activity or abundance of",
     "output_id": "PUBCHEM.COMPOUND:5362124",
-    "output_name": "Benazapril",
+    "output_name": null,
     "output_category": null,
     "association": null,
     "qualifiers": [],
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "activity or abundance",
+    "biolink_object_direction_qualifier": "decreased"
 }

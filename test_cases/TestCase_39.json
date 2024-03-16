@@ -1,6 +1,6 @@
 {
     "id": "TestCase_39",
-    "name": "what biolink:decreases_activity_or_abundance_of NCBIGene:6524",
+    "name": "what decreases activity or abundance of NCBIGene:6524",
     "description": "Canagliflozin_decreases activity or abundance of_SLC5A2_(human)",
     "tags": [],
     "test_env": "ci",
@@ -8,16 +8,16 @@
     "test_assets": [
         {
             "id": "Asset_338",
-            "name": "Canagliflozin_decreases activity or abundance of_SLC5A2_(human)",
+            "name": "TopAnswer: Canagliflozin_decreases activity or abundance of_SLC5A2_(human)",
             "description": "Canagliflozin_decreases activity or abundance of_SLC5A2_(human)",
             "tags": [],
             "input_id": "NCBIGene:6524",
             "input_name": "SLC5A2 (human)",
-            "input_category": null,
-            "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-            "predicate_name": "biolink:decreases_activity_or_abundance_of",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "decreases activity or abundance of",
             "output_id": "PUBCHEM.COMPOUND:24812758",
-            "output_name": "Canagliflozin",
+            "output_name": null,
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -40,11 +40,11 @@
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             },
-            "biolink_qualified_predicate": null,
+            "biolink_qualified_predicate": "causes",
             "biolink_subject_aspect_qualifier": null,
             "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            "biolink_object_aspect_qualifier": "activity or abundance",
+            "biolink_object_direction_qualifier": "decreased"
         }
     ],
     "preconditions": [],
@@ -54,8 +54,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "biolink:decreases_activity_or_abundance_of",
-    "test_case_predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
+    "test_case_predicate_name": "decreases activity or abundance of",
+    "test_case_predicate_id": "biolink:decreases activity or abundance of",
     "test_case_input_id": "NCBIGene:6524",
     "test_case_runner_settings": [
         "inferred"

@@ -1,15 +1,15 @@
 {
     "id": "Asset_333",
-    "name": "BCL2_decreases activity or abundance of_Docetaxel",
+    "name": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
     "description": "BCL2_decreases activity or abundance of_Docetaxel",
     "tags": [],
     "input_id": "PUBCHEM.COMPOUND:148124",
     "input_name": "Docetaxel",
-    "input_category": null,
-    "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-    "predicate_name": "biolink:decreases_activity_or_abundance_of",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "decreases activity or abundance of",
     "output_id": "NCBIGene:596",
-    "output_name": "BCL2",
+    "output_name": null,
     "output_category": null,
     "association": null,
     "qualifiers": [],
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "activity or abundance",
+    "biolink_object_direction_qualifier": "decreased"
 }

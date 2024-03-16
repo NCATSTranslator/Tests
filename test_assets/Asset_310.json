@@ -1,15 +1,15 @@
 {
     "id": "Asset_310",
-    "name": "Interleukin-2_decreases abundance of_Pseudoephedrine",
+    "name": "Acceptable: Interleukin-2_decreases abundance of_Pseudoephedrine",
     "description": "Interleukin-2_decreases abundance of_Pseudoephedrine",
     "tags": [],
     "input_id": "PUBCHEM.COMPOUND:7028",
     "input_name": "Pseudoephedrine",
-    "input_category": null,
-    "predicate_id": "biolink:biolink:decreases_abundance_of",
-    "predicate_name": "biolink:decreases_abundance_of",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "decreases abundance of",
     "output_id": "NCBIGene:3558",
-    "output_name": "Interleukin-2",
+    "output_name": null,
     "output_category": null,
     "association": null,
     "qualifiers": [],
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "abundance",
+    "biolink_object_direction_qualifier": "decreased"
 }

@@ -1,6 +1,6 @@
 {
     "id": "TestCase_34",
-    "name": "what biolink:decreases_activity_or_abundance_of PUBCHEM.COMPOUND:148124",
+    "name": "what decreases activity or abundance of PUBCHEM.COMPOUND:148124",
     "description": "BCL2_decreases activity or abundance of_Docetaxel",
     "tags": [],
     "test_env": "ci",
@@ -8,16 +8,16 @@
     "test_assets": [
         {
             "id": "Asset_333",
-            "name": "BCL2_decreases activity or abundance of_Docetaxel",
+            "name": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
             "description": "BCL2_decreases activity or abundance of_Docetaxel",
             "tags": [],
             "input_id": "PUBCHEM.COMPOUND:148124",
             "input_name": "Docetaxel",
-            "input_category": null,
-            "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-            "predicate_name": "biolink:decreases_activity_or_abundance_of",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "decreases activity or abundance of",
             "output_id": "NCBIGene:596",
-            "output_name": "BCL2",
+            "output_name": null,
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -40,11 +40,11 @@
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             },
-            "biolink_qualified_predicate": null,
+            "biolink_qualified_predicate": "causes",
             "biolink_subject_aspect_qualifier": null,
             "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            "biolink_object_aspect_qualifier": "activity or abundance",
+            "biolink_object_direction_qualifier": "decreased"
         }
     ],
     "preconditions": [],
@@ -54,8 +54,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "biolink:decreases_activity_or_abundance_of",
-    "test_case_predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
+    "test_case_predicate_name": "decreases activity or abundance of",
+    "test_case_predicate_id": "biolink:decreases activity or abundance of",
     "test_case_input_id": "PUBCHEM.COMPOUND:148124",
     "test_case_runner_settings": [
         "inferred"

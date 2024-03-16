@@ -1,6 +1,6 @@
 {
     "id": "TestCase_25",
-    "name": "what biolink:decreases_activity_or_abundance_of NCBIGene:1080",
+    "name": "what increases activity or abundance of  NCBIGene:1080",
     "description": "Ivacaftor_increases activity or abundance of _CFTR_(human)",
     "tags": [],
     "test_env": "ci",
@@ -8,16 +8,16 @@
     "test_assets": [
         {
             "id": "Asset_313",
-            "name": "Ivacaftor_increases activity or abundance of _CFTR_(human)",
+            "name": "Acceptable: Ivacaftor_increases activity or abundance of _CFTR_(human)",
             "description": "Ivacaftor_increases activity or abundance of _CFTR_(human)",
             "tags": [],
             "input_id": "NCBIGene:1080",
             "input_name": "CFTR (human)",
-            "input_category": null,
-            "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-            "predicate_name": "biolink:decreases_activity_or_abundance_of",
+            "input_category": "biolink:Gene",
+            "predicate_id": null,
+            "predicate_name": "increases activity or abundance of ",
             "output_id": "PUBCHEM.COMPOUND:16220172",
-            "output_name": "Ivacaftor",
+            "output_name": null,
             "output_category": null,
             "association": null,
             "qualifiers": [],
@@ -54,8 +54,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "biolink:decreases_activity_or_abundance_of",
-    "test_case_predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
+    "test_case_predicate_name": "increases activity or abundance of ",
+    "test_case_predicate_id": "biolink:increases activity or abundance of ",
     "test_case_input_id": "NCBIGene:1080",
     "test_case_runner_settings": [
         "inferred"

@@ -1,15 +1,15 @@
 {
     "id": "Asset_135",
-    "name": "dna_double_stranded_decreases activity or abundance of_DDX3Y",
+    "name": "NeverShow: dna_double_stranded_decreases activity or abundance of_DDX3Y",
     "description": "dna_double_stranded_decreases activity or abundance of_DDX3Y",
     "tags": [],
     "input_id": "NCBI Gene:8653",
     "input_name": "DDX3Y",
     "input_category": null,
-    "predicate_id": "biolink:biolink:decreases_activity_or_abundance_of",
-    "predicate_name": "biolink:decreases_activity_or_abundance_of",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "decreases activity or abundance of",
     "output_id": "UMLS:C0311474",
-    "output_name": "dna double stranded",
+    "output_name": null,
     "output_category": null,
     "association": null,
     "qualifiers": [],
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "activity or abundance",
+    "biolink_object_direction_qualifier": "decreased"
 }
