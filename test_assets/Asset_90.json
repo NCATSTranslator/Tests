@@ -4,7 +4,7 @@
     "description": "NeverShow: fibrinogen_treats_Heart_Disorder",
     "tags": [],
     "input_id": "MONDO:0005267",
-    "input_name": "Heart Disorder",
+    "input_name": "MONDO:0005267",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

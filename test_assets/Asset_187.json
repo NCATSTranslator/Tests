@@ -4,7 +4,7 @@
     "description": "TopAnswer: Insulin_detremir_treats_Diabetes_Mellitus",
     "tags": [],
     "input_id": "MONDO:0005015",
-    "input_name": "Diabetes Mellitus",
+    "input_name": "MONDO:0005015",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "Acceptable: Pegloticase_treats_Gout",
     "tags": [],
     "input_id": "MONDO:0005393",
-    "input_name": "Gout",
+    "input_name": "MONDO:0005393",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

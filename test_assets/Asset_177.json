@@ -4,7 +4,7 @@
     "description": "Acceptable: Thalidimide_treats_Nemaline_myopathy",
     "tags": [],
     "input_id": "MONDO:0018958",
-    "input_name": "Nemaline myopathy",
+    "input_name": "MONDO:0018958",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

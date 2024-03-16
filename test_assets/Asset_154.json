@@ -4,7 +4,7 @@
     "description": "NeverShow: Electrons_treats_Fatal_familial_insomnia",
     "tags": [],
     "input_id": "MONDO:0010808",
-    "input_name": "Fatal familial insomnia",
+    "input_name": "MONDO:0010808",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

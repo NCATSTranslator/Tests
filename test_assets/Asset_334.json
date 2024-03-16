@@ -4,7 +4,7 @@
     "description": "TopAnswer: DUPILUMAB_treats_Eosinophilic_Esophagitis",
     "tags": [],
     "input_id": "MONDO:0005361",
-    "input_name": "Eosinophilic Esophagitis",
+    "input_name": "MONDO:0005361",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

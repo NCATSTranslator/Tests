@@ -12,7 +12,7 @@
             "description": "Acceptable: GBA1_decreases activity or abundance of_Eliglustat",
             "tags": [],
             "input_id": "PUBCHEM.COMPOUND:23652731",
-            "input_name": "Eliglustat",
+            "input_name": "PUBCHEM.COMPOUND:23652731",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "affects",
             "predicate_name": "decreases activity or abundance of",

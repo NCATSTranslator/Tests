@@ -4,7 +4,7 @@
     "description": "TopAnswer: Miglustat_treats_Gaucher_Disease_type1",
     "tags": [],
     "input_id": "MONDO:0009265",
-    "input_name": "Gaucher Disease type1",
+    "input_name": "MONDO:0009265",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "NeverShow: Antibiotics_treats_Cerebral_palsy",
     "tags": [],
     "input_id": "MONDO:0006497",
-    "input_name": "Cerebral palsy",
+    "input_name": "MONDO:0006497",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

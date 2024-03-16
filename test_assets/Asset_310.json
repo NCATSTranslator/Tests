@@ -4,7 +4,7 @@
     "description": "Acceptable: Interleukin-2_decreases abundance of_Pseudoephedrine",
     "tags": [],
     "input_id": "PUBCHEM.COMPOUND:7028",
-    "input_name": "Pseudoephedrine",
+    "input_name": "PUBCHEM.COMPOUND:7028",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "affects",
     "predicate_name": "decreases abundance of",

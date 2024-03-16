@@ -4,7 +4,7 @@
     "description": "Acceptable: Soot_treats_Obstructive_Sleep_Apnea",
     "tags": [],
     "input_id": "MONDO:0007147",
-    "input_name": "Obstructive Sleep Apnea",
+    "input_name": "MONDO:0007147",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

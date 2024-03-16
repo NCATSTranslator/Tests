@@ -4,7 +4,7 @@
     "description": "TopAnswer: Quinapril_decreases activity or abundance of_ACE",
     "tags": [],
     "input_id": "NCBIGene:1636",
-    "input_name": "ACE",
+    "input_name": "NCBIGene:1636",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

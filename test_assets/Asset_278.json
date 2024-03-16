@@ -4,7 +4,7 @@
     "description": "NeverShow: Organic_anion_treats_Cowden_Disease",
     "tags": [],
     "input_id": "MONDO:0016063",
-    "input_name": "Cowden Disease",
+    "input_name": "MONDO:0016063",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

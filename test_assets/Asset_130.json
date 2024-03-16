@@ -4,7 +4,7 @@
     "description": "NeverShow: bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
     "tags": [],
     "input_id": "MONDO:0018911",
-    "input_name": "Maturity-onset Diabetes Of The Young",
+    "input_name": "MONDO:0018911",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

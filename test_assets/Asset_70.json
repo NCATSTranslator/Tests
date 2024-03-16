@@ -4,7 +4,7 @@
     "description": "TopAnswer: Miglustat_treats_Niemann-Pick_type_C",
     "tags": [],
     "input_id": "MONDO:0018982",
-    "input_name": "Niemann-Pick type C",
+    "input_name": "MONDO:0018982",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

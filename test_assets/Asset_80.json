@@ -4,7 +4,7 @@
     "description": "NeverShow: Imatinib_treats_Exfoliative_Dermatitis",
     "tags": [],
     "input_id": "MONDO:0043233",
-    "input_name": "Exfoliative Dermatitis",
+    "input_name": "MONDO:0043233",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

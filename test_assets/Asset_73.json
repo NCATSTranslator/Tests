@@ -4,7 +4,7 @@
     "description": "TopAnswer: Mipomersen_treats_Homozygous_Familial_Hypercholesterolemia",
     "tags": [],
     "input_id": "MONDO:0018328",
-    "input_name": "Homozygous Familial Hypercholesterolemia",
+    "input_name": "MONDO:0018328",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

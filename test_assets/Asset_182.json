@@ -4,7 +4,7 @@
     "description": "NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
     "tags": [],
     "input_id": "MONDO:0015364",
-    "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+    "input_name": "MONDO:0015364",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

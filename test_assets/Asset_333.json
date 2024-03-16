@@ -4,7 +4,7 @@
     "description": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
     "tags": [],
     "input_id": "PUBCHEM.COMPOUND:148124",
-    "input_name": "Docetaxel",
+    "input_name": "PUBCHEM.COMPOUND:148124",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

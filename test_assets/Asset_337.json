@@ -4,7 +4,7 @@
     "description": "TopAnswer: Acarbose_decreases activity or abundance of_MGAM_(human)",
     "tags": [],
     "input_id": "NCBIGene:8972",
-    "input_name": "MGAM (human)",
+    "input_name": "NCBIGene:8972",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

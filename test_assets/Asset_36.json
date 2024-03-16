@@ -4,7 +4,7 @@
     "description": "NeverShow: alpha-Lactose_treats_Lactose_intolerance",
     "tags": [],
     "input_id": "MONDO:0100345",
-    "input_name": "Lactose intolerance",
+    "input_name": "MONDO:0100345",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

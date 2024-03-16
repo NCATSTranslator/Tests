@@ -4,7 +4,7 @@
     "description": "BadButForgivable: formaldehyde_decreases activity or abundance of_BRCA2",
     "tags": [],
     "input_id": "NCBIGene:675",
-    "input_name": "BRCA2",
+    "input_name": "NCBIGene:675",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

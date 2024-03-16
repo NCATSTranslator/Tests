@@ -4,7 +4,7 @@
     "description": "NeverShow: Basis_treats_Premature_Menopause",
     "tags": [],
     "input_id": "MONDO:0001119",
-    "input_name": "Premature Menopause",
+    "input_name": "MONDO:0001119",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

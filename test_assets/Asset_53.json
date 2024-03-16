@@ -4,7 +4,7 @@
     "description": "TopAnswer: Pyrantel_treats_Hookworm_Infectious_Disease",
     "tags": [],
     "input_id": "MONDO:0005799",
-    "input_name": "Hookworm Infectious Disease",
+    "input_name": "MONDO:0005799",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

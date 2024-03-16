@@ -4,7 +4,7 @@
     "description": "Acceptable: Ridaforolimus_treats_Lymphangioleiomyomatosis",
     "tags": [],
     "input_id": "MONDO:0011705",
-    "input_name": "Lymphangioleiomyomatosis",
+    "input_name": "MONDO:0011705",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "NeverShow: Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
     "tags": [],
     "input_id": "MONDO:0018493",
-    "input_name": "Malignant Hyperthermia Of Anesthesia",
+    "input_name": "MONDO:0018493",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

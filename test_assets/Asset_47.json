@@ -4,7 +4,7 @@
     "description": "NeverShow: Pesticides_treats_Autism",
     "tags": [],
     "input_id": "MONDO:0005260",
-    "input_name": "Autism",
+    "input_name": "MONDO:0005260",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

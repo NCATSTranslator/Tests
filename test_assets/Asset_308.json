@@ -4,7 +4,7 @@
     "description": "NeverShow: Propranalol_increases activity or abundance of _Beta_2_adrenergic_(ADRB2)",
     "tags": [],
     "input_id": "NCBIGene:154",
-    "input_name": "Beta 2 adrenergic (ADRB2)",
+    "input_name": "NCBIGene:154",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "increases activity or abundance of",

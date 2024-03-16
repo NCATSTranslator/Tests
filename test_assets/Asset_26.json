@@ -4,7 +4,7 @@
     "description": "NeverShow: main_group_molecular_entity_treats_Aceruloplasminemia",
     "tags": [],
     "input_id": "MONDO:0011426",
-    "input_name": "Aceruloplasminemia",
+    "input_name": "MONDO:0011426",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "TopAnswer: Ivacaftor_treats_Cystic_fibrosis",
     "tags": [],
     "input_id": "MONDO:0009061",
-    "input_name": "Cystic fibrosis",
+    "input_name": "MONDO:0009061",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

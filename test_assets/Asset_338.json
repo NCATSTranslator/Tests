@@ -4,7 +4,7 @@
     "description": "TopAnswer: Canagliflozin_decreases activity or abundance of_SLC5A2_(human)",
     "tags": [],
     "input_id": "NCBIGene:6524",
-    "input_name": "SLC5A2 (human)",
+    "input_name": "NCBIGene:6524",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

@@ -4,7 +4,7 @@
     "description": "NeverShow: cancer_decreases activity or abundance of_MYC_proto-oncogene,_bHLH_transcription_factor",
     "tags": [],
     "input_id": "NCBIGene:7553",
-    "input_name": "MYC proto-oncogene, bHLH transcription factor",
+    "input_name": "NCBIGene:7553",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

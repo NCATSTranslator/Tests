@@ -4,7 +4,7 @@
     "description": "TopAnswer: fingolimod_treats_Multiple_Sclerosis",
     "tags": [],
     "input_id": "MONDO:0005301",
-    "input_name": "Multiple Sclerosis",
+    "input_name": "MONDO:0005301",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

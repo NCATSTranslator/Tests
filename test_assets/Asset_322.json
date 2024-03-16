@@ -4,7 +4,7 @@
     "description": "Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis",
     "tags": [],
     "input_id": "MONDO:0018956",
-    "input_name": "Idiopathic bronchiectasis",
+    "input_name": "MONDO:0018956",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

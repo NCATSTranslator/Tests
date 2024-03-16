@@ -4,7 +4,7 @@
     "description": "NeverShow: Carbamazepine_decreases activity or abundance of_CYP2D6",
     "tags": [],
     "input_id": "NCBIGene:1565",
-    "input_name": "CYP2D6",
+    "input_name": "NCBIGene:1565",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

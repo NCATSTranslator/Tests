@@ -4,7 +4,7 @@
     "description": "TopAnswer: Pirfenidone_treats_Idiopathic_pulmonary_fibrosis",
     "tags": [],
     "input_id": "MONDO:0008345",
-    "input_name": "Idiopathic pulmonary fibrosis",
+    "input_name": "MONDO:0008345",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "Acceptable: Methylphenidate_treats_ADHD",
     "tags": [],
     "input_id": "MONDO:0007743",
-    "input_name": "ADHD",
+    "input_name": "MONDO:0007743",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

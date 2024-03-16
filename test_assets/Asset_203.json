@@ -4,7 +4,7 @@
     "description": "NeverShow: Nanotubes,_carbon_treats_alcoholic_hepatitis",
     "tags": [],
     "input_id": "MONDO:0001505",
-    "input_name": "alcoholic hepatitis",
+    "input_name": "MONDO:0001505",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "NeverShow: Antidepressive_agents_treats_Gastroesophageal_Reflux_Disease",
     "tags": [],
     "input_id": "MONDO:0007186",
-    "input_name": "Gastroesophageal Reflux Disease",
+    "input_name": "MONDO:0007186",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
     "tags": [],
     "input_id": "MONDO:0015364",
-    "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+    "input_name": "MONDO:0015364",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

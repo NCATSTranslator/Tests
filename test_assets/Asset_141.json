@@ -4,7 +4,7 @@
     "description": "NeverShow: vigabatrin_treats_scotoma",
     "tags": [],
     "input_id": "MONDO:0004758",
-    "input_name": "scotoma",
+    "input_name": "MONDO:0004758",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

@@ -4,7 +4,7 @@
     "description": "NeverShow: Alcohols_treats_familial_pityriasis_rubra_pilaris",
     "tags": [],
     "input_id": "MONDO:0008251",
-    "input_name": "familial pityriasis rubra pilaris",
+    "input_name": "MONDO:0008251",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

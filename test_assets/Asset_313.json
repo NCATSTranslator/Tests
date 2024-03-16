@@ -1,10 +1,10 @@
 {
     "id": "Asset_313",
-    "name": "Acceptable: Ivacaftor_increases activity or abundance of _CFTR_(human)",
-    "description": "Acceptable: Ivacaftor_increases activity or abundance of _CFTR_(human)",
+    "name": "Acceptable: Ivacaftor_increases activity or abundance of_CFTR_(human)",
+    "description": "Acceptable: Ivacaftor_increases activity or abundance of_CFTR_(human)",
     "tags": [],
     "input_id": "NCBIGene:1080",
-    "input_name": "CFTR (human)",
+    "input_name": "NCBIGene:1080",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "increases activity or abundance of",

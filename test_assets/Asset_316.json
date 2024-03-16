@@ -4,7 +4,7 @@
     "description": "Acceptable: Albuterol_(salbutamol)_treats_Asthma",
     "tags": [],
     "input_id": "MONDO:0004979",
-    "input_name": "Asthma",
+    "input_name": "MONDO:0004979",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

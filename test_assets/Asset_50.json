@@ -4,7 +4,7 @@
     "description": "NeverShow: particulate_matter_treats_Allergic_Asthma",
     "tags": [],
     "input_id": "MONDO:0004784",
-    "input_name": "Allergic Asthma",
+    "input_name": "MONDO:0004784",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

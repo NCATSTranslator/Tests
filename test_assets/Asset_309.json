@@ -4,7 +4,7 @@
     "description": "TopAnswer: Pegfilgrastim_treats_Neutropenia",
     "tags": [],
     "input_id": "MONDO:0001475",
-    "input_name": "Neutropenia",
+    "input_name": "MONDO:0001475",
     "input_category": "biolink:Disease",
     "predicate_id": "treats",
     "predicate_name": "treats",

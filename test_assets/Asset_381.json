@@ -4,7 +4,7 @@
     "description": "TopAnswer: atenolol_decreases activity or abundance of_ADRB2",
     "tags": [],
     "input_id": "NCBIGene:154",
-    "input_name": "ADRB2",
+    "input_name": "NCBIGene:154",
     "input_category": "biolink:Gene",
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",

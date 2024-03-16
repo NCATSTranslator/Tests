@@ -4,7 +4,7 @@
     "description": "NeverShow: dna_double_stranded_decreases activity or abundance of_DDX3Y",
     "tags": [],
     "input_id": "NCBI Gene:8653",
-    "input_name": "DDX3Y",
+    "input_name": "NCBI Gene:8653",
     "input_category": null,
     "predicate_id": "affects",
     "predicate_name": "decreases activity or abundance of",
