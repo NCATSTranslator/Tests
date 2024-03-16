@@ -1,7 +1,7 @@
 {
     "id": "TestCase_34",
     "name": "what decreases activity or abundance of PUBCHEM.COMPOUND:148124",
-    "description": "BCL2_decreases activity or abundance of_Docetaxel",
+    "description": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
@@ -9,12 +9,12 @@
         {
             "id": "Asset_333",
             "name": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
-            "description": "BCL2_decreases activity or abundance of_Docetaxel",
+            "description": "Acceptable: BCL2_decreases activity or abundance of_Docetaxel",
             "tags": [],
             "input_id": "PUBCHEM.COMPOUND:148124",
             "input_name": "Docetaxel",
             "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
+            "predicate_id": "affects",
             "predicate_name": "decreases activity or abundance of",
             "output_id": "NCBIGene:596",
             "output_name": null,

@@ -1,16 +1,16 @@
 {
     "id": "Asset_313",
     "name": "Acceptable: Ivacaftor_increases activity or abundance of _CFTR_(human)",
-    "description": "Ivacaftor_increases activity or abundance of _CFTR_(human)",
+    "description": "Acceptable: Ivacaftor_increases activity or abundance of _CFTR_(human)",
     "tags": [],
     "input_id": "NCBIGene:1080",
     "input_name": "CFTR (human)",
     "input_category": "biolink:Gene",
-    "predicate_id": null,
-    "predicate_name": "increases activity or abundance of ",
+    "predicate_id": "affects",
+    "predicate_name": "increases activity or abundance of",
     "output_id": "PUBCHEM.COMPOUND:16220172",
     "output_name": null,
-    "output_category": null,
+    "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [],
     "expected_output": "Acceptable",
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "activity or abundance",
+    "biolink_object_direction_qualifier": "increased"
 }
