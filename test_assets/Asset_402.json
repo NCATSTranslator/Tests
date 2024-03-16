@@ -1,0 +1,40 @@
+{
+    "id": "Asset_402",
+    "name": "Acceptable: Ipilimumab_(Yervoy)_treats_Colorectal_Cancer",
+    "description": "Acceptable: Ipilimumab_(Yervoy)_treats_Colorectal_Cancer",
+    "tags": [],
+    "input_id": "MONDO:0005575",
+    "input_name": "MONDO:0005575",
+    "input_category": "biolink:Disease",
+    "predicate_id": "treats",
+    "predicate_name": "treats",
+    "output_id": "UNII:6T8C155666, RXCUI:1094837",
+    "output_name": null,
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    },
+    "biolink_qualified_predicate": null,
+    "biolink_subject_aspect_qualifier": null,
+    "biolink_subject_direction_qualifier": null,
+    "biolink_object_aspect_qualifier": null,
+    "biolink_object_direction_qualifier": null
+}

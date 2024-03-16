@@ -1,0 +1,40 @@
+{
+    "id": "Asset_394",
+    "name": "TopAnswer: sodium_butyrate_decreases abundance or activity of_HBB",
+    "description": "TopAnswer: sodium_butyrate_decreases abundance or activity of_HBB",
+    "tags": [],
+    "input_id": "NCBIGene:3043",
+    "input_name": "NCBIGene:3043",
+    "input_category": "biolink:Gene",
+    "predicate_id": null,
+    "predicate_name": "decreases abundance or activity of",
+    "output_id": "PUBCHEM.COMPOUND:5222465",
+    "output_name": null,
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    },
+    "biolink_qualified_predicate": null,
+    "biolink_subject_aspect_qualifier": null,
+    "biolink_subject_direction_qualifier": null,
+    "biolink_object_aspect_qualifier": null,
+    "biolink_object_direction_qualifier": null
+}

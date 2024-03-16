@@ -1,0 +1,103 @@
+{
+    "id": "TestCase_61",
+    "name": "what treats MONDO:0019600",
+    "description": "NeverShow: cadmium_treats_Xeroderma_Pigmentosum; NeverShow: mercury_treats_Xeroderma_Pigmentosum",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_96",
+            "name": "NeverShow: cadmium_treats_Xeroderma_Pigmentosum",
+            "description": "NeverShow: cadmium_treats_Xeroderma_Pigmentosum",
+            "tags": [],
+            "input_id": "MONDO:0019600",
+            "input_name": "MONDO:0019600",
+            "input_category": "biolink:Disease",
+            "predicate_id": "treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        },
+        {
+            "id": "Asset_97",
+            "name": "NeverShow: mercury_treats_Xeroderma_Pigmentosum",
+            "description": "NeverShow: mercury_treats_Xeroderma_Pigmentosum",
+            "tags": [],
+            "input_id": "MONDO:0019600",
+            "input_name": "MONDO:0019600",
+            "input_category": "biolink:Disease",
+            "predicate_id": "treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            },
+            "biolink_qualified_predicate": null,
+            "biolink_subject_aspect_qualifier": null,
+            "biolink_subject_direction_qualifier": null,
+            "biolink_object_aspect_qualifier": null,
+            "biolink_object_direction_qualifier": null
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0019600",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
+}
