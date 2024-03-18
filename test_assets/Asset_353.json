@@ -1,18 +1,31 @@
 {
     "id": "Asset_353",
-    "name": "TopAnswer: Captopril_decreases activity or abundance of_ACE",
-    "description": "TopAnswer: Captopril_decreases activity or abundance of_ACE",
+    "name": "TopAnswer: Captopril decreases activity or abundance of ACE",
+    "description": "TopAnswer: Captopril decreases activity or abundance of ACE",
     "tags": [],
     "input_id": "NCBIGene:1636",
     "input_name": "ACE",
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
-    "predicate_name": "decreases activity or abundance of",
+    "predicate_name": "affects",
     "output_id": "PUBCHEM.COMPOUND:44093",
     "output_name": "Captopril",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
     "expected_output": "TopAnswer",
     "test_issue": null,
     "semantic_severity": null,
@@ -31,10 +44,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": "biolink:causes",
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": "activity or abundance",
-    "biolink_object_direction_qualifier": "decreased"
+    }
 }

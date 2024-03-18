@@ -1,7 +1,7 @@
 {
     "id": "Asset_94",
-    "name": "NeverShow: Cefaclor_treats_Rabies",
-    "description": "NeverShow: Cefaclor_treats_Rabies",
+    "name": "NeverShow: Cefaclor treats Rabies",
+    "description": "NeverShow: Cefaclor treats Rabies",
     "tags": [],
     "input_id": "MONDO:0019173",
     "input_name": "Rabies",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

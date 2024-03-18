@@ -1,7 +1,7 @@
 {
     "id": "Asset_77",
-    "name": "NeverShow: Busulfan_treats_Premature_Menopause",
-    "description": "NeverShow: Busulfan_treats_Premature_Menopause",
+    "name": "NeverShow: Busulfan treats Premature Menopause",
+    "description": "NeverShow: Busulfan treats Premature Menopause",
     "tags": [],
     "input_id": "MONDO:0001119",
     "input_name": "Premature Menopause",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

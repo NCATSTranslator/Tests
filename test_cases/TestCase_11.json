@@ -1,15 +1,15 @@
 {
     "id": "TestCase_11",
     "name": "what treats MONDO:0018958",
-    "description": "Acceptable: Tyrosine_treats_Nemaline_myopathy; Acceptable: Melphalan_treats_Nemaline_myopathy; NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy; Acceptable: Thalidimide_treats_Nemaline_myopathy",
+    "description": "Acceptable: Tyrosine treats Nemaline myopathy; Acceptable: Melphalan treats Nemaline myopathy; NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy; Acceptable: Thalidimide treats Nemaline myopathy",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_174",
-            "name": "Acceptable: Tyrosine_treats_Nemaline_myopathy",
-            "description": "Acceptable: Tyrosine_treats_Nemaline_myopathy",
+            "name": "Acceptable: Tyrosine treats Nemaline myopathy",
+            "description": "Acceptable: Tyrosine treats Nemaline myopathy",
             "tags": [],
             "input_id": "MONDO:0018958",
             "input_name": "Nemaline myopathy",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_175",
-            "name": "Acceptable: Melphalan_treats_Nemaline_myopathy",
-            "description": "Acceptable: Melphalan_treats_Nemaline_myopathy",
+            "name": "Acceptable: Melphalan treats Nemaline myopathy",
+            "description": "Acceptable: Melphalan treats Nemaline myopathy",
             "tags": [],
             "input_id": "MONDO:0018958",
             "input_name": "Nemaline myopathy",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_176",
-            "name": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy",
-            "description": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin_treats_Nemaline_myopathy",
+            "name": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
+            "description": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
             "tags": [],
             "input_id": "MONDO:0018958",
             "input_name": "Nemaline myopathy",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_177",
-            "name": "Acceptable: Thalidimide_treats_Nemaline_myopathy",
-            "description": "Acceptable: Thalidimide_treats_Nemaline_myopathy",
+            "name": "Acceptable: Thalidimide treats Nemaline myopathy",
+            "description": "Acceptable: Thalidimide treats Nemaline myopathy",
             "tags": [],
             "input_id": "MONDO:0018958",
             "input_name": "Nemaline myopathy",
@@ -159,12 +144,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

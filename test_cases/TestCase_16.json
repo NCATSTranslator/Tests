@@ -1,15 +1,15 @@
 {
     "id": "TestCase_16",
     "name": "what treats MONDO:0004260",
-    "description": "NeverShow: Methylprednisolone_treats_Peptic_Ulcer_Perforation; NeverShow: Prednisone_treats_Peptic_Ulcer_Perforation; NeverShow: Hydrocortisone_treats_Peptic_Ulcer_Perforation; NeverShow: Dexamethasone_treats_Peptic_Ulcer_Perforation; NeverShow: Triamcinolone_treats_Peptic_Ulcer_Perforation; NeverShow: Tobacco_smoke_pollution_treats_Peptic_Ulcer_Perforation; NeverShow: Cholera_Toxin_treats_Peptic_Ulcer_Perforation; NeverShow: Pertussis_toxin_treats_Peptic_Ulcer_Perforation; NeverShow: Cocain-chlorhydrat_treats_Peptic_Ulcer_Perforation; NeverShow: Cations_treats_Peptic_Ulcer_Perforation; NeverShow: Sodium_arsenite_treats_Peptic_Ulcer_Perforation; NeverShow: Anions_treats_Peptic_Ulcer_Perforation; NeverShow: Cadmium_treats_Peptic_Ulcer_Perforation; BadButForgivable: Azoles_treats_Peptic_Ulcer_Perforation; BadButForgivable: Cyanides_treats_Peptic_Ulcer_Perforation; BadButForgivable: Imidazoles_treats_Peptic_Ulcer_Perforation; NeverShow: Inorganic_chemicals_treats_Peptic_Ulcer_Perforation; NeverShow: Chemical_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Molecular_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Nitrogen_molecular_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Organic_molecular_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Carbon_group_molecular_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Cell_nucleus_treats_Peptic_Ulcer_Perforation; NeverShow: Organic_oxo_compound_treats_Peptic_Ulcer_Perforation; NeverShow: Atom_treats_Peptic_Ulcer_Perforation; NeverShow: Ions_treats_Peptic_Ulcer_Perforation; NeverShow: Group_treats_Peptic_Ulcer_Perforation; NeverShow: Cocaine_treats_Peptic_Ulcer_Perforation; BadButForgivable: Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation; NeverShow: Nitrogen_99.9_%_treats_Peptic_Ulcer_Perforation; NeverShow: Oxygen_molecular_entity_treats_Peptic_Ulcer_Perforation; NeverShow: Halogens_treats_Peptic_Ulcer_Perforation; NeverShow: Carbonyl_compound_treats_Peptic_Ulcer_Perforation; NeverShow: Nitrogen_99.7_%_treats_Peptic_Ulcer_Perforation; NeverShow: Monoanion_treats_Peptic_Ulcer_Perforation; NeverShow: Organic_cyclic_compound_treats_Peptic_Ulcer_Perforation; NeverShow: Organic_heterocyclic_compound_treats_Peptic_Ulcer_Perforation",
+    "description": "NeverShow: Methylprednisolone treats Peptic Ulcer Perforation; NeverShow: Prednisone treats Peptic Ulcer Perforation; NeverShow: Hydrocortisone treats Peptic Ulcer Perforation; NeverShow: Dexamethasone treats Peptic Ulcer Perforation; NeverShow: Triamcinolone treats Peptic Ulcer Perforation; NeverShow: Tobacco smoke pollution treats Peptic Ulcer Perforation; NeverShow: Cholera Toxin treats Peptic Ulcer Perforation; NeverShow: Pertussis toxin treats Peptic Ulcer Perforation; NeverShow: Cocain-chlorhydrat treats Peptic Ulcer Perforation; NeverShow: Cations treats Peptic Ulcer Perforation; NeverShow: Sodium arsenite treats Peptic Ulcer Perforation; NeverShow: Anions treats Peptic Ulcer Perforation; NeverShow: Cadmium treats Peptic Ulcer Perforation; BadButForgivable: Azoles treats Peptic Ulcer Perforation; BadButForgivable: Cyanides treats Peptic Ulcer Perforation; BadButForgivable: Imidazoles treats Peptic Ulcer Perforation; NeverShow: Inorganic chemicals treats Peptic Ulcer Perforation; NeverShow: Chemical entity treats Peptic Ulcer Perforation; NeverShow: Molecular entity treats Peptic Ulcer Perforation; NeverShow: Nitrogen molecular entity treats Peptic Ulcer Perforation; NeverShow: Organic molecular entity treats Peptic Ulcer Perforation; NeverShow: Carbon group molecular entity treats Peptic Ulcer Perforation; NeverShow: Cell nucleus treats Peptic Ulcer Perforation; NeverShow: Organic oxo compound treats Peptic Ulcer Perforation; NeverShow: Atom treats Peptic Ulcer Perforation; NeverShow: Ions treats Peptic Ulcer Perforation; NeverShow: Group treats Peptic Ulcer Perforation; NeverShow: Cocaine treats Peptic Ulcer Perforation; BadButForgivable: Hydrogen peroxide treats Peptic Ulcer Perforation; NeverShow: Nitrogen 99.9 % treats Peptic Ulcer Perforation; NeverShow: Oxygen molecular entity treats Peptic Ulcer Perforation; NeverShow: Halogens treats Peptic Ulcer Perforation; NeverShow: Carbonyl compound treats Peptic Ulcer Perforation; NeverShow: Nitrogen 99.7 % treats Peptic Ulcer Perforation; NeverShow: Monoanion treats Peptic Ulcer Perforation; NeverShow: Organic cyclic compound treats Peptic Ulcer Perforation; NeverShow: Organic heterocyclic compound treats Peptic Ulcer Perforation",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_213",
-            "name": "NeverShow: Methylprednisolone_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Methylprednisolone_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Methylprednisolone treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Methylprednisolone treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_214",
-            "name": "NeverShow: Prednisone_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Prednisone_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Prednisone treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Prednisone treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -79,17 +74,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_215",
-            "name": "NeverShow: Hydrocortisone_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Hydrocortisone_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Hydrocortisone treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Hydrocortisone treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -119,17 +109,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_216",
-            "name": "NeverShow: Dexamethasone_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Dexamethasone_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Dexamethasone treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Dexamethasone treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -159,17 +144,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_217",
-            "name": "NeverShow: Triamcinolone_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Triamcinolone_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Triamcinolone treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Triamcinolone treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -199,17 +179,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/636",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_218",
-            "name": "NeverShow: Tobacco_smoke_pollution_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Tobacco_smoke_pollution_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Tobacco smoke pollution treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Tobacco smoke pollution treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -239,17 +214,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_219",
-            "name": "NeverShow: Cholera_Toxin_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cholera_Toxin_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cholera Toxin treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cholera Toxin treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -279,17 +249,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_220",
-            "name": "NeverShow: Pertussis_toxin_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Pertussis_toxin_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Pertussis toxin treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Pertussis toxin treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -319,17 +284,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_221",
-            "name": "NeverShow: Cocain-chlorhydrat_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cocain-chlorhydrat_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cocain-chlorhydrat treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cocain-chlorhydrat treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -359,17 +319,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_222",
-            "name": "NeverShow: Cations_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cations_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cations treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cations treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -399,17 +354,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_223",
-            "name": "NeverShow: Sodium_arsenite_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Sodium_arsenite_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Sodium arsenite treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Sodium arsenite treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -439,17 +389,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_224",
-            "name": "NeverShow: Anions_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Anions_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Anions treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Anions treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -479,17 +424,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_225",
-            "name": "NeverShow: Cadmium_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cadmium_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cadmium treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cadmium treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -519,17 +459,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_226",
-            "name": "BadButForgivable: Azoles_treats_Peptic_Ulcer_Perforation",
-            "description": "BadButForgivable: Azoles_treats_Peptic_Ulcer_Perforation",
+            "name": "BadButForgivable: Azoles treats Peptic Ulcer Perforation",
+            "description": "BadButForgivable: Azoles treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -559,17 +494,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_227",
-            "name": "BadButForgivable: Cyanides_treats_Peptic_Ulcer_Perforation",
-            "description": "BadButForgivable: Cyanides_treats_Peptic_Ulcer_Perforation",
+            "name": "BadButForgivable: Cyanides treats Peptic Ulcer Perforation",
+            "description": "BadButForgivable: Cyanides treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -599,17 +529,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_228",
-            "name": "BadButForgivable: Imidazoles_treats_Peptic_Ulcer_Perforation",
-            "description": "BadButForgivable: Imidazoles_treats_Peptic_Ulcer_Perforation",
+            "name": "BadButForgivable: Imidazoles treats Peptic Ulcer Perforation",
+            "description": "BadButForgivable: Imidazoles treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -639,17 +564,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_229",
-            "name": "NeverShow: Inorganic_chemicals_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Inorganic_chemicals_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Inorganic chemicals treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Inorganic chemicals treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -679,17 +599,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_230",
-            "name": "NeverShow: Chemical_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Chemical_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Chemical entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Chemical entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -719,17 +634,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_231",
-            "name": "NeverShow: Molecular_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Molecular_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Molecular entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Molecular entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -759,17 +669,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_232",
-            "name": "NeverShow: Nitrogen_molecular_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Nitrogen_molecular_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Nitrogen molecular entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Nitrogen molecular entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -799,17 +704,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_233",
-            "name": "NeverShow: Organic_molecular_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Organic_molecular_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Organic molecular entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Organic molecular entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -839,17 +739,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_234",
-            "name": "NeverShow: Carbon_group_molecular_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Carbon_group_molecular_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Carbon group molecular entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Carbon group molecular entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -879,17 +774,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_235",
-            "name": "NeverShow: Cell_nucleus_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cell_nucleus_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cell nucleus treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cell nucleus treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -919,17 +809,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_236",
-            "name": "NeverShow: Organic_oxo_compound_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Organic_oxo_compound_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Organic oxo compound treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Organic oxo compound treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -959,17 +844,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_237",
-            "name": "NeverShow: Atom_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Atom_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Atom treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Atom treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -999,17 +879,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_238",
-            "name": "NeverShow: Ions_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Ions_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Ions treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Ions treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1039,17 +914,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_239",
-            "name": "NeverShow: Group_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Group_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Group treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Group treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1079,17 +949,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_240",
-            "name": "NeverShow: Cocaine_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Cocaine_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Cocaine treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Cocaine treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1119,17 +984,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_241",
-            "name": "BadButForgivable: Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
-            "description": "BadButForgivable: Hydrogen_peroxide_treats_Peptic_Ulcer_Perforation",
+            "name": "BadButForgivable: Hydrogen peroxide treats Peptic Ulcer Perforation",
+            "description": "BadButForgivable: Hydrogen peroxide treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1159,17 +1019,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_242",
-            "name": "NeverShow: Nitrogen_99.9_%_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Nitrogen_99.9_%_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Nitrogen 99.9 % treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Nitrogen 99.9 % treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1199,17 +1054,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_243",
-            "name": "NeverShow: Oxygen_molecular_entity_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Oxygen_molecular_entity_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Oxygen molecular entity treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Oxygen molecular entity treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1239,17 +1089,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_244",
-            "name": "NeverShow: Halogens_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Halogens_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Halogens treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Halogens treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1279,17 +1124,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_245",
-            "name": "NeverShow: Carbonyl_compound_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Carbonyl_compound_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Carbonyl compound treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Carbonyl compound treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1319,17 +1159,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_246",
-            "name": "NeverShow: Nitrogen_99.7_%_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Nitrogen_99.7_%_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Nitrogen 99.7 % treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Nitrogen 99.7 % treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1359,17 +1194,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_247",
-            "name": "NeverShow: Monoanion_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Monoanion_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Monoanion treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Monoanion treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1399,17 +1229,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_248",
-            "name": "NeverShow: Organic_cyclic_compound_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Organic_cyclic_compound_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Organic cyclic compound treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Organic cyclic compound treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1439,17 +1264,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_249",
-            "name": "NeverShow: Organic_heterocyclic_compound_treats_Peptic_Ulcer_Perforation",
-            "description": "NeverShow: Organic_heterocyclic_compound_treats_Peptic_Ulcer_Perforation",
+            "name": "NeverShow: Organic heterocyclic compound treats Peptic Ulcer Perforation",
+            "description": "NeverShow: Organic heterocyclic compound treats Peptic Ulcer Perforation",
             "tags": [],
             "input_id": "MONDO:0004260",
             "input_name": "Peptic Ulcer Perforation",
@@ -1479,12 +1299,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

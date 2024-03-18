@@ -1,7 +1,7 @@
 {
     "id": "Asset_57",
-    "name": "NeverShow: Pharmaceutical_preparations_treats_Alzheimer_Disease",
-    "description": "NeverShow: Pharmaceutical_preparations_treats_Alzheimer_Disease",
+    "name": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
+    "description": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
     "tags": [],
     "input_id": "MONDO:0004975",
     "input_name": "Alzheimer Disease",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

@@ -1,7 +1,7 @@
 {
     "id": "Asset_60",
-    "name": "NeverShow: Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
-    "description": "NeverShow: Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
+    "name": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
+    "description": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
     "tags": [],
     "input_id": "MONDO:0017314",
     "input_name": "Ehlers-Danlos Syndrome",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

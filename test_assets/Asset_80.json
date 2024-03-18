@@ -1,7 +1,7 @@
 {
     "id": "Asset_80",
-    "name": "NeverShow: Imatinib_treats_Exfoliative_Dermatitis",
-    "description": "NeverShow: Imatinib_treats_Exfoliative_Dermatitis",
+    "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
     "tags": [],
     "input_id": "MONDO:0043233",
     "input_name": "Exfoliative Dermatitis",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

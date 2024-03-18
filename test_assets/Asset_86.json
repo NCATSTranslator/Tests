@@ -1,7 +1,7 @@
 {
     "id": "Asset_86",
-    "name": "NeverShow: botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
-    "description": "NeverShow: botulinum_toxin_treats_Aggressive_Systemic_Mastocytosis",
+    "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
+    "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
     "tags": [],
     "input_id": "MONDO:0020333",
     "input_name": "Aggressive Systemic Mastocytosis",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

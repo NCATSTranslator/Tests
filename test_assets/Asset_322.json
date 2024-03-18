@@ -1,7 +1,7 @@
 {
     "id": "Asset_322",
-    "name": "Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis",
-    "description": "Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis",
+    "name": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
+    "description": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
     "tags": [],
     "input_id": "MONDO:0018956",
     "input_name": "Idiopathic bronchiectasis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

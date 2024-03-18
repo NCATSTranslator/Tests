@@ -1,7 +1,7 @@
 {
     "id": "Asset_129",
-    "name": "NeverShow: Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
-    "description": "NeverShow: Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "name": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
+    "description": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
     "tags": [],
     "input_id": "MONDO:0018911",
     "input_name": "Maturity-onset Diabetes Of The Young",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

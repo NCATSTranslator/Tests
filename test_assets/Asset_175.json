@@ -1,7 +1,7 @@
 {
     "id": "Asset_175",
-    "name": "Acceptable: Melphalan_treats_Nemaline_myopathy",
-    "description": "Acceptable: Melphalan_treats_Nemaline_myopathy",
+    "name": "Acceptable: Melphalan treats Nemaline myopathy",
+    "description": "Acceptable: Melphalan treats Nemaline myopathy",
     "tags": [],
     "input_id": "MONDO:0018958",
     "input_name": "Nemaline myopathy",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

@@ -1,7 +1,7 @@
 {
     "id": "Asset_330",
-    "name": "Acceptable: Ensifentrine_treats_Primary_ciliary_dyskinesia",
-    "description": "Acceptable: Ensifentrine_treats_Primary_ciliary_dyskinesia",
+    "name": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
+    "description": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
     "tags": [],
     "input_id": "MONDO:0016575",
     "input_name": "Primary ciliary dyskinesia",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

@@ -1,7 +1,7 @@
 {
     "id": "Asset_123",
-    "name": "NeverShow: Water_treats_Multiple_Sclerosis",
-    "description": "NeverShow: Water_treats_Multiple_Sclerosis",
+    "name": "NeverShow: Water treats Multiple Sclerosis",
+    "description": "NeverShow: Water treats Multiple Sclerosis",
     "tags": [],
     "input_id": "MONDO:0005301",
     "input_name": "Multiple Sclerosis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

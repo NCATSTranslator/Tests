@@ -1,7 +1,7 @@
 {
     "id": "Asset_187",
-    "name": "TopAnswer: Insulin_detremir_treats_Diabetes_Mellitus",
-    "description": "TopAnswer: Insulin_detremir_treats_Diabetes_Mellitus",
+    "name": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
+    "description": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
     "tags": [],
     "input_id": "MONDO:0005015",
     "input_name": "Diabetes Mellitus",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

@@ -1,18 +1,31 @@
 {
     "id": "Asset_339",
-    "name": "Acceptable: GBA1_decreases activity or abundance of_Eliglustat",
-    "description": "Acceptable: GBA1_decreases activity or abundance of_Eliglustat",
+    "name": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
+    "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
     "tags": [],
     "input_id": "PUBCHEM.COMPOUND:23652731",
     "input_name": "Eliglustat",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
-    "predicate_name": "decreases activity or abundance of",
+    "predicate_name": "affects",
     "output_id": "NCBI:2629",
     "output_name": "GBA1",
     "output_category": null,
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
     "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,
@@ -31,10 +44,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": "biolink:causes",
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": "activity or abundance",
-    "biolink_object_direction_qualifier": "decreased"
+    }
 }

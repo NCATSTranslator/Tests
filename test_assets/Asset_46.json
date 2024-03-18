@@ -1,7 +1,7 @@
 {
     "id": "Asset_46",
-    "name": "NeverShow: Valproic_acid_treats_Autism",
-    "description": "NeverShow: Valproic_acid_treats_Autism",
+    "name": "NeverShow: Valproic acid treats Autism",
+    "description": "NeverShow: Valproic acid treats Autism",
     "tags": [],
     "input_id": "MONDO:0005260",
     "input_name": "Autism",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

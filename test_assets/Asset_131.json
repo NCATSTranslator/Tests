@@ -1,7 +1,7 @@
 {
     "id": "Asset_131",
-    "name": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
-    "description": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+    "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+    "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
     "tags": [],
     "input_id": "MONDO:0015364",
     "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

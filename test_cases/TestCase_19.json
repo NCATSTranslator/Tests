@@ -1,15 +1,15 @@
 {
     "id": "TestCase_19",
     "name": "what treats MONDO:0010794",
-    "description": "NeverShow: Valproic_Acid_treats_NARP_Syndrome; NeverShow: Barbiturates_treats_NARP_Syndrome",
+    "description": "NeverShow: Valproic Acid treats NARP Syndrome; NeverShow: Barbiturates treats NARP Syndrome",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_3",
-            "name": "NeverShow: Valproic_Acid_treats_NARP_Syndrome",
-            "description": "NeverShow: Valproic_Acid_treats_NARP_Syndrome",
+            "name": "NeverShow: Valproic Acid treats NARP Syndrome",
+            "description": "NeverShow: Valproic Acid treats NARP Syndrome",
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_4",
-            "name": "NeverShow: Barbiturates_treats_NARP_Syndrome",
-            "description": "NeverShow: Barbiturates_treats_NARP_Syndrome",
+            "name": "NeverShow: Barbiturates treats NARP Syndrome",
+            "description": "NeverShow: Barbiturates treats NARP Syndrome",
             "tags": [],
             "input_id": "MONDO:0010794",
             "input_name": "NARP Syndrome",
@@ -79,12 +74,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

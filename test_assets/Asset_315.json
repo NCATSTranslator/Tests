@@ -1,7 +1,7 @@
 {
     "id": "Asset_315",
-    "name": "TopAnswer: Fluticasone_treats_Asthma",
-    "description": "TopAnswer: Fluticasone_treats_Asthma",
+    "name": "TopAnswer: Fluticasone treats Asthma",
+    "description": "TopAnswer: Fluticasone treats Asthma",
     "tags": [],
     "input_id": "MONDO:0004979",
     "input_name": "Asthma",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

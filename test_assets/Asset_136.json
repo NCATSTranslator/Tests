@@ -1,18 +1,31 @@
 {
     "id": "Asset_136",
-    "name": "NeverShow: Small_molecule_decreases activity or abundance of_DDX3Y",
-    "description": "NeverShow: Small_molecule_decreases activity or abundance of_DDX3Y",
+    "name": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
+    "description": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
     "tags": [],
     "input_id": "NCBI Gene:8653",
     "input_name": "DDX3Y",
     "input_category": null,
     "predicate_id": "biolink:affects",
-    "predicate_name": "decreases activity or abundance of",
+    "predicate_name": "affects",
     "output_id": "UMLS:C1328819",
     "output_name": "Small molecule",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
     "expected_output": "NeverShow",
     "test_issue": null,
     "semantic_severity": null,
@@ -31,10 +44,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": "biolink:causes",
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": "activity or abundance",
-    "biolink_object_direction_qualifier": "decreased"
+    }
 }

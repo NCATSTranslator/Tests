@@ -1,7 +1,7 @@
 {
     "id": "Asset_162",
-    "name": "NeverShow: Organic_salt_treats_Fatal_familial_insomnia",
-    "description": "NeverShow: Organic_salt_treats_Fatal_familial_insomnia",
+    "name": "NeverShow: Organic salt treats Fatal familial insomnia",
+    "description": "NeverShow: Organic salt treats Fatal familial insomnia",
     "tags": [],
     "input_id": "MONDO:0010808",
     "input_name": "Fatal familial insomnia",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

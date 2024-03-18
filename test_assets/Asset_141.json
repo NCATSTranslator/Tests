@@ -1,7 +1,7 @@
 {
     "id": "Asset_141",
-    "name": "NeverShow: vigabatrin_treats_scotoma",
-    "description": "NeverShow: vigabatrin_treats_scotoma",
+    "name": "NeverShow: vigabatrin treats scotoma",
+    "description": "NeverShow: vigabatrin treats scotoma",
     "tags": [],
     "input_id": "MONDO:0004758",
     "input_name": "scotoma",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

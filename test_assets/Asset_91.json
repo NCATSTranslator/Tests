@@ -1,7 +1,7 @@
 {
     "id": "Asset_91",
-    "name": "NeverShow: 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
-    "description": "NeverShow: 4-Aminopyridine_treats_Aggressive_Systemic_Mastocytosis",
+    "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+    "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
     "tags": [],
     "input_id": "MONDO:0020333",
     "input_name": "Aggressive Systemic Mastocytosis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

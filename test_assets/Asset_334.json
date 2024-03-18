@@ -1,7 +1,7 @@
 {
     "id": "Asset_334",
-    "name": "TopAnswer: DUPILUMAB_treats_Eosinophilic_Esophagitis",
-    "description": "TopAnswer: DUPILUMAB_treats_Eosinophilic_Esophagitis",
+    "name": "TopAnswer: DUPILUMAB treats Eosinophilic Esophagitis",
+    "description": "TopAnswer: DUPILUMAB treats Eosinophilic Esophagitis",
     "tags": [],
     "input_id": "MONDO:0005361",
     "input_name": "Eosinophilic Esophagitis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

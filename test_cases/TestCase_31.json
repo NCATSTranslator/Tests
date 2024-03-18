@@ -1,15 +1,15 @@
 {
     "id": "TestCase_31",
     "name": "what treats MONDO:0008345",
-    "description": "TopAnswer: Pirfenidone_treats_Idiopathic_pulmonary_fibrosis; Acceptable: Fostamatinib_treats_Idiopathic_pulmonary_fibrosis; Acceptable: GLPG1690_(Ziritaxestat)_treats_Idiopathic_pulmonary_fibrosis",
+    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis; Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis; Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_324",
-            "name": "TopAnswer: Pirfenidone_treats_Idiopathic_pulmonary_fibrosis",
-            "description": "TopAnswer: Pirfenidone_treats_Idiopathic_pulmonary_fibrosis",
+            "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "input_id": "MONDO:0008345",
             "input_name": "Idiopathic pulmonary fibrosis",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_325",
-            "name": "Acceptable: Fostamatinib_treats_Idiopathic_pulmonary_fibrosis",
-            "description": "Acceptable: Fostamatinib_treats_Idiopathic_pulmonary_fibrosis",
+            "name": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "input_id": "MONDO:0008345",
             "input_name": "Idiopathic pulmonary fibrosis",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_326",
-            "name": "Acceptable: GLPG1690_(Ziritaxestat)_treats_Idiopathic_pulmonary_fibrosis",
-            "description": "Acceptable: GLPG1690_(Ziritaxestat)_treats_Idiopathic_pulmonary_fibrosis",
+            "name": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "input_id": "MONDO:0008345",
             "input_name": "Idiopathic pulmonary fibrosis",
@@ -119,12 +109,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

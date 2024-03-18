@@ -1,7 +1,7 @@
 {
     "id": "Asset_182",
-    "name": "NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
-    "description": "NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+    "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
     "tags": [],
     "input_id": "MONDO:0015364",
     "input_name": "Hereditary Sensory And Autonomic Neuropathy",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

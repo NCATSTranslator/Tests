@@ -1,7 +1,7 @@
 {
     "id": "Asset_2",
-    "name": "NeverShow: organic_group_treats_Aceruloplasminemia",
-    "description": "NeverShow: organic_group_treats_Aceruloplasminemia",
+    "name": "NeverShow: organic group treats Aceruloplasminemia",
+    "description": "NeverShow: organic group treats Aceruloplasminemia",
     "tags": [],
     "input_id": "MONDO:0011426",
     "input_name": "Aceruloplasminemia",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

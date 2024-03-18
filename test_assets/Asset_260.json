@@ -1,7 +1,7 @@
 {
     "id": "Asset_260",
-    "name": "NeverShow: Lithium_Chloride_treats_Gastroesophageal_Reflux_Disease",
-    "description": "NeverShow: Lithium_Chloride_treats_Gastroesophageal_Reflux_Disease",
+    "name": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
+    "description": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
     "tags": [],
     "input_id": "MONDO:0007186",
     "input_name": "Gastroesophageal Reflux Disease",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

@@ -1,7 +1,7 @@
 {
     "id": "Asset_133",
-    "name": "NeverShow: Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
-    "description": "NeverShow: Carbon_treats_Hereditary_sensory_and_autonomic_neuropathy_type_4",
+    "name": "NeverShow: Carbon treats Hereditary sensory and autonomic neuropathy type 4",
+    "description": "NeverShow: Carbon treats Hereditary sensory and autonomic neuropathy type 4",
     "tags": [],
     "input_id": "MONDO:0009746",
     "input_name": "Hereditary sensory and autonomic neuropathy type 4",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/404",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

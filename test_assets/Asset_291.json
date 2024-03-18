@@ -1,7 +1,7 @@
 {
     "id": "Asset_291",
-    "name": "NeverShow: Monoatomic_chlorine_treats_Cowden_Disease",
-    "description": "NeverShow: Monoatomic_chlorine_treats_Cowden_Disease",
+    "name": "NeverShow: Monoatomic chlorine treats Cowden Disease",
+    "description": "NeverShow: Monoatomic chlorine treats Cowden Disease",
     "tags": [],
     "input_id": "MONDO:0016063",
     "input_name": "Cowden Disease",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

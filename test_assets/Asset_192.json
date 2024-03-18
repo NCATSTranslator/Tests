@@ -1,7 +1,7 @@
 {
     "id": "Asset_192",
-    "name": "NeverShow: Aerosols_treats_Cerebral_Palsy",
-    "description": "NeverShow: Aerosols_treats_Cerebral_Palsy",
+    "name": "NeverShow: Aerosols treats Cerebral Palsy",
+    "description": "NeverShow: Aerosols treats Cerebral Palsy",
     "tags": [],
     "input_id": "MONDO:0006497",
     "input_name": "Cerebral Palsy",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

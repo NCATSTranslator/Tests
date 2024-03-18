@@ -1,7 +1,7 @@
 {
     "id": "Asset_68",
-    "name": "NeverShow: Soot_treats_Obstructive_Sleep_Apnea",
-    "description": "NeverShow: Soot_treats_Obstructive_Sleep_Apnea",
+    "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+    "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
     "tags": [],
     "input_id": "MONDO:0007147",
     "input_name": "Obstructive Sleep Apnea",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

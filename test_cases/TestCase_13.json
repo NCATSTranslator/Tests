@@ -1,15 +1,15 @@
 {
     "id": "TestCase_13",
     "name": "what treats MONDO:0005393",
-    "description": "Acceptable: Pegloticase_treats_Gout; Acceptable: Prednisone_treats_Gout",
+    "description": "Acceptable: Pegloticase treats Gout; Acceptable: Prednisone treats Gout",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_180",
-            "name": "Acceptable: Pegloticase_treats_Gout",
-            "description": "Acceptable: Pegloticase_treats_Gout",
+            "name": "Acceptable: Pegloticase treats Gout",
+            "description": "Acceptable: Pegloticase treats Gout",
             "tags": [],
             "input_id": "MONDO:0005393",
             "input_name": "Gout",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_181",
-            "name": "Acceptable: Prednisone_treats_Gout",
-            "description": "Acceptable: Prednisone_treats_Gout",
+            "name": "Acceptable: Prednisone treats Gout",
+            "description": "Acceptable: Prednisone treats Gout",
             "tags": [],
             "input_id": "MONDO:0005393",
             "input_name": "Gout",
@@ -79,12 +74,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

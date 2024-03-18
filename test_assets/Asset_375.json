@@ -1,18 +1,31 @@
 {
     "id": "Asset_375",
-    "name": "NeverShow: St._John's_Wort_(Hypericum_perforatum)_decreases activity or abundance of_CYP2D6",
-    "description": "NeverShow: St._John's_Wort_(Hypericum_perforatum)_decreases activity or abundance of_CYP2D6",
+    "name": "NeverShow: St. John's Wort (Hypericum perforatum) decreases activity or abundance of CYP2D6",
+    "description": "NeverShow: St. John's Wort (Hypericum perforatum) decreases activity or abundance of CYP2D6",
     "tags": [],
     "input_id": "NCBIGene:1565",
     "input_name": "CYP2D6",
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
-    "predicate_name": "decreases activity or abundance of",
+    "predicate_name": "affects",
     "output_id": "PUBCHEM.COMPOUND:3663",
     "output_name": "St. John's Wort (Hypericum perforatum)",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
     "expected_output": "NeverShow",
     "test_issue": null,
     "semantic_severity": null,
@@ -31,10 +44,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": "biolink:causes",
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": "activity or abundance",
-    "biolink_object_direction_qualifier": "decreased"
+    }
 }

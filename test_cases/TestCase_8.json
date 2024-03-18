@@ -1,15 +1,15 @@
 {
     "id": "TestCase_8",
     "name": "what treats MONDO:0004758",
-    "description": "NeverShow: Prednisone_treats_scotoma; NeverShow: vigabatrin_treats_scotoma",
+    "description": "NeverShow: Prednisone treats scotoma; NeverShow: vigabatrin treats scotoma",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_140",
-            "name": "NeverShow: Prednisone_treats_scotoma",
-            "description": "NeverShow: Prednisone_treats_scotoma",
+            "name": "NeverShow: Prednisone treats scotoma",
+            "description": "NeverShow: Prednisone treats scotoma",
             "tags": [],
             "input_id": "MONDO:0004758",
             "input_name": "scotoma",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_141",
-            "name": "NeverShow: vigabatrin_treats_scotoma",
-            "description": "NeverShow: vigabatrin_treats_scotoma",
+            "name": "NeverShow: vigabatrin treats scotoma",
+            "description": "NeverShow: vigabatrin treats scotoma",
             "tags": [],
             "input_id": "MONDO:0004758",
             "input_name": "scotoma",
@@ -79,12 +74,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

@@ -1,15 +1,15 @@
 {
     "id": "TestCase_30",
     "name": "what treats MONDO:0018956",
-    "description": "Acceptable: Azithromycin_treats_Idiopathic_bronchiectasis; Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis; NeverShow: Propranolol_treats_Idiopathic_bronchiectasis",
+    "description": "Acceptable: Azithromycin treats Idiopathic bronchiectasis; Acceptable: Erythromycin treats Idiopathic bronchiectasis; NeverShow: Propranolol treats Idiopathic bronchiectasis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_321",
-            "name": "Acceptable: Azithromycin_treats_Idiopathic_bronchiectasis",
-            "description": "Acceptable: Azithromycin_treats_Idiopathic_bronchiectasis",
+            "name": "Acceptable: Azithromycin treats Idiopathic bronchiectasis",
+            "description": "Acceptable: Azithromycin treats Idiopathic bronchiectasis",
             "tags": [],
             "input_id": "MONDO:0018956",
             "input_name": "Idiopathic bronchiectasis",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_322",
-            "name": "Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis",
-            "description": "Acceptable: Erythromycin_treats_Idiopathic_bronchiectasis",
+            "name": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
+            "description": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
             "tags": [],
             "input_id": "MONDO:0018956",
             "input_name": "Idiopathic bronchiectasis",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_323",
-            "name": "NeverShow: Propranolol_treats_Idiopathic_bronchiectasis",
-            "description": "NeverShow: Propranolol_treats_Idiopathic_bronchiectasis",
+            "name": "NeverShow: Propranolol treats Idiopathic bronchiectasis",
+            "description": "NeverShow: Propranolol treats Idiopathic bronchiectasis",
             "tags": [],
             "input_id": "MONDO:0018956",
             "input_name": "Idiopathic bronchiectasis",
@@ -119,12 +109,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

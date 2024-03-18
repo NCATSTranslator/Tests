@@ -1,7 +1,7 @@
 {
     "id": "Asset_401",
-    "name": "Acceptable: Metformin_treats_Colorectal_Cancer",
-    "description": "Acceptable: Metformin_treats_Colorectal_Cancer",
+    "name": "Acceptable: Metformin treats Colorectal Cancer",
+    "description": "Acceptable: Metformin treats Colorectal Cancer",
     "tags": [],
     "input_id": "MONDO:0005575",
     "input_name": "Colorectal Cancer",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

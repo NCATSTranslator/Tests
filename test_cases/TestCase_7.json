@@ -1,15 +1,15 @@
 {
     "id": "TestCase_7",
     "name": "what treats MONDO:0018493",
-    "description": "NeverShow: Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: isoflurane_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: 4-aminopyridine_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: Anesthetics_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia; NeverShow: basis_treats_Malignant_Hyperthermia_Of_Anesthesia",
+    "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia; NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia; NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia; NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia; NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia; NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_138",
-            "name": "NeverShow: Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Halothane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_139",
-            "name": "NeverShow: isoflurane_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: isoflurane_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -79,17 +74,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_142",
-            "name": "NeverShow: Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Pharmaceutical_preparations_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_143",
-            "name": "NeverShow: Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Carbon_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_144",
-            "name": "NeverShow: Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Anesthetics,_local_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -199,17 +179,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_145",
-            "name": "NeverShow: 4-aminopyridine_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: 4-aminopyridine_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -239,17 +214,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_146",
-            "name": "NeverShow: Anesthetics_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Anesthetics_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -279,17 +249,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_147",
-            "name": "NeverShow: Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: Antibiotics_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -319,17 +284,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_148",
-            "name": "NeverShow: basis_treats_Malignant_Hyperthermia_Of_Anesthesia",
-            "description": "NeverShow: basis_treats_Malignant_Hyperthermia_Of_Anesthesia",
+            "name": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
@@ -359,12 +319,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

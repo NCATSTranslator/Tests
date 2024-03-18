@@ -1,7 +1,7 @@
 {
     "id": "Asset_70",
-    "name": "TopAnswer: Miglustat_treats_Niemann-Pick_type_C",
-    "description": "TopAnswer: Miglustat_treats_Niemann-Pick_type_C",
+    "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
+    "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
     "tags": [],
     "input_id": "MONDO:0018982",
     "input_name": "Niemann-Pick type C",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

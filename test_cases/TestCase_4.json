@@ -1,15 +1,15 @@
 {
     "id": "TestCase_4",
     "name": "what treats MONDO:0015364",
-    "description": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type; NeverShow: Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type; NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy; NeverShow: Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+    "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_131",
-            "name": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
-            "description": "NeverShow: Immunoglobulins,_intravenous_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_132",
-            "name": "NeverShow: Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
-            "description": "NeverShow: Isoxaflutole_treats_Hereditary_Sensory_And_Autonomic_Neuropathy_Type",
+            "name": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "description": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_182",
-            "name": "NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
-            "description": "NeverShow: Erythromelalgia_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+            "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy",
@@ -119,17 +109,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_183",
-            "name": "NeverShow: Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
-            "description": "NeverShow: Riley-day_Syndrome_treats_Hereditary_Sensory_And_Autonomic_Neuropathy",
+            "name": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
+            "description": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
             "tags": [],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy",
@@ -159,12 +144,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

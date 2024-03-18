@@ -1,15 +1,15 @@
 {
     "id": "TestCase_18",
     "name": "what treats MONDO:0016063",
-    "description": "NeverShow: Gadolinium_treats_Cowden_Disease; NeverShow: Ions_treats_Cowden_Disease; NeverShow: Oxide_treats_Cowden_Disease; NeverShow: Carbon_treats_Cowden_Disease; NeverShow: Water_treats_Cowden_Disease; NeverShow: Cations_treats_Cowden_Disease; NeverShow: Electrons_treats_Cowden_Disease; NeverShow: Formaldehyde_treats_Cowden_Disease; NeverShow: Organic_anion_treats_Cowden_Disease; NeverShow: Acyl_group_treats_Cowden_Disease; NeverShow: Nonmetal_atom_treats_Cowden_Disease; NeverShow: F-block_molecular_entity_treats_Cowden_Disease; NeverShow: Transition_element_molecular_entity_treats_Cowden_Disease; NeverShow: Transition_element_atom_treats_Cowden_Disease; NeverShow: F-block_element_atom_treats_Cowden_Disease; NeverShow: Nucleons_treats_Cowden_Disease; NeverShow: Organooxygen_compound_treats_Cowden_Disease; NeverShow: Information_biomacromolecule_treats_Cowden_Disease; NeverShow: Organic_heterocyclic_compound_treats_Cowden_Disease; NeverShow: Elemental_halogen_treats_Cowden_Disease; NeverShow: Monoatomic_ion_treats_Cowden_Disease; NeverShow: Monoatomic_chlorine_treats_Cowden_Disease; NeverShow: Monoatomic_halogen_treats_Cowden_Disease; NeverShow: S-block_molecular_entity_treats_Cowden_Disease; NeverShow: Elemental_chlorine_treats_Cowden_Disease; NeverShow: Organic_amino_compound_treats_Cowden_Disease; NeverShow: Halide_treats_Cowden_Disease; NeverShow: Xenon_treats_Cowden_Disease; NeverShow: Polyketides_treats_Cowden_Disease; NeverShow: Alpha-amino-acid_residue_treats_Cowden_Disease; NeverShow: Monovalent_inorganic_anion_treats_Cowden_Disease; NeverShow: Alkaloids_treats_Cowden_Disease; NeverShow: Halide_anion_treats_Cowden_Disease",
+    "description": "NeverShow: Gadolinium treats Cowden Disease; NeverShow: Ions treats Cowden Disease; NeverShow: Oxide treats Cowden Disease; NeverShow: Carbon treats Cowden Disease; NeverShow: Water treats Cowden Disease; NeverShow: Cations treats Cowden Disease; NeverShow: Electrons treats Cowden Disease; NeverShow: Formaldehyde treats Cowden Disease; NeverShow: Organic anion treats Cowden Disease; NeverShow: Acyl group treats Cowden Disease; NeverShow: Nonmetal atom treats Cowden Disease; NeverShow: F-block molecular entity treats Cowden Disease; NeverShow: Transition element molecular entity treats Cowden Disease; NeverShow: Transition element atom treats Cowden Disease; NeverShow: F-block element atom treats Cowden Disease; NeverShow: Nucleons treats Cowden Disease; NeverShow: Organooxygen compound treats Cowden Disease; NeverShow: Information biomacromolecule treats Cowden Disease; NeverShow: Organic heterocyclic compound treats Cowden Disease; NeverShow: Elemental halogen treats Cowden Disease; NeverShow: Monoatomic ion treats Cowden Disease; NeverShow: Monoatomic chlorine treats Cowden Disease; NeverShow: Monoatomic halogen treats Cowden Disease; NeverShow: S-block molecular entity treats Cowden Disease; NeverShow: Elemental chlorine treats Cowden Disease; NeverShow: Organic amino compound treats Cowden Disease; NeverShow: Halide treats Cowden Disease; NeverShow: Xenon treats Cowden Disease; NeverShow: Polyketides treats Cowden Disease; NeverShow: Alpha-amino-acid residue treats Cowden Disease; NeverShow: Monovalent inorganic anion treats Cowden Disease; NeverShow: Alkaloids treats Cowden Disease; NeverShow: Halide anion treats Cowden Disease",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_270",
-            "name": "NeverShow: Gadolinium_treats_Cowden_Disease",
-            "description": "NeverShow: Gadolinium_treats_Cowden_Disease",
+            "name": "NeverShow: Gadolinium treats Cowden Disease",
+            "description": "NeverShow: Gadolinium treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_271",
-            "name": "NeverShow: Ions_treats_Cowden_Disease",
-            "description": "NeverShow: Ions_treats_Cowden_Disease",
+            "name": "NeverShow: Ions treats Cowden Disease",
+            "description": "NeverShow: Ions treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_272",
-            "name": "NeverShow: Oxide_treats_Cowden_Disease",
-            "description": "NeverShow: Oxide_treats_Cowden_Disease",
+            "name": "NeverShow: Oxide treats Cowden Disease",
+            "description": "NeverShow: Oxide treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_273",
-            "name": "NeverShow: Carbon_treats_Cowden_Disease",
-            "description": "NeverShow: Carbon_treats_Cowden_Disease",
+            "name": "NeverShow: Carbon treats Cowden Disease",
+            "description": "NeverShow: Carbon treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_274",
-            "name": "NeverShow: Water_treats_Cowden_Disease",
-            "description": "NeverShow: Water_treats_Cowden_Disease",
+            "name": "NeverShow: Water treats Cowden Disease",
+            "description": "NeverShow: Water treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -199,17 +179,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_275",
-            "name": "NeverShow: Cations_treats_Cowden_Disease",
-            "description": "NeverShow: Cations_treats_Cowden_Disease",
+            "name": "NeverShow: Cations treats Cowden Disease",
+            "description": "NeverShow: Cations treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -239,17 +214,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_276",
-            "name": "NeverShow: Electrons_treats_Cowden_Disease",
-            "description": "NeverShow: Electrons_treats_Cowden_Disease",
+            "name": "NeverShow: Electrons treats Cowden Disease",
+            "description": "NeverShow: Electrons treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -279,17 +249,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_277",
-            "name": "NeverShow: Formaldehyde_treats_Cowden_Disease",
-            "description": "NeverShow: Formaldehyde_treats_Cowden_Disease",
+            "name": "NeverShow: Formaldehyde treats Cowden Disease",
+            "description": "NeverShow: Formaldehyde treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -319,17 +284,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_278",
-            "name": "NeverShow: Organic_anion_treats_Cowden_Disease",
-            "description": "NeverShow: Organic_anion_treats_Cowden_Disease",
+            "name": "NeverShow: Organic anion treats Cowden Disease",
+            "description": "NeverShow: Organic anion treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -359,17 +319,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_279",
-            "name": "NeverShow: Acyl_group_treats_Cowden_Disease",
-            "description": "NeverShow: Acyl_group_treats_Cowden_Disease",
+            "name": "NeverShow: Acyl group treats Cowden Disease",
+            "description": "NeverShow: Acyl group treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -399,17 +354,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_280",
-            "name": "NeverShow: Nonmetal_atom_treats_Cowden_Disease",
-            "description": "NeverShow: Nonmetal_atom_treats_Cowden_Disease",
+            "name": "NeverShow: Nonmetal atom treats Cowden Disease",
+            "description": "NeverShow: Nonmetal atom treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -439,17 +389,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_281",
-            "name": "NeverShow: F-block_molecular_entity_treats_Cowden_Disease",
-            "description": "NeverShow: F-block_molecular_entity_treats_Cowden_Disease",
+            "name": "NeverShow: F-block molecular entity treats Cowden Disease",
+            "description": "NeverShow: F-block molecular entity treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -479,17 +424,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_282",
-            "name": "NeverShow: Transition_element_molecular_entity_treats_Cowden_Disease",
-            "description": "NeverShow: Transition_element_molecular_entity_treats_Cowden_Disease",
+            "name": "NeverShow: Transition element molecular entity treats Cowden Disease",
+            "description": "NeverShow: Transition element molecular entity treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -519,17 +459,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_283",
-            "name": "NeverShow: Transition_element_atom_treats_Cowden_Disease",
-            "description": "NeverShow: Transition_element_atom_treats_Cowden_Disease",
+            "name": "NeverShow: Transition element atom treats Cowden Disease",
+            "description": "NeverShow: Transition element atom treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -559,17 +494,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_284",
-            "name": "NeverShow: F-block_element_atom_treats_Cowden_Disease",
-            "description": "NeverShow: F-block_element_atom_treats_Cowden_Disease",
+            "name": "NeverShow: F-block element atom treats Cowden Disease",
+            "description": "NeverShow: F-block element atom treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -599,17 +529,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_285",
-            "name": "NeverShow: Nucleons_treats_Cowden_Disease",
-            "description": "NeverShow: Nucleons_treats_Cowden_Disease",
+            "name": "NeverShow: Nucleons treats Cowden Disease",
+            "description": "NeverShow: Nucleons treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -639,17 +564,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_286",
-            "name": "NeverShow: Organooxygen_compound_treats_Cowden_Disease",
-            "description": "NeverShow: Organooxygen_compound_treats_Cowden_Disease",
+            "name": "NeverShow: Organooxygen compound treats Cowden Disease",
+            "description": "NeverShow: Organooxygen compound treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -679,17 +599,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_287",
-            "name": "NeverShow: Information_biomacromolecule_treats_Cowden_Disease",
-            "description": "NeverShow: Information_biomacromolecule_treats_Cowden_Disease",
+            "name": "NeverShow: Information biomacromolecule treats Cowden Disease",
+            "description": "NeverShow: Information biomacromolecule treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -719,17 +634,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_288",
-            "name": "NeverShow: Organic_heterocyclic_compound_treats_Cowden_Disease",
-            "description": "NeverShow: Organic_heterocyclic_compound_treats_Cowden_Disease",
+            "name": "NeverShow: Organic heterocyclic compound treats Cowden Disease",
+            "description": "NeverShow: Organic heterocyclic compound treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -759,17 +669,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_289",
-            "name": "NeverShow: Elemental_halogen_treats_Cowden_Disease",
-            "description": "NeverShow: Elemental_halogen_treats_Cowden_Disease",
+            "name": "NeverShow: Elemental halogen treats Cowden Disease",
+            "description": "NeverShow: Elemental halogen treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -799,17 +704,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_290",
-            "name": "NeverShow: Monoatomic_ion_treats_Cowden_Disease",
-            "description": "NeverShow: Monoatomic_ion_treats_Cowden_Disease",
+            "name": "NeverShow: Monoatomic ion treats Cowden Disease",
+            "description": "NeverShow: Monoatomic ion treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -839,17 +739,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_291",
-            "name": "NeverShow: Monoatomic_chlorine_treats_Cowden_Disease",
-            "description": "NeverShow: Monoatomic_chlorine_treats_Cowden_Disease",
+            "name": "NeverShow: Monoatomic chlorine treats Cowden Disease",
+            "description": "NeverShow: Monoatomic chlorine treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -879,17 +774,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_292",
-            "name": "NeverShow: Monoatomic_halogen_treats_Cowden_Disease",
-            "description": "NeverShow: Monoatomic_halogen_treats_Cowden_Disease",
+            "name": "NeverShow: Monoatomic halogen treats Cowden Disease",
+            "description": "NeverShow: Monoatomic halogen treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -919,17 +809,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_293",
-            "name": "NeverShow: S-block_molecular_entity_treats_Cowden_Disease",
-            "description": "NeverShow: S-block_molecular_entity_treats_Cowden_Disease",
+            "name": "NeverShow: S-block molecular entity treats Cowden Disease",
+            "description": "NeverShow: S-block molecular entity treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -959,17 +844,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_294",
-            "name": "NeverShow: Elemental_chlorine_treats_Cowden_Disease",
-            "description": "NeverShow: Elemental_chlorine_treats_Cowden_Disease",
+            "name": "NeverShow: Elemental chlorine treats Cowden Disease",
+            "description": "NeverShow: Elemental chlorine treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -999,17 +879,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_295",
-            "name": "NeverShow: Organic_amino_compound_treats_Cowden_Disease",
-            "description": "NeverShow: Organic_amino_compound_treats_Cowden_Disease",
+            "name": "NeverShow: Organic amino compound treats Cowden Disease",
+            "description": "NeverShow: Organic amino compound treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1039,17 +914,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_296",
-            "name": "NeverShow: Halide_treats_Cowden_Disease",
-            "description": "NeverShow: Halide_treats_Cowden_Disease",
+            "name": "NeverShow: Halide treats Cowden Disease",
+            "description": "NeverShow: Halide treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1079,17 +949,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_297",
-            "name": "NeverShow: Xenon_treats_Cowden_Disease",
-            "description": "NeverShow: Xenon_treats_Cowden_Disease",
+            "name": "NeverShow: Xenon treats Cowden Disease",
+            "description": "NeverShow: Xenon treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1119,17 +984,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_298",
-            "name": "NeverShow: Polyketides_treats_Cowden_Disease",
-            "description": "NeverShow: Polyketides_treats_Cowden_Disease",
+            "name": "NeverShow: Polyketides treats Cowden Disease",
+            "description": "NeverShow: Polyketides treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1159,17 +1019,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_299",
-            "name": "NeverShow: Alpha-amino-acid_residue_treats_Cowden_Disease",
-            "description": "NeverShow: Alpha-amino-acid_residue_treats_Cowden_Disease",
+            "name": "NeverShow: Alpha-amino-acid residue treats Cowden Disease",
+            "description": "NeverShow: Alpha-amino-acid residue treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1199,17 +1054,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_300",
-            "name": "NeverShow: Monovalent_inorganic_anion_treats_Cowden_Disease",
-            "description": "NeverShow: Monovalent_inorganic_anion_treats_Cowden_Disease",
+            "name": "NeverShow: Monovalent inorganic anion treats Cowden Disease",
+            "description": "NeverShow: Monovalent inorganic anion treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1239,17 +1089,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_301",
-            "name": "NeverShow: Alkaloids_treats_Cowden_Disease",
-            "description": "NeverShow: Alkaloids_treats_Cowden_Disease",
+            "name": "NeverShow: Alkaloids treats Cowden Disease",
+            "description": "NeverShow: Alkaloids treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1279,17 +1124,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_302",
-            "name": "NeverShow: Halide_anion_treats_Cowden_Disease",
-            "description": "NeverShow: Halide_anion_treats_Cowden_Disease",
+            "name": "NeverShow: Halide anion treats Cowden Disease",
+            "description": "NeverShow: Halide anion treats Cowden Disease",
             "tags": [],
             "input_id": "MONDO:0016063",
             "input_name": "Cowden Disease",
@@ -1319,12 +1159,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

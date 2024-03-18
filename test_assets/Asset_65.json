@@ -1,7 +1,7 @@
 {
     "id": "Asset_65",
-    "name": "TopAnswer: Taliglucerase_alfa_treats_Gaucher_Disease_type1",
-    "description": "TopAnswer: Taliglucerase_alfa_treats_Gaucher_Disease_type1",
+    "name": "TopAnswer: Taliglucerase alfa treats Gaucher Disease type1",
+    "description": "TopAnswer: Taliglucerase alfa treats Gaucher Disease type1",
     "tags": [],
     "input_id": "MONDO:0009265",
     "input_name": "Gaucher Disease type1",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

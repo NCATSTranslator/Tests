@@ -1,7 +1,7 @@
 {
     "id": "Asset_21",
-    "name": "NeverShow: oxygen_molecular_entity_treats_Aceruloplasminemia",
-    "description": "NeverShow: oxygen_molecular_entity_treats_Aceruloplasminemia",
+    "name": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
+    "description": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
     "tags": [],
     "input_id": "MONDO:0011426",
     "input_name": "Aceruloplasminemia",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

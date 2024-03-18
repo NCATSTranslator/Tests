@@ -1,7 +1,7 @@
 {
     "id": "Asset_329",
-    "name": "NeverShow: ESTROSTEP_Fe_(Norethindrone_Acetate_and_Ethinyl_Estradiol)_treats_Lymphangioleiomyomatosis",
-    "description": "NeverShow: ESTROSTEP_Fe_(Norethindrone_Acetate_and_Ethinyl_Estradiol)_treats_Lymphangioleiomyomatosis",
+    "name": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+    "description": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
     "tags": [],
     "input_id": "MONDO:0011705",
     "input_name": "Lymphangioleiomyomatosis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

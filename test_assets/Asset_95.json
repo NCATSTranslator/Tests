@@ -1,7 +1,7 @@
 {
     "id": "Asset_95",
-    "name": "NeverShow: Alcohols_treats_familial_pityriasis_rubra_pilaris",
-    "description": "NeverShow: Alcohols_treats_familial_pityriasis_rubra_pilaris",
+    "name": "NeverShow: Alcohols treats familial pityriasis rubra pilaris",
+    "description": "NeverShow: Alcohols treats familial pityriasis rubra pilaris",
     "tags": [],
     "input_id": "MONDO:0008251",
     "input_name": "familial pityriasis rubra pilaris",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

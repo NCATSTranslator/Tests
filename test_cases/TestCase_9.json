@@ -1,15 +1,15 @@
 {
     "id": "TestCase_9",
     "name": "what treats MONDO:0010808",
-    "description": "NeverShow: Atom_treats_Fatal_familial_insomnia; NeverShow: Cell_nucleus_treats_Fatal_familial_insomnia; NeverShow: salts_treats_Fatal_familial_insomnia; NeverShow: Water_treats_Fatal_familial_insomnia; NeverShow: Hydrogen(.)_treats_Fatal_familial_insomnia; NeverShow: Electrons_treats_Fatal_familial_insomnia; NeverShow: Anions_treats_Fatal_familial_insomnia; NeverShow: Oxygen_treats_Fatal_familial_insomnia; NeverShow: Cations_treats_Fatal_familial_insomnia; NeverShow: Halogen_molecular_entity_treats_Fatal_familial_insomnia; NeverShow: Nitrogen_molecular_entity_treats_Fatal_familial_insomnia; NeverShow: Alcohols_treats_Fatal_familial_insomnia; NeverShow: Molecule_treats_Fatal_familial_insomnia; NeverShow: Organic_salt_treats_Fatal_familial_insomnia; NeverShow: Organic_chemicals_treats_Fatal_familial_insomnia; NeverShow: Organic_chloride_salt_treats_Fatal_familial_insomnia; NeverShow: Oxygen_treats_Fatal_familial_insomnia; NeverShow: Analgesics_treats_Fatal_familial_insomnia; NeverShow: Volatile_organic_compound_treats_Fatal_familial_insomnia",
+    "description": "NeverShow: Atom treats Fatal familial insomnia; NeverShow: Cell nucleus treats Fatal familial insomnia; NeverShow: salts treats Fatal familial insomnia; NeverShow: Water treats Fatal familial insomnia; NeverShow: Hydrogen(.) treats Fatal familial insomnia; NeverShow: Electrons treats Fatal familial insomnia; NeverShow: Anions treats Fatal familial insomnia; NeverShow: Oxygen treats Fatal familial insomnia; NeverShow: Cations treats Fatal familial insomnia; NeverShow: Halogen molecular entity treats Fatal familial insomnia; NeverShow: Nitrogen molecular entity treats Fatal familial insomnia; NeverShow: Alcohols treats Fatal familial insomnia; NeverShow: Molecule treats Fatal familial insomnia; NeverShow: Organic salt treats Fatal familial insomnia; NeverShow: Organic chemicals treats Fatal familial insomnia; NeverShow: Organic chloride salt treats Fatal familial insomnia; NeverShow: Oxygen treats Fatal familial insomnia; NeverShow: Analgesics treats Fatal familial insomnia; NeverShow: Volatile organic compound treats Fatal familial insomnia",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_149",
-            "name": "NeverShow: Atom_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Atom_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Atom treats Fatal familial insomnia",
+            "description": "NeverShow: Atom treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_150",
-            "name": "NeverShow: Cell_nucleus_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Cell_nucleus_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Cell nucleus treats Fatal familial insomnia",
+            "description": "NeverShow: Cell nucleus treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_151",
-            "name": "NeverShow: salts_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: salts_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: salts treats Fatal familial insomnia",
+            "description": "NeverShow: salts treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_152",
-            "name": "NeverShow: Water_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Water_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Water treats Fatal familial insomnia",
+            "description": "NeverShow: Water treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_153",
-            "name": "NeverShow: Hydrogen(.)_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Hydrogen(.)_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Hydrogen(.) treats Fatal familial insomnia",
+            "description": "NeverShow: Hydrogen(.) treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -199,17 +179,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_154",
-            "name": "NeverShow: Electrons_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Electrons_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Electrons treats Fatal familial insomnia",
+            "description": "NeverShow: Electrons treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -239,17 +214,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_155",
-            "name": "NeverShow: Anions_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Anions_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Anions treats Fatal familial insomnia",
+            "description": "NeverShow: Anions treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -279,17 +249,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_156",
-            "name": "NeverShow: Oxygen_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Oxygen_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "description": "NeverShow: Oxygen treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -319,17 +284,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_157",
-            "name": "NeverShow: Cations_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Cations_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Cations treats Fatal familial insomnia",
+            "description": "NeverShow: Cations treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -359,17 +319,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_158",
-            "name": "NeverShow: Halogen_molecular_entity_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Halogen_molecular_entity_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Halogen molecular entity treats Fatal familial insomnia",
+            "description": "NeverShow: Halogen molecular entity treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -399,17 +354,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_159",
-            "name": "NeverShow: Nitrogen_molecular_entity_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Nitrogen_molecular_entity_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Nitrogen molecular entity treats Fatal familial insomnia",
+            "description": "NeverShow: Nitrogen molecular entity treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -439,17 +389,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_160",
-            "name": "NeverShow: Alcohols_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Alcohols_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Alcohols treats Fatal familial insomnia",
+            "description": "NeverShow: Alcohols treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -479,17 +424,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_161",
-            "name": "NeverShow: Molecule_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Molecule_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Molecule treats Fatal familial insomnia",
+            "description": "NeverShow: Molecule treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -519,17 +459,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_162",
-            "name": "NeverShow: Organic_salt_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Organic_salt_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Organic salt treats Fatal familial insomnia",
+            "description": "NeverShow: Organic salt treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -559,17 +494,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_163",
-            "name": "NeverShow: Organic_chemicals_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Organic_chemicals_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Organic chemicals treats Fatal familial insomnia",
+            "description": "NeverShow: Organic chemicals treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -599,17 +529,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_164",
-            "name": "NeverShow: Organic_chloride_salt_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Organic_chloride_salt_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Organic chloride salt treats Fatal familial insomnia",
+            "description": "NeverShow: Organic chloride salt treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -639,17 +564,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_165",
-            "name": "NeverShow: Oxygen_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Oxygen_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "description": "NeverShow: Oxygen treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -679,17 +599,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_166",
-            "name": "NeverShow: Analgesics_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Analgesics_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Analgesics treats Fatal familial insomnia",
+            "description": "NeverShow: Analgesics treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -719,17 +634,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_167",
-            "name": "NeverShow: Volatile_organic_compound_treats_Fatal_familial_insomnia",
-            "description": "NeverShow: Volatile_organic_compound_treats_Fatal_familial_insomnia",
+            "name": "NeverShow: Volatile organic compound treats Fatal familial insomnia",
+            "description": "NeverShow: Volatile organic compound treats Fatal familial insomnia",
             "tags": [],
             "input_id": "MONDO:0010808",
             "input_name": "Fatal familial insomnia",
@@ -759,12 +669,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

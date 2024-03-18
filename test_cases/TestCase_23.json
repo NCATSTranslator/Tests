@@ -1,26 +1,39 @@
 {
     "id": "TestCase_23",
-    "name": "what decreases activity or abundance of NCBIGene:1636",
-    "description": "TopAnswer: Benazapril_decreases activity or abundance of_ACE; TopAnswer: Captopril_decreases activity or abundance of_ACE; TopAnswer: Enalapril_decreases activity or abundance of_ACE; TopAnswer: Fosinopril_decreases activity or abundance of_ACE; TopAnswer: Lisinopril_decreases activity or abundance of_ACE; TopAnswer: Ramipril_decreases activity or abundance of_ACE; TopAnswer: Perindopril_decreases activity or abundance of_ACE; TopAnswer: Quinapril_decreases activity or abundance of_ACE; TopAnswer: Trandolapril_decreases activity or abundance of_ACE; TopAnswer: Moexipril_decreases activity or abundance of_ACE; TopAnswer: ACE_inhibitors_decreases activity or abundance of_ACE",
+    "name": "what affects NCBIGene:1636",
+    "description": "TopAnswer: Benazapril decreases activity or abundance of ACE; TopAnswer: Captopril decreases activity or abundance of ACE; TopAnswer: Enalapril decreases activity or abundance of ACE; TopAnswer: Fosinopril decreases activity or abundance of ACE; TopAnswer: Lisinopril decreases activity or abundance of ACE; TopAnswer: Ramipril decreases activity or abundance of ACE; TopAnswer: Perindopril decreases activity or abundance of ACE; TopAnswer: Quinapril decreases activity or abundance of ACE; TopAnswer: Trandolapril decreases activity or abundance of ACE; TopAnswer: Moexipril decreases activity or abundance of ACE; TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_311",
-            "name": "TopAnswer: Benazapril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Benazapril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Benazapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Benazapril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:5362124",
             "output_name": "Benazapril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -39,28 +52,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_353",
-            "name": "TopAnswer: Captopril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Captopril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Captopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Captopril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:44093",
             "output_name": "Captopril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -79,28 +100,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_354",
-            "name": "TopAnswer: Enalapril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Enalapril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Enalapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Enalapril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:5388962",
             "output_name": "Enalapril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -119,28 +148,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_355",
-            "name": "TopAnswer: Fosinopril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Fosinopril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:55891",
             "output_name": "Fosinopril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -159,28 +196,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_356",
-            "name": "TopAnswer: Lisinopril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Lisinopril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:5362119",
             "output_name": "Lisinopril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -199,28 +244,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_357",
-            "name": "TopAnswer: Ramipril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Ramipril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Ramipril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Ramipril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:5362129",
             "output_name": "Ramipril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -239,28 +292,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_358",
-            "name": "TopAnswer: Perindopril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Perindopril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Perindopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Perindopril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:107807",
             "output_name": "Perindopril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -279,28 +340,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_359",
-            "name": "TopAnswer: Quinapril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Quinapril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Quinapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Quinapril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:54892",
             "output_name": "Quinapril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -319,28 +388,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_360",
-            "name": "TopAnswer: Trandolapril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Trandolapril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:5484727",
             "output_name": "Trandolapril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -359,28 +436,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_361",
-            "name": "TopAnswer: Moexipril_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: Moexipril_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: Moexipril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Moexipril decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:91270",
             "output_name": "Moexipril",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -399,28 +484,36 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         },
         {
             "id": "Asset_362",
-            "name": "TopAnswer: ACE_inhibitors_decreases activity or abundance of_ACE",
-            "description": "TopAnswer: ACE_inhibitors_decreases activity or abundance of_ACE",
+            "name": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
+            "description": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
             "tags": [],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases activity or abundance of",
+            "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:37056",
             "output_name": "ACE inhibitors",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -439,12 +532,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "activity or abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         }
     ],
     "preconditions": [],
@@ -454,8 +542,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "decreases activity or abundance of",
-    "test_case_predicate_id": "biolink:decreases activity or abundance of",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "NCBIGene:1636",
     "test_case_runner_settings": [
         "inferred"

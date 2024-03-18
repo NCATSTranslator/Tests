@@ -1,7 +1,7 @@
 {
     "id": "Asset_3",
-    "name": "NeverShow: Valproic_Acid_treats_NARP_Syndrome",
-    "description": "NeverShow: Valproic_Acid_treats_NARP_Syndrome",
+    "name": "NeverShow: Valproic Acid treats NARP Syndrome",
+    "description": "NeverShow: Valproic Acid treats NARP Syndrome",
     "tags": [],
     "input_id": "MONDO:0010794",
     "input_name": "NARP Syndrome",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

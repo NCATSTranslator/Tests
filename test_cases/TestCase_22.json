@@ -1,26 +1,39 @@
 {
     "id": "TestCase_22",
-    "name": "what decreases abundance of PUBCHEM.COMPOUND:7028",
-    "description": "Acceptable: Interleukin-2_decreases abundance of_Pseudoephedrine",
+    "name": "what affects PUBCHEM.COMPOUND:7028",
+    "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_310",
-            "name": "Acceptable: Interleukin-2_decreases abundance of_Pseudoephedrine",
-            "description": "Acceptable: Interleukin-2_decreases abundance of_Pseudoephedrine",
+            "name": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
+            "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
             "tags": [],
             "input_id": "PUBCHEM.COMPOUND:7028",
             "input_name": "Pseudoephedrine",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
-            "predicate_name": "decreases abundance of",
+            "predicate_name": "affects",
             "output_id": "NCBIGene:3558",
             "output_name": "Interleukin-2",
             "output_category": null,
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
@@ -39,12 +52,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": "biolink:causes",
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": "abundance",
-            "biolink_object_direction_qualifier": "decreased"
+            }
         }
     ],
     "preconditions": [],
@@ -54,8 +62,8 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "decreases abundance of",
-    "test_case_predicate_id": "biolink:decreases abundance of",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "PUBCHEM.COMPOUND:7028",
     "test_case_runner_settings": [
         "inferred"

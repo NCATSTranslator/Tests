@@ -1,7 +1,7 @@
 {
     "id": "Asset_99",
-    "name": "NeverShow: alendronic_acid_treats_Ehlers-Danlos_Syndrome",
-    "description": "NeverShow: alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+    "name": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
+    "description": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
     "tags": [],
     "input_id": "MONDO:0017314",
     "input_name": "Ehlers-Danlos Syndrome",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

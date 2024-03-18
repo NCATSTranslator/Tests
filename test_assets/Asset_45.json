@@ -1,7 +1,7 @@
 {
     "id": "Asset_45",
-    "name": "NeverShow: Tacrolimus_treats_Lactose_intolerance",
-    "description": "NeverShow: Tacrolimus_treats_Lactose_intolerance",
+    "name": "NeverShow: Tacrolimus treats Lactose intolerance",
+    "description": "NeverShow: Tacrolimus treats Lactose intolerance",
     "tags": [],
     "input_id": "MONDO:0100345",
     "input_name": "Lactose intolerance",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

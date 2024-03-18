@@ -1,15 +1,15 @@
 {
     "id": "TestCase_29",
     "name": "what treats MONDO:0100345",
-    "description": "TopAnswer: Lactase_treats_Lactose_intolerance; NeverShow: beta-Lactose_treats_Lactose_intolerance; NeverShow: Plant_extracts_treats_Lactose_intolerance; NeverShow: Plant_preparations_treats_Lactose_intolerance; NeverShow: alpha-Lactose_treats_Lactose_intolerance; NeverShow: Ergocalciferol_treats_Lactose_intolerance; NeverShow: Mebendazole_treats_Lactose_intolerance; NeverShow: Bithionol_treats_Lactose_intolerance; NeverShow: Thiabendazole_treats_Lactose_intolerance; NeverShow: Levamisole_treats_Lactose_intolerance; NeverShow: Methamidophos_treats_Lactose_intolerance; NeverShow: Potassium_bicarbonate_treats_Lactose_intolerance; NeverShow: Triclosan_treats_Lactose_intolerance; NeverShow: Tacrolimus_treats_Lactose_intolerance",
+    "description": "TopAnswer: Lactase treats Lactose intolerance; NeverShow: beta-Lactose treats Lactose intolerance; NeverShow: Plant extracts treats Lactose intolerance; NeverShow: Plant preparations treats Lactose intolerance; NeverShow: alpha-Lactose treats Lactose intolerance; NeverShow: Ergocalciferol treats Lactose intolerance; NeverShow: Mebendazole treats Lactose intolerance; NeverShow: Bithionol treats Lactose intolerance; NeverShow: Thiabendazole treats Lactose intolerance; NeverShow: Levamisole treats Lactose intolerance; NeverShow: Methamidophos treats Lactose intolerance; NeverShow: Potassium bicarbonate treats Lactose intolerance; NeverShow: Triclosan treats Lactose intolerance; NeverShow: Tacrolimus treats Lactose intolerance",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_32",
-            "name": "TopAnswer: Lactase_treats_Lactose_intolerance",
-            "description": "TopAnswer: Lactase_treats_Lactose_intolerance",
+            "name": "TopAnswer: Lactase treats Lactose intolerance",
+            "description": "TopAnswer: Lactase treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_33",
-            "name": "NeverShow: beta-Lactose_treats_Lactose_intolerance",
-            "description": "NeverShow: beta-Lactose_treats_Lactose_intolerance",
+            "name": "NeverShow: beta-Lactose treats Lactose intolerance",
+            "description": "NeverShow: beta-Lactose treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -79,17 +74,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_34",
-            "name": "NeverShow: Plant_extracts_treats_Lactose_intolerance",
-            "description": "NeverShow: Plant_extracts_treats_Lactose_intolerance",
+            "name": "NeverShow: Plant extracts treats Lactose intolerance",
+            "description": "NeverShow: Plant extracts treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_35",
-            "name": "NeverShow: Plant_preparations_treats_Lactose_intolerance",
-            "description": "NeverShow: Plant_preparations_treats_Lactose_intolerance",
+            "name": "NeverShow: Plant preparations treats Lactose intolerance",
+            "description": "NeverShow: Plant preparations treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_36",
-            "name": "NeverShow: alpha-Lactose_treats_Lactose_intolerance",
-            "description": "NeverShow: alpha-Lactose_treats_Lactose_intolerance",
+            "name": "NeverShow: alpha-Lactose treats Lactose intolerance",
+            "description": "NeverShow: alpha-Lactose treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -199,17 +179,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_37",
-            "name": "NeverShow: Ergocalciferol_treats_Lactose_intolerance",
-            "description": "NeverShow: Ergocalciferol_treats_Lactose_intolerance",
+            "name": "NeverShow: Ergocalciferol treats Lactose intolerance",
+            "description": "NeverShow: Ergocalciferol treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -239,17 +214,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_38",
-            "name": "NeverShow: Mebendazole_treats_Lactose_intolerance",
-            "description": "NeverShow: Mebendazole_treats_Lactose_intolerance",
+            "name": "NeverShow: Mebendazole treats Lactose intolerance",
+            "description": "NeverShow: Mebendazole treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -279,17 +249,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_39",
-            "name": "NeverShow: Bithionol_treats_Lactose_intolerance",
-            "description": "NeverShow: Bithionol_treats_Lactose_intolerance",
+            "name": "NeverShow: Bithionol treats Lactose intolerance",
+            "description": "NeverShow: Bithionol treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -319,17 +284,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_40",
-            "name": "NeverShow: Thiabendazole_treats_Lactose_intolerance",
-            "description": "NeverShow: Thiabendazole_treats_Lactose_intolerance",
+            "name": "NeverShow: Thiabendazole treats Lactose intolerance",
+            "description": "NeverShow: Thiabendazole treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -359,17 +319,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_41",
-            "name": "NeverShow: Levamisole_treats_Lactose_intolerance",
-            "description": "NeverShow: Levamisole_treats_Lactose_intolerance",
+            "name": "NeverShow: Levamisole treats Lactose intolerance",
+            "description": "NeverShow: Levamisole treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -399,17 +354,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_42",
-            "name": "NeverShow: Methamidophos_treats_Lactose_intolerance",
-            "description": "NeverShow: Methamidophos_treats_Lactose_intolerance",
+            "name": "NeverShow: Methamidophos treats Lactose intolerance",
+            "description": "NeverShow: Methamidophos treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -439,17 +389,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_43",
-            "name": "NeverShow: Potassium_bicarbonate_treats_Lactose_intolerance",
-            "description": "NeverShow: Potassium_bicarbonate_treats_Lactose_intolerance",
+            "name": "NeverShow: Potassium bicarbonate treats Lactose intolerance",
+            "description": "NeverShow: Potassium bicarbonate treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -479,17 +424,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_44",
-            "name": "NeverShow: Triclosan_treats_Lactose_intolerance",
-            "description": "NeverShow: Triclosan_treats_Lactose_intolerance",
+            "name": "NeverShow: Triclosan treats Lactose intolerance",
+            "description": "NeverShow: Triclosan treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -519,17 +459,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_45",
-            "name": "NeverShow: Tacrolimus_treats_Lactose_intolerance",
-            "description": "NeverShow: Tacrolimus_treats_Lactose_intolerance",
+            "name": "NeverShow: Tacrolimus treats Lactose intolerance",
+            "description": "NeverShow: Tacrolimus treats Lactose intolerance",
             "tags": [],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
@@ -559,12 +494,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

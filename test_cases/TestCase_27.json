@@ -1,15 +1,15 @@
 {
     "id": "TestCase_27",
     "name": "what treats MONDO:0004979",
-    "description": "TopAnswer: Fluticasone_treats_Asthma; Acceptable: Albuterol_(salbutamol)_treats_Asthma; NeverShow: Propranolol_treats_Asthma",
+    "description": "TopAnswer: Fluticasone treats Asthma; Acceptable: Albuterol (salbutamol) treats Asthma; NeverShow: Propranolol treats Asthma",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_315",
-            "name": "TopAnswer: Fluticasone_treats_Asthma",
-            "description": "TopAnswer: Fluticasone_treats_Asthma",
+            "name": "TopAnswer: Fluticasone treats Asthma",
+            "description": "TopAnswer: Fluticasone treats Asthma",
             "tags": [],
             "input_id": "MONDO:0004979",
             "input_name": "Asthma",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_316",
-            "name": "Acceptable: Albuterol_(salbutamol)_treats_Asthma",
-            "description": "Acceptable: Albuterol_(salbutamol)_treats_Asthma",
+            "name": "Acceptable: Albuterol (salbutamol) treats Asthma",
+            "description": "Acceptable: Albuterol (salbutamol) treats Asthma",
             "tags": [],
             "input_id": "MONDO:0004979",
             "input_name": "Asthma",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_317",
-            "name": "NeverShow: Propranolol_treats_Asthma",
-            "description": "NeverShow: Propranolol_treats_Asthma",
+            "name": "NeverShow: Propranolol treats Asthma",
+            "description": "NeverShow: Propranolol treats Asthma",
             "tags": [],
             "input_id": "MONDO:0004979",
             "input_name": "Asthma",
@@ -119,12 +109,7 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

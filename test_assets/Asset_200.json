@@ -1,7 +1,7 @@
 {
     "id": "Asset_200",
-    "name": "NeverShow: Lindane_treats_alcoholic_hepatitis",
-    "description": "NeverShow: Lindane_treats_alcoholic_hepatitis",
+    "name": "NeverShow: Lindane treats alcoholic hepatitis",
+    "description": "NeverShow: Lindane treats alcoholic hepatitis",
     "tags": [],
     "input_id": "MONDO:0001505",
     "input_name": "alcoholic hepatitis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

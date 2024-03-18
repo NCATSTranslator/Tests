@@ -1,7 +1,7 @@
 {
     "id": "Asset_14",
-    "name": "TopAnswer: interferon-beta_1a_treats_Castleman_Disease",
-    "description": "TopAnswer: interferon-beta_1a_treats_Castleman_Disease",
+    "name": "TopAnswer: interferon-beta 1a treats Castleman Disease",
+    "description": "TopAnswer: interferon-beta 1a treats Castleman Disease",
     "tags": [],
     "input_id": "MONDO:0015564",
     "input_name": "Castleman Disease",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

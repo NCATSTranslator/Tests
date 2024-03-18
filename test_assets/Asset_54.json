@@ -1,7 +1,7 @@
 {
     "id": "Asset_54",
-    "name": "TopAnswer: Thiabendazole_treats_Hookworm_Infectious_Disease",
-    "description": "TopAnswer: Thiabendazole_treats_Hookworm_Infectious_Disease",
+    "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+    "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
     "tags": [],
     "input_id": "MONDO:0005799",
     "input_name": "Hookworm Infectious Disease",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

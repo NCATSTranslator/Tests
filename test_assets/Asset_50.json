@@ -1,7 +1,7 @@
 {
     "id": "Asset_50",
-    "name": "NeverShow: particulate_matter_treats_Allergic_Asthma",
-    "description": "NeverShow: particulate_matter_treats_Allergic_Asthma",
+    "name": "NeverShow: particulate matter treats Allergic Asthma",
+    "description": "NeverShow: particulate matter treats Allergic Asthma",
     "tags": [],
     "input_id": "MONDO:0004784",
     "input_name": "Allergic Asthma",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

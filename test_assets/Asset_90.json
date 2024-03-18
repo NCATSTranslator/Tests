@@ -1,7 +1,7 @@
 {
     "id": "Asset_90",
-    "name": "NeverShow: fibrinogen_treats_Heart_Disorder",
-    "description": "NeverShow: fibrinogen_treats_Heart_Disorder",
+    "name": "NeverShow: fibrinogen treats Heart Disorder",
+    "description": "NeverShow: fibrinogen treats Heart Disorder",
     "tags": [],
     "input_id": "MONDO:0005267",
     "input_name": "Heart Disorder",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

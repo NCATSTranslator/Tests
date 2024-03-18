@@ -1,15 +1,15 @@
 {
     "id": "TestCase_3",
     "name": "what treats MONDO:0018911",
-    "description": "NeverShow: Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young; NeverShow: bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+    "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young; NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young; NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young; NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young; NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young; NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young; NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_124",
-            "name": "NeverShow: Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Receptor,_insulin_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -39,17 +39,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_125",
-            "name": "NeverShow: Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Autoantibodies_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_126",
-            "name": "NeverShow: Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Thyroid_hormones_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_127",
-            "name": "NeverShow: Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Enzymes_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_128",
-            "name": "NeverShow: Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Receptor,_IGF_Type_1_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -199,17 +179,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_129",
-            "name": "NeverShow: Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: Complement_system_proteins_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -239,17 +214,12 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_130",
-            "name": "NeverShow: bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
-            "description": "NeverShow: bisphenol_A_treats_Maturity-onset_Diabetes_Of_The_Young",
+            "name": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "input_id": "MONDO:0018911",
             "input_name": "Maturity-onset Diabetes Of The Young",
@@ -279,12 +249,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],

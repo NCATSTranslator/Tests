@@ -1,7 +1,7 @@
 {
     "id": "Asset_194",
-    "name": "Acceptable: Hyperbaric_oxygen_therapy_treats_Cerebral_Palsy",
-    "description": "Acceptable: Hyperbaric_oxygen_therapy_treats_Cerebral_Palsy",
+    "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
+    "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
     "tags": [],
     "input_id": "MONDO:0006497",
     "input_name": "Cerebral Palsy",
@@ -31,10 +31,5 @@
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

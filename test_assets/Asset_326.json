@@ -1,7 +1,7 @@
 {
     "id": "Asset_326",
-    "name": "Acceptable: GLPG1690_(Ziritaxestat)_treats_Idiopathic_pulmonary_fibrosis",
-    "description": "Acceptable: GLPG1690_(Ziritaxestat)_treats_Idiopathic_pulmonary_fibrosis",
+    "name": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
+    "description": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
     "tags": [],
     "input_id": "MONDO:0008345",
     "input_name": "Idiopathic pulmonary fibrosis",
@@ -31,10 +31,5 @@
         "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
-    },
-    "biolink_qualified_predicate": null,
-    "biolink_subject_aspect_qualifier": null,
-    "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    }
 }

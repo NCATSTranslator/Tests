@@ -1,15 +1,15 @@
 {
     "id": "TestCase_1",
     "name": "what treats MONDO:0005301",
-    "description": "NeverShow: lead_treats_Multiple_Sclerosis; NeverShow: Covid-19_vaccines_treats_Multiple_Sclerosis; NeverShow: Influenza_vaccines_treats_Multiple_Sclerosis; NeverShow: Vaccines,_peptide_treats_Multiple_Sclerosis; NeverShow: Metric_treats_Multiple_Sclerosis; NeverShow: Agonists_treats_Multiple_Sclerosis; NeverShow: Therapeutic_agent_treats_Multiple_Sclerosis; NeverShow: Vitamin_supplementation_treats_Multiple_Sclerosis; NeverShow: Anti-inflammatory_agents_treats_Multiple_Sclerosis; NeverShow: Adjuvants,_immunologic_treats_Multiple_Sclerosis; NeverShow: Antibodies_treats_Multiple_Sclerosis; NeverShow: Anti-anxiety_agents_treats_Multiple_Sclerosis; NeverShow: Antibodies,_monoclonal_treats_Multiple_Sclerosis; NeverShow: Biological_products_treats_Multiple_Sclerosis; NeverShow: Neuroprotective_agents_treats_Multiple_Sclerosis; NeverShow: Antibiotics_treats_Multiple_Sclerosis; NeverShow: basis_treats_Multiple_Sclerosis; Acceptable: Anticholinergic_agents_treats_Multiple_Sclerosis; NeverShow: Analgesics_treats_Multiple_Sclerosis; NeverShow: Mercury_treats_Multiple_Sclerosis; NeverShow: Fatty_acids_treats_Multiple_Sclerosis; NeverShow: Plant_extracts_treats_Multiple_Sclerosis; NeverShow: Drugs,_chinese_herbal_treats_Multiple_Sclerosis; NeverShow: Carbon_treats_Multiple_Sclerosis; NeverShow: Water_treats_Multiple_Sclerosis; TopAnswer: fingolimod_treats_Multiple_Sclerosis; TopAnswer: natalizumab_treats_Multiple_Sclerosis; NeverShow: vaccines_treats_Multiple_Sclerosis",
+    "description": "NeverShow: lead treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Vaccines, peptide treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; NeverShow: Neuroprotective agents treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; Acceptable: Anticholinergic agents treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
             "id": "Asset_10",
-            "name": "NeverShow: lead_treats_Multiple_Sclerosis",
-            "description": "NeverShow: lead_treats_Multiple_Sclerosis",
+            "name": "NeverShow: lead treats Multiple Sclerosis",
+            "description": "NeverShow: lead treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -39,17 +39,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_100",
-            "name": "NeverShow: Covid-19_vaccines_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Covid-19_vaccines_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Covid-19 vaccines treats Multiple Sclerosis",
+            "description": "NeverShow: Covid-19 vaccines treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -79,17 +74,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_101",
-            "name": "NeverShow: Influenza_vaccines_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Influenza_vaccines_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Influenza vaccines treats Multiple Sclerosis",
+            "description": "NeverShow: Influenza vaccines treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -119,17 +109,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_102",
-            "name": "NeverShow: Vaccines,_peptide_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Vaccines,_peptide_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Vaccines, peptide treats Multiple Sclerosis",
+            "description": "NeverShow: Vaccines, peptide treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -159,17 +144,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_103",
-            "name": "NeverShow: Metric_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Metric_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Metric treats Multiple Sclerosis",
+            "description": "NeverShow: Metric treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -199,17 +179,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_104",
-            "name": "NeverShow: Agonists_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Agonists_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Agonists treats Multiple Sclerosis",
+            "description": "NeverShow: Agonists treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -239,17 +214,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_105",
-            "name": "NeverShow: Therapeutic_agent_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Therapeutic_agent_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Therapeutic agent treats Multiple Sclerosis",
+            "description": "NeverShow: Therapeutic agent treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -279,17 +249,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_106",
-            "name": "NeverShow: Vitamin_supplementation_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Vitamin_supplementation_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Vitamin supplementation treats Multiple Sclerosis",
+            "description": "NeverShow: Vitamin supplementation treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -319,17 +284,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_107",
-            "name": "NeverShow: Anti-inflammatory_agents_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Anti-inflammatory_agents_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Anti-inflammatory agents treats Multiple Sclerosis",
+            "description": "NeverShow: Anti-inflammatory agents treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -359,17 +319,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_108",
-            "name": "NeverShow: Adjuvants,_immunologic_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Adjuvants,_immunologic_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
+            "description": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -399,17 +354,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_109",
-            "name": "NeverShow: Antibodies_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Antibodies_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Antibodies treats Multiple Sclerosis",
+            "description": "NeverShow: Antibodies treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -439,17 +389,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_110",
-            "name": "NeverShow: Anti-anxiety_agents_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Anti-anxiety_agents_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Anti-anxiety agents treats Multiple Sclerosis",
+            "description": "NeverShow: Anti-anxiety agents treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -479,17 +424,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_111",
-            "name": "NeverShow: Antibodies,_monoclonal_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Antibodies,_monoclonal_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Antibodies, monoclonal treats Multiple Sclerosis",
+            "description": "NeverShow: Antibodies, monoclonal treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -519,17 +459,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_112",
-            "name": "NeverShow: Biological_products_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Biological_products_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Biological products treats Multiple Sclerosis",
+            "description": "NeverShow: Biological products treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -559,17 +494,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_113",
-            "name": "NeverShow: Neuroprotective_agents_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Neuroprotective_agents_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
+            "description": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -599,17 +529,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_114",
-            "name": "NeverShow: Antibiotics_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Antibiotics_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Antibiotics treats Multiple Sclerosis",
+            "description": "NeverShow: Antibiotics treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -639,17 +564,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_115",
-            "name": "NeverShow: basis_treats_Multiple_Sclerosis",
-            "description": "NeverShow: basis_treats_Multiple_Sclerosis",
+            "name": "NeverShow: basis treats Multiple Sclerosis",
+            "description": "NeverShow: basis treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -679,17 +599,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_116",
-            "name": "Acceptable: Anticholinergic_agents_treats_Multiple_Sclerosis",
-            "description": "Acceptable: Anticholinergic_agents_treats_Multiple_Sclerosis",
+            "name": "Acceptable: Anticholinergic agents treats Multiple Sclerosis",
+            "description": "Acceptable: Anticholinergic agents treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -719,17 +634,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_117",
-            "name": "NeverShow: Analgesics_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Analgesics_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Analgesics treats Multiple Sclerosis",
+            "description": "NeverShow: Analgesics treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -759,17 +669,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_118",
-            "name": "NeverShow: Mercury_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Mercury_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Mercury treats Multiple Sclerosis",
+            "description": "NeverShow: Mercury treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -799,17 +704,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_119",
-            "name": "NeverShow: Fatty_acids_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Fatty_acids_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Fatty acids treats Multiple Sclerosis",
+            "description": "NeverShow: Fatty acids treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -839,17 +739,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_120",
-            "name": "NeverShow: Plant_extracts_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Plant_extracts_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Plant extracts treats Multiple Sclerosis",
+            "description": "NeverShow: Plant extracts treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -879,17 +774,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_121",
-            "name": "NeverShow: Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Drugs,_chinese_herbal_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Drugs, chinese herbal treats Multiple Sclerosis",
+            "description": "NeverShow: Drugs, chinese herbal treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -919,17 +809,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_122",
-            "name": "NeverShow: Carbon_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Carbon_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Carbon treats Multiple Sclerosis",
+            "description": "NeverShow: Carbon treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -959,17 +844,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_123",
-            "name": "NeverShow: Water_treats_Multiple_Sclerosis",
-            "description": "NeverShow: Water_treats_Multiple_Sclerosis",
+            "name": "NeverShow: Water treats Multiple Sclerosis",
+            "description": "NeverShow: Water treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -999,17 +879,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_8",
-            "name": "TopAnswer: fingolimod_treats_Multiple_Sclerosis",
-            "description": "TopAnswer: fingolimod_treats_Multiple_Sclerosis",
+            "name": "TopAnswer: fingolimod treats Multiple Sclerosis",
+            "description": "TopAnswer: fingolimod treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -1039,17 +914,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_9",
-            "name": "TopAnswer: natalizumab_treats_Multiple_Sclerosis",
-            "description": "TopAnswer: natalizumab_treats_Multiple_Sclerosis",
+            "name": "TopAnswer: natalizumab treats Multiple Sclerosis",
+            "description": "TopAnswer: natalizumab treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -1079,17 +949,12 @@
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         },
         {
             "id": "Asset_98",
-            "name": "NeverShow: vaccines_treats_Multiple_Sclerosis",
-            "description": "NeverShow: vaccines_treats_Multiple_Sclerosis",
+            "name": "NeverShow: vaccines treats Multiple Sclerosis",
+            "description": "NeverShow: vaccines treats Multiple Sclerosis",
             "tags": [],
             "input_id": "MONDO:0005301",
             "input_name": "Multiple Sclerosis",
@@ -1119,12 +984,7 @@
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/431",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
-            },
-            "biolink_qualified_predicate": null,
-            "biolink_subject_aspect_qualifier": null,
-            "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            }
         }
     ],
     "preconditions": [],
