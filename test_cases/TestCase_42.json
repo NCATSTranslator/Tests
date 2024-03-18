@@ -1,167 +1,23 @@
 {
     "id": "TestCase_42",
-    "name": "what affects NCBIGene:3043",
-    "description": "TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; Acceptable: Hydroxyurea decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB; Acceptable: L-Glutamine decreases abundance or activity of HBB",
+    "name": "what affects NCBI Gene:8653",
+    "description": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y; Acceptable: RK-33 decreases activity or abundance of DDX3Y",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_390",
-            "name": "TopAnswer: azacitidine decreases abundance or activity of HBB",
-            "description": "TopAnswer: azacitidine decreases abundance or activity of HBB",
+            "id": "Asset_376",
+            "name": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y",
+            "description": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y",
             "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "input_category": null,
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:9444",
-            "output_name": "azacitidine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_391",
-            "name": "TopAnswer: decitabine decreases abundance or activity of HBB",
-            "description": "TopAnswer: decitabine decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:451668",
-            "output_name": "decitabine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_392",
-            "name": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
-            "description": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "CHEMBL:4034633",
-            "output_name": "DNMT inhibitor",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_393",
-            "name": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
-            "description": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3657",
-            "output_name": "Hydroxyurea",
+            "output_id": "PUBCHEM.COMPOUND:31703",
+            "output_name": "Doxorubicin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -199,209 +55,17 @@
             }
         },
         {
-            "id": "Asset_394",
-            "name": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
+            "id": "Asset_377",
+            "name": "Acceptable: RK-33 decreases activity or abundance of DDX3Y",
+            "description": "Acceptable: RK-33 decreases activity or abundance of DDX3Y",
             "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "input_category": null,
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5222465",
-            "output_name": "sodium butyrate",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_395",
-            "name": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:23622962",
-            "output_name": "arginine butyrate",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_396",
-            "name": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
-            "description": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "",
-            "output_name": "Butyrate Derivatives",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_397",
-            "name": "TopAnswer: Hemin decreases abundance or activity of HBB",
-            "description": "TopAnswer: Hemin decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:26945",
-            "output_name": "Hemin",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_398",
-            "name": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
-            "description": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
-            "tags": [],
-            "input_id": "NCBIGene:3043",
-            "input_name": "HBB",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5961",
-            "output_name": "L-Glutamine",
+            "output_id": "PUBCHEM.COMPOUND:46184988",
+            "output_name": "RK-33",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -448,7 +112,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:3043",
+    "test_case_input_id": "NCBI Gene:8653",
     "test_case_runner_settings": [
         "inferred"
     ]
