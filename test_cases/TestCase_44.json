@@ -12,12 +12,12 @@
             "description": "TopAnswer: Warfarin_decreases abundance or activity of_VKORC1",
             "tags": [],
             "input_id": "NCBIGene:79001",
-            "input_name": "NCBIGene:79001",
+            "input_name": "VKORC1",
             "input_category": "biolink:Gene",
-            "predicate_id": null,
+            "predicate_id": "biolink:affects",
             "predicate_name": "decreases abundance or activity of",
             "output_id": "PUBCHEM.COMPOUND:54678486",
-            "output_name": null,
+            "output_name": "Warfarin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [],
@@ -40,11 +40,11 @@
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             },
-            "biolink_qualified_predicate": null,
+            "biolink_qualified_predicate": "biolink:causes",
             "biolink_subject_aspect_qualifier": null,
             "biolink_subject_direction_qualifier": null,
-            "biolink_object_aspect_qualifier": null,
-            "biolink_object_direction_qualifier": null
+            "biolink_object_aspect_qualifier": "activity or abundance",
+            "biolink_object_direction_qualifier": "decreased"
         }
     ],
     "preconditions": [],

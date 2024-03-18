@@ -4,12 +4,12 @@
     "description": "TopAnswer: arginine_butyrate_decreases abundance or activity of_HBB",
     "tags": [],
     "input_id": "NCBIGene:3043",
-    "input_name": "NCBIGene:3043",
+    "input_name": "HBB",
     "input_category": "biolink:Gene",
-    "predicate_id": null,
+    "predicate_id": "biolink:affects",
     "predicate_name": "decreases abundance or activity of",
     "output_id": "PUBCHEM.COMPOUND:23622962",
-    "output_name": null,
+    "output_name": "arginine butyrate",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [],
@@ -32,9 +32,9 @@
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     },
-    "biolink_qualified_predicate": null,
+    "biolink_qualified_predicate": "biolink:causes",
     "biolink_subject_aspect_qualifier": null,
     "biolink_subject_direction_qualifier": null,
-    "biolink_object_aspect_qualifier": null,
-    "biolink_object_direction_qualifier": null
+    "biolink_object_aspect_qualifier": "activity or abundance",
+    "biolink_object_direction_qualifier": "decreased"
 }
