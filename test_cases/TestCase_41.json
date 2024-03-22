@@ -3,7 +3,9 @@
     "name": "what affects NCBIGene:675",
     "description": "Acceptable: olaparib decreases activity or abundance of BRCA2; Acceptable: veliparib decreases activity or abundance of BRCA2; Acceptable: niraparib decreases activity or abundance of BRCA2; Acceptable: rucaparib decreases activity or abundance of BRCA2; Acceptable: talazoparib decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2; BadButForgivable: formaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2; Acceptable: Cisplatin decreases activity or abundance of BRCA2; Acceptable: Carboplatin decreases activity or abundance of BRCA2; Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "Acceptable: olaparib decreases activity or abundance of BRCA2",
             "description": "Acceptable: olaparib decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -40,14 +45,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -59,6 +62,9 @@
             "name": "Acceptable: veliparib decreases activity or abundance of BRCA2",
             "description": "Acceptable: veliparib decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -88,14 +94,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -107,6 +111,9 @@
             "name": "Acceptable: niraparib decreases activity or abundance of BRCA2",
             "description": "Acceptable: niraparib decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -136,14 +143,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -155,6 +160,9 @@
             "name": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
             "description": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -184,14 +192,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -203,6 +209,9 @@
             "name": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
             "description": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -232,14 +241,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -251,6 +258,9 @@
             "name": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
             "description": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -280,14 +290,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -299,6 +307,9 @@
             "name": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
             "description": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -328,14 +339,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -347,6 +356,9 @@
             "name": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
             "description": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -376,14 +388,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -395,6 +405,9 @@
             "name": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
             "description": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -424,14 +437,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -443,6 +454,9 @@
             "name": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
             "description": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -472,14 +486,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -491,6 +503,9 @@
             "name": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
             "description": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -520,14 +535,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -539,6 +552,9 @@
             "name": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
             "description": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -568,14 +584,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -587,6 +601,9 @@
             "name": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
             "description": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:675",
             "input_name": "BRCA2",
             "input_category": "biolink:Gene",
@@ -616,14 +633,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -633,15 +648,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "NCBIGene:675",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

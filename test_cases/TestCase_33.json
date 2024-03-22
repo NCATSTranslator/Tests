@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0016575",
     "description": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia; Acceptable: Azithromycin treats Primary ciliary dyskinesia; NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
             "description": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0016575",
             "input_name": "Primary ciliary dyskinesia",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
             "description": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0016575",
             "input_name": "Primary ciliary dyskinesia",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
             "description": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0016575",
             "input_name": "Primary ciliary dyskinesia",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -114,15 +119,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0016575",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

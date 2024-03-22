@@ -3,7 +3,9 @@
     "name": "what affects PUBCHEM.COMPOUND:7028",
     "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
             "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "PUBCHEM.COMPOUND:7028",
             "input_name": "Pseudoephedrine",
             "input_category": "biolink:ChemicalEntity",
@@ -18,7 +23,7 @@
             "predicate_name": "affects",
             "output_id": "NCBIGene:3558",
             "output_name": "Interleukin-2",
-            "output_category": null,
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
@@ -40,14 +45,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -57,15 +60,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "PUBCHEM.COMPOUND:7028",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Gene",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

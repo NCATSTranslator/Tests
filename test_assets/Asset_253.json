@@ -3,6 +3,9 @@
     "name": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
     "description": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0007186",
     "input_name": "Gastroesophageal Reflux Disease",
     "input_category": "biolink:Disease",
@@ -19,14 +22,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": null,
         "test_objective": "AcceptanceTest",

@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0011426",
     "description": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia; NeverShow: iron treats Aceruloplasminemia; TopAnswer: desferrioxamine treats Aceruloplasminemia; BadButForgivable: Iron (PUBCHEM) treats Aceruloplasminemia; NeverShow: Organic Chemicals treats Aceruloplasminemia; NeverShow: molecular entity treats Aceruloplasminemia; NeverShow: organic group treats Aceruloplasminemia; NeverShow: molecule treats Aceruloplasminemia; NeverShow: oxygen molecular entity treats Aceruloplasminemia; NeverShow: polyatomic entity treats Aceruloplasminemia; NeverShow: carbon group molecular entity treats Aceruloplasminemia; NeverShow: inorganic chemicals treats Aceruloplasminemia; NeverShow: heteroorganic entity treats Aceruloplasminemia; NeverShow: main group molecular entity treats Aceruloplasminemia; NeverShow: heteroatomic molecular entity treats Aceruloplasminemia; NeverShow: cyclic compound treats Aceruloplasminemia; NeverShow: heterocyclic compounds treats Aceruloplasminemia; NeverShow: inorganic oxide treats Aceruloplasminemia; TopAnswer: deferipone treats Aceruloplasminemia; TopAnswer: deferasirox treats Aceruloplasminemia; TopAnswer: Deferoxamine treats Aceruloplasminemia; NeverShow: chemical entity treats Aceruloplasminemia; NeverShow: cell nucleus treats Aceruloplasminemia; NeverShow: Rotenone treats Aceruloplasminemia",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
             "description": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "NeverShow: iron treats Aceruloplasminemia",
             "description": "NeverShow: iron treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
             "description": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +121,9 @@
             "name": "BadButForgivable: Iron (PUBCHEM) treats Aceruloplasminemia",
             "description": "BadButForgivable: Iron (PUBCHEM) treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -132,14 +140,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
                 "test_objective": "AcceptanceTest",
@@ -151,6 +157,9 @@
             "name": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
             "description": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -167,14 +176,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -186,6 +193,9 @@
             "name": "NeverShow: molecular entity treats Aceruloplasminemia",
             "description": "NeverShow: molecular entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -202,14 +212,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -221,6 +229,9 @@
             "name": "NeverShow: organic group treats Aceruloplasminemia",
             "description": "NeverShow: organic group treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -237,14 +248,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
                 "test_objective": "AcceptanceTest",
@@ -256,6 +265,9 @@
             "name": "NeverShow: molecule treats Aceruloplasminemia",
             "description": "NeverShow: molecule treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -272,14 +284,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -291,6 +301,9 @@
             "name": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
             "description": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -307,14 +320,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -326,6 +337,9 @@
             "name": "NeverShow: polyatomic entity treats Aceruloplasminemia",
             "description": "NeverShow: polyatomic entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -342,14 +356,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -361,6 +373,9 @@
             "name": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
             "description": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -377,14 +392,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -396,6 +409,9 @@
             "name": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
             "description": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -412,14 +428,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -431,6 +445,9 @@
             "name": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
             "description": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -447,14 +464,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -466,6 +481,9 @@
             "name": "NeverShow: main group molecular entity treats Aceruloplasminemia",
             "description": "NeverShow: main group molecular entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -482,14 +500,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -501,6 +517,9 @@
             "name": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
             "description": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -517,14 +536,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -536,6 +553,9 @@
             "name": "NeverShow: cyclic compound treats Aceruloplasminemia",
             "description": "NeverShow: cyclic compound treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -552,14 +572,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -571,6 +589,9 @@
             "name": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
             "description": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -587,14 +608,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -606,6 +625,9 @@
             "name": "NeverShow: inorganic oxide treats Aceruloplasminemia",
             "description": "NeverShow: inorganic oxide treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -622,14 +644,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -641,6 +661,9 @@
             "name": "TopAnswer: deferipone treats Aceruloplasminemia",
             "description": "TopAnswer: deferipone treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -657,14 +680,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -676,6 +697,9 @@
             "name": "TopAnswer: deferasirox treats Aceruloplasminemia",
             "description": "TopAnswer: deferasirox treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -692,14 +716,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -711,6 +733,9 @@
             "name": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
             "description": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -727,14 +752,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -746,6 +769,9 @@
             "name": "NeverShow: chemical entity treats Aceruloplasminemia",
             "description": "NeverShow: chemical entity treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -762,14 +788,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -781,6 +805,9 @@
             "name": "NeverShow: cell nucleus treats Aceruloplasminemia",
             "description": "NeverShow: cell nucleus treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -797,14 +824,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
                 "test_objective": "AcceptanceTest",
@@ -816,6 +841,9 @@
             "name": "NeverShow: Rotenone treats Aceruloplasminemia",
             "description": "NeverShow: Rotenone treats Aceruloplasminemia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0011426",
             "input_name": "Aceruloplasminemia",
             "input_category": "biolink:Disease",
@@ -832,14 +860,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/505",
                 "test_objective": "AcceptanceTest",
@@ -849,15 +875,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0011426",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

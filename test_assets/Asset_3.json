@@ -3,6 +3,9 @@
     "name": "NeverShow: Valproic Acid treats NARP Syndrome",
     "description": "NeverShow: Valproic Acid treats NARP Syndrome",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0010794",
     "input_name": "NARP Syndrome",
     "input_category": "biolink:Disease",
@@ -19,14 +22,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
         "test_objective": "AcceptanceTest",

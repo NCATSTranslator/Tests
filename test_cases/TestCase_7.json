@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0018493",
     "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia; NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia; NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia; NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia; NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia; NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +121,9 @@
             "name": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -132,14 +140,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -151,6 +157,9 @@
             "name": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -167,14 +176,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -186,6 +193,9 @@
             "name": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -202,14 +212,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -221,6 +229,9 @@
             "name": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -237,14 +248,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -256,6 +265,9 @@
             "name": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -272,14 +284,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -291,6 +301,9 @@
             "name": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -307,14 +320,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -324,15 +335,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0018493",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0100345",
     "description": "TopAnswer: Lactase treats Lactose intolerance; NeverShow: beta-Lactose treats Lactose intolerance; NeverShow: Plant extracts treats Lactose intolerance; NeverShow: Plant preparations treats Lactose intolerance; NeverShow: alpha-Lactose treats Lactose intolerance; NeverShow: Ergocalciferol treats Lactose intolerance; NeverShow: Mebendazole treats Lactose intolerance; NeverShow: Bithionol treats Lactose intolerance; NeverShow: Thiabendazole treats Lactose intolerance; NeverShow: Levamisole treats Lactose intolerance; NeverShow: Methamidophos treats Lactose intolerance; NeverShow: Potassium bicarbonate treats Lactose intolerance; NeverShow: Triclosan treats Lactose intolerance; NeverShow: Tacrolimus treats Lactose intolerance",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "TopAnswer: Lactase treats Lactose intolerance",
             "description": "TopAnswer: Lactase treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": true,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "NeverShow: beta-Lactose treats Lactose intolerance",
             "description": "NeverShow: beta-Lactose treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "NeverShow: Plant extracts treats Lactose intolerance",
             "description": "NeverShow: Plant extracts treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +121,9 @@
             "name": "NeverShow: Plant preparations treats Lactose intolerance",
             "description": "NeverShow: Plant preparations treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -132,14 +140,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -151,6 +157,9 @@
             "name": "NeverShow: alpha-Lactose treats Lactose intolerance",
             "description": "NeverShow: alpha-Lactose treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -167,14 +176,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/427",
                 "test_objective": "AcceptanceTest",
@@ -186,6 +193,9 @@
             "name": "NeverShow: Ergocalciferol treats Lactose intolerance",
             "description": "NeverShow: Ergocalciferol treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -202,14 +212,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -221,6 +229,9 @@
             "name": "NeverShow: Mebendazole treats Lactose intolerance",
             "description": "NeverShow: Mebendazole treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -237,14 +248,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -256,6 +265,9 @@
             "name": "NeverShow: Bithionol treats Lactose intolerance",
             "description": "NeverShow: Bithionol treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -272,14 +284,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -291,6 +301,9 @@
             "name": "NeverShow: Thiabendazole treats Lactose intolerance",
             "description": "NeverShow: Thiabendazole treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -307,14 +320,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -326,6 +337,9 @@
             "name": "NeverShow: Levamisole treats Lactose intolerance",
             "description": "NeverShow: Levamisole treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -342,14 +356,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -361,6 +373,9 @@
             "name": "NeverShow: Methamidophos treats Lactose intolerance",
             "description": "NeverShow: Methamidophos treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -377,14 +392,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -396,6 +409,9 @@
             "name": "NeverShow: Potassium bicarbonate treats Lactose intolerance",
             "description": "NeverShow: Potassium bicarbonate treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -412,14 +428,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -431,6 +445,9 @@
             "name": "NeverShow: Triclosan treats Lactose intolerance",
             "description": "NeverShow: Triclosan treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -447,14 +464,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -466,6 +481,9 @@
             "name": "NeverShow: Tacrolimus treats Lactose intolerance",
             "description": "NeverShow: Tacrolimus treats Lactose intolerance",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0100345",
             "input_name": "Lactose intolerance",
             "input_category": "biolink:Disease",
@@ -482,14 +500,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/601",
                 "test_objective": "AcceptanceTest",
@@ -499,15 +515,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0100345",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

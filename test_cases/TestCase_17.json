@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0007186",
     "description": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease; NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease; NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease; NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease; NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease; NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease; NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease; NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease; NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease; NeverShow: Blood glucose treats Gastroesophageal Reflux Disease; NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease; NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease; TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease; NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease; TopAnswer: Talcid treats Gastroesophageal Reflux Disease; NeverShow: Citric acid treats Gastroesophageal Reflux Disease; NeverShow: Carbon treats Gastroesophageal Reflux Disease; NeverShow: Acetic acid treats Gastroesophageal Reflux Disease; NeverShow: Water treats Gastroesophageal Reflux Disease; NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +121,9 @@
             "name": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -132,14 +140,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -151,6 +157,9 @@
             "name": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -167,14 +176,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -186,6 +193,9 @@
             "name": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -202,14 +212,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -221,6 +229,9 @@
             "name": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -237,14 +248,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -256,6 +265,9 @@
             "name": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -272,14 +284,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -291,6 +301,9 @@
             "name": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -307,14 +320,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -326,6 +337,9 @@
             "name": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -342,14 +356,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -361,6 +373,9 @@
             "name": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -377,14 +392,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -396,6 +409,9 @@
             "name": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -412,14 +428,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -431,6 +445,9 @@
             "name": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
             "description": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -447,14 +464,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -466,6 +481,9 @@
             "name": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -482,14 +500,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -501,6 +517,9 @@
             "name": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
             "description": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -517,14 +536,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -536,6 +553,9 @@
             "name": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -552,14 +572,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -571,6 +589,9 @@
             "name": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -587,14 +608,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -606,6 +625,9 @@
             "name": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -622,14 +644,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -641,6 +661,9 @@
             "name": "NeverShow: Water treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Water treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -657,14 +680,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -676,6 +697,9 @@
             "name": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
             "description": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0007186",
             "input_name": "Gastroesophageal Reflux Disease",
             "input_category": "biolink:Disease",
@@ -692,14 +716,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -709,15 +731,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0007186",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

@@ -3,7 +3,9 @@
     "name": "what affects NCBIGene:1636",
     "description": "TopAnswer: Benazapril decreases activity or abundance of ACE; TopAnswer: Captopril decreases activity or abundance of ACE; TopAnswer: Enalapril decreases activity or abundance of ACE; TopAnswer: Fosinopril decreases activity or abundance of ACE; TopAnswer: Lisinopril decreases activity or abundance of ACE; TopAnswer: Ramipril decreases activity or abundance of ACE; TopAnswer: Perindopril decreases activity or abundance of ACE; TopAnswer: Quinapril decreases activity or abundance of ACE; TopAnswer: Trandolapril decreases activity or abundance of ACE; TopAnswer: Moexipril decreases activity or abundance of ACE; TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "TopAnswer: Benazapril decreases activity or abundance of ACE",
             "description": "TopAnswer: Benazapril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -40,14 +45,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -59,6 +62,9 @@
             "name": "TopAnswer: Captopril decreases activity or abundance of ACE",
             "description": "TopAnswer: Captopril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -88,14 +94,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -107,6 +111,9 @@
             "name": "TopAnswer: Enalapril decreases activity or abundance of ACE",
             "description": "TopAnswer: Enalapril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -136,14 +143,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -155,6 +160,9 @@
             "name": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
             "description": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -184,14 +192,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -203,6 +209,9 @@
             "name": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
             "description": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -232,14 +241,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -251,6 +258,9 @@
             "name": "TopAnswer: Ramipril decreases activity or abundance of ACE",
             "description": "TopAnswer: Ramipril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -280,14 +290,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -299,6 +307,9 @@
             "name": "TopAnswer: Perindopril decreases activity or abundance of ACE",
             "description": "TopAnswer: Perindopril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -328,14 +339,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -347,6 +356,9 @@
             "name": "TopAnswer: Quinapril decreases activity or abundance of ACE",
             "description": "TopAnswer: Quinapril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -376,14 +388,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -395,6 +405,9 @@
             "name": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
             "description": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -424,14 +437,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -443,6 +454,9 @@
             "name": "TopAnswer: Moexipril decreases activity or abundance of ACE",
             "description": "TopAnswer: Moexipril decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -472,14 +486,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -491,6 +503,9 @@
             "name": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
             "description": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:1636",
             "input_name": "ACE",
             "input_category": "biolink:Gene",
@@ -520,14 +535,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -537,15 +550,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "NCBIGene:1636",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

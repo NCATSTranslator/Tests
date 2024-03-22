@@ -3,7 +3,9 @@
     "name": "what treats MONDO:0006497",
     "description": "NeverShow: Antibiotics treats Cerebral palsy; NeverShow: Pharmaceutical preparations treats Cerebral palsy; BadButForgivable: Ibuprofen treats Cerebral palsy; Acceptable: Baclofen treats Cerebral palsy; Acceptable: Botulinum toxin type b treats Cerebral palsy; Acceptable: Carbamazepine treats Cerebral palsy; NeverShow: Air treats Cerebral Palsy; BadButForgivable: Air treats Cerebral Palsy; Acceptable: Air treats Cerebral Palsy; Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy; NeverShow: Aerosols treats Cerebral Palsy; NeverShow: Pharmaceutical Preparations treats Cerebral Palsy; Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Antibiotics treats Cerebral palsy",
             "description": "NeverShow: Antibiotics treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -27,14 +32,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -46,6 +49,9 @@
             "name": "NeverShow: Pharmaceutical preparations treats Cerebral palsy",
             "description": "NeverShow: Pharmaceutical preparations treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -62,14 +68,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -81,6 +85,9 @@
             "name": "BadButForgivable: Ibuprofen treats Cerebral palsy",
             "description": "BadButForgivable: Ibuprofen treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -97,14 +104,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +121,9 @@
             "name": "Acceptable: Baclofen treats Cerebral palsy",
             "description": "Acceptable: Baclofen treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -132,14 +140,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -151,6 +157,9 @@
             "name": "Acceptable: Botulinum toxin type b treats Cerebral palsy",
             "description": "Acceptable: Botulinum toxin type b treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -167,14 +176,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -186,6 +193,9 @@
             "name": "Acceptable: Carbamazepine treats Cerebral palsy",
             "description": "Acceptable: Carbamazepine treats Cerebral palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral palsy",
             "input_category": "biolink:Disease",
@@ -202,14 +212,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -221,6 +229,9 @@
             "name": "NeverShow: Air treats Cerebral Palsy",
             "description": "NeverShow: Air treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -237,14 +248,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -256,6 +265,9 @@
             "name": "BadButForgivable: Air treats Cerebral Palsy",
             "description": "BadButForgivable: Air treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -272,14 +284,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -291,6 +301,9 @@
             "name": "Acceptable: Air treats Cerebral Palsy",
             "description": "Acceptable: Air treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -307,14 +320,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -326,6 +337,9 @@
             "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
             "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -342,14 +356,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -361,6 +373,9 @@
             "name": "NeverShow: Aerosols treats Cerebral Palsy",
             "description": "NeverShow: Aerosols treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -377,14 +392,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -396,6 +409,9 @@
             "name": "NeverShow: Pharmaceutical Preparations treats Cerebral Palsy",
             "description": "NeverShow: Pharmaceutical Preparations treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -412,14 +428,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -431,6 +445,9 @@
             "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
             "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0006497",
             "input_name": "Cerebral Palsy",
             "input_category": "biolink:Disease",
@@ -447,14 +464,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
                 "test_objective": "AcceptanceTest",
@@ -464,15 +479,16 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0006497",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [],
+    "input_category": "biolink:Disease",
+    "output_category": null,
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

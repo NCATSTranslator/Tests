@@ -3,6 +3,9 @@
     "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
     "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0020333",
     "input_name": "Aggressive Systemic Mastocytosis",
     "input_category": "biolink:Disease",
@@ -19,14 +22,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
         "test_objective": "AcceptanceTest",

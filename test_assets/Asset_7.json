@@ -3,6 +3,9 @@
     "name": "NeverShow: Vehicle Emissions treats Castleman Disease",
     "description": "NeverShow: Vehicle Emissions treats Castleman Disease",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0015564",
     "input_name": "Castleman Disease",
     "input_category": "biolink:Disease",
@@ -19,14 +22,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/480",
         "test_objective": "AcceptanceTest",

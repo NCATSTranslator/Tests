@@ -3,7 +3,9 @@
     "name": "what affects NCBIGene:3043",
     "description": "TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; Acceptable: Hydroxyurea decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB; Acceptable: L-Glutamine decreases abundance or activity of HBB",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "TopAnswer: azacitidine decreases abundance or activity of HBB",
             "description": "TopAnswer: azacitidine decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -40,14 +45,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -59,6 +62,9 @@
             "name": "TopAnswer: decitabine decreases abundance or activity of HBB",
             "description": "TopAnswer: decitabine decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -88,14 +94,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -107,6 +111,9 @@
             "name": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
             "description": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -136,14 +143,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -155,6 +160,9 @@
             "name": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
             "description": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -184,14 +192,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -203,6 +209,9 @@
             "name": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
             "description": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -232,14 +241,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -251,6 +258,9 @@
             "name": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
             "description": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -280,14 +290,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -299,6 +307,9 @@
             "name": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
             "description": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -328,14 +339,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -347,6 +356,9 @@
             "name": "TopAnswer: Hemin decreases abundance or activity of HBB",
             "description": "TopAnswer: Hemin decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -376,14 +388,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -395,6 +405,9 @@
             "name": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
             "description": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "NCBIGene:3043",
             "input_name": "HBB",
             "input_category": "biolink:Gene",
@@ -424,14 +437,12 @@
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -441,15 +452,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
     "test_case_input_id": "NCBIGene:3043",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }
