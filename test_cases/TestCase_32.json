@@ -1,40 +1,56 @@
 {
     "id": "TestCase_32",
-    "name": "what treats MONDO:0011705",
-    "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis; Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis; NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+    "name": "what affects NCBIGene:8972",
+    "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human); TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_327",
-            "name": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
-            "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
+            "id": "Asset_337",
+            "name": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+            "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
             "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
-            "output_name": "Sirolimus",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:8972",
+            "input_name": "MGAM (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:41774",
+            "output_name": "Acarbose",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -42,69 +58,48 @@
             }
         },
         {
-            "id": "Asset_328",
-            "name": "Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis",
-            "description": "Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis",
+            "id": "Asset_337",
+            "name": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+            "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
             "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:11520894",
-            "output_name": "Ridaforolimus",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:8972",
+            "input_name": "MGAM (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:41774",
+            "output_name": "Acarbose",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_329",
-            "name": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
-            "description": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
-            "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0116660",
-            "output_name": "ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -114,15 +109,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:8972",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],
-    "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0011705",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_env": "ci"
 }

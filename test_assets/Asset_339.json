@@ -3,14 +3,17 @@
     "name": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
     "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "PUBCHEM.COMPOUND:23652731",
     "input_name": "Eliglustat",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBI:2629",
+    "output_id": "NCBIGene:2629",
     "output_name": "GBA1",
-    "output_category": null,
+    "output_category": "biolink:Gene",
     "association": null,
     "qualifiers": [
         {
@@ -32,14 +35,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": null,
         "test_objective": "AcceptanceTest",

@@ -3,6 +3,9 @@
     "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
     "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "NCBIGene:154",
     "input_name": "ADRB2",
     "input_category": "biolink:Gene",
@@ -32,14 +35,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": null,
         "test_objective": "AcceptanceTest",

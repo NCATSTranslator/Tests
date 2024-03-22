@@ -3,30 +3,44 @@
     "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
     "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0020333",
     "input_name": "Aggressive Systemic Mastocytosis",
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "",
+    "output_id": "NCIT:C61727",
     "output_name": "dinoprostone",
     "output_category": null,
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "expected_output": "NeverShow",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
         "test_objective": "AcceptanceTest",

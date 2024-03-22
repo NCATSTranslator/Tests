@@ -3,6 +3,9 @@
     "name": "TopAnswer: Sildenafil decreases activity or abundance of PDE5A (human)",
     "description": "TopAnswer: Sildenafil decreases activity or abundance of PDE5A (human)",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "NCBIGene:8654",
     "input_name": "PDE5A (human)",
     "input_category": "biolink:Gene",
@@ -32,14 +35,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": null,
         "test_objective": "AcceptanceTest",
