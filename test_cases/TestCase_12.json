@@ -1,7 +1,7 @@
 {
     "id": "TestCase_12",
     "name": "what treats MONDO:0007743",
-    "description": "NeverShow: Cocaine treats ADHD; Acceptable: Methylphenidate treats ADHD",
+    "description": "NeverShow: Cocaine treats ADHD; NeverShow: Cocaine treats ADHD",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -25,7 +25,20 @@
             "output_name": "Cocaine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -45,9 +58,9 @@
             }
         },
         {
-            "id": "Asset_179",
-            "name": "Acceptable: Methylphenidate treats ADHD",
-            "description": "Acceptable: Methylphenidate treats ADHD",
+            "id": "Asset_178",
+            "name": "NeverShow: Cocaine treats ADHD",
+            "description": "NeverShow: Cocaine treats ADHD",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -57,12 +70,25 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4158",
-            "output_name": "Methylphenidate",
+            "output_id": "PUBCHEM.COMPOUND:446220",
+            "output_name": "Cocaine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -88,7 +114,20 @@
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0007743",
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [

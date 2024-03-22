@@ -6,9 +6,9 @@
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "NCBIGene:8653",
+    "input_id": "NCBI Gene:8653",
     "input_name": "DDX3Y",
-    "input_category": "biolink:Gene",
+    "input_category": null,
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
     "output_id": "UMLS:C0311474",

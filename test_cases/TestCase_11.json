@@ -1,7 +1,7 @@
 {
     "id": "TestCase_11",
     "name": "what treats MONDO:0018958",
-    "description": "Acceptable: Tyrosine treats Nemaline myopathy; Acceptable: Melphalan treats Nemaline myopathy; NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy; Acceptable: Thalidimide treats Nemaline myopathy",
+    "description": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy; NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,9 +9,9 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_174",
-            "name": "Acceptable: Tyrosine treats Nemaline myopathy",
-            "description": "Acceptable: Tyrosine treats Nemaline myopathy",
+            "id": "Asset_176",
+            "name": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
+            "description": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -21,48 +21,25 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:6057",
-            "output_name": "Tyrosine",
+            "output_id": "PUBCHEM.COMPOUND:15625",
+            "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_175",
-            "name": "Acceptable: Melphalan treats Nemaline myopathy",
-            "description": "Acceptable: Melphalan treats Nemaline myopathy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
             ],
-            "input_id": "MONDO:0018958",
-            "input_name": "Nemaline myopathy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:460612",
-            "output_name": "Melphalan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -97,44 +74,21 @@
             "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_177",
-            "name": "Acceptable: Thalidimide treats Nemaline myopathy",
-            "description": "Acceptable: Thalidimide treats Nemaline myopathy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
             ],
-            "input_id": "MONDO:0018958",
-            "input_name": "Nemaline myopathy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5426",
-            "output_name": "Thalidimide",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -160,7 +114,20 @@
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0018958",
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [

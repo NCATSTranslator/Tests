@@ -1,7 +1,7 @@
 {
     "id": "TestCase_46",
-    "name": "what treats MONDO:0005260",
-    "description": "NeverShow: Valproic acid treats Autism; NeverShow: Pesticides treats Autism",
+    "name": "what treats MONDO:0007147",
+    "description": "NeverShow: Soot treats Obstructive Sleep Apnea; NeverShow: Soot treats Obstructive Sleep Apnea",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,23 +9,36 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_46",
-            "name": "NeverShow: Valproic acid treats Autism",
-            "description": "NeverShow: Valproic acid treats Autism",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005260",
-            "input_name": "Autism",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3121",
-            "output_name": "Valproic acid",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -39,29 +52,42 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_47",
-            "name": "NeverShow: Pesticides treats Autism",
-            "description": "NeverShow: Pesticides treats Autism",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005260",
-            "input_name": "Autism",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D010575",
-            "output_name": "Pesticides",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -75,7 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -87,8 +113,21 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005260",
-    "qualifiers": [],
+    "test_case_input_id": "MONDO:0007147",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [

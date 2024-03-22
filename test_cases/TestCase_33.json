@@ -1,7 +1,7 @@
 {
     "id": "TestCase_33",
-    "name": "what treats MONDO:0016575",
-    "description": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia; Acceptable: Azithromycin treats Primary ciliary dyskinesia; NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
+    "name": "what affects NCBIGene:6524",
+    "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human); TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,24 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_330",
-            "name": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
-            "description": "Acceptable: Ensifentrine treats Primary ciliary dyskinesia",
+            "id": "Asset_338",
+            "name": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
+            "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0016575",
-            "input_name": "Primary ciliary dyskinesia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9934746",
-            "output_name": "Ensifentrine",
+            "input_id": "NCBIGene:6524",
+            "input_name": "SLC5A2 (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:24812758",
+            "output_name": "Canagliflozin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -45,60 +58,37 @@
             }
         },
         {
-            "id": "Asset_331",
-            "name": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
-            "description": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
+            "id": "Asset_338",
+            "name": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
+            "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0016575",
-            "input_name": "Primary ciliary dyskinesia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:447043",
-            "output_name": "Azithromycin",
+            "input_id": "NCBIGene:6524",
+            "input_name": "SLC5A2 (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:24812758",
+            "output_name": "Canagliflozin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_332",
-            "name": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
-            "description": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
             ],
-            "input_id": "MONDO:0016575",
-            "input_name": "Primary ciliary dyskinesia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5360696",
-            "output_name": "Dextromethorphan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -121,11 +111,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0016575",
-    "qualifiers": [],
-    "input_category": "biolink:Disease",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:6524",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

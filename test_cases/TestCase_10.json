@@ -1,7 +1,7 @@
 {
     "id": "TestCase_10",
     "name": "what treats MONDO:0006497",
-    "description": "NeverShow: Antibiotics treats Cerebral palsy; NeverShow: Pharmaceutical preparations treats Cerebral palsy; BadButForgivable: Ibuprofen treats Cerebral palsy; Acceptable: Baclofen treats Cerebral palsy; Acceptable: Botulinum toxin type b treats Cerebral palsy; Acceptable: Carbamazepine treats Cerebral palsy; NeverShow: Air treats Cerebral Palsy; BadButForgivable: Air treats Cerebral Palsy; Acceptable: Air treats Cerebral Palsy; Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy; NeverShow: Aerosols treats Cerebral Palsy; NeverShow: Pharmaceutical Preparations treats Cerebral Palsy; Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
+    "description": "NeverShow: Antibiotics treats Cerebral palsy; NeverShow: Antibiotics treats Cerebral palsy; NeverShow: Pharmaceutical preparations treats Cerebral palsy; NeverShow: Pharmaceutical preparations treats Cerebral palsy; NeverShow: Air treats Cerebral Palsy; NeverShow: Air treats Cerebral Palsy; NeverShow: Aerosols treats Cerebral Palsy; NeverShow: Aerosols treats Cerebral Palsy; NeverShow: Pharmaceutical Preparations treats Cerebral Palsy; NeverShow: Pharmaceutical Preparations treats Cerebral Palsy",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -25,7 +25,69 @@
             "output_name": "Antibiotics",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_168",
+            "name": "NeverShow: Antibiotics treats Cerebral palsy",
+            "description": "NeverShow: Antibiotics treats Cerebral palsy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0006497",
+            "input_name": "Cerebral palsy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0003232",
+            "output_name": "Antibiotics",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -61,7 +123,20 @@
             "output_name": "Pharmaceutical preparations",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -81,9 +156,9 @@
             }
         },
         {
-            "id": "Asset_170",
-            "name": "BadButForgivable: Ibuprofen treats Cerebral palsy",
-            "description": "BadButForgivable: Ibuprofen treats Cerebral palsy",
+            "id": "Asset_169",
+            "name": "NeverShow: Pharmaceutical preparations treats Cerebral palsy",
+            "description": "NeverShow: Pharmaceutical preparations treats Cerebral palsy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -93,120 +168,25 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3672",
-            "output_name": "Ibuprofen",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "BadButForgivable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_171",
-            "name": "Acceptable: Baclofen treats Cerebral palsy",
-            "description": "Acceptable: Baclofen treats Cerebral palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
             ],
-            "input_id": "MONDO:0006497",
-            "input_name": "Cerebral palsy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2284",
-            "output_name": "Baclofen",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_172",
-            "name": "Acceptable: Botulinum toxin type b treats Cerebral palsy",
-            "description": "Acceptable: Botulinum toxin type b treats Cerebral palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0006497",
-            "input_name": "Cerebral palsy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBML:CHEMBL1201569",
-            "output_name": "Botulinum toxin type b",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_173",
-            "name": "Acceptable: Carbamazepine treats Cerebral palsy",
-            "description": "Acceptable: Carbamazepine treats Cerebral palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0006497",
-            "input_name": "Cerebral palsy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2554",
-            "output_name": "Carbamazepine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -241,7 +221,20 @@
             "output_name": "Air",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -261,9 +254,9 @@
             }
         },
         {
-            "id": "Asset_189",
-            "name": "BadButForgivable: Air treats Cerebral Palsy",
-            "description": "BadButForgivable: Air treats Cerebral Palsy",
+            "id": "Asset_188",
+            "name": "NeverShow: Air treats Cerebral Palsy",
+            "description": "NeverShow: Air treats Cerebral Palsy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -277,80 +270,21 @@
             "output_name": "Air",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "BadButForgivable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_190",
-            "name": "Acceptable: Air treats Cerebral Palsy",
-            "description": "Acceptable: Air treats Cerebral Palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
             ],
-            "input_id": "MONDO:0006497",
-            "input_name": "Cerebral Palsy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C3536832",
-            "output_name": "Air",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_191",
-            "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-            "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0006497",
-            "input_name": "Cerebral Palsy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C38065",
-            "output_name": "Hyperbaric oxygen therapy",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -385,7 +319,69 @@
             "output_name": "Aerosols",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_192",
+            "name": "NeverShow: Aerosols treats Cerebral Palsy",
+            "description": "NeverShow: Aerosols treats Cerebral Palsy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0006497",
+            "input_name": "Cerebral Palsy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000336",
+            "output_name": "Aerosols",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -421,7 +417,20 @@
             "output_name": "Pharmaceutical Preparations",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -441,9 +450,9 @@
             }
         },
         {
-            "id": "Asset_194",
-            "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-            "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
+            "id": "Asset_193",
+            "name": "NeverShow: Pharmaceutical Preparations treats Cerebral Palsy",
+            "description": "NeverShow: Pharmaceutical Preparations treats Cerebral Palsy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -453,12 +462,25 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "NCIT:C38065",
-            "output_name": "Hyperbaric oxygen therapy",
-            "output_category": null,
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical Preparations",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -484,9 +506,22 @@
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0006497",
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "input_category": "biolink:Disease",
-    "output_category": null,
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],
