@@ -1,0 +1,48 @@
+{
+    "id": "Asset_335",
+    "name": "Acceptable: dabrafenib decreases activity or abundance of BRAF (human)",
+    "description": "Acceptable: dabrafenib decreases activity or abundance of BRAF (human)",
+    "tags": [],
+    "input_id": "NCBIGene:673",
+    "input_name": "BRAF (human)",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "PUBCHEM.COMPOUND:44462760",
+    "output_name": "dabrafenib",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

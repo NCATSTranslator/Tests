@@ -1,27 +1,40 @@
 {
     "id": "TestCase_36",
-    "name": "what treats MONDO:0001475",
-    "description": "Pegfilgrastim_treats_Neutropenia",
+    "name": "what affects NCBIGene:673",
+    "description": "Acceptable: dabrafenib decreases activity or abundance of BRAF (human)",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_309",
-            "name": "Pegfilgrastim_treats_Neutropenia",
-            "description": "Pegfilgrastim_treats_Neutropenia",
+            "id": "Asset_335",
+            "name": "Acceptable: dabrafenib decreases activity or abundance of BRAF (human)",
+            "description": "Acceptable: dabrafenib decreases activity or abundance of BRAF (human)",
             "tags": [],
-            "input_id": "MONDO:0001475",
-            "input_name": "Neutropenia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:77910626",
-            "output_name": "Pegfilgrastim",
-            "output_category": null,
+            "input_id": "NCBIGene:673",
+            "input_name": "BRAF (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:44462760",
+            "output_name": "dabrafenib",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -49,9 +62,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0001475",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:673",
     "test_case_runner_settings": [
         "inferred"
     ]

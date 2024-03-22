@@ -1,0 +1,48 @@
+{
+    "id": "Asset_389",
+    "name": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+    "description": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+    "tags": [],
+    "input_id": "NCBIGene:154",
+    "input_name": "ADRB2",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "",
+    "output_name": "Beta-2 Agonists (Activators)",
+    "output_category": null,
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "runner_settings": [
+        "inferred"
+    ],
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

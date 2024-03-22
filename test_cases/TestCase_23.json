@@ -1,26 +1,39 @@
 {
     "id": "TestCase_23",
-    "name": "what treats MONDO:0018328",
-    "description": "Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia; Lomitapide_treats_Homozygous_Familial_Hypercholesterolemia; Mipomersen_treats_Homozygous_Familial_Hypercholesterolemia; Evolocumab_treats_Homozygous_Familial_Hypercholesterolemia; Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia",
+    "name": "what affects NCBIGene:1636",
+    "description": "TopAnswer: Benazapril decreases activity or abundance of ACE; TopAnswer: Captopril decreases activity or abundance of ACE; TopAnswer: Enalapril decreases activity or abundance of ACE; TopAnswer: Fosinopril decreases activity or abundance of ACE; TopAnswer: Lisinopril decreases activity or abundance of ACE; TopAnswer: Ramipril decreases activity or abundance of ACE; TopAnswer: Perindopril decreases activity or abundance of ACE; TopAnswer: Quinapril decreases activity or abundance of ACE; TopAnswer: Trandolapril decreases activity or abundance of ACE; TopAnswer: Moexipril decreases activity or abundance of ACE; TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_71",
-            "name": "Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia",
-            "description": "Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia",
+            "id": "Asset_311",
+            "name": "TopAnswer: Benazapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Benazapril decreases activity or abundance of ACE",
             "tags": [],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
-            "output_category": null,
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5362124",
+            "output_name": "Benazapril",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -36,26 +49,39 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_72",
-            "name": "Lomitapide_treats_Homozygous_Familial_Hypercholesterolemia",
-            "description": "Lomitapide_treats_Homozygous_Familial_Hypercholesterolemia",
+            "id": "Asset_353",
+            "name": "TopAnswer: Captopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Captopril decreases activity or abundance of ACE",
             "tags": [],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9853053",
-            "output_name": "Lomitapide",
-            "output_category": null,
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:44093",
+            "output_name": "Captopril",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -71,26 +97,39 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_73",
-            "name": "Mipomersen_treats_Homozygous_Familial_Hypercholesterolemia",
-            "description": "Mipomersen_treats_Homozygous_Familial_Hypercholesterolemia",
+            "id": "Asset_354",
+            "name": "TopAnswer: Enalapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Enalapril decreases activity or abundance of ACE",
             "tags": [],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UNII:9GJ8S4GU0M",
-            "output_name": "Mipomersen",
-            "output_category": null,
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5388962",
+            "output_name": "Enalapril",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -106,26 +145,39 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_74",
-            "name": "Evolocumab_treats_Homozygous_Familial_Hypercholesterolemia",
-            "description": "Evolocumab_treats_Homozygous_Familial_Hypercholesterolemia",
+            "id": "Asset_355",
+            "name": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Fosinopril decreases activity or abundance of ACE",
             "tags": [],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UNII:LKC0U3A8NJ",
-            "output_name": "Evolocumab",
-            "output_category": null,
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:55891",
+            "output_name": "Fosinopril",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -141,26 +193,39 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_75",
-            "name": "Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia",
-            "description": "Rosuvastatin_treats_Homozygous_Familial_Hypercholesterolemia",
+            "id": "Asset_356",
+            "name": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Lisinopril decreases activity or abundance of ACE",
             "tags": [],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
-            "output_category": null,
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5362119",
+            "output_name": "Lisinopril",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
@@ -176,7 +241,295 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_357",
+            "name": "TopAnswer: Ramipril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Ramipril decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5362129",
+            "output_name": "Ramipril",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_358",
+            "name": "TopAnswer: Perindopril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Perindopril decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:107807",
+            "output_name": "Perindopril",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_359",
+            "name": "TopAnswer: Quinapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Quinapril decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:54892",
+            "output_name": "Quinapril",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_360",
+            "name": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Trandolapril decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5484727",
+            "output_name": "Trandolapril",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_361",
+            "name": "TopAnswer: Moexipril decreases activity or abundance of ACE",
+            "description": "TopAnswer: Moexipril decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:91270",
+            "output_name": "Moexipril",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_362",
+            "name": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
+            "description": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
+            "tags": [],
+            "input_id": "NCBIGene:1636",
+            "input_name": "ACE",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:37056",
+            "output_name": "ACE inhibitors",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -189,9 +542,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018328",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:1636",
     "test_case_runner_settings": [
         "inferred"
     ]

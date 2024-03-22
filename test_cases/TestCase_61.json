@@ -1,0 +1,93 @@
+{
+    "id": "TestCase_61",
+    "name": "what treats MONDO:0019600",
+    "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
+    "tags": [],
+    "test_env": "ci",
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_96",
+            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "tags": [],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "cadmium",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_97",
+            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
+            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
+            "tags": [],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "",
+            "output_name": "mercury",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "components": [
+        "ars"
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0019600",
+    "test_case_runner_settings": [
+        "inferred"
+    ]
+}

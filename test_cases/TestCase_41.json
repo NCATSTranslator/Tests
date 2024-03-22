@@ -1,61 +1,39 @@
 {
     "id": "TestCase_41",
-    "name": "what treats MONDO:0011705",
-    "description": "Sirolimus_treats_Lymphangioleiomyomatosis; Ridaforolimus_treats_Lymphangioleiomyomatosis; ESTROSTEP_Fe_(Norethindrone_Acetate_and_Ethinyl_Estradiol)_treats_Lymphangioleiomyomatosis",
+    "name": "what affects NCBIGene:675",
+    "description": "Acceptable: olaparib decreases activity or abundance of BRCA2; Acceptable: veliparib decreases activity or abundance of BRCA2; Acceptable: niraparib decreases activity or abundance of BRCA2; Acceptable: rucaparib decreases activity or abundance of BRCA2; Acceptable: talazoparib decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2; BadButForgivable: formaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2; Acceptable: Cisplatin decreases activity or abundance of BRCA2; Acceptable: Carboplatin decreases activity or abundance of BRCA2; Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_327",
-            "name": "Sirolimus_treats_Lymphangioleiomyomatosis",
-            "description": "Sirolimus_treats_Lymphangioleiomyomatosis",
+            "id": "Asset_340",
+            "name": "Acceptable: olaparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: olaparib decreases activity or abundance of BRCA2",
             "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
-            "output_name": "Sirolimus",
-            "output_category": null,
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:23725625",
+            "output_name": "olaparib",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
             ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_328",
-            "name": "Ridaforolimus_treats_Lymphangioleiomyomatosis",
-            "description": "Ridaforolimus_treats_Lymphangioleiomyomatosis",
-            "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:11520894",
-            "output_name": "Ridaforolimus",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
             "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
@@ -77,21 +55,562 @@
             }
         },
         {
-            "id": "Asset_329",
-            "name": "ESTROSTEP_Fe_(Norethindrone_Acetate_and_Ethinyl_Estradiol)_treats_Lymphangioleiomyomatosis",
-            "description": "ESTROSTEP_Fe_(Norethindrone_Acetate_and_Ethinyl_Estradiol)_treats_Lymphangioleiomyomatosis",
+            "id": "Asset_341",
+            "name": "Acceptable: veliparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: veliparib decreases activity or abundance of BRCA2",
             "tags": [],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0116660",
-            "output_name": "ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)",
-            "output_category": null,
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:11960529",
+            "output_name": "veliparib",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_342",
+            "name": "Acceptable: niraparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: niraparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:24958200",
+            "output_name": "niraparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_343",
+            "name": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:44093",
+            "output_name": "rucaparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_344",
+            "name": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:135565082",
+            "output_name": "talazoparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_345",
+            "name": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
+            "description": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:135565981",
+            "output_name": "PARP inhibitor 2x-121",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_346",
+            "name": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
+            "description": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:16760621",
+            "output_name": "PARP inhibitor VIII, PJ34",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_347",
+            "name": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:712",
+            "output_name": "formaldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_348",
+            "name": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:637511",
+            "output_name": "Cinnamaldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_349",
+            "name": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:14423521",
+            "output_name": "Ursolic aldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_350",
+            "name": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5702198",
+            "output_name": "Cisplatin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_351",
+            "name": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:426756",
+            "output_name": "Carboplatin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "runner_settings": [
+                "inferred"
+            ],
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_352",
+            "name": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
+            "tags": [],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:2733526",
+            "output_name": "Tamoxifen",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -119,9 +638,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0011705",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:675",
     "test_case_runner_settings": [
         "inferred"
     ]

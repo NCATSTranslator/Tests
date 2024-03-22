@@ -1,27 +1,40 @@
 {
     "id": "TestCase_22",
-    "name": "what treats MONDO:0017314",
-    "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome; Omniscan_treats_Ehlers-Danlos_Syndrome; Gadobutrol_treats_Ehlers-Danlos_Syndrome; Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome; alendronic_acid_treats_Ehlers-Danlos_Syndrome",
+    "name": "what affects PUBCHEM.COMPOUND:7028",
+    "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_49",
-            "name": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
-            "description": "methylphenidate_treats_Ehlers-Danlos_Syndrome",
+            "id": "Asset_310",
+            "name": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
+            "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
             "tags": [],
-            "input_id": "MONDO:0017314",
-            "input_name": "Ehlers-Danlos Syndrome",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4158",
-            "output_name": "methylphenidate",
+            "input_id": "PUBCHEM.COMPOUND:7028",
+            "input_name": "Pseudoephedrine",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:3558",
+            "output_name": "Interleukin-2",
             "output_category": null,
             "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -36,147 +49,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/562",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_58",
-            "name": "Omniscan_treats_Ehlers-Danlos_Syndrome",
-            "description": "Omniscan_treats_Ehlers-Danlos_Syndrome",
-            "tags": [],
-            "input_id": "MONDO:0017314",
-            "input_name": "Ehlers-Danlos Syndrome",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:24847884",
-            "output_name": "Omniscan",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_59",
-            "name": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
-            "description": "Gadobutrol_treats_Ehlers-Danlos_Syndrome",
-            "tags": [],
-            "input_id": "MONDO:0017314",
-            "input_name": "Ehlers-Danlos Syndrome",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UNII:1BJ477IO2L",
-            "output_name": "Gadobutrol",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_60",
-            "name": "Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
-            "description": "Gadopentetate_dimeglumine_treats_Ehlers-Danlos_Syndrome",
-            "tags": [],
-            "input_id": "MONDO:0017314",
-            "input_name": "Ehlers-Danlos Syndrome",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:73415823",
-            "output_name": "Gadopentetate dimeglumine",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_99",
-            "name": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
-            "description": "alendronic_acid_treats_Ehlers-Danlos_Syndrome",
-            "tags": [],
-            "input_id": "MONDO:0017314",
-            "input_name": "Ehlers-Danlos Syndrome",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "",
-            "output_name": "alendronic acid",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -189,9 +62,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0017314",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "PUBCHEM.COMPOUND:7028",
     "test_case_runner_settings": [
         "inferred"
     ]

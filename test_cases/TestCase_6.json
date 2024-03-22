@@ -1,26 +1,39 @@
 {
     "id": "TestCase_6",
-    "name": "what treats MONDO:0005260",
-    "description": "Valproic_acid_treats_Autism; Pesticides_treats_Autism",
+    "name": "what affects NCBIGene:8653",
+    "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_46",
-            "name": "Valproic_acid_treats_Autism",
-            "description": "Valproic_acid_treats_Autism",
+            "id": "Asset_135",
+            "name": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
+            "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
             "tags": [],
-            "input_id": "MONDO:0005260",
-            "input_name": "Autism",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3121",
-            "output_name": "Valproic acid",
-            "output_category": null,
+            "input_id": "NCBIGene:8653",
+            "input_name": "DDX3Y",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "UMLS:C0311474",
+            "output_name": "dna double stranded",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -36,26 +49,39 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_47",
-            "name": "Pesticides_treats_Autism",
-            "description": "Pesticides_treats_Autism",
+            "id": "Asset_136",
+            "name": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
+            "description": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
             "tags": [],
-            "input_id": "MONDO:0005260",
-            "input_name": "Autism",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D010575",
-            "output_name": "Pesticides",
-            "output_category": null,
+            "input_id": "NCBIGene:8653",
+            "input_name": "DDX3Y",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "UMLS:C1328819",
+            "output_name": "Small molecule",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
@@ -71,7 +97,7 @@
                 "description": null,
                 "tags": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -84,9 +110,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005260",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:8653",
     "test_case_runner_settings": [
         "inferred"
     ]

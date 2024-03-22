@@ -1,97 +1,40 @@
 {
     "id": "TestCase_39",
-    "name": "what treats MONDO:0018956",
-    "description": "Azithromycin_treats_Idiopathic_bronchiectasis; Erythromycin_treats_Idiopathic_bronchiectasis; Propranolol_treats_Idiopathic_bronchiectasis",
+    "name": "what affects NCBIGene:6524",
+    "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
     "tags": [],
     "test_env": "ci",
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_321",
-            "name": "Azithromycin_treats_Idiopathic_bronchiectasis",
-            "description": "Azithromycin_treats_Idiopathic_bronchiectasis",
+            "id": "Asset_338",
+            "name": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
+            "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
             "tags": [],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:447043",
-            "output_name": "Azithromycin",
-            "output_category": null,
+            "input_id": "NCBIGene:6524",
+            "input_name": "SLC5A2 (human)",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:24812758",
+            "output_name": "Canagliflozin",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
             ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_322",
-            "name": "Erythromycin_treats_Idiopathic_bronchiectasis",
-            "description": "Erythromycin_treats_Idiopathic_bronchiectasis",
-            "tags": [],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:12560",
-            "output_name": "Erythromycin",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_323",
-            "name": "Propranolol_treats_Idiopathic_bronchiectasis",
-            "description": "Propranolol_treats_Idiopathic_bronchiectasis",
-            "tags": [],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
-            "input_category": null,
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4946",
-            "output_name": "Propranolol",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -119,9 +62,9 @@
     ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018956",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:6524",
     "test_case_runner_settings": [
         "inferred"
     ]
