@@ -1,252 +1,107 @@
 {
     "id": "TestCase_47",
-    "name": "what treats MONDO:0001119",
-    "description": "NeverShow: Basis treats Premature Menopause; NeverShow: Hexadrin treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Lasofoxifene treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
+    "name": "what treats MONDO:0018982",
+    "description": "TopAnswer: Miglustat treats Niemann-Pick type C; TopAnswer: Miglustat treats Niemann-Pick type C",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_48",
-            "name": "NeverShow: Basis treats Premature Menopause",
-            "description": "NeverShow: Basis treats Premature Menopause",
+            "id": "Asset_70",
+            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
+            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
             "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C1874451",
-            "output_name": "Basis",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
+            "test_runner_settings": [
                 "inferred"
             ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_5",
-            "name": "NeverShow: Hexadrin treats Premature Menopause",
-            "description": "NeverShow: Hexadrin treats Premature Menopause",
-            "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
+            "input_id": "MONDO:0018982",
+            "input_name": "Niemann-Pick type C",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:12358480",
-            "output_name": "Hexadrin",
+            "output_id": "PUBCHEM.COMPOUND:51634",
+            "output_name": "Miglustat",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
             ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_6",
-            "name": "NeverShow: Busulfan treats Premature Menopause",
-            "description": "NeverShow: Busulfan treats Premature Menopause",
-            "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2478",
-            "output_name": "Busulfan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_76",
-            "name": "NeverShow: Lasofoxifene treats Premature Menopause",
-            "description": "NeverShow: Lasofoxifene treats Premature Menopause",
-            "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216416",
-            "output_name": "Lasofoxifene",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_77",
-            "name": "NeverShow: Busulfan treats Premature Menopause",
-            "description": "NeverShow: Busulfan treats Premature Menopause",
-            "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2478",
-            "output_name": "Busulfan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_78",
-            "name": "TopAnswer: estradiol treats Premature Menopause",
-            "description": "TopAnswer: estradiol treats Premature Menopause",
-            "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5757",
-            "output_name": "estradiol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_79",
-            "name": "TopAnswer: progestin treats Premature Menopause",
-            "description": "TopAnswer: progestin treats Premature Menopause",
+            "id": "Asset_70",
+            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
+            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
             "tags": [],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018982",
+            "input_name": "Niemann-Pick type C",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D011372",
-            "output_name": "progestin",
+            "output_id": "PUBCHEM.COMPOUND:51634",
+            "output_name": "Miglustat",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -254,15 +109,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0001119",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_case_input_id": "MONDO:0018982",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

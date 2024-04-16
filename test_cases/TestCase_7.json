@@ -1,9 +1,11 @@
 {
     "id": "TestCase_7",
     "name": "what treats MONDO:0018493",
-    "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia; NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia; NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia; NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia; NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia; NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
+    "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia; NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia; NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia; NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia; NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia; NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia; NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia; NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia; NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia; NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia; NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia; NeverShow: basis treats Malignant Hyperthermia Of Anesthesia; NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -20,21 +25,81 @@
             "output_name": "Halothane",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_138",
+            "name": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Halothane treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3562",
+            "output_name": "Halothane",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -46,6 +111,9 @@
             "name": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -55,21 +123,81 @@
             "output_name": "isoflurane",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_139",
+            "name": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: isoflurane treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3763",
+            "output_name": "isoflurane",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -81,6 +209,9 @@
             "name": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -90,21 +221,81 @@
             "output_name": "Pharmaceutical preparations",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_142",
+            "name": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Pharmaceutical preparations treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -116,6 +307,9 @@
             "name": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -125,21 +319,81 @@
             "output_name": "Carbon",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_143",
+            "name": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Carbon treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5462310",
+            "output_name": "Carbon",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -151,6 +405,9 @@
             "name": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -160,21 +417,81 @@
             "output_name": "Anesthetics, local",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_144",
+            "name": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Anesthetics, local treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000779",
+            "output_name": "Anesthetics, local",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -186,6 +503,9 @@
             "name": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -195,21 +515,81 @@
             "output_name": "4-aminopyridine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_145",
+            "name": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: 4-aminopyridine treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-aminopyridine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -221,6 +601,9 @@
             "name": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -230,21 +613,81 @@
             "output_name": "Anesthetics",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_146",
+            "name": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Anesthetics treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0002932",
+            "output_name": "Anesthetics",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -256,6 +699,9 @@
             "name": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -265,21 +711,81 @@
             "output_name": "Antibiotics",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_147",
+            "name": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: Antibiotics treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0003232",
+            "output_name": "Antibiotics",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -291,6 +797,9 @@
             "name": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
             "description": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0018493",
             "input_name": "Malignant Hyperthermia Of Anesthesia",
             "input_category": "biolink:Disease",
@@ -300,21 +809,81 @@
             "output_name": "basis",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_148",
+            "name": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
+            "description": "NeverShow: basis treats Malignant Hyperthermia Of Anesthesia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018493",
+            "input_name": "Malignant Hyperthermia Of Anesthesia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C1874451",
+            "output_name": "basis",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -324,15 +893,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0018493",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

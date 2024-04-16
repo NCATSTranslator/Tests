@@ -1,24 +1,29 @@
 {
     "id": "TestCase_22",
-    "name": "what affects PUBCHEM.COMPOUND:7028",
-    "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
+    "name": "what affects NCBIGene:7553",
+    "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor; NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_310",
-            "name": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
-            "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
+            "id": "Asset_312",
+            "name": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
+            "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
             "tags": [],
-            "input_id": "PUBCHEM.COMPOUND:7028",
-            "input_name": "Pseudoephedrine",
-            "input_category": "biolink:ChemicalEntity",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:7553",
+            "input_name": "MYC proto-oncogene, bHLH transcription factor",
+            "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "NCBIGene:3558",
-            "output_name": "Interleukin-2",
-            "output_category": null,
+            "output_id": "MONDO:0004992",
+            "output_name": "cancer",
+            "output_category": "biolink:Disease",
             "association": null,
             "qualifiers": [
                 {
@@ -27,27 +32,74 @@
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "abundance"
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
                     "value": "decreased"
                 }
             ],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_312",
+            "name": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
+            "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:7553",
+            "input_name": "MYC proto-oncogene, bHLH transcription factor",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "MONDO:0004992",
+            "output_name": "cancer",
+            "output_category": "biolink:Disease",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -57,15 +109,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:7028",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_case_input_id": "NCBIGene:7553",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:Disease",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

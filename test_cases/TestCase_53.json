@@ -1,182 +1,205 @@
 {
     "id": "TestCase_53",
-    "name": "what treats MONDO:0009265",
-    "description": "TopAnswer: Eliglustat treats Gaucher Disease type1; TopAnswer: Imiglucerase treats Gaucher Disease type1; TopAnswer: Taliglucerase alfa treats Gaucher Disease type1; TopAnswer: Velaglucerase-alfa treats Gaucher Disease type1; TopAnswer: Miglustat treats Gaucher Disease type1",
+    "name": "what treats MONDO:0019600",
+    "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_63",
-            "name": "TopAnswer: Eliglustat treats Gaucher Disease type1",
-            "description": "TopAnswer: Eliglustat treats Gaucher Disease type1",
+            "id": "Asset_96",
+            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
             "tags": [],
-            "input_id": "MONDO:0009265",
-            "input_name": "Gaucher Disease type1",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:23652731",
-            "output_name": "Eliglustat",
+            "output_id": "CHEBI:22977",
+            "output_name": "cadmium",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_64",
-            "name": "TopAnswer: Imiglucerase treats Gaucher Disease type1",
-            "description": "TopAnswer: Imiglucerase treats Gaucher Disease type1",
+            "id": "Asset_96",
+            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
             "tags": [],
-            "input_id": "MONDO:0009265",
-            "input_name": "Gaucher Disease type1",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:Q6U6J48BWY",
-            "output_name": "Imiglucerase",
+            "output_id": "CHEBI:22977",
+            "output_name": "cadmium",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_65",
-            "name": "TopAnswer: Taliglucerase alfa treats Gaucher Disease type1",
-            "description": "TopAnswer: Taliglucerase alfa treats Gaucher Disease type1",
+            "id": "Asset_97",
+            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
+            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
             "tags": [],
-            "input_id": "MONDO:0009265",
-            "input_name": "Gaucher Disease type1",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:0R4NLX88O4",
-            "output_name": "Taliglucerase alfa",
+            "output_id": "CHEBI:25195",
+            "output_name": "mercury",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_66",
-            "name": "TopAnswer: Velaglucerase-alfa treats Gaucher Disease type1",
-            "description": "TopAnswer: Velaglucerase-alfa treats Gaucher Disease type1",
+            "id": "Asset_97",
+            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
+            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
             "tags": [],
-            "input_id": "MONDO:0009265",
-            "input_name": "Gaucher Disease type1",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEMBL.COMPOUND:CHEMBL1201865",
-            "output_name": "Velaglucerase-alfa",
+            "output_id": "CHEBI:25195",
+            "output_name": "mercury",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_67",
-            "name": "TopAnswer: Miglustat treats Gaucher Disease type1",
-            "description": "TopAnswer: Miglustat treats Gaucher Disease type1",
-            "tags": [],
-            "input_id": "MONDO:0009265",
-            "input_name": "Gaucher Disease type1",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -184,15 +207,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0009265",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_case_input_id": "MONDO:0019600",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

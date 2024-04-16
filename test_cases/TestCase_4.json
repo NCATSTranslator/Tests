@@ -1,9 +1,11 @@
 {
     "id": "TestCase_4",
     "name": "what treats MONDO:0015364",
-    "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
+    "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
             "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
             "input_category": "biolink:Disease",
@@ -20,21 +25,81 @@
             "output_name": "Immunoglobulins, intravenous",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_131",
+            "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D016756",
+            "output_name": "Immunoglobulins, intravenous",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -46,6 +111,9 @@
             "name": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
             "description": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
             "input_category": "biolink:Disease",
@@ -55,21 +123,81 @@
             "output_name": "Isoxaflutole",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_132",
+            "name": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "description": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -81,6 +209,9 @@
             "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
             "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy",
             "input_category": "biolink:Disease",
@@ -90,21 +221,81 @@
             "output_name": "Erythromelalgia",
             "output_category": "biolink:Disease",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_182",
+            "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+            "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MONDO:0016028",
+            "output_name": "Erythromelalgia",
+            "output_category": "biolink:Disease",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
                 "test_objective": "AcceptanceTest",
@@ -116,6 +307,9 @@
             "name": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
             "description": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0015364",
             "input_name": "Hereditary Sensory And Autonomic Neuropathy",
             "input_category": "biolink:Disease",
@@ -125,21 +319,81 @@
             "output_name": "Riley-day Syndrome",
             "output_category": "biolink:Disease",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_183",
+            "name": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
+            "description": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0015364",
+            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MONDO:0009131",
+            "output_name": "Riley-day Syndrome",
+            "output_category": "biolink:Disease",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
                 "test_objective": "AcceptanceTest",
@@ -149,15 +403,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0015364",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:Disease",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

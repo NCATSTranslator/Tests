@@ -1,9 +1,11 @@
 {
     "id": "TestCase_8",
     "name": "what treats MONDO:0004758",
-    "description": "NeverShow: Prednisone treats scotoma; NeverShow: vigabatrin treats scotoma",
+    "description": "NeverShow: Prednisone treats scotoma; NeverShow: Prednisone treats scotoma; NeverShow: vigabatrin treats scotoma; NeverShow: vigabatrin treats scotoma",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
@@ -11,6 +13,9 @@
             "name": "NeverShow: Prednisone treats scotoma",
             "description": "NeverShow: Prednisone treats scotoma",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0004758",
             "input_name": "scotoma",
             "input_category": "biolink:Disease",
@@ -20,21 +25,81 @@
             "output_name": "Prednisone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_140",
+            "name": "NeverShow: Prednisone treats scotoma",
+            "description": "NeverShow: Prednisone treats scotoma",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "Prednisone",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -46,6 +111,9 @@
             "name": "NeverShow: vigabatrin treats scotoma",
             "description": "NeverShow: vigabatrin treats scotoma",
             "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
             "input_id": "MONDO:0004758",
             "input_name": "scotoma",
             "input_category": "biolink:Disease",
@@ -55,21 +123,81 @@
             "output_name": "vigabatrin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_141",
+            "name": "NeverShow: vigabatrin treats scotoma",
+            "description": "NeverShow: vigabatrin treats scotoma",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5665",
+            "output_name": "vigabatrin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
@@ -79,15 +207,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
     "test_case_input_id": "MONDO:0004758",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

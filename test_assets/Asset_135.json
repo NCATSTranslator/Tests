@@ -3,9 +3,12 @@
     "name": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
     "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
     "tags": [],
-    "input_id": "NCBIGene:8653",
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "NCBI Gene:8653",
     "input_name": "DDX3Y",
-    "input_category": "biolink:Gene",
+    "input_category": null,
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
     "output_id": "UMLS:C0311474",
@@ -32,14 +35,12 @@
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
         "test_objective": "AcceptanceTest",

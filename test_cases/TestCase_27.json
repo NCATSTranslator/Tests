@@ -1,40 +1,56 @@
 {
     "id": "TestCase_27",
-    "name": "what treats MONDO:0004979",
-    "description": "TopAnswer: Fluticasone treats Asthma; Acceptable: Albuterol (salbutamol) treats Asthma; NeverShow: Propranolol treats Asthma",
+    "name": "what treats MONDO:0008345",
+    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis; TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_315",
-            "name": "TopAnswer: Fluticasone treats Asthma",
-            "description": "TopAnswer: Fluticasone treats Asthma",
+            "id": "Asset_324",
+            "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
             "tags": [],
-            "input_id": "MONDO:0004979",
-            "input_name": "Asthma",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5311101",
-            "output_name": "Fluticasone",
+            "output_id": "PUBCHEM.COMPOUND:40632",
+            "output_name": "Pirfenidone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
             "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -42,69 +58,48 @@
             }
         },
         {
-            "id": "Asset_316",
-            "name": "Acceptable: Albuterol (salbutamol) treats Asthma",
-            "description": "Acceptable: Albuterol (salbutamol) treats Asthma",
+            "id": "Asset_324",
+            "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
             "tags": [],
-            "input_id": "MONDO:0004979",
-            "input_name": "Asthma",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C2194286",
-            "output_name": "Albuterol (salbutamol)",
+            "output_id": "PUBCHEM.COMPOUND:40632",
+            "output_name": "Pirfenidone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "Acceptable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_317",
-            "name": "NeverShow: Propranolol treats Asthma",
-            "description": "NeverShow: Propranolol treats Asthma",
-            "tags": [],
-            "input_id": "MONDO:0004979",
-            "input_name": "Asthma",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4946",
-            "output_name": "Propranolol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
@@ -114,15 +109,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0004979",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_case_input_id": "MONDO:0008345",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }

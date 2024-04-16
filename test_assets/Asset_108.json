@@ -3,6 +3,9 @@
     "name": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
     "description": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
     "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
     "input_id": "MONDO:0005301",
     "input_name": "Multiple Sclerosis",
     "input_category": "biolink:Disease",
@@ -12,21 +15,32 @@
     "output_name": "Adjuvants, immunologic",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "expected_output": "NeverShow",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
     "well_known": false,
     "test_reference": null,
-    "runner_settings": [
-        "inferred"
-    ],
     "test_metadata": {
         "id": "1",
         "name": null,
         "description": null,
         "tags": [],
+        "test_runner_settings": [],
         "test_source": "SMURF",
         "test_reference": null,
         "test_objective": "AcceptanceTest",

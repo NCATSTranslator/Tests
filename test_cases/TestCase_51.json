@@ -1,147 +1,205 @@
 {
     "id": "TestCase_51",
-    "name": "what treats MONDO:0005799",
-    "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease; BadButForgivable: Dichlorophen treats Hookworm Infectious Disease",
+    "name": "what treats MONDO:0019173",
+    "description": "NeverShow: Methionine treats Rabies; NeverShow: Methionine treats Rabies; NeverShow: Cefaclor treats Rabies; NeverShow: Cefaclor treats Rabies",
     "tags": [],
-    "test_env": "ci",
+    "test_runner_settings": [
+        "inferred"
+    ],
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_52",
-            "name": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
+            "id": "Asset_93",
+            "name": "NeverShow: Methionine treats Rabies",
+            "description": "NeverShow: Methionine treats Rabies",
             "tags": [],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
-            "output_name": "Mebendazole",
+            "output_id": "CHEBI:16811",
+            "output_name": "Methionine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_53",
-            "name": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
+            "id": "Asset_93",
+            "name": "NeverShow: Methionine treats Rabies",
+            "description": "NeverShow: Methionine treats Rabies",
             "tags": [],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
-            "output_name": "Pyrantel",
+            "output_id": "CHEBI:16811",
+            "output_name": "Methionine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_54",
-            "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+            "id": "Asset_94",
+            "name": "NeverShow: Cefaclor treats Rabies",
+            "description": "NeverShow: Cefaclor treats Rabies",
             "tags": [],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
-            "output_name": "Thiabendazole",
+            "output_id": "CHEBI:3478",
+            "output_name": "Cefaclor",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_55",
-            "name": "BadButForgivable: Dichlorophen treats Hookworm Infectious Disease",
-            "description": "BadButForgivable: Dichlorophen treats Hookworm Infectious Disease",
+            "id": "Asset_94",
+            "name": "NeverShow: Cefaclor treats Rabies",
+            "description": "NeverShow: Cefaclor treats Rabies",
             "tags": [],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0019173",
+            "input_name": "Rabies",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3037",
-            "output_name": "Dichlorophen",
+            "output_id": "CHEBI:3478",
+            "output_name": "Cefaclor",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "BadButForgivable",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
-            "runner_settings": [
-                "inferred"
-            ],
             "test_metadata": {
                 "id": "1",
                 "name": null,
                 "description": null,
                 "tags": [],
+                "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -149,15 +207,29 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "components": [
-        "ars"
-    ],
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005799",
-    "test_case_runner_settings": [
-        "inferred"
-    ]
+    "test_case_input_id": "MONDO:0019173",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
 }
