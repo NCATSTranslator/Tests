@@ -21831,7 +21831,7 @@
         "TestCase_19": {
             "id": "TestCase_19",
             "name": "what affects NCBIGene:154",
-            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -22017,594 +22017,6 @@
                         }
                     ],
                     "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_378",
-                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4946",
-                    "output_name": "propranolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_378",
-                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4946",
-                    "output_name": "propranolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_379",
-                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4171",
-                    "output_name": "metoprolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_379",
-                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4171",
-                    "output_name": "metoprolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_380",
-                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2585",
-                    "output_name": "carvedilol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_380",
-                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2585",
-                    "output_name": "carvedilol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_381",
-                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2249",
-                    "output_name": "atenolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_381",
-                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2249",
-                    "output_name": "atenolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_383",
-                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3682",
-                    "output_name": "ICI-118,551",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_383",
-                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3682",
-                    "output_name": "ICI-118,551",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_384",
-                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "ChEBI:35530",
-                    "output_name": "Beta-Blockers (Inhibitors)",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_384",
-                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "ChEBI:35530",
-                    "output_name": "Beta-Blockers (Inhibitors)",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -28922,6 +28334,633 @@
         },
         "TestCase_35": {
             "id": "TestCase_35",
+            "name": "what affects NCBIGene:154",
+            "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "query_type": null,
+            "test_assets": [
+                {
+                    "id": "Asset_378",
+                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:4946",
+                    "output_name": "propranolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_378",
+                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:4946",
+                    "output_name": "propranolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_379",
+                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:4171",
+                    "output_name": "metoprolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_379",
+                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:4171",
+                    "output_name": "metoprolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_380",
+                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:2585",
+                    "output_name": "carvedilol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_380",
+                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:2585",
+                    "output_name": "carvedilol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_381",
+                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:2249",
+                    "output_name": "atenolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_381",
+                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:2249",
+                    "output_name": "atenolol",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_383",
+                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:3682",
+                    "output_name": "ICI-118,551",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_383",
+                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "PUBCHEM.COMPOUND:3682",
+                    "output_name": "ICI-118,551",
+                    "output_category": "biolink:ChemicalEntity",
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_384",
+                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "ChEBI:35530",
+                    "output_name": "Beta-Blockers (Inhibitors)",
+                    "output_category": null,
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                },
+                {
+                    "id": "Asset_384",
+                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
+                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "inferred"
+                    ],
+                    "input_id": "NCBIGene:154",
+                    "input_name": "ADRB2",
+                    "input_category": "biolink:Gene",
+                    "predicate_id": "biolink:affects",
+                    "predicate_name": "affects",
+                    "output_id": "ChEBI:35530",
+                    "output_name": "Beta-Blockers (Inhibitors)",
+                    "output_category": null,
+                    "association": null,
+                    "qualifiers": [
+                        {
+                            "parameter": "biolink_qualified_predicate",
+                            "value": "biolink:causes"
+                        },
+                        {
+                            "parameter": "biolink_object_aspect_qualifier",
+                            "value": "activity_or_abundance"
+                        },
+                        {
+                            "parameter": "biolink_object_direction_qualifier",
+                            "value": "decreased"
+                        }
+                    ],
+                    "expected_output": "TopAnswer",
+                    "test_issue": null,
+                    "semantic_severity": null,
+                    "in_v1": null,
+                    "well_known": false,
+                    "test_reference": null,
+                    "test_metadata": {
+                        "id": "1",
+                        "name": null,
+                        "description": null,
+                        "tags": [],
+                        "test_runner_settings": [],
+                        "test_source": "SMURF",
+                        "test_reference": null,
+                        "test_objective": "AcceptanceTest",
+                        "test_annotations": []
+                    }
+                }
+            ],
+            "preconditions": [],
+            "trapi_template": null,
+            "test_case_objective": "AcceptanceTest",
+            "test_case_source": null,
+            "test_case_predicate_name": "affects",
+            "test_case_predicate_id": "biolink:affects",
+            "test_case_input_id": "NCBIGene:154",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "input_category": "biolink:Gene",
+            "output_category": null,
+            "components": [
+                "ars"
+            ],
+            "test_env": "ci"
+        },
+        "TestCase_36": {
+            "id": "TestCase_36",
             "name": "what affects NCBIGene:3043",
             "description": "TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB",
             "tags": [],
@@ -29645,8 +29684,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_36": {
-            "id": "TestCase_36",
+        "TestCase_37": {
+            "id": "TestCase_37",
             "name": "what affects NCBIGene:79001",
             "description": "TopAnswer: Warfarin decreases abundance or activity of VKORC1; TopAnswer: Warfarin decreases abundance or activity of VKORC1",
             "tags": [],
@@ -29782,8 +29821,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_37": {
-            "id": "TestCase_37",
+        "TestCase_38": {
+            "id": "TestCase_38",
             "name": "what treats MONDO:0005575",
             "description": "TopAnswer: Cetuximab (Erbitux) treats Colorectal Cancer; TopAnswer: Cetuximab (Erbitux) treats Colorectal Cancer",
             "tags": [],
@@ -29919,8 +29958,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_38": {
-            "id": "TestCase_38",
+        "TestCase_39": {
+            "id": "TestCase_39",
             "name": "what treats MONDO:0005260",
             "description": "NeverShow: Valproic acid treats Autism; NeverShow: Valproic acid treats Autism; NeverShow: Pesticides treats Autism; NeverShow: Pesticides treats Autism",
             "tags": [],
@@ -30154,8 +30193,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_39": {
-            "id": "TestCase_39",
+        "TestCase_40": {
+            "id": "TestCase_40",
             "name": "what treats MONDO:0001119",
             "description": "NeverShow: Basis treats Premature Menopause; NeverShow: Basis treats Premature Menopause; NeverShow: Hexadrin treats Premature Menopause; NeverShow: Hexadrin treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Lasofoxifene treats Premature Menopause; NeverShow: Lasofoxifene treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
             "tags": [],
@@ -30879,8 +30918,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_40": {
-            "id": "TestCase_40",
+        "TestCase_41": {
+            "id": "TestCase_41",
             "name": "what treats MONDO:0017314",
             "description": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome; NeverShow: methylphenidate treats Ehlers-Danlos Syndrome; NeverShow: Omniscan treats Ehlers-Danlos Syndrome; NeverShow: Omniscan treats Ehlers-Danlos Syndrome; NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome; NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome; NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome; NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome; NeverShow: alendronic acid treats Ehlers-Danlos Syndrome; NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
             "tags": [],
@@ -31408,8 +31447,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_41": {
-            "id": "TestCase_41",
+        "TestCase_42": {
+            "id": "TestCase_42",
             "name": "what treats MONDO:0004784",
             "description": "NeverShow: particulate matter treats Allergic Asthma; NeverShow: particulate matter treats Allergic Asthma",
             "tags": [],
@@ -31545,8 +31584,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_42": {
-            "id": "TestCase_42",
+        "TestCase_43": {
+            "id": "TestCase_43",
             "name": "what treats MONDO:0020333",
             "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
             "tags": [],
@@ -32270,8 +32309,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_43": {
-            "id": "TestCase_43",
+        "TestCase_44": {
+            "id": "TestCase_44",
             "name": "what treats MONDO:0005799",
             "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
             "tags": [],
@@ -32603,8 +32642,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_44": {
-            "id": "TestCase_44",
+        "TestCase_45": {
+            "id": "TestCase_45",
             "name": "what treats MONDO:0004975",
             "description": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease; NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
             "tags": [],
@@ -32740,8 +32779,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_45": {
-            "id": "TestCase_45",
+        "TestCase_46": {
+            "id": "TestCase_46",
             "name": "what treats MONDO:0009265",
             "description": "TopAnswer: Eliglustat treats Gaucher Disease type1; TopAnswer: Eliglustat treats Gaucher Disease type1; TopAnswer: Imiglucerase treats Gaucher Disease type1; TopAnswer: Imiglucerase treats Gaucher Disease type1; TopAnswer: Taliglucerase alfa treats Gaucher Disease type1; TopAnswer: Taliglucerase alfa treats Gaucher Disease type1; TopAnswer: Velaglucerase-alfa treats Gaucher Disease type1; TopAnswer: Velaglucerase-alfa treats Gaucher Disease type1; TopAnswer: Miglustat treats Gaucher Disease type1; TopAnswer: Miglustat treats Gaucher Disease type1",
             "tags": [],
@@ -33269,8 +33308,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_46": {
-            "id": "TestCase_46",
+        "TestCase_47": {
+            "id": "TestCase_47",
             "name": "what treats MONDO:0007147",
             "description": "NeverShow: Soot treats Obstructive Sleep Apnea; NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
@@ -33406,8 +33445,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_47": {
-            "id": "TestCase_47",
+        "TestCase_48": {
+            "id": "TestCase_48",
             "name": "what treats MONDO:0018982",
             "description": "TopAnswer: Miglustat treats Niemann-Pick type C; TopAnswer: Miglustat treats Niemann-Pick type C",
             "tags": [],
@@ -33543,8 +33582,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_48": {
-            "id": "TestCase_48",
+        "TestCase_49": {
+            "id": "TestCase_49",
             "name": "what treats MONDO:0018328",
             "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
@@ -34072,8 +34111,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_49": {
-            "id": "TestCase_49",
+        "TestCase_50": {
+            "id": "TestCase_50",
             "name": "what treats MONDO:0043233",
             "description": "NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis",
             "tags": [],
@@ -34601,8 +34640,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_50": {
-            "id": "TestCase_50",
+        "TestCase_51": {
+            "id": "TestCase_51",
             "name": "what treats MONDO:0005267",
             "description": "NeverShow: fibrinogen treats Heart Disorder; NeverShow: fibrinogen treats Heart Disorder",
             "tags": [],
@@ -34738,8 +34777,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_51": {
-            "id": "TestCase_51",
+        "TestCase_52": {
+            "id": "TestCase_52",
             "name": "what treats MONDO:0019173",
             "description": "NeverShow: Methionine treats Rabies; NeverShow: Methionine treats Rabies; NeverShow: Cefaclor treats Rabies; NeverShow: Cefaclor treats Rabies",
             "tags": [],
@@ -34973,8 +35012,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_52": {
-            "id": "TestCase_52",
+        "TestCase_53": {
+            "id": "TestCase_53",
             "name": "what treats MONDO:0008251",
             "description": "NeverShow: Alcohols treats familial pityriasis rubra pilaris; NeverShow: Alcohols treats familial pityriasis rubra pilaris",
             "tags": [],
@@ -35110,8 +35149,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_53": {
-            "id": "TestCase_53",
+        "TestCase_54": {
+            "id": "TestCase_54",
             "name": "what treats MONDO:0019600",
             "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
             "tags": [],

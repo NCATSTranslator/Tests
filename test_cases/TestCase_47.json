@@ -1,7 +1,7 @@
 {
     "id": "TestCase_47",
-    "name": "what treats MONDO:0018982",
-    "description": "TopAnswer: Miglustat treats Niemann-Pick type C; TopAnswer: Miglustat treats Niemann-Pick type C",
+    "name": "what treats MONDO:0007147",
+    "description": "NeverShow: Soot treats Obstructive Sleep Apnea; NeverShow: Soot treats Obstructive Sleep Apnea",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_70",
-            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
-            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018982",
-            "input_name": "Niemann-Pick type C",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -39,7 +39,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -58,20 +58,20 @@
             }
         },
         {
-            "id": "Asset_70",
-            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
-            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018982",
-            "input_name": "Niemann-Pick type C",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -88,7 +88,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -113,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018982",
+    "test_case_input_id": "MONDO:0007147",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

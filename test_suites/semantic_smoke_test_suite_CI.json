@@ -1921,7 +1921,7 @@
         "TestCase_19": {
             "id": "TestCase_19",
             "name": "what affects NCBIGene:154",
-            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: propranolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: metoprolol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: carvedilol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: atenolol decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2; TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -2107,594 +2107,6 @@
                         }
                     ],
                     "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_378",
-                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4946",
-                    "output_name": "propranolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_378",
-                    "name": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: propranolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4946",
-                    "output_name": "propranolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_379",
-                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4171",
-                    "output_name": "metoprolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_379",
-                    "name": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: metoprolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4171",
-                    "output_name": "metoprolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_380",
-                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2585",
-                    "output_name": "carvedilol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_380",
-                    "name": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: carvedilol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2585",
-                    "output_name": "carvedilol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_381",
-                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2249",
-                    "output_name": "atenolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_381",
-                    "name": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: atenolol decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2249",
-                    "output_name": "atenolol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_383",
-                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3682",
-                    "output_name": "ICI-118,551",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_383",
-                    "name": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: ICI-118,551 decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3682",
-                    "output_name": "ICI-118,551",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_384",
-                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "ChEBI:35530",
-                    "output_name": "Beta-Blockers (Inhibitors)",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_384",
-                    "name": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "description": "TopAnswer: Beta-Blockers (Inhibitors) decreases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "ChEBI:35530",
-                    "output_name": "Beta-Blockers (Inhibitors)",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -3370,8 +2782,8 @@
         },
         "TestCase_39": {
             "id": "TestCase_39",
-            "name": "what treats MONDO:0001119",
-            "description": "NeverShow: Basis treats Premature Menopause; NeverShow: Basis treats Premature Menopause; NeverShow: Hexadrin treats Premature Menopause; NeverShow: Hexadrin treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Lasofoxifene treats Premature Menopause; NeverShow: Lasofoxifene treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; NeverShow: Busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
+            "name": "what treats MONDO:0005260",
+            "description": "NeverShow: Valproic acid treats Autism; NeverShow: Valproic acid treats Autism; NeverShow: Pesticides treats Autism; NeverShow: Pesticides treats Autism",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -3379,20 +2791,20 @@
             "query_type": null,
             "test_assets": [
                 {
-                    "id": "Asset_48",
-                    "name": "NeverShow: Basis treats Premature Menopause",
-                    "description": "NeverShow: Basis treats Premature Menopause",
+                    "id": "Asset_46",
+                    "name": "NeverShow: Valproic acid treats Autism",
+                    "description": "NeverShow: Valproic acid treats Autism",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
+                    "input_id": "MONDO:0005260",
+                    "input_name": "Autism",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UMLS:C1874451",
-                    "output_name": "Basis",
+                    "output_id": "PUBCHEM.COMPOUND:3121",
+                    "output_name": "Valproic acid",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -3422,26 +2834,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_48",
-                    "name": "NeverShow: Basis treats Premature Menopause",
-                    "description": "NeverShow: Basis treats Premature Menopause",
+                    "id": "Asset_46",
+                    "name": "NeverShow: Valproic acid treats Autism",
+                    "description": "NeverShow: Valproic acid treats Autism",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
+                    "input_id": "MONDO:0005260",
+                    "input_name": "Autism",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UMLS:C1874451",
-                    "output_name": "Basis",
+                    "output_id": "PUBCHEM.COMPOUND:3121",
+                    "output_name": "Valproic acid",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -3471,26 +2883,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_5",
-                    "name": "NeverShow: Hexadrin treats Premature Menopause",
-                    "description": "NeverShow: Hexadrin treats Premature Menopause",
+                    "id": "Asset_47",
+                    "name": "NeverShow: Pesticides treats Autism",
+                    "description": "NeverShow: Pesticides treats Autism",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
+                    "input_id": "MONDO:0005260",
+                    "input_name": "Autism",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:12358480",
-                    "output_name": "Hexadrin",
+                    "output_id": "MESH:D010575",
+                    "output_name": "Pesticides",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -3520,26 +2932,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_5",
-                    "name": "NeverShow: Hexadrin treats Premature Menopause",
-                    "description": "NeverShow: Hexadrin treats Premature Menopause",
+                    "id": "Asset_47",
+                    "name": "NeverShow: Pesticides treats Autism",
+                    "description": "NeverShow: Pesticides treats Autism",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
+                    "input_id": "MONDO:0005260",
+                    "input_name": "Autism",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:12358480",
-                    "output_name": "Hexadrin",
+                    "output_id": "MESH:D010575",
+                    "output_name": "Pesticides",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -3569,497 +2981,7 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_6",
-                    "name": "NeverShow: Busulfan treats Premature Menopause",
-                    "description": "NeverShow: Busulfan treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2478",
-                    "output_name": "Busulfan",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_6",
-                    "name": "NeverShow: Busulfan treats Premature Menopause",
-                    "description": "NeverShow: Busulfan treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2478",
-                    "output_name": "Busulfan",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_76",
-                    "name": "NeverShow: Lasofoxifene treats Premature Menopause",
-                    "description": "NeverShow: Lasofoxifene treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:216416",
-                    "output_name": "Lasofoxifene",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_76",
-                    "name": "NeverShow: Lasofoxifene treats Premature Menopause",
-                    "description": "NeverShow: Lasofoxifene treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:216416",
-                    "output_name": "Lasofoxifene",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_77",
-                    "name": "NeverShow: Busulfan treats Premature Menopause",
-                    "description": "NeverShow: Busulfan treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2478",
-                    "output_name": "Busulfan",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_77",
-                    "name": "NeverShow: Busulfan treats Premature Menopause",
-                    "description": "NeverShow: Busulfan treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2478",
-                    "output_name": "Busulfan",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "NeverShow",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_78",
-                    "name": "TopAnswer: estradiol treats Premature Menopause",
-                    "description": "TopAnswer: estradiol treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5757",
-                    "output_name": "estradiol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_78",
-                    "name": "TopAnswer: estradiol treats Premature Menopause",
-                    "description": "TopAnswer: estradiol treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5757",
-                    "output_name": "estradiol",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_79",
-                    "name": "TopAnswer: progestin treats Premature Menopause",
-                    "description": "TopAnswer: progestin treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "MESH:D011372",
-                    "output_name": "progestin",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_79",
-                    "name": "TopAnswer: progestin treats Premature Menopause",
-                    "description": "TopAnswer: progestin treats Premature Menopause",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0001119",
-                    "input_name": "Premature Menopause",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "MESH:D011372",
-                    "output_name": "progestin",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4071,7 +2993,7 @@
             "test_case_source": null,
             "test_case_predicate_name": "treats",
             "test_case_predicate_id": "biolink:treats",
-            "test_case_input_id": "MONDO:0001119",
+            "test_case_input_id": "MONDO:0005260",
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
@@ -4095,8 +3017,8 @@
         },
         "TestCase_49": {
             "id": "TestCase_49",
-            "name": "what treats MONDO:0043233",
-            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "name": "what treats MONDO:0018328",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -4104,20 +3026,20 @@
             "query_type": null,
             "test_assets": [
                 {
-                    "id": "Asset_80",
-                    "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+                    "id": "Asset_71",
+                    "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5291",
-                    "output_name": "Imatinib",
+                    "output_id": "PUBCHEM.COMPOUND:446157",
+                    "output_name": "Rosuvastatin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4134,7 +3056,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4147,26 +3069,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_80",
-                    "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+                    "id": "Asset_71",
+                    "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5291",
-                    "output_name": "Imatinib",
+                    "output_id": "PUBCHEM.COMPOUND:446157",
+                    "output_name": "Rosuvastatin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4183,7 +3105,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4196,26 +3118,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_81",
-                    "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+                    "id": "Asset_72",
+                    "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:216239",
-                    "output_name": "Sorafenib",
+                    "output_id": "PUBCHEM.COMPOUND:9853053",
+                    "output_name": "Lomitapide",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4232,7 +3154,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4245,26 +3167,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_81",
-                    "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+                    "id": "Asset_72",
+                    "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:216239",
-                    "output_name": "Sorafenib",
+                    "output_id": "PUBCHEM.COMPOUND:9853053",
+                    "output_name": "Lomitapide",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4281,7 +3203,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4294,26 +3216,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_82",
-                    "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+                    "id": "Asset_73",
+                    "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:1140",
-                    "output_name": "Toluene",
+                    "output_id": "UNII:9GJ8S4GU0M",
+                    "output_name": "Mipomersen",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4330,7 +3252,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4343,26 +3265,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_82",
-                    "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+                    "id": "Asset_73",
+                    "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:1140",
-                    "output_name": "Toluene",
+                    "output_id": "UNII:9GJ8S4GU0M",
+                    "output_name": "Mipomersen",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4379,7 +3301,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4392,26 +3314,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_83",
-                    "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+                    "id": "Asset_74",
+                    "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:84098",
-                    "output_name": "Isoxaflutole",
+                    "output_id": "UNII:LKC0U3A8NJ",
+                    "output_name": "Evolocumab",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4428,7 +3350,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4441,26 +3363,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_83",
-                    "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+                    "id": "Asset_74",
+                    "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:84098",
-                    "output_name": "Isoxaflutole",
+                    "output_id": "UNII:LKC0U3A8NJ",
+                    "output_name": "Evolocumab",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4477,7 +3399,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4490,26 +3412,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_84",
-                    "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+                    "id": "Asset_75",
+                    "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:3036",
-                    "output_name": "Clofenotane",
+                    "output_id": "PUBCHEM.COMPOUND:446157",
+                    "output_name": "Rosuvastatin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4526,7 +3448,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4539,26 +3461,26 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
                 },
                 {
-                    "id": "Asset_84",
-                    "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-                    "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+                    "id": "Asset_75",
+                    "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+                    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0043233",
-                    "input_name": "Exfoliative Dermatitis",
+                    "input_id": "MONDO:0018328",
+                    "input_name": "Homozygous Familial Hypercholesterolemia",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:3036",
-                    "output_name": "Clofenotane",
+                    "output_id": "PUBCHEM.COMPOUND:446157",
+                    "output_name": "Rosuvastatin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
                     "qualifiers": [
@@ -4575,7 +3497,7 @@
                             "value": ""
                         }
                     ],
-                    "expected_output": "NeverShow",
+                    "expected_output": "TopAnswer",
                     "test_issue": null,
                     "semantic_severity": null,
                     "in_v1": null,
@@ -4588,7 +3510,7 @@
                         "tags": [],
                         "test_runner_settings": [],
                         "test_source": "SMURF",
-                        "test_reference": null,
+                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -4600,7 +3522,7 @@
             "test_case_source": null,
             "test_case_predicate_name": "treats",
             "test_case_predicate_id": "biolink:treats",
-            "test_case_input_id": "MONDO:0043233",
+            "test_case_input_id": "MONDO:0018328",
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",

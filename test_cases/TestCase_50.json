@@ -1,7 +1,7 @@
 {
     "id": "TestCase_50",
-    "name": "what treats MONDO:0005267",
-    "description": "NeverShow: fibrinogen treats Heart Disorder; NeverShow: fibrinogen treats Heart Disorder",
+    "name": "what treats MONDO:0043233",
+    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_90",
-            "name": "NeverShow: fibrinogen treats Heart Disorder",
-            "description": "NeverShow: fibrinogen treats Heart Disorder",
+            "id": "Asset_80",
+            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005267",
-            "input_name": "Heart Disorder",
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:80160",
-            "output_name": "fibrinogen",
+            "output_id": "PUBCHEM.COMPOUND:5291",
+            "output_name": "Imatinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_90",
-            "name": "NeverShow: fibrinogen treats Heart Disorder",
-            "description": "NeverShow: fibrinogen treats Heart Disorder",
+            "id": "Asset_80",
+            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005267",
-            "input_name": "Heart Disorder",
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:80160",
-            "output_name": "fibrinogen",
+            "output_id": "PUBCHEM.COMPOUND:5291",
+            "output_name": "Imatinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,7 +101,399 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_81",
+            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:216239",
+            "output_name": "Sorafenib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_81",
+            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:216239",
+            "output_name": "Sorafenib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_82",
+            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1140",
+            "output_name": "Toluene",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_82",
+            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1140",
+            "output_name": "Toluene",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_83",
+            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_83",
+            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_84",
+            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3036",
+            "output_name": "Clofenotane",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_84",
+            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0043233",
+            "input_name": "Exfoliative Dermatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3036",
+            "output_name": "Clofenotane",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -113,7 +505,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005267",
+    "test_case_input_id": "MONDO:0043233",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

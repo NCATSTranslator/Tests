@@ -1,7 +1,7 @@
 {
     "id": "TestCase_49",
-    "name": "what treats MONDO:0043233",
-    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis",
+    "name": "what treats MONDO:0018328",
+    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_80",
-            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+            "id": "Asset_71",
+            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5291",
-            "output_name": "Imatinib",
+            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -39,7 +39,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_80",
-            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+            "id": "Asset_71",
+            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5291",
-            "output_name": "Imatinib",
+            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -88,7 +88,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -101,26 +101,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_81",
-            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "id": "Asset_72",
+            "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216239",
-            "output_name": "Sorafenib",
+            "output_id": "PUBCHEM.COMPOUND:9853053",
+            "output_name": "Lomitapide",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -137,7 +137,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -150,26 +150,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_81",
-            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
+            "id": "Asset_72",
+            "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216239",
-            "output_name": "Sorafenib",
+            "output_id": "PUBCHEM.COMPOUND:9853053",
+            "output_name": "Lomitapide",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -186,7 +186,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -199,26 +199,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_82",
-            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "id": "Asset_73",
+            "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1140",
-            "output_name": "Toluene",
+            "output_id": "UNII:9GJ8S4GU0M",
+            "output_name": "Mipomersen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -235,7 +235,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -248,26 +248,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_82",
-            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "id": "Asset_73",
+            "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1140",
-            "output_name": "Toluene",
+            "output_id": "UNII:9GJ8S4GU0M",
+            "output_name": "Mipomersen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -284,7 +284,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -297,26 +297,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_83",
-            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "id": "Asset_74",
+            "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
+            "output_id": "UNII:LKC0U3A8NJ",
+            "output_name": "Evolocumab",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -333,7 +333,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -346,26 +346,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_83",
-            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "id": "Asset_74",
+            "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
+            "output_id": "UNII:LKC0U3A8NJ",
+            "output_name": "Evolocumab",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -382,7 +382,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -395,26 +395,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_84",
-            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "id": "Asset_75",
+            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3036",
-            "output_name": "Clofenotane",
+            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -431,7 +431,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -444,26 +444,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_84",
-            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "id": "Asset_75",
+            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3036",
-            "output_name": "Clofenotane",
+            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -480,7 +480,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -493,7 +493,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -505,7 +505,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0043233",
+    "test_case_input_id": "MONDO:0018328",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
