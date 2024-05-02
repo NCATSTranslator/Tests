@@ -1,7 +1,7 @@
 {
     "id": "TestCase_37",
     "name": "what affects NCBIGene:79001",
-    "description": "TopAnswer: Warfarin decreases abundance or activity of VKORC1; TopAnswer: Warfarin decreases abundance or activity of VKORC1",
+    "description": "TopAnswer: warfarin decreases activity or abundance of VKORC1; TopAnswer: warfarin decreases activity or abundance of VKORC1",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -10,8 +10,8 @@
     "test_assets": [
         {
             "id": "Asset_399",
-            "name": "TopAnswer: Warfarin decreases abundance or activity of VKORC1",
-            "description": "TopAnswer: Warfarin decreases abundance or activity of VKORC1",
+            "name": "TopAnswer: warfarin decreases activity or abundance of VKORC1",
+            "description": "TopAnswer: warfarin decreases activity or abundance of VKORC1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -22,7 +22,7 @@
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:54678486",
-            "output_name": "Warfarin",
+            "output_name": "warfarin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -59,8 +59,8 @@
         },
         {
             "id": "Asset_399",
-            "name": "TopAnswer: Warfarin decreases abundance or activity of VKORC1",
-            "description": "TopAnswer: Warfarin decreases abundance or activity of VKORC1",
+            "name": "TopAnswer: warfarin decreases activity or abundance of VKORC1",
+            "description": "TopAnswer: warfarin decreases activity or abundance of VKORC1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -71,7 +71,7 @@
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
             "output_id": "PUBCHEM.COMPOUND:54678486",
-            "output_name": "Warfarin",
+            "output_name": "warfarin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [

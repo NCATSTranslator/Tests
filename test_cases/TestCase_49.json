@@ -1,7 +1,7 @@
 {
     "id": "TestCase_49",
-    "name": "what treats MONDO:0018328",
-    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+    "name": "what treats MONDO:0020333",
+    "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_71",
-            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_51",
+            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
+            "output_id": "PUBCHEM.COMPOUND:774",
+            "output_name": "Histamine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -39,7 +39,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_71",
-            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_51",
+            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
+            "output_id": "PUBCHEM.COMPOUND:774",
+            "output_name": "Histamine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -88,7 +88,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -101,26 +101,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_72",
-            "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_85",
+            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9853053",
-            "output_name": "Lomitapide",
+            "output_id": "PUBCHEM.COMPOUND:3672",
+            "output_name": "ibuprofen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -137,7 +137,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -150,26 +150,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_72",
-            "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_85",
+            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9853053",
-            "output_name": "Lomitapide",
+            "output_id": "PUBCHEM.COMPOUND:3672",
+            "output_name": "ibuprofen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -186,7 +186,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -199,27 +199,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_73",
-            "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_86",
+            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:9GJ8S4GU0M",
-            "output_name": "Mipomersen",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCIT:C163032",
+            "output_name": "botulinum toxin",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -235,7 +235,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -248,27 +248,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_73",
-            "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_86",
+            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:9GJ8S4GU0M",
-            "output_name": "Mipomersen",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCIT:C163032",
+            "output_name": "botulinum toxin",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -284,7 +284,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -297,27 +297,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_74",
-            "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_87",
+            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:LKC0U3A8NJ",
-            "output_name": "Evolocumab",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCIT:C61727",
+            "output_name": "dinoprostone",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -333,7 +333,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -346,27 +346,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_74",
-            "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_87",
+            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:LKC0U3A8NJ",
-            "output_name": "Evolocumab",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCIT:C61727",
+            "output_name": "dinoprostone",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -382,7 +382,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -395,26 +395,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_75",
-            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_88",
+            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
+            "output_id": "CHEBI:17823",
+            "output_name": "calcitriol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -431,7 +431,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -444,26 +444,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_75",
-            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
-            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "id": "Asset_88",
+            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018328",
-            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
-            "output_name": "Rosuvastatin",
+            "output_id": "CHEBI:17823",
+            "output_name": "calcitriol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -480,7 +480,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -493,7 +493,203 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_89",
+            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5280793",
+            "output_name": "ergocalciferol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_89",
+            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5280793",
+            "output_name": "ergocalciferol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_91",
+            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-Aminopyridine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_91",
+            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-Aminopyridine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -505,7 +701,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018328",
+    "test_case_input_id": "MONDO:0020333",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_43",
-    "name": "what treats MONDO:0020333",
-    "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+    "name": "what treats MONDO:0001119",
+    "description": "NeverShow: basis treats Premature Menopause; NeverShow: basis treats Premature Menopause; NeverShow: hexadrin treats Premature Menopause; NeverShow: hexadrin treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; NeverShow: lasofoxifene treats Premature Menopause; NeverShow: lasofoxifene treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_51",
-            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_48",
+            "name": "NeverShow: basis treats Premature Menopause",
+            "description": "NeverShow: basis treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:774",
-            "output_name": "Histamine",
+            "output_id": "UMLS:C1874451",
+            "output_name": "basis",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_51",
-            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_48",
+            "name": "NeverShow: basis treats Premature Menopause",
+            "description": "NeverShow: basis treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:774",
-            "output_name": "Histamine",
+            "output_id": "UMLS:C1874451",
+            "output_name": "basis",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,26 +101,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_85",
-            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_5",
+            "name": "NeverShow: hexadrin treats Premature Menopause",
+            "description": "NeverShow: hexadrin treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3672",
-            "output_name": "ibuprofen",
+            "output_id": "PUBCHEM.COMPOUND:12358480",
+            "output_name": "hexadrin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -150,26 +150,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_85",
-            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_5",
+            "name": "NeverShow: hexadrin treats Premature Menopause",
+            "description": "NeverShow: hexadrin treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3672",
-            "output_name": "ibuprofen",
+            "output_id": "PUBCHEM.COMPOUND:12358480",
+            "output_name": "hexadrin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -199,222 +199,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_86",
-            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_6",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "NCIT:C163032",
-            "output_name": "botulinum toxin",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_86",
-            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C163032",
-            "output_name": "botulinum toxin",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_87",
-            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C61727",
-            "output_name": "dinoprostone",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_87",
-            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C61727",
-            "output_name": "dinoprostone",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_88",
-            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:17823",
-            "output_name": "calcitriol",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -444,26 +248,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_88",
-            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_6",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:17823",
-            "output_name": "calcitriol",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -493,26 +297,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_89",
-            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_76",
+            "name": "NeverShow: lasofoxifene treats Premature Menopause",
+            "description": "NeverShow: lasofoxifene treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5280793",
-            "output_name": "ergocalciferol",
+            "output_id": "PUBCHEM.COMPOUND:216416",
+            "output_name": "lasofoxifene",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -542,26 +346,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_89",
-            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_76",
+            "name": "NeverShow: lasofoxifene treats Premature Menopause",
+            "description": "NeverShow: lasofoxifene treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5280793",
-            "output_name": "ergocalciferol",
+            "output_id": "PUBCHEM.COMPOUND:216416",
+            "output_name": "lasofoxifene",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -591,26 +395,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_91",
-            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_77",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1727",
-            "output_name": "4-Aminopyridine",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -628,6 +432,104 @@
                 }
             ],
             "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_77",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_78",
+            "name": "TopAnswer: estradiol treats Premature Menopause",
+            "description": "TopAnswer: estradiol treats Premature Menopause",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5757",
+            "output_name": "estradiol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -646,20 +548,20 @@
             }
         },
         {
-            "id": "Asset_91",
-            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_78",
+            "name": "TopAnswer: estradiol treats Premature Menopause",
+            "description": "TopAnswer: estradiol treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1727",
-            "output_name": "4-Aminopyridine",
+            "output_id": "PUBCHEM.COMPOUND:5757",
+            "output_name": "estradiol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -676,7 +578,105 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_79",
+            "name": "TopAnswer: progestin treats Premature Menopause",
+            "description": "TopAnswer: progestin treats Premature Menopause",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D011372",
+            "output_name": "progestin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_79",
+            "name": "TopAnswer: progestin treats Premature Menopause",
+            "description": "TopAnswer: progestin treats Premature Menopause",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D011372",
+            "output_name": "progestin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -701,7 +701,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0020333",
+    "test_case_input_id": "MONDO:0001119",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

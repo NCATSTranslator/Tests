@@ -1,6 +1,6 @@
 {
     "id": "TestCase_22",
-    "name": "what affects NCBIGene:7553",
+    "name": "what affects NCBIGene:4609",
     "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor; NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
     "tags": [],
     "test_runner_settings": [
@@ -16,7 +16,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:7553",
+            "input_id": "NCBIGene:4609",
             "input_name": "MYC proto-oncogene, bHLH transcription factor",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
@@ -65,7 +65,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:7553",
+            "input_id": "NCBIGene:4609",
             "input_name": "MYC proto-oncogene, bHLH transcription factor",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
@@ -113,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:7553",
+    "test_case_input_id": "NCBIGene:4609",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

@@ -1,0 +1,49 @@
+{
+    "id": "Asset_448",
+    "name": "NeverShow: FOXO1 increases activity or abundance of Potassium ion",
+    "description": "NeverShow: FOXO1 increases activity or abundance of Potassium ion",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "CHEBI:32589",
+    "input_name": "Potassium ion",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "NCBIGene:2308",
+    "output_name": "FOXO1",
+    "output_category": "biolink:Gene",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/740",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

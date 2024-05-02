@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEMBL.COMPOUND:2108505",
+    "output_id": "CHEMBL.COMPOUND:CHEMBL2108505",
     "output_name": "Lactase",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

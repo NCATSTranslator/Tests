@@ -1,7 +1,7 @@
 {
     "id": "Asset_6",
-    "name": "NeverShow: Busulfan treats Premature Menopause",
-    "description": "NeverShow: Busulfan treats Premature Menopause",
+    "name": "NeverShow: busulfan treats Premature Menopause",
+    "description": "NeverShow: busulfan treats Premature Menopause",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
     "output_id": "PUBCHEM.COMPOUND:2478",
-    "output_name": "Busulfan",
+    "output_name": "busulfan",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [

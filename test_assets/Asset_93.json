@@ -1,7 +1,7 @@
 {
     "id": "Asset_93",
-    "name": "NeverShow: Methionine treats Rabies",
-    "description": "NeverShow: Methionine treats Rabies",
+    "name": "NeverShow: methionine treats Rabies",
+    "description": "NeverShow: methionine treats Rabies",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
     "output_id": "CHEBI:16811",
-    "output_name": "Methionine",
+    "output_name": "methionine",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [

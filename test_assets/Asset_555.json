@@ -1,0 +1,49 @@
+{
+    "id": "Asset_555",
+    "name": "NeverShow: MBP decreases activity or abundance of Lepirudin",
+    "description": "NeverShow: MBP decreases activity or abundance of Lepirudin",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "PUBCHEM.COMPOUND:118856773",
+    "input_name": "Lepirudin",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "NCBIGene:4155",
+    "output_name": "MBP",
+    "output_category": "biolink:Gene",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/762",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

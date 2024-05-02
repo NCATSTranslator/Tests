@@ -1,7 +1,7 @@
 {
     "id": "TestCase_47",
-    "name": "what treats MONDO:0007147",
-    "description": "NeverShow: Soot treats Obstructive Sleep Apnea; NeverShow: Soot treats Obstructive Sleep Apnea",
+    "name": "what treats MONDO:0004784",
+    "description": "NeverShow: particulate matter treats Allergic Asthma; NeverShow: particulate matter treats Allergic Asthma",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_68",
-            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
-            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "id": "Asset_50",
+            "name": "NeverShow: particulate matter treats Allergic Asthma",
+            "description": "NeverShow: particulate matter treats Allergic Asthma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007147",
-            "input_name": "Obstructive Sleep Apnea",
+            "input_id": "MONDO:0004784",
+            "input_name": "Allergic Asthma",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D053260",
-            "output_name": "Soot",
+            "output_id": "MESH:D052638",
+            "output_name": "particulate matter",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_68",
-            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
-            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "id": "Asset_50",
+            "name": "NeverShow: particulate matter treats Allergic Asthma",
+            "description": "NeverShow: particulate matter treats Allergic Asthma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007147",
-            "input_name": "Obstructive Sleep Apnea",
+            "input_id": "MONDO:0004784",
+            "input_name": "Allergic Asthma",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D053260",
-            "output_name": "Soot",
+            "output_id": "MESH:D052638",
+            "output_name": "particulate matter",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,7 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -113,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0007147",
+    "test_case_input_id": "MONDO:0004784",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

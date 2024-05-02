@@ -1,7 +1,7 @@
 {
     "id": "TestCase_1",
     "name": "what treats MONDO:0005301",
-    "description": "NeverShow: lead treats Multiple Sclerosis; NeverShow: lead treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; NeverShow: Neuroprotective agents treats Multiple Sclerosis; NeverShow: Neuroprotective agents treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis",
+    "description": "NeverShow: lead treats Multiple Sclerosis; NeverShow: lead treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -1248,104 +1248,6 @@
             "predicate_name": "treats",
             "output_id": "UMLS:C0005522",
             "output_name": "Biological products",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_113",
-            "name": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
-            "description": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0242912",
-            "output_name": "Neuroprotective agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_113",
-            "name": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
-            "description": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0242912",
-            "output_name": "Neuroprotective agents",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [

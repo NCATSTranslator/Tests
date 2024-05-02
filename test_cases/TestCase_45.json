@@ -1,7 +1,7 @@
 {
     "id": "TestCase_45",
-    "name": "what treats MONDO:0004975",
-    "description": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease; NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
+    "name": "what affects PUBCHEM.COMPOUND:187",
+    "description": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine; NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,34 +9,34 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_57",
-            "name": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
-            "description": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
+            "id": "Asset_492",
+            "name": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
+            "description": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0004975",
-            "input_name": "Alzheimer Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0013227",
-            "output_name": "Pharmaceutical preparations",
+            "input_id": "PUBCHEM.COMPOUND:187",
+            "input_name": "Acetylcholine",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "UMLS:C0083536",
+            "output_name": "NG-NITROARGININE METHYL ESTER",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
             "expected_output": "NeverShow",
@@ -52,40 +52,40 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/753",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_57",
-            "name": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
-            "description": "NeverShow: Pharmaceutical preparations treats Alzheimer Disease",
+            "id": "Asset_492",
+            "name": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
+            "description": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0004975",
-            "input_name": "Alzheimer Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0013227",
-            "output_name": "Pharmaceutical preparations",
+            "input_id": "PUBCHEM.COMPOUND:187",
+            "input_name": "Acetylcholine",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "UMLS:C0083536",
+            "output_name": "NG-NITROARGININE METHYL ESTER",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
             "expected_output": "NeverShow",
@@ -101,7 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/753",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -111,24 +111,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0004975",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "PUBCHEM.COMPOUND:187",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "increased"
         }
     ],
-    "input_category": "biolink:Disease",
+    "input_category": "biolink:ChemicalEntity",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

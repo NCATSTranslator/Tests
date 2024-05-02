@@ -1,7 +1,7 @@
 {
     "id": "TestCase_29",
     "name": "what treats MONDO:0016575",
-    "description": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia; NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
+    "description": "NeverShow: dextromethorphan treats Primary ciliary dyskinesia; NeverShow: dextromethorphan treats Primary ciliary dyskinesia",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -10,8 +10,8 @@
     "test_assets": [
         {
             "id": "Asset_332",
-            "name": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
-            "description": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
+            "name": "NeverShow: dextromethorphan treats Primary ciliary dyskinesia",
+            "description": "NeverShow: dextromethorphan treats Primary ciliary dyskinesia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -22,7 +22,7 @@
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
             "output_id": "PUBCHEM.COMPOUND:5360696",
-            "output_name": "Dextromethorphan",
+            "output_name": "dextromethorphan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -59,8 +59,8 @@
         },
         {
             "id": "Asset_332",
-            "name": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
-            "description": "NeverShow: Dextromethorphan treats Primary ciliary dyskinesia",
+            "name": "NeverShow: dextromethorphan treats Primary ciliary dyskinesia",
+            "description": "NeverShow: dextromethorphan treats Primary ciliary dyskinesia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -71,7 +71,7 @@
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
             "output_id": "PUBCHEM.COMPOUND:5360696",
-            "output_name": "Dextromethorphan",
+            "output_name": "dextromethorphan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [

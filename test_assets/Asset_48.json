@@ -1,7 +1,7 @@
 {
     "id": "Asset_48",
-    "name": "NeverShow: Basis treats Premature Menopause",
-    "description": "NeverShow: Basis treats Premature Menopause",
+    "name": "NeverShow: basis treats Premature Menopause",
+    "description": "NeverShow: basis treats Premature Menopause",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
     "output_id": "UMLS:C1874451",
-    "output_name": "Basis",
+    "output_name": "basis",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [

@@ -1,7 +1,7 @@
 {
     "id": "Asset_338",
-    "name": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
-    "description": "TopAnswer: Canagliflozin decreases activity or abundance of SLC5A2 (human)",
+    "name": "TopAnswer: canagliflozin decreases activity or abundance of SLC5A2 (human)",
+    "description": "TopAnswer: canagliflozin decreases activity or abundance of SLC5A2 (human)",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
     "output_id": "PUBCHEM.COMPOUND:24812758",
-    "output_name": "Canagliflozin",
+    "output_name": "canagliflozin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [

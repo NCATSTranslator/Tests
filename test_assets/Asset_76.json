@@ -1,7 +1,7 @@
 {
     "id": "Asset_76",
-    "name": "NeverShow: Lasofoxifene treats Premature Menopause",
-    "description": "NeverShow: Lasofoxifene treats Premature Menopause",
+    "name": "NeverShow: lasofoxifene treats Premature Menopause",
+    "description": "NeverShow: lasofoxifene treats Premature Menopause",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
     "output_id": "PUBCHEM.COMPOUND:216416",
-    "output_name": "Lasofoxifene",
+    "output_name": "lasofoxifene",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [

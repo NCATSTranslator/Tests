@@ -1,7 +1,7 @@
 {
     "id": "TestCase_44",
-    "name": "what treats MONDO:0005799",
-    "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+    "name": "what treats MONDO:0017314",
+    "description": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome; NeverShow: methylphenidate treats Ehlers-Danlos Syndrome; NeverShow: Omniscan treats Ehlers-Danlos Syndrome; NeverShow: Omniscan treats Ehlers-Danlos Syndrome; NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome; NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome; NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome; NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome; NeverShow: alendronic acid treats Ehlers-Danlos Syndrome; NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_52",
-            "name": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
+            "id": "Asset_49",
+            "name": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
-            "output_name": "Mebendazole",
+            "output_id": "PUBCHEM.COMPOUND:4158",
+            "output_name": "methylphenidate",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -39,7 +39,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/562",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_52",
-            "name": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
+            "id": "Asset_49",
+            "name": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: methylphenidate treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
-            "output_name": "Mebendazole",
+            "output_id": "PUBCHEM.COMPOUND:4158",
+            "output_name": "methylphenidate",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -88,7 +88,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -101,26 +101,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/562",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_53",
-            "name": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
+            "id": "Asset_58",
+            "name": "NeverShow: Omniscan treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Omniscan treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
-            "output_name": "Pyrantel",
+            "output_id": "PUBCHEM.COMPOUND:24847884",
+            "output_name": "Omniscan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -137,7 +137,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -150,26 +150,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_53",
-            "name": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
+            "id": "Asset_58",
+            "name": "NeverShow: Omniscan treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Omniscan treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
-            "output_name": "Pyrantel",
+            "output_id": "PUBCHEM.COMPOUND:24847884",
+            "output_name": "Omniscan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -186,7 +186,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -199,26 +199,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_54",
-            "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+            "id": "Asset_59",
+            "name": "NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
-            "output_name": "Thiabendazole",
+            "output_id": "UNII:1BJ477IO2L",
+            "output_name": "Gadobutrol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -235,7 +235,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -248,26 +248,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_54",
-            "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+            "id": "Asset_59",
+            "name": "NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Gadobutrol treats Ehlers-Danlos Syndrome",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
-            "output_name": "Thiabendazole",
+            "output_id": "UNII:1BJ477IO2L",
+            "output_name": "Gadobutrol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -284,7 +284,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -297,7 +297,203 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_60",
+            "name": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:73415823",
+            "output_name": "Gadopentetate dimeglumine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_60",
+            "name": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: Gadopentetate dimeglumine treats Ehlers-Danlos Syndrome",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:73415823",
+            "output_name": "Gadopentetate dimeglumine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/546",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_99",
+            "name": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:2567",
+            "output_name": "alendronic acid",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_99",
+            "name": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
+            "description": "NeverShow: alendronic acid treats Ehlers-Danlos Syndrome",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0017314",
+            "input_name": "Ehlers-Danlos Syndrome",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:2567",
+            "output_name": "alendronic acid",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/428",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -309,7 +505,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005799",
+    "test_case_input_id": "MONDO:0017314",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

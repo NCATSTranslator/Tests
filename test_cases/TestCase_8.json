@@ -1,7 +1,7 @@
 {
     "id": "TestCase_8",
     "name": "what treats MONDO:0004758",
-    "description": "NeverShow: Prednisone treats scotoma; NeverShow: Prednisone treats scotoma; NeverShow: vigabatrin treats scotoma; NeverShow: vigabatrin treats scotoma",
+    "description": "NeverShow: prednisone treats scotoma; NeverShow: prednisone treats scotoma; NeverShow: vigabatrin treats scotoma; NeverShow: vigabatrin treats scotoma",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -10,8 +10,8 @@
     "test_assets": [
         {
             "id": "Asset_140",
-            "name": "NeverShow: Prednisone treats scotoma",
-            "description": "NeverShow: Prednisone treats scotoma",
+            "name": "NeverShow: prednisone treats scotoma",
+            "description": "NeverShow: prednisone treats scotoma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -22,7 +22,7 @@
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
             "output_id": "PUBCHEM.COMPOUND:5865",
-            "output_name": "Prednisone",
+            "output_name": "prednisone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -59,8 +59,8 @@
         },
         {
             "id": "Asset_140",
-            "name": "NeverShow: Prednisone treats scotoma",
-            "description": "NeverShow: Prednisone treats scotoma",
+            "name": "NeverShow: prednisone treats scotoma",
+            "description": "NeverShow: prednisone treats scotoma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -71,7 +71,7 @@
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
             "output_id": "PUBCHEM.COMPOUND:5865",
-            "output_name": "Prednisone",
+            "output_name": "prednisone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [

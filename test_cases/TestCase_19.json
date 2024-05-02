@@ -1,7 +1,7 @@
 {
     "id": "TestCase_19",
     "name": "what affects NCBIGene:154",
-    "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2); TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: albuterol, increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+    "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2; TopAnswer: Albuterol increases activity or abundance of ADRB2; NeverShow: Propranalol increases activity or abundance of ADRB2; NeverShow: Propranalol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -10,14 +10,14 @@
     "test_assets": [
         {
             "id": "Asset_307",
-            "name": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
-            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
+            "name": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
+            "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
             "input_id": "NCBIGene:154",
-            "input_name": "Beta 2 adrenergic (ADRB2)",
+            "input_name": "ADRB2",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
@@ -59,14 +59,14 @@
         },
         {
             "id": "Asset_307",
-            "name": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
-            "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
+            "name": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
+            "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
             "input_id": "NCBIGene:154",
-            "input_name": "Beta 2 adrenergic (ADRB2)",
+            "input_name": "ADRB2",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
@@ -108,14 +108,14 @@
         },
         {
             "id": "Asset_308",
-            "name": "NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
-            "description": "NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
+            "name": "NeverShow: Propranalol increases activity or abundance of ADRB2",
+            "description": "NeverShow: Propranalol increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
             "input_id": "NCBIGene:154",
-            "input_name": "Beta 2 adrenergic (ADRB2)",
+            "input_name": "ADRB2",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
@@ -157,14 +157,14 @@
         },
         {
             "id": "Asset_308",
-            "name": "NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
-            "description": "NeverShow: Propranalol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
+            "name": "NeverShow: Propranalol increases activity or abundance of ADRB2",
+            "description": "NeverShow: Propranalol increases activity or abundance of ADRB2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
             "input_id": "NCBIGene:154",
-            "input_name": "Beta 2 adrenergic (ADRB2)",
+            "input_name": "ADRB2",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
@@ -187,104 +187,6 @@
                 }
             ],
             "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_385",
-            "name": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-            "description": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2083",
-            "output_name": "albuterol,",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_385",
-            "name": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-            "description": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2083",
-            "output_name": "albuterol,",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
-                }
-            ],
-            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,

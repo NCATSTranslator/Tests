@@ -1,7 +1,7 @@
 {
     "id": "TestCase_54",
-    "name": "what treats MONDO:0019600",
-    "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
+    "name": "what treats MONDO:0007147",
+    "description": "NeverShow: Soot treats Obstructive Sleep Apnea; NeverShow: Soot treats Obstructive Sleep Apnea",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_96",
-            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
-            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:22977",
-            "output_name": "cadmium",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_96",
-            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
-            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "id": "Asset_68",
+            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
+            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
+            "input_id": "MONDO:0007147",
+            "input_name": "Obstructive Sleep Apnea",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:22977",
-            "output_name": "cadmium",
+            "output_id": "MESH:D053260",
+            "output_name": "Soot",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,105 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_97",
-            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25195",
-            "output_name": "mercury",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_97",
-            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25195",
-            "output_name": "mercury",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -211,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0019600",
+    "test_case_input_id": "MONDO:0007147",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

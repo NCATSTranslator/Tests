@@ -1,7 +1,7 @@
 {
     "id": "TestCase_36",
     "name": "what affects NCBIGene:3043",
-    "description": "TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: azacitidine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: decitabine decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; TopAnswer: DNMT inhibitor decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: sodium butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: arginine butyrate decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB; TopAnswer: Hemin decreases abundance or activity of HBB",
+    "description": "TopAnswer: azacitidine decreases activity or abundance of HBB; TopAnswer: azacitidine decreases activity or abundance of HBB; TopAnswer: decitabine decreases activity or abundance of HBB; TopAnswer: decitabine decreases activity or abundance of HBB; TopAnswer: DNMT inhibitor decreases activity or abundance of HBB; TopAnswer: DNMT inhibitor decreases activity or abundance of HBB; TopAnswer: sodium butyrate decreases activity or abundance of HBB; TopAnswer: sodium butyrate decreases activity or abundance of HBB; TopAnswer: arginine butyrate decreases activity or abundance of HBB; TopAnswer: arginine butyrate decreases activity or abundance of HBB; TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB; TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB; TopAnswer: Hemin decreases activity or abundance of HBB; TopAnswer: Hemin decreases activity or abundance of HBB",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -10,8 +10,8 @@
     "test_assets": [
         {
             "id": "Asset_390",
-            "name": "TopAnswer: azacitidine decreases abundance or activity of HBB",
-            "description": "TopAnswer: azacitidine decreases abundance or activity of HBB",
+            "name": "TopAnswer: azacitidine decreases activity or abundance of HBB",
+            "description": "TopAnswer: azacitidine decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -59,8 +59,8 @@
         },
         {
             "id": "Asset_390",
-            "name": "TopAnswer: azacitidine decreases abundance or activity of HBB",
-            "description": "TopAnswer: azacitidine decreases abundance or activity of HBB",
+            "name": "TopAnswer: azacitidine decreases activity or abundance of HBB",
+            "description": "TopAnswer: azacitidine decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -108,8 +108,8 @@
         },
         {
             "id": "Asset_391",
-            "name": "TopAnswer: decitabine decreases abundance or activity of HBB",
-            "description": "TopAnswer: decitabine decreases abundance or activity of HBB",
+            "name": "TopAnswer: decitabine decreases activity or abundance of HBB",
+            "description": "TopAnswer: decitabine decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -157,8 +157,8 @@
         },
         {
             "id": "Asset_391",
-            "name": "TopAnswer: decitabine decreases abundance or activity of HBB",
-            "description": "TopAnswer: decitabine decreases abundance or activity of HBB",
+            "name": "TopAnswer: decitabine decreases activity or abundance of HBB",
+            "description": "TopAnswer: decitabine decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -206,8 +206,8 @@
         },
         {
             "id": "Asset_392",
-            "name": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
-            "description": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
+            "name": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
+            "description": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -255,8 +255,8 @@
         },
         {
             "id": "Asset_392",
-            "name": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
-            "description": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
+            "name": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
+            "description": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -304,8 +304,8 @@
         },
         {
             "id": "Asset_394",
-            "name": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
+            "name": "TopAnswer: sodium butyrate decreases activity or abundance of HBB",
+            "description": "TopAnswer: sodium butyrate decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -353,8 +353,8 @@
         },
         {
             "id": "Asset_394",
-            "name": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: sodium butyrate decreases abundance or activity of HBB",
+            "name": "TopAnswer: sodium butyrate decreases activity or abundance of HBB",
+            "description": "TopAnswer: sodium butyrate decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -402,8 +402,8 @@
         },
         {
             "id": "Asset_395",
-            "name": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
+            "name": "TopAnswer: arginine butyrate decreases activity or abundance of HBB",
+            "description": "TopAnswer: arginine butyrate decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -451,8 +451,8 @@
         },
         {
             "id": "Asset_395",
-            "name": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
-            "description": "TopAnswer: arginine butyrate decreases abundance or activity of HBB",
+            "name": "TopAnswer: arginine butyrate decreases activity or abundance of HBB",
+            "description": "TopAnswer: arginine butyrate decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -500,8 +500,8 @@
         },
         {
             "id": "Asset_396",
-            "name": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
-            "description": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
+            "name": "TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB",
+            "description": "TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -549,8 +549,8 @@
         },
         {
             "id": "Asset_396",
-            "name": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
-            "description": "TopAnswer: Butyrate Derivatives decreases abundance or activity of HBB",
+            "name": "TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB",
+            "description": "TopAnswer: Butyrate Derivatives decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -598,8 +598,8 @@
         },
         {
             "id": "Asset_397",
-            "name": "TopAnswer: Hemin decreases abundance or activity of HBB",
-            "description": "TopAnswer: Hemin decreases abundance or activity of HBB",
+            "name": "TopAnswer: Hemin decreases activity or abundance of HBB",
+            "description": "TopAnswer: Hemin decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -647,8 +647,8 @@
         },
         {
             "id": "Asset_397",
-            "name": "TopAnswer: Hemin decreases abundance or activity of HBB",
-            "description": "TopAnswer: Hemin decreases abundance or activity of HBB",
+            "name": "TopAnswer: Hemin decreases activity or abundance of HBB",
+            "description": "TopAnswer: Hemin decreases activity or abundance of HBB",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
