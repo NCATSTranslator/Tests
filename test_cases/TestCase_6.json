@@ -1,7 +1,7 @@
 {
     "id": "TestCase_6",
-    "name": "what affects NCBIGene:8653",
-    "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y",
+    "name": "what treats MONDO:0009746",
+    "description": "NeverShow: Carbon treats Hereditary sensory and autonomic neuropathy type 4; NeverShow: Botulinum toxin type a treats Hereditary sensory and autonomic neuropathy type 4; NeverShow: Methamidophos treats Hereditary sensory and autonomic neuropathy type 4",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,34 +9,34 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_135",
-            "name": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
+            "id": "Asset_133",
+            "name": "NeverShow: Carbon treats Hereditary sensory and autonomic neuropathy type 4",
+            "description": "NeverShow: Carbon treats Hereditary sensory and autonomic neuropathy type 4",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C0311474",
-            "output_name": "dna double stranded",
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5462310",
+            "output_name": "Carbon",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -52,40 +52,40 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/404",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_135",
-            "name": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
+            "id": "Asset_134",
+            "name": "NeverShow: Botulinum toxin type a treats Hereditary sensory and autonomic neuropathy type 4",
+            "description": "NeverShow: Botulinum toxin type a treats Hereditary sensory and autonomic neuropathy type 4",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C0311474",
-            "output_name": "dna double stranded",
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UNII:E211KPY694",
+            "output_name": "Botulinum toxin type a",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -101,40 +101,40 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/405",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_136",
-            "name": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
+            "id": "Asset_137",
+            "name": "NeverShow: Methamidophos treats Hereditary sensory and autonomic neuropathy type 4",
+            "description": "NeverShow: Methamidophos treats Hereditary sensory and autonomic neuropathy type 4",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C1328819",
-            "output_name": "Small molecule",
+            "input_id": "MONDO:0009746",
+            "input_name": "Hereditary sensory and autonomic neuropathy type 4",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:4096",
+            "output_name": "Methamidophos",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -150,56 +150,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_136",
-            "name": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C1328819",
-            "output_name": "Small molecule",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -209,24 +160,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:8653",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0009746",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "decreased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:Gene",
+    "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

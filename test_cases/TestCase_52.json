@@ -1,7 +1,7 @@
 {
     "id": "TestCase_52",
-    "name": "what affects PUBCHEM.COMPOUND:16129704",
-    "description": "TopAnswer: F2 decreases activity or abundance of Bivalirudin; TopAnswer: F2 decreases activity or abundance of Bivalirudin; TopAnswer: Thrombin decreases activity or abundance of Bivalirudin; TopAnswer: Thrombin decreases activity or abundance of Bivalirudin; TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin; TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin; TopAnswer: MPO decreases activity or abundance of Bivalirudin; TopAnswer: MPO decreases activity or abundance of Bivalirudin; TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin; TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin; TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin; TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
+    "name": "what treats MONDO:0005260",
+    "description": "NeverShow: Valproic acid treats Autism; NeverShow: Pesticides treats Autism",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,135 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_594",
-            "name": "TopAnswer: F2 decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: F2 decreases activity or abundance of Bivalirudin",
+            "id": "Asset_46",
+            "name": "NeverShow: Valproic acid treats Autism",
+            "description": "NeverShow: Valproic acid treats Autism",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "NCBIGene:2147",
-            "output_name": "F2",
-            "output_category": "biolink:Gene",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_594",
-            "name": "TopAnswer: F2 decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: F2 decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "NCBIGene:2147",
-            "output_name": "F2",
-            "output_category": "biolink:Gene",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_595",
-            "name": "TopAnswer: Thrombin decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: Thrombin decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C0040018",
-            "output_name": "Thrombin",
+            "input_id": "MONDO:0005260",
+            "input_name": "Autism",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3121",
+            "output_name": "Valproic acid",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -150,43 +52,43 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/577",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_595",
-            "name": "TopAnswer: Thrombin decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: Thrombin decreases activity or abundance of Bivalirudin",
+            "id": "Asset_47",
+            "name": "NeverShow: Pesticides treats Autism",
+            "description": "NeverShow: Pesticides treats Autism",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C0040018",
-            "output_name": "Thrombin",
+            "input_id": "MONDO:0005260",
+            "input_name": "Autism",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D010575",
+            "output_name": "Pesticides",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -199,399 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_596",
-            "name": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "CHEMBL.TARGET:CHEMBL204",
-            "output_name": "UNIPROTKB:P00734",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_596",
-            "name": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "CHEMBL.TARGET:CHEMBL204",
-            "output_name": "UNIPROTKB:P00734",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_597",
-            "name": "TopAnswer: MPO decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MPO decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "NCBIGene:4353",
-            "output_name": "MPO",
-            "output_category": "biolink:Gene",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_597",
-            "name": "TopAnswer: MPO decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MPO decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "NCBIGene:4353",
-            "output_name": "MPO",
-            "output_category": "biolink:Gene",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_598",
-            "name": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PR:000010543",
-            "output_name": "MYELOPEROXIDASE",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_598",
-            "name": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PR:000010543",
-            "output_name": "MYELOPEROXIDASE",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_599",
-            "name": "TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "CHEMBL.TARGET:CHEMBL2439",
-            "output_name": "MPO PROTEIN, HUMAN",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_599",
-            "name": "TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
-            "description": "TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
-            "input_name": "Bivalirudin",
-            "input_category": "biolink:ChemicalEntity",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "CHEMBL.TARGET:CHEMBL2439",
-            "output_name": "MPO PROTEIN, HUMAN",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/575",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -601,25 +111,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:16129704",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0005260",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "decreased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:ChemicalEntity",
-    "output_category": null,
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],

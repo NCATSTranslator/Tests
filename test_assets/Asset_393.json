@@ -1,7 +1,7 @@
 {
     "id": "Asset_393",
-    "name": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
-    "description": "Acceptable: Hydroxyurea decreases abundance or activity of HBB",
+    "name": "Acceptable: Hydroxyurea decreases activity or abundance of HBB",
+    "description": "Acceptable: Hydroxyurea decreases activity or abundance of HBB",
     "tags": [],
     "test_runner_settings": [
         "inferred"

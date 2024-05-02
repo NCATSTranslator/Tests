@@ -1,7 +1,7 @@
 {
     "id": "TestCase_4",
-    "name": "what treats MONDO:0015364",
-    "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy; NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
+    "name": "what treats MONDO:0018911",
+    "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young; NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young; NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young; NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young; NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young; NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young; NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,69 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_131",
-            "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
-            "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "id": "Asset_124",
+            "name": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D016756",
-            "output_name": "Immunoglobulins, intravenous",
+            "output_id": "MESH:D011972",
+            "output_name": "Receptor, insulin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_125",
+            "name": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D001323",
+            "output_name": "Autoantibodies",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -58,20 +107,20 @@
             }
         },
         {
-            "id": "Asset_131",
-            "name": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
-            "description": "NeverShow: Immunoglobulins, intravenous treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "id": "Asset_126",
+            "name": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D016756",
-            "output_name": "Immunoglobulins, intravenous",
+            "output_id": "PUBCHEM.COMPOUND:53462828",
+            "output_name": "Thyroid hormones",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -107,20 +156,20 @@
             }
         },
         {
-            "id": "Asset_132",
-            "name": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
-            "description": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "id": "Asset_127",
+            "name": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
+            "output_id": "MESH:D004798",
+            "output_name": "Enzymes",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -156,20 +205,20 @@
             }
         },
         {
-            "id": "Asset_132",
-            "name": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
-            "description": "NeverShow: Isoxaflutole treats Hereditary Sensory And Autonomic Neuropathy Type",
+            "id": "Asset_128",
+            "name": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy Type",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
+            "output_id": "MESH:D017526",
+            "output_name": "Receptor, IGF Type 1",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -205,21 +254,21 @@
             }
         },
         {
-            "id": "Asset_182",
-            "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
-            "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+            "id": "Asset_129",
+            "name": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MONDO:0016028",
-            "output_name": "Erythromelalgia",
-            "output_category": "biolink:Disease",
+            "output_id": "MESH:D003165",
+            "output_name": "Complement system proteins",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
@@ -248,27 +297,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_182",
-            "name": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
-            "description": "NeverShow: Erythromelalgia treats Hereditary Sensory And Autonomic Neuropathy",
+            "id": "Asset_130",
+            "name": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MONDO:0016028",
-            "output_name": "Erythromelalgia",
-            "output_category": "biolink:Disease",
+            "output_id": "PUBCHEM.COMPOUND:6623",
+            "output_name": "bisphenol A",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
@@ -297,105 +346,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/632",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_183",
-            "name": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
-            "description": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MONDO:0009131",
-            "output_name": "Riley-day Syndrome",
-            "output_category": "biolink:Disease",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_183",
-            "name": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
-            "description": "NeverShow: Riley-day Syndrome treats Hereditary Sensory And Autonomic Neuropathy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0015364",
-            "input_name": "Hereditary Sensory And Autonomic Neuropathy",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MONDO:0009131",
-            "output_name": "Riley-day Syndrome",
-            "output_category": "biolink:Disease",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/633",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -407,7 +358,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0015364",
+    "test_case_input_id": "MONDO:0018911",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -423,7 +374,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],

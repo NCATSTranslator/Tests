@@ -1,7 +1,7 @@
 {
     "id": "TestCase_59",
-    "name": "what treats MONDO:0019173",
-    "description": "NeverShow: methionine treats Rabies; NeverShow: methionine treats Rabies; NeverShow: cefaclor treats Rabies; NeverShow: cefaclor treats Rabies",
+    "name": "what treats MONDO:0020333",
+    "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_93",
-            "name": "NeverShow: methionine treats Rabies",
-            "description": "NeverShow: methionine treats Rabies",
+            "id": "Asset_51",
+            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019173",
-            "input_name": "Rabies",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:16811",
-            "output_name": "methionine",
+            "output_id": "PUBCHEM.COMPOUND:774",
+            "output_name": "Histamine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_93",
-            "name": "NeverShow: methionine treats Rabies",
-            "description": "NeverShow: methionine treats Rabies",
+            "id": "Asset_85",
+            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019173",
-            "input_name": "Rabies",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:16811",
-            "output_name": "methionine",
+            "output_id": "PUBCHEM.COMPOUND:3672",
+            "output_name": "ibuprofen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,27 +101,27 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_94",
-            "name": "NeverShow: cefaclor treats Rabies",
-            "description": "NeverShow: cefaclor treats Rabies",
+            "id": "Asset_86",
+            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019173",
-            "input_name": "Rabies",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:3478",
-            "output_name": "cefaclor",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCIT:C163032",
+            "output_name": "botulinum toxin",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -150,26 +150,75 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_94",
-            "name": "NeverShow: cefaclor treats Rabies",
-            "description": "NeverShow: cefaclor treats Rabies",
+            "id": "Asset_87",
+            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019173",
-            "input_name": "Rabies",
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:3478",
-            "output_name": "cefaclor",
+            "output_id": "NCIT:C61727",
+            "output_name": "dinoprostone",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_88",
+            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:17823",
+            "output_name": "calcitriol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -199,7 +248,105 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/463",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_89",
+            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5280793",
+            "output_name": "ergocalciferol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_91",
+            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0020333",
+            "input_name": "Aggressive Systemic Mastocytosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1727",
+            "output_name": "4-Aminopyridine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -211,7 +358,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0019173",
+    "test_case_input_id": "MONDO:0020333",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

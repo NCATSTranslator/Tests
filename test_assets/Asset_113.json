@@ -1,7 +1,7 @@
 {
     "id": "Asset_113",
-    "name": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
-    "description": "NeverShow: Neuroprotective agents treats Multiple Sclerosis",
+    "name": "BadButForgivable: Neuroprotective agents treats Multiple Sclerosis",
+    "description": "BadButForgivable: Neuroprotective agents treats Multiple Sclerosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "NeverShow",
+    "expected_output": "BadButForgivable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,

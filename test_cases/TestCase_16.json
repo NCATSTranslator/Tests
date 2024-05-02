@@ -1,7 +1,7 @@
 {
     "id": "TestCase_16",
-    "name": "what treats MONDO:0007186",
-    "description": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease; NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease; NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease; NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease; NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease; NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease; NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease; NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease; NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease; NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease; NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease; NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease; NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease; NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease; NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease; NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease; NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease; NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease; NeverShow: Blood glucose treats Gastroesophageal Reflux Disease; NeverShow: Blood glucose treats Gastroesophageal Reflux Disease; NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease; NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease; NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease; NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease; TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease; TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease; NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease; NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease; TopAnswer: Talcid treats Gastroesophageal Reflux Disease; TopAnswer: Talcid treats Gastroesophageal Reflux Disease; NeverShow: Citric acid treats Gastroesophageal Reflux Disease; NeverShow: Citric acid treats Gastroesophageal Reflux Disease; NeverShow: Carbon treats Gastroesophageal Reflux Disease; NeverShow: Carbon treats Gastroesophageal Reflux Disease; NeverShow: Acetic acid treats Gastroesophageal Reflux Disease; NeverShow: Acetic acid treats Gastroesophageal Reflux Disease; NeverShow: Water treats Gastroesophageal Reflux Disease; NeverShow: Water treats Gastroesophageal Reflux Disease; NeverShow: Oxygen treats Gastroesophageal Reflux Disease; NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
+    "name": "what treats MONDO:0001505",
+    "description": "NeverShow: Ethanol treats alcoholic hepatitis; Acceptable: Ethanol treats alcoholic hepatitis; NeverShow: Fenthion treats alcoholic hepatitis; NeverShow: Isoxaflutole treats alcoholic hepatitis; NeverShow: Rotenone treats alcoholic hepatitis; NeverShow: Lindane treats alcoholic hepatitis; NeverShow: Pharmaceutical preparations treats alcoholic hepatitis; BadButForgivable: Acetaminophen treats alcoholic hepatitis; NeverShow: Nanotubes, carbon treats alcoholic hepatitis; NeverShow: Bisphenol a treats alcoholic hepatitis; NeverShow: Water treats alcoholic hepatitis; NeverShow: Ketorolac treats alcoholic hepatitis; NeverShow: Ouabain treats alcoholic hepatitis; NeverShow: Formaldehyde treats alcoholic hepatitis; NeverShow: Cocaine treats alcoholic hepatitis; NeverShow: Coumarin treats alcoholic hepatitis; NeverShow: Mineral oil treats alcoholic hepatitis; NeverShow: Methamphetamine treats alcoholic hepatitis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,118 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_250",
-            "name": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
+            "id": "Asset_195",
+            "name": "NeverShow: Ethanol treats alcoholic hepatitis",
+            "description": "NeverShow: Ethanol treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:784",
-            "output_name": "Hydrogen peroxide",
+            "output_id": "PUBCHEM.COMPOUND:702",
+            "output_name": "Ethanol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_196",
+            "name": "Acceptable: Ethanol treats alcoholic hepatitis",
+            "description": "Acceptable: Ethanol treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:702",
+            "output_name": "Ethanol",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/638",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_197",
+            "name": "NeverShow: Fenthion treats alcoholic hepatitis",
+            "description": "NeverShow: Fenthion treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:3346",
+            "output_name": "Fenthion",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -58,20 +156,20 @@
             }
         },
         {
-            "id": "Asset_250",
-            "name": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Hydrogen peroxide treats Gastroesophageal Reflux Disease",
+            "id": "Asset_198",
+            "name": "NeverShow: Isoxaflutole treats alcoholic hepatitis",
+            "description": "NeverShow: Isoxaflutole treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:784",
-            "output_name": "Hydrogen peroxide",
+            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_name": "Isoxaflutole",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -107,15 +205,211 @@
             }
         },
         {
-            "id": "Asset_251",
-            "name": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
+            "id": "Asset_199",
+            "name": "NeverShow: Rotenone treats alcoholic hepatitis",
+            "description": "NeverShow: Rotenone treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6758",
+            "output_name": "Rotenone",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_200",
+            "name": "NeverShow: Lindane treats alcoholic hepatitis",
+            "description": "NeverShow: Lindane treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UNII:59NEE7PCAB",
+            "output_name": "Lindane",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_201",
+            "name": "NeverShow: Pharmaceutical preparations treats alcoholic hepatitis",
+            "description": "NeverShow: Pharmaceutical preparations treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0013227",
+            "output_name": "Pharmaceutical preparations",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_202",
+            "name": "BadButForgivable: Acetaminophen treats alcoholic hepatitis",
+            "description": "BadButForgivable: Acetaminophen treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:1983",
+            "output_name": "Acetaminophen",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_203",
+            "name": "NeverShow: Nanotubes, carbon treats alcoholic hepatitis",
+            "description": "NeverShow: Nanotubes, carbon treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -156,20 +450,20 @@
             }
         },
         {
-            "id": "Asset_251",
-            "name": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Nanotubes, carbon treats Gastroesophageal Reflux Disease",
+            "id": "Asset_204",
+            "name": "NeverShow: Bisphenol a treats alcoholic hepatitis",
+            "description": "NeverShow: Bisphenol a treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D037742",
-            "output_name": "Nanotubes, carbon",
+            "output_id": "PUBCHEM.COMPOUND:6623",
+            "output_name": "Bisphenol a",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -205,1583 +499,15 @@
             }
         },
         {
-            "id": "Asset_252",
-            "name": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
+            "id": "Asset_205",
+            "name": "NeverShow: Water treats alcoholic hepatitis",
+            "description": "NeverShow: Water treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:15938",
-            "output_name": "Paraquat dichloride",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_252",
-            "name": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Paraquat dichloride treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:15938",
-            "output_name": "Paraquat dichloride",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_253",
-            "name": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:443495",
-            "output_name": "Sodium arsenite",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_253",
-            "name": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Sodium arsenite treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:443495",
-            "output_name": "Sodium arsenite",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_254",
-            "name": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2912",
-            "output_name": "Cypermethrin",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_254",
-            "name": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Cypermethrin treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2912",
-            "output_name": "Cypermethrin",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_255",
-            "name": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D054328",
-            "output_name": "Proton pump inhibitors",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_255",
-            "name": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Proton pump inhibitors treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D054328",
-            "output_name": "Proton pump inhibitors",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_256",
-            "name": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0699680",
-            "output_name": "Metric (substance)",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_256",
-            "name": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Metric (substance) treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0699680",
-            "output_name": "Metric (substance)",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_257",
-            "name": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D014028",
-            "output_name": "Tobacco smoke pollution",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_257",
-            "name": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Tobacco smoke pollution treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D014028",
-            "output_name": "Tobacco smoke pollution",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_258",
-            "name": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C3166216",
-            "output_name": "Prescribed medications",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_258",
-            "name": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Prescribed medications treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C3166216",
-            "output_name": "Prescribed medications",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_259",
-            "name": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D001786",
-            "output_name": "Blood glucose",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_259",
-            "name": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Blood glucose treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D001786",
-            "output_name": "Blood glucose",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_260",
-            "name": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:433294",
-            "output_name": "Lithium Chloride",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_260",
-            "name": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Lithium Chloride treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:433294",
-            "output_name": "Lithium Chloride",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_261",
-            "name": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0003289",
-            "output_name": "Antidepressive agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_261",
-            "name": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Antidepressive agents treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0003289",
-            "output_name": "Antidepressive agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_262",
-            "name": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-            "description": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB05404",
-            "output_name": "AZD 3355",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_262",
-            "name": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-            "description": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB05404",
-            "output_name": "AZD 3355",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_263",
-            "name": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:174",
-            "output_name": "1,2-ethanediol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_263",
-            "name": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: 1,2-ethanediol treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:174",
-            "output_name": "1,2-ethanediol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_264",
-            "name": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
-            "description": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:56842000",
-            "output_name": "Talcid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_264",
-            "name": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
-            "description": "TopAnswer: Talcid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:56842000",
-            "output_name": "Talcid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_265",
-            "name": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:311",
-            "output_name": "Citric acid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_265",
-            "name": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Citric acid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:311",
-            "output_name": "Citric acid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_266",
-            "name": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5462310",
-            "output_name": "Carbon",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_266",
-            "name": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Carbon treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5462310",
-            "output_name": "Carbon",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_267",
-            "name": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:176",
-            "output_name": "Acetic acid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_267",
-            "name": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Acetic acid treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:176",
-            "output_name": "Acetic acid",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_268",
-            "name": "NeverShow: Water treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Water treats Gastroesophageal Reflux Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -1822,20 +548,20 @@
             }
         },
         {
-            "id": "Asset_268",
-            "name": "NeverShow: Water treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Water treats Gastroesophageal Reflux Disease",
+            "id": "Asset_206",
+            "name": "NeverShow: Ketorolac treats alcoholic hepatitis",
+            "description": "NeverShow: Ketorolac treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:962",
-            "output_name": "Water",
+            "output_id": "PUBCHEM.COMPOUND:3826",
+            "output_name": "Ketorolac",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -1871,20 +597,20 @@
             }
         },
         {
-            "id": "Asset_269",
-            "name": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
+            "id": "Asset_207",
+            "name": "NeverShow: Ouabain treats alcoholic hepatitis",
+            "description": "NeverShow: Ouabain treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:",
-            "output_name": "Oxygen",
+            "output_id": "PUBCHEM.COMPOUND:439501",
+            "output_name": "Ouabain",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -1920,20 +646,216 @@
             }
         },
         {
-            "id": "Asset_269",
-            "name": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
-            "description": "NeverShow: Oxygen treats Gastroesophageal Reflux Disease",
+            "id": "Asset_208",
+            "name": "NeverShow: Formaldehyde treats alcoholic hepatitis",
+            "description": "NeverShow: Formaldehyde treats alcoholic hepatitis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007186",
-            "input_name": "Gastroesophageal Reflux Disease",
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:",
-            "output_name": "Oxygen",
+            "output_id": "PUBCHEM.COMPOUND:712",
+            "output_name": "Formaldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_209",
+            "name": "NeverShow: Cocaine treats alcoholic hepatitis",
+            "description": "NeverShow: Cocaine treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:446220",
+            "output_name": "Cocaine",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_210",
+            "name": "NeverShow: Coumarin treats alcoholic hepatitis",
+            "description": "NeverShow: Coumarin treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:323",
+            "output_name": "Coumarin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_211",
+            "name": "NeverShow: Mineral oil treats alcoholic hepatitis",
+            "description": "NeverShow: Mineral oil treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEMBL.COMPOUND:CHEMBL2109152",
+            "output_name": "Mineral oil",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_212",
+            "name": "NeverShow: Methamphetamine treats alcoholic hepatitis",
+            "description": "NeverShow: Methamphetamine treats alcoholic hepatitis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0001505",
+            "input_name": "alcoholic hepatitis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:10836",
+            "output_name": "Methamphetamine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -1975,7 +897,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0007186",
+    "test_case_input_id": "MONDO:0001505",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

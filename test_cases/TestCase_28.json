@@ -1,7 +1,7 @@
 {
     "id": "TestCase_28",
-    "name": "what treats MONDO:0011705",
-    "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis; TopAnswer: Sirolimus treats Lymphangioleiomyomatosis; NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis; NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+    "name": "what treats MONDO:0004979",
+    "description": "TopAnswer: Fluticasone treats Asthma; Acceptable: Albuterol (salbutamol) treats Asthma; NeverShow: Propranolol treats Asthma",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_327",
-            "name": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
-            "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
+            "id": "Asset_315",
+            "name": "TopAnswer: Fluticasone treats Asthma",
+            "description": "TopAnswer: Fluticasone treats Asthma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
+            "input_id": "MONDO:0004979",
+            "input_name": "Asthma",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
-            "output_name": "Sirolimus",
+            "output_id": "PUBCHEM.COMPOUND:5311101",
+            "output_name": "Fluticasone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -58,20 +58,20 @@
             }
         },
         {
-            "id": "Asset_327",
-            "name": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
-            "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
+            "id": "Asset_316",
+            "name": "Acceptable: Albuterol (salbutamol) treats Asthma",
+            "description": "Acceptable: Albuterol (salbutamol) treats Asthma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
+            "input_id": "MONDO:0004979",
+            "input_name": "Asthma",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
-            "output_name": "Sirolimus",
+            "output_id": "UMLS:C2194286",
+            "output_name": "Albuterol (salbutamol)",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -88,7 +88,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -107,69 +107,20 @@
             }
         },
         {
-            "id": "Asset_329",
-            "name": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
-            "description": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+            "id": "Asset_317",
+            "name": "NeverShow: Propranolol treats Asthma",
+            "description": "NeverShow: Propranolol treats Asthma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
+            "input_id": "MONDO:0004979",
+            "input_name": "Asthma",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C0116660",
-            "output_name": "ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_329",
-            "name": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
-            "description": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011705",
-            "input_name": "Lymphangioleiomyomatosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0116660",
-            "output_name": "ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)",
+            "output_id": "PUBCHEM.COMPOUND:4946",
+            "output_name": "Propranolol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -211,7 +162,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0011705",
+    "test_case_input_id": "MONDO:0004979",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

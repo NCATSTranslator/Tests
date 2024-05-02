@@ -11,11 +11,24 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBML:CHEMBL1201569",
+    "output_id": "CHEMBL.COMPOUND:CHEMBL1201569",
     "output_name": "Botulinum toxin type b",
-    "output_category": null,
+    "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,

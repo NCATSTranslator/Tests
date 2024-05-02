@@ -1,7 +1,7 @@
 {
     "id": "Asset_310",
-    "name": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
-    "description": "Acceptable: Interleukin-2 decreases abundance of Pseudoephedrine",
+    "name": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
+    "description": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,7 +12,7 @@
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
     "output_id": "NCBIGene:3558",
-    "output_name": "Interleukin-2",
+    "output_name": "interleukin-2",
     "output_category": "biolink:Gene",
     "association": null,
     "qualifiers": [
