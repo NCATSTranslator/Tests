@@ -1,7 +1,7 @@
 {
     "id": "Asset_331",
-    "name": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
-    "description": "Acceptable: Azithromycin treats Primary ciliary dyskinesia",
+    "name": "Acceptable: azithromycin treats Primary ciliary dyskinesia",
+    "description": "Acceptable: azithromycin treats Primary ciliary dyskinesia",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -12,10 +12,23 @@
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
     "output_id": "PUBCHEM.COMPOUND:447043",
-    "output_name": "Azithromycin",
+    "output_name": "azithromycin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
-    "qualifiers": [],
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
     "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,

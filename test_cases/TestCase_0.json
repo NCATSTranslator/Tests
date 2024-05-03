@@ -1,7 +1,7 @@
 {
     "id": "TestCase_0",
-    "name": "what treats MONDO:0011426",
-    "description": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia; NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia; NeverShow: iron treats Aceruloplasminemia; NeverShow: iron treats Aceruloplasminemia; TopAnswer: desferrioxamine treats Aceruloplasminemia; TopAnswer: desferrioxamine treats Aceruloplasminemia; NeverShow: Organic Chemicals treats Aceruloplasminemia; NeverShow: Organic Chemicals treats Aceruloplasminemia; NeverShow: molecular entity treats Aceruloplasminemia; NeverShow: molecular entity treats Aceruloplasminemia; NeverShow: organic group treats Aceruloplasminemia; NeverShow: organic group treats Aceruloplasminemia; NeverShow: molecule treats Aceruloplasminemia; NeverShow: molecule treats Aceruloplasminemia; NeverShow: oxygen molecular entity treats Aceruloplasminemia; NeverShow: oxygen molecular entity treats Aceruloplasminemia; NeverShow: polyatomic entity treats Aceruloplasminemia; NeverShow: polyatomic entity treats Aceruloplasminemia; NeverShow: carbon group molecular entity treats Aceruloplasminemia; NeverShow: carbon group molecular entity treats Aceruloplasminemia; NeverShow: inorganic chemicals treats Aceruloplasminemia; NeverShow: inorganic chemicals treats Aceruloplasminemia; NeverShow: heteroorganic entity treats Aceruloplasminemia; NeverShow: heteroorganic entity treats Aceruloplasminemia; NeverShow: main group molecular entity treats Aceruloplasminemia; NeverShow: main group molecular entity treats Aceruloplasminemia; NeverShow: heteroatomic molecular entity treats Aceruloplasminemia; NeverShow: heteroatomic molecular entity treats Aceruloplasminemia; NeverShow: cyclic compound treats Aceruloplasminemia; NeverShow: cyclic compound treats Aceruloplasminemia; NeverShow: heterocyclic compounds treats Aceruloplasminemia; NeverShow: heterocyclic compounds treats Aceruloplasminemia; NeverShow: inorganic oxide treats Aceruloplasminemia; NeverShow: inorganic oxide treats Aceruloplasminemia; TopAnswer: deferipone treats Aceruloplasminemia; TopAnswer: deferipone treats Aceruloplasminemia; TopAnswer: deferasirox treats Aceruloplasminemia; TopAnswer: deferasirox treats Aceruloplasminemia; TopAnswer: Deferoxamine treats Aceruloplasminemia; TopAnswer: Deferoxamine treats Aceruloplasminemia; NeverShow: chemical entity treats Aceruloplasminemia; NeverShow: chemical entity treats Aceruloplasminemia; NeverShow: cell nucleus treats Aceruloplasminemia; NeverShow: cell nucleus treats Aceruloplasminemia; NeverShow: Rotenone treats Aceruloplasminemia; NeverShow: Rotenone treats Aceruloplasminemia",
+    "name": "what affects PUBCHEM.COMPOUND:2733526",
+    "description": "Acceptable: pS2 increases activity or abundance of Tamoxifen; Acceptable: EGFR increases activity or abundance of Tamoxifen; Acceptable: CTSD increases activity or abundance of Tamoxifen; Acceptable: ER increases activity or abundance of Tamoxifen; Acceptable: PR increases activity or abundance of Tamoxifen; Acceptable: AKT increases activity or abundance of Tamoxifen; Acceptable: GPER-1 increases activity or abundance of Tamoxifen",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,233 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_1",
-            "name": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
-            "description": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
+            "id": "Asset_601",
+            "name": "Acceptable: pS2 increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: pS2 increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB01592",
-            "output_name": "Iron (PUBCHEM)",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:843632",
+            "output_name": "pS2",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_1",
-            "name": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
-            "description": "NeverShow: Iron (PUBCHEM) treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB01592",
-            "output_name": "Iron (PUBCHEM)",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_15",
-            "name": "NeverShow: iron treats Aceruloplasminemia",
-            "description": "NeverShow: iron treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4356",
-            "output_name": "iron",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_15",
-            "name": "NeverShow: iron treats Aceruloplasminemia",
-            "description": "NeverShow: iron treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4356",
-            "output_name": "iron",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_16",
-            "name": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-            "description": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:50453",
-            "output_name": "desferrioxamine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -254,37 +58,37 @@
             }
         },
         {
-            "id": "Asset_16",
-            "name": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-            "description": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
+            "id": "Asset_602",
+            "name": "Acceptable: EGFR increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: EGFR increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:50453",
-            "output_name": "desferrioxamine",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:1956",
+            "output_name": "EGFR",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -303,37 +107,37 @@
             }
         },
         {
-            "id": "Asset_18",
-            "name": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
-            "description": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
+            "id": "Asset_603",
+            "name": "Acceptable: CTSD increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: CTSD increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D009930",
-            "output_name": "Organic Chemicals",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:1509",
+            "output_name": "CTSD",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -352,37 +156,37 @@
             }
         },
         {
-            "id": "Asset_18",
-            "name": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
-            "description": "NeverShow: Organic Chemicals treats Aceruloplasminemia",
+            "id": "Asset_604",
+            "name": "Acceptable: ER increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: ER increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D009930",
-            "output_name": "Organic Chemicals",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:43951",
+            "output_name": "ER",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -401,37 +205,37 @@
             }
         },
         {
-            "id": "Asset_19",
-            "name": "NeverShow: molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: molecular entity treats Aceruloplasminemia",
+            "id": "Asset_605",
+            "name": "Acceptable: PR increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: PR increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:23367",
-            "output_name": "molecular entity",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:35292",
+            "output_name": "PR",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -450,37 +254,37 @@
             }
         },
         {
-            "id": "Asset_19",
-            "name": "NeverShow: molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: molecular entity treats Aceruloplasminemia",
+            "id": "Asset_606",
+            "name": "Acceptable: AKT increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: AKT increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:23367",
-            "output_name": "molecular entity",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:41957",
+            "output_name": "AKT",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -499,135 +303,37 @@
             }
         },
         {
-            "id": "Asset_2",
-            "name": "NeverShow: organic group treats Aceruloplasminemia",
-            "description": "NeverShow: organic group treats Aceruloplasminemia",
+            "id": "Asset_607",
+            "name": "Acceptable: GPER-1 increases activity or abundance of Tamoxifen",
+            "description": "Acceptable: GPER-1 increases activity or abundance of Tamoxifen",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33247",
-            "output_name": "organic group",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:2733526",
+            "input_name": "Tamoxifen",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:2852",
+            "output_name": "GPER-1",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_2",
-            "name": "NeverShow: organic group treats Aceruloplasminemia",
-            "description": "NeverShow: organic group treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33247",
-            "output_name": "organic group",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/572",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_20",
-            "name": "NeverShow: molecule treats Aceruloplasminemia",
-            "description": "NeverShow: molecule treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25367",
-            "output_name": "molecule",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -641,1623 +347,6 @@
                 "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_20",
-            "name": "NeverShow: molecule treats Aceruloplasminemia",
-            "description": "NeverShow: molecule treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25367",
-            "output_name": "molecule",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_21",
-            "name": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25806",
-            "output_name": "oxygen molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_21",
-            "name": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: oxygen molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25806",
-            "output_name": "oxygen molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_22",
-            "name": "NeverShow: polyatomic entity treats Aceruloplasminemia",
-            "description": "NeverShow: polyatomic entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:36357",
-            "output_name": "polyatomic entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_22",
-            "name": "NeverShow: polyatomic entity treats Aceruloplasminemia",
-            "description": "NeverShow: polyatomic entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:36357",
-            "output_name": "polyatomic entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_23",
-            "name": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33582",
-            "output_name": "carbon group molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_23",
-            "name": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: carbon group molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33582",
-            "output_name": "carbon group molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
-            "description": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D007287",
-            "output_name": "inorganic chemicals",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
-            "description": "NeverShow: inorganic chemicals treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D007287",
-            "output_name": "inorganic chemicals",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_25",
-            "name": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
-            "description": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33285",
-            "output_name": "heteroorganic entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_25",
-            "name": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
-            "description": "NeverShow: heteroorganic entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33285",
-            "output_name": "heteroorganic entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_26",
-            "name": "NeverShow: main group molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: main group molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33579",
-            "output_name": "main group molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_26",
-            "name": "NeverShow: main group molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: main group molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33579",
-            "output_name": "main group molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_27",
-            "name": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:37577",
-            "output_name": "heteroatomic molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_27",
-            "name": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
-            "description": "NeverShow: heteroatomic molecular entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:37577",
-            "output_name": "heteroatomic molecular entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_28",
-            "name": "NeverShow: cyclic compound treats Aceruloplasminemia",
-            "description": "NeverShow: cyclic compound treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33595",
-            "output_name": "cyclic compound",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_28",
-            "name": "NeverShow: cyclic compound treats Aceruloplasminemia",
-            "description": "NeverShow: cyclic compound treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:33595",
-            "output_name": "cyclic compound",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_29",
-            "name": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
-            "description": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D006571",
-            "output_name": "heterocyclic compounds",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_29",
-            "name": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
-            "description": "NeverShow: heterocyclic compounds treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D006571",
-            "output_name": "heterocyclic compounds",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_30",
-            "name": "NeverShow: inorganic oxide treats Aceruloplasminemia",
-            "description": "NeverShow: inorganic oxide treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:24836",
-            "output_name": "inorganic oxide",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_30",
-            "name": "NeverShow: inorganic oxide treats Aceruloplasminemia",
-            "description": "NeverShow: inorganic oxide treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:24836",
-            "output_name": "inorganic oxide",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_303",
-            "name": "TopAnswer: deferipone treats Aceruloplasminemia",
-            "description": "TopAnswer: deferipone treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:2972",
-            "output_name": "deferipone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_303",
-            "name": "TopAnswer: deferipone treats Aceruloplasminemia",
-            "description": "TopAnswer: deferipone treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:2972",
-            "output_name": "deferipone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_304",
-            "name": "TopAnswer: deferasirox treats Aceruloplasminemia",
-            "description": "TopAnswer: deferasirox treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:49005",
-            "output_name": "deferasirox",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_304",
-            "name": "TopAnswer: deferasirox treats Aceruloplasminemia",
-            "description": "TopAnswer: deferasirox treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:49005",
-            "output_name": "deferasirox",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_305",
-            "name": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
-            "description": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2973",
-            "output_name": "Deferoxamine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_305",
-            "name": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
-            "description": "TopAnswer: Deferoxamine treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2973",
-            "output_name": "Deferoxamine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_31",
-            "name": "NeverShow: chemical entity treats Aceruloplasminemia",
-            "description": "NeverShow: chemical entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:24431",
-            "output_name": "chemical entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_31",
-            "name": "NeverShow: chemical entity treats Aceruloplasminemia",
-            "description": "NeverShow: chemical entity treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:24431",
-            "output_name": "chemical entity",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_56",
-            "name": "NeverShow: cell nucleus treats Aceruloplasminemia",
-            "description": "NeverShow: cell nucleus treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D002467",
-            "output_name": "cell nucleus",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_56",
-            "name": "NeverShow: cell nucleus treats Aceruloplasminemia",
-            "description": "NeverShow: cell nucleus treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D002467",
-            "output_name": "cell nucleus",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/597",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_62",
-            "name": "NeverShow: Rotenone treats Aceruloplasminemia",
-            "description": "NeverShow: Rotenone treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:6758",
-            "output_name": "Rotenone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/505",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_62",
-            "name": "NeverShow: Rotenone treats Aceruloplasminemia",
-            "description": "NeverShow: Rotenone treats Aceruloplasminemia",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0011426",
-            "input_name": "Aceruloplasminemia",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:6758",
-            "output_name": "Rotenone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/505",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -2267,25 +356,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0011426",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "PUBCHEM.COMPOUND:2733526",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "increased"
         }
     ],
-    "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Gene",
     "components": [
         "ars"
     ],

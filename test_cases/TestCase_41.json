@@ -1,7 +1,7 @@
 {
     "id": "TestCase_41",
-    "name": "what treats MONDO:0004784",
-    "description": "NeverShow: particulate matter treats Allergic Asthma; NeverShow: particulate matter treats Allergic Asthma",
+    "name": "what affects PUBCHEM.COMPOUND:23652731",
+    "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,37 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_50",
-            "name": "NeverShow: particulate matter treats Allergic Asthma",
-            "description": "NeverShow: particulate matter treats Allergic Asthma",
+            "id": "Asset_339",
+            "name": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
+            "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0004784",
-            "input_name": "Allergic Asthma",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D052638",
-            "output_name": "particulate matter",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "PUBCHEM.COMPOUND:23652731",
+            "input_name": "Eliglustat",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBI:2629",
+            "output_name": "GBA1",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,56 +52,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_50",
-            "name": "NeverShow: particulate matter treats Allergic Asthma",
-            "description": "NeverShow: particulate matter treats Allergic Asthma",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0004784",
-            "input_name": "Allergic Asthma",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D052638",
-            "output_name": "particulate matter",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -111,25 +62,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0004784",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "PUBCHEM.COMPOUND:23652731",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "decreased"
         }
     ],
-    "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:ChemicalEntity",
+    "output_category": null,
     "components": [
         "ars"
     ],

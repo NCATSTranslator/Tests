@@ -1,7 +1,7 @@
 {
     "id": "TestCase_43",
-    "name": "what treats MONDO:0005799",
-    "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Mebendazole treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Pyrantel treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease; TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
+    "name": "what affects NCBI Gene:8653",
+    "description": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y; Acceptable: RK-33 decreases activity or abundance of DDX3Y",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,37 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_52",
-            "name": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
+            "id": "Asset_376",
+            "name": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y",
+            "description": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
-            "output_name": "Mebendazole",
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "input_category": null,
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:31703",
+            "output_name": "Doxorubicin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,43 +52,43 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_52",
-            "name": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Mebendazole treats Hookworm Infectious Disease",
+            "id": "Asset_377",
+            "name": "Acceptable: RK-33 decreases activity or abundance of DDX3Y",
+            "description": "Acceptable: RK-33 decreases activity or abundance of DDX3Y",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
-            "output_name": "Mebendazole",
+            "input_id": "NCBI Gene:8653",
+            "input_name": "DDX3Y",
+            "input_category": null,
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:46184988",
+            "output_name": "RK-33",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -101,203 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_53",
-            "name": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
-            "output_name": "Pyrantel",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_53",
-            "name": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Pyrantel treats Hookworm Infectious Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
-            "output_name": "Pyrantel",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_54",
-            "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
-            "output_name": "Thiabendazole",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_54",
-            "name": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "description": "TopAnswer: Thiabendazole treats Hookworm Infectious Disease",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005799",
-            "input_name": "Hookworm Infectious Disease",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
-            "output_name": "Thiabendazole",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/483",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -307,24 +111,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005799",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBI Gene:8653",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "decreased"
         }
     ],
-    "input_category": "biolink:Disease",
+    "input_category": null,
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

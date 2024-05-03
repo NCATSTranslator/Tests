@@ -1,7 +1,7 @@
 {
     "id": "TestCase_32",
-    "name": "what affects NCBIGene:8972",
-    "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human); TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+    "name": "what treats MONDO:0008345",
+    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis; Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis; Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,34 +9,34 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_337",
-            "name": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
-            "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+            "id": "Asset_324",
+            "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8972",
-            "input_name": "MGAM (human)",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:41774",
-            "output_name": "Acarbose",
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:40632",
+            "output_name": "Pirfenidone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "TopAnswer",
@@ -58,37 +58,86 @@
             }
         },
         {
-            "id": "Asset_337",
-            "name": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
-            "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+            "id": "Asset_325",
+            "name": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8972",
-            "input_name": "MGAM (human)",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:41774",
-            "output_name": "Acarbose",
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:11671467",
+            "output_name": "Fostamatinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_326",
+            "name": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:90420193",
+            "output_name": "GLPG1690 (Ziritaxestat)",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -111,24 +160,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:8972",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0008345",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "decreased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:Gene",
+    "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

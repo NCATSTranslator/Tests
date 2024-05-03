@@ -1,13 +1,13 @@
 {
     "id": "Asset_307",
-    "name": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
-    "description": "TopAnswer: Albuterol increases activity or abundance of Beta 2 adrenergic (ADRB2)",
+    "name": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
+    "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
     "tags": [],
     "test_runner_settings": [
         "inferred"
     ],
     "input_id": "NCBIGene:154",
-    "input_name": "Beta 2 adrenergic (ADRB2)",
+    "input_name": "ADRB2",
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",

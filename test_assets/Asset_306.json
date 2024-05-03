@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEMBL.COMPOUND:1201563",
+    "output_id": "CHEMBL.COMPOUND:CHEMBL1201563",
     "output_name": "interferon-beta 1b",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

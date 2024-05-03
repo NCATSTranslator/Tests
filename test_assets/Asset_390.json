@@ -1,7 +1,7 @@
 {
     "id": "Asset_390",
-    "name": "TopAnswer: azacitidine decreases abundance or activity of HBB",
-    "description": "TopAnswer: azacitidine decreases abundance or activity of HBB",
+    "name": "TopAnswer: azacitidine decreases activity or abundance of HBB",
+    "description": "TopAnswer: azacitidine decreases activity or abundance of HBB",
     "tags": [],
     "test_runner_settings": [
         "inferred"

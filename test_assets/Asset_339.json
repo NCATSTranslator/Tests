@@ -11,9 +11,9 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:2629",
+    "output_id": "NCBI:2629",
     "output_name": "GBA1",
-    "output_category": "biolink:Gene",
+    "output_category": null,
     "association": null,
     "qualifiers": [
         {

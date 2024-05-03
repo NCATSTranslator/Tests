@@ -1,7 +1,7 @@
 {
     "id": "TestCase_55",
-    "name": "what treats MONDO:0018982",
-    "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
+    "name": "what affects PUBCHEM.COMPOUND:187",
+    "description": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,24 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_70",
-            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
-            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
+            "id": "Asset_492",
+            "name": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
+            "description": "NeverShow: NG-NITROARGININE METHYL ESTER increases activity or abundance of Acetylcholine",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018982",
-            "input_name": "Niemann-Pick type C",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
+            "input_id": "PUBCHEM.COMPOUND:187",
+            "input_name": "Acetylcholine",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "UMLS:C0083536",
+            "output_name": "NG-NITROARGININE METHYL ESTER",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
-            "qualifiers": [],
-            "expected_output": "TopAnswer",
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "increased"
+                }
+            ],
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -39,7 +52,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/753",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -49,11 +62,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018982",
-    "qualifiers": [],
-    "input_category": "biolink:Disease",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "PUBCHEM.COMPOUND:187",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "input_category": "biolink:ChemicalEntity",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

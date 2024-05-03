@@ -1,7 +1,7 @@
 {
     "id": "Asset_392",
-    "name": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
-    "description": "TopAnswer: DNMT inhibitor decreases abundance or activity of HBB",
+    "name": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
+    "description": "TopAnswer: DNMT inhibitor decreases activity or abundance of HBB",
     "tags": [],
     "test_runner_settings": [
         "inferred"

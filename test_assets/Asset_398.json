@@ -1,7 +1,7 @@
 {
     "id": "Asset_398",
-    "name": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
-    "description": "Acceptable: L-Glutamine decreases abundance or activity of HBB",
+    "name": "Acceptable: L-Glutamine decreases activity or abundance of HBB",
+    "description": "Acceptable: L-Glutamine decreases activity or abundance of HBB",
     "tags": [],
     "test_runner_settings": [
         "inferred"

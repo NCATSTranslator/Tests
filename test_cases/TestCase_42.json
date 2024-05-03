@@ -1,7 +1,7 @@
 {
     "id": "TestCase_42",
-    "name": "what treats MONDO:0020333",
-    "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: Histamine treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: calcitriol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis; NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+    "name": "what affects NCBIGene:675",
+    "description": "Acceptable: olaparib decreases activity or abundance of BRCA2; Acceptable: veliparib decreases activity or abundance of BRCA2; Acceptable: niraparib decreases activity or abundance of BRCA2; Acceptable: rucaparib decreases activity or abundance of BRCA2; Acceptable: talazoparib decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2; Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2; BadButForgivable: formaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2; BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2; Acceptable: Cisplatin decreases activity or abundance of BRCA2; Acceptable: Carboplatin decreases activity or abundance of BRCA2; Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,625 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_51",
-            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_340",
+            "name": "Acceptable: olaparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: olaparib decreases activity or abundance of BRCA2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:774",
-            "output_name": "Histamine",
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:23725625",
+            "output_name": "olaparib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_51",
-            "name": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: Histamine treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:774",
-            "output_name": "Histamine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/488",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_85",
-            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3672",
-            "output_name": "ibuprofen",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_85",
-            "name": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ibuprofen treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3672",
-            "output_name": "ibuprofen",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_86",
-            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C163032",
-            "output_name": "botulinum toxin",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_86",
-            "name": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: botulinum toxin treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C163032",
-            "output_name": "botulinum toxin",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_87",
-            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C61727",
-            "output_name": "dinoprostone",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_87",
-            "name": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: dinoprostone treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "NCIT:C61727",
-            "output_name": "dinoprostone",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_88",
-            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:17823",
-            "output_name": "calcitriol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_88",
-            "name": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: calcitriol treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:17823",
-            "output_name": "calcitriol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_89",
-            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5280793",
-            "output_name": "ergocalciferol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_89",
-            "name": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: ergocalciferol treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5280793",
-            "output_name": "ergocalciferol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/479",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_91",
-            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1727",
-            "output_name": "4-Aminopyridine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -646,37 +58,576 @@
             }
         },
         {
-            "id": "Asset_91",
-            "name": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
-            "description": "NeverShow: 4-Aminopyridine treats Aggressive Systemic Mastocytosis",
+            "id": "Asset_341",
+            "name": "Acceptable: veliparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: veliparib decreases activity or abundance of BRCA2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0020333",
-            "input_name": "Aggressive Systemic Mastocytosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1727",
-            "output_name": "4-Aminopyridine",
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:11960529",
+            "output_name": "veliparib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_342",
+            "name": "Acceptable: niraparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: niraparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:24958200",
+            "output_name": "niraparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_343",
+            "name": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: rucaparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:44093",
+            "output_name": "rucaparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_344",
+            "name": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
+            "description": "Acceptable: talazoparib decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:135565082",
+            "output_name": "talazoparib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_345",
+            "name": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
+            "description": "Acceptable: PARP inhibitor 2x-121 decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:135565981",
+            "output_name": "PARP inhibitor 2x-121",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_346",
+            "name": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
+            "description": "Acceptable: PARP inhibitor VIII, PJ34 decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:16760621",
+            "output_name": "PARP inhibitor VIII, PJ34",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_347",
+            "name": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: formaldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:712",
+            "output_name": "formaldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_348",
+            "name": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: Cinnamaldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:637511",
+            "output_name": "Cinnamaldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_349",
+            "name": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
+            "description": "BadButForgivable: Ursolic aldehyde decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:14423521",
+            "output_name": "Ursolic aldehyde",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_350",
+            "name": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Cisplatin decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5702198",
+            "output_name": "Cisplatin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_351",
+            "name": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Carboplatin decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:426756",
+            "output_name": "Carboplatin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_352",
+            "name": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
+            "description": "Acceptable: Tamoxifen decreases activity or abundance of BRCA2",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:675",
+            "input_name": "BRCA2",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:2733526",
+            "output_name": "Tamoxifen",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -699,24 +650,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0020333",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:675",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "decreased"
         }
     ],
-    "input_category": "biolink:Disease",
+    "input_category": "biolink:Gene",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

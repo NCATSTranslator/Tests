@@ -1,7 +1,7 @@
 {
     "id": "TestCase_49",
-    "name": "what treats MONDO:0043233",
-    "description": "NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Imatinib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Sorafenib treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Toluene treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Isoxaflutole treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis; NeverShow: Clofenotane treats Exfoliative Dermatitis",
+    "name": "what affects NCBIGene:6605",
+    "description": "Acceptable: afatinib decreases activity or abundance of SMARCE1; Acceptable: gefitinib decreases activity or abundance of SMARCE1; Acceptable: amivantamab-vmjw decreases activity or abundance of SMARCE1; Acceptable: osimertinib decreases activity or abundance of SMARCE1; Acceptable: erlotinib decreases activity or abundance of SMARCE1; Acceptable: dacomitinib decreases activity or abundance of SMARCE1; BadButForgivable: doxycycline decreases activity or abundance of SMARCE1; TopAnswer: pembrolizumab decreases activity or abundance of SMARCE1; TopAnswer: temozolomide decreases activity or abundance of SMARCE1; TopAnswer: valproic acid decreases activity or abundance of SMARCE1; TopAnswer: trametinib decreases activity or abundance of SMARCE1",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,233 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_80",
-            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
+            "id": "Asset_404",
+            "name": "Acceptable: afatinib decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: afatinib decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5291",
-            "output_name": "Imatinib",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:15606394",
+            "output_name": "afatinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_80",
-            "name": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Imatinib treats Exfoliative Dermatitis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5291",
-            "output_name": "Imatinib",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_81",
-            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216239",
-            "output_name": "Sorafenib",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_81",
-            "name": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "description": "NeverShow: Sorafenib treats Exfoliative Dermatitis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216239",
-            "output_name": "Sorafenib",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/486",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_82",
-            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1140",
-            "output_name": "Toluene",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -254,37 +58,37 @@
             }
         },
         {
-            "id": "Asset_82",
-            "name": "NeverShow: Toluene treats Exfoliative Dermatitis",
-            "description": "NeverShow: Toluene treats Exfoliative Dermatitis",
+            "id": "Asset_405",
+            "name": "Acceptable: gefitinib decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: gefitinib decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:1140",
-            "output_name": "Toluene",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:123631",
+            "output_name": "gefitinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -303,37 +107,37 @@
             }
         },
         {
-            "id": "Asset_83",
-            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "id": "Asset_406",
+            "name": "Acceptable: amivantamab-vmjw decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: amivantamab-vmjw decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "Substance SID: 387065587",
+            "output_name": "amivantamab-vmjw",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -352,37 +156,37 @@
             }
         },
         {
-            "id": "Asset_83",
-            "name": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
-            "description": "NeverShow: Isoxaflutole treats Exfoliative Dermatitis",
+            "id": "Asset_407",
+            "name": "Acceptable: osimertinib decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: osimertinib decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
-            "output_name": "Isoxaflutole",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:71496458",
+            "output_name": "osimertinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -401,37 +205,37 @@
             }
         },
         {
-            "id": "Asset_84",
-            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "id": "Asset_408",
+            "name": "Acceptable: erlotinib decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: erlotinib decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3036",
-            "output_name": "Clofenotane",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:176870",
+            "output_name": "erlotinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -450,37 +254,282 @@
             }
         },
         {
-            "id": "Asset_84",
-            "name": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
-            "description": "NeverShow: Clofenotane treats Exfoliative Dermatitis",
+            "id": "Asset_409",
+            "name": "Acceptable: dacomitinib decreases activity or abundance of SMARCE1",
+            "description": "Acceptable: dacomitinib decreases activity or abundance of SMARCE1",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0043233",
-            "input_name": "Exfoliative Dermatitis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3036",
-            "output_name": "Clofenotane",
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:70693519",
+            "output_name": "dacomitinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity_or_abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_411",
+            "name": "BadButForgivable: doxycycline decreases activity or abundance of SMARCE1",
+            "description": "BadButForgivable: doxycycline decreases activity or abundance of SMARCE1",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:54671203",
+            "output_name": "doxycycline",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "BadButForgivable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_493",
+            "name": "TopAnswer: pembrolizumab decreases activity or abundance of SMARCE1",
+            "description": "TopAnswer: pembrolizumab decreases activity or abundance of SMARCE1",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "Substance SID: 481101797",
+            "output_name": "pembrolizumab",
+            "output_category": null,
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_494",
+            "name": "TopAnswer: temozolomide decreases activity or abundance of SMARCE1",
+            "description": "TopAnswer: temozolomide decreases activity or abundance of SMARCE1",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:5394",
+            "output_name": "temozolomide",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_495",
+            "name": "TopAnswer: valproic acid decreases activity or abundance of SMARCE1",
+            "description": "TopAnswer: valproic acid decreases activity or abundance of SMARCE1",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:3121",
+            "output_name": "valproic acid",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_496",
+            "name": "TopAnswer: trametinib decreases activity or abundance of SMARCE1",
+            "description": "TopAnswer: trametinib decreases activity or abundance of SMARCE1",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "NCBIGene:6605",
+            "input_name": "SMARCE1",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "PUBCHEM.COMPOUND:11707110",
+            "output_name": "trametinib",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -503,24 +552,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0043233",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:6605",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity_or_abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "decreased"
         }
     ],
-    "input_category": "biolink:Disease",
+    "input_category": "biolink:Gene",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
