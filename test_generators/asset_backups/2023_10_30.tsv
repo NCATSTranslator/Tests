@@ -1,0 +1,186 @@
+id	Relationship	Settings	InputName (user choice)	InputID, node normalized	OutputID	OutputName	Expected Result / Suggested Comparator	GitHubIssue	In First 50	In Acceptance	Persona/Use Case	TBD: Data modeling: Disease-modifying, specific to treating symptoms/sequale, general 	Semantic Severity	Well Known	Person who cares about this, know about this	issue type	Blocklist (here or separate tabs)	Causes not treats	?	issue labels	Notes
+Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506			clinical			Yes						causes not treats; TMKP	
+Asset:2	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33247	organic group	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/572			all					block-list				category too generic	
+Asset:3	Treats	Inferred	NARP Syndrome	MONDO:0010794	DRUGBANK:DB00313	Valproic Acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147			clinical			Yes						contraindications	
+Asset:4	Treats	Inferred	NARP Syndrome	MONDO:0010794		Barbiturates	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147			clinical			Yes						contraindications	
+Asset:5	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:12358480	Hexadrin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/490			clinical									chemical roles	
+Asset:6	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	Busulfan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/490			clinical									chemical roles	
+Asset:7	Treats	Inferred	Castleman Disease	MONDO:0015564	MESH:D001335	Vehicle Emissions	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/480			clinical					block-list				chemical roles	
+Asset:8	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		fingolimod	1_TopAnswer				look-up										
+Asset:9	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		natalizumab	1_TopAnswer				look-up										
+Asset:10	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		lead	4_NeverShow				look-up										
+Asset:11	Treats	Inferred	Castleman's	MONDO:0015564	PUBCHEM.COMPOUND:5284616	sirolimus	1_TopAnswer				look-up										
+Asset:12	Treats	Inferred	Castleman's	MONDO:0015564	UNII:4F4X42SYQ6	rituximab	1_TopAnswer				look-up										
+Asset:13	Treats	Inferred	Castleman's	MONDO:0015564	UNII:9013DUQ28K	anakinra	1_TopAnswer				look-up										
+Asset:14	Treats	Inferred	Castleman's	MONDO:0015564	UMLS:C0002199	interferon-alpha	1_TopAnswer				look-up										
+Asset:15	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		iron	4_NeverShow				look-up										
+Asset:16	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		desferrioxamine	1_TopAnswer				look-up										
+Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/506			mechanistic				Change management					causes not treats; TMKP	
+Asset:18	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D009930	Organic Chemicals	4_NeverShow				all					block-list					
+Asset:19	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:23367	molecular entity	4_NeverShow				all					block-list					
+Asset:20	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25367	molecule	4_NeverShow				all					block-list					
+Asset:21	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25806	oxygen molecular entity	4_NeverShow				all					block-list					
+Asset:22	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:36357	polyatomic entity	4_NeverShow				all					block-list					
+Asset:23	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33582	carbon group molecular entity	4_NeverShow				all					block-list					
+Asset:24	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D007287	inorganic chemicals	4_NeverShow				all					block-list					
+Asset:25	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33285	heteroorganic entity	4_NeverShow				all					block-list					
+Asset:26	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33579	main group molecular entity	4_NeverShow				all					block-list					
+Asset:27	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:37577	heteroatomic molecular entity	4_NeverShow				all					block-list					
+Asset:28	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33595	cyclic compound	4_NeverShow				all					block-list					
+Asset:29	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D006571 	heterocyclic compounds	4_NeverShow				all					block-list					
+Asset:30	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24836	inorganic oxide	4_NeverShow				all					block-list					
+Asset:31	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24431	chemical entity	4_NeverShow				all					block-list					
+Asset:32	Treats	Inferred	Lactose intolerance	MONDO:0100345	CHEMBL.COMPOUND:2108505	Lactase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/427			look-up			yes						reasoning;opposite of what I asked for; data error	
+Asset:33	Treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134	beta-Lactose	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/427			clinical									reasoning;opposite of what I asked for; data error	
+Asset:34	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D010936	Plant extracts	4_NeverShow				all										
+Asset:35	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D028321	Plant preparations	4_NeverShow				all										
+Asset:36	Treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134	alpha-Lactose	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/427			clinical									reasoning;opposite of what I asked for; data error	
+Asset:37	Treats	Inferred	Lactose intolerance	MONDO:0100345		Ergocalciferol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:38	Treats	Inferred	Lactose intolerance	MONDO:0100345		Mebendazole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:39	Treats	Inferred	Lactose intolerance	MONDO:0100345		Bithionol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:40	Treats	Inferred	Lactose intolerance	MONDO:0100345		Thiabendazole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:41	Treats	Inferred	Lactose intolerance	MONDO:0100345		Levamisole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:42	Treats	Inferred	Lactose intolerance	MONDO:0100345		Methamidophos	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:43	Treats	Inferred	Lactose intolerance	MONDO:0100345		Potassium bicarbonate	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:44	Treats	Inferred	Lactose intolerance	MONDO:0100345		Triclosan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:45	Treats	Inferred	Lactose intolerance	MONDO:0100345		Tacrolimus	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			clinical									chemical roles;opposite of what I asked for;reasoning	
+Asset:46	Treats	Inferred	Autism			Valproic acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/577													
+Asset:47	Treats	Inferred	Autism			Pesticides	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/575													
+Asset:48	Treats	Inferred	Premature Menopause	MONDO:0001119		Basis	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/567								block-list					
+Asset:49	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314		methylphenidate	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/562													
+Asset:50	Treats	Inferred	Allergic Asthma	 		particulate matter	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/561													
+Asset:51	Treats	Inferred	Aggressive Systemic Mastocytosis			Histamine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/488													
+Asset:52	Treats	Inferred	Hookworm Infectious Disease			Mebendazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483	Yes												
+Asset:53	Treats	Inferred	Hookworm Infectious Disease			Pyranthel	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483	Yes												
+Asset:54	Treats	Inferred	Hookworm Infectious Disease			Thiabendazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483	Yes												
+Asset:55	Treats	Inferred	Hookworm Infectious Disease			Dichlorophen	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/483													
+Asset:56	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D002467	cell nucleus	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/597								block-list					
+Asset:57	Treats	Inferred	Disease	MONDO:0000001			4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/587								block-list					
+Asset:58	Treats	Inferred	Alzheimer Disease	MONDO:0004975	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow									block-list					
+Asset:59	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:24847884	Omniscan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546								block-list					
+Asset:60	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	UNII:1BJ477IO2L	Gadobutrol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546								block-list					
+Asset:61	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:73415823	Gadopentetate dimeglumine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546								block-list					
+Asset:62	downregulated	Inferred	Toxic waste	UMLS:C0871534			4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/534								block-list					
+Asset:63	upregulated	Inferred	Toxic waste	UMLS:C0871534			4_NeverShow									block-list					
+Asset:64	Treats	Inferred	Diabetes Milletus	MONDO:0005015																	
+Asset:65	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:6758	Rotenone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/505			clinical										
+Asset:66	Treats	Inferred	Gaucher Disease type1			Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			clinical										
+Asset:67	Treats	Inferred	Gaucher Disease type1			Imiglucerase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:68	Treats	Inferred	Gaucher Disease type1			Taliglucerase alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:69	Treats	Inferred	Gaucher Disease type1			Velaglucerase-alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:70	Treats	Inferred	Gaucher Disease type1			Miglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:71	Treats	Inferred	Obstructive Sleep Apnea	MONDO:0007147	MESH:D053260	Soot	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/494			clinical										
+Asset:72	Treats	Inferred	Obstructive Sleep Apnea	MONDO:0007147	MESH:D053260	Soot	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/494			mechanistic										
+Asset:73	Treats	Inferred	Niemann-Pick type C			miglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:74	Treats	Inferred	Approved for Familial hypercholesterolemia homozygous (LDLR)			Rosuvastatin	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													This may be a feature issue for UI - and separate case: expected answer is that you can't choose those option for may treats. Second is do we restrict this from being enter at the API level? If not, is this a high pri test case?
+Asset:75	Treats	Inferred	Approved for Familial hypercholesterolemia homozygous (LDLR)			Lomitapide	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:76	Treats	Inferred	Approved for Familial hypercholesterolemia homozygous (LDLR)			Mipomersen	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:77	Treats	Inferred	Approved for Familial hypercholesterolemia homozygous (LDLR)			Evolocumab	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:78	Treats	Inferred	Approved for Familial hypercholesterolemia heterozygous (LDLR)			Rosuvastatin	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:79	Treats	Inferred	Approved for Familial hypercholesterolemia heterozygous (LDLR)			Evolocumab	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:80	Treats	Inferred	Approved for Familial defective apolipoprotein B (APOB)			Rosuvastatin	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:81	Treats	Inferred	Approved for Familial defective apolipoprotein B (APOB)			Evolocumab	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494													
+Asset:82	Treats	Inferred	Premature Menopause	MONDO:0001119		Lasofoxifene	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/489													
+Asset:83	Treats	Inferred	Premature Menopause	MONDO:0001119		Busulfan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/608													
+Asset:84	Treats	Inferred	Premature Menopause	MONDO:0001119		estradiol	1_TopAnswer														
+Asset:85	Treats	Inferred	Premature Menopause	MONDO:0001119		progestin	1_TopAnswer														
+Asset:86	Treats	Inferred	Exfoliative Dermatitis	MONDO:0043233		Imatinib	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/486													
+Asset:87	Treats	Inferred	Exfoliative Dermatitis	MONDO:0043233		Sorafenib	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/486													
+Asset:88	Treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:1140	Toluene	4_NeverShow									block-list					
+Asset:89	Treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow									block-list					
+Asset:90	Treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:3036	Clofenotane	4_NeverShow									block-list					
+Asset:91	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333		ibuprofen	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479													
+Asset:92	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333		botulinum toxin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479													
+Asset:93	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333		dinoprostone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479													
+Asset:94	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333		calcitriol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479													
+Asset:95	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333		ergocalciferol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479													
+Asset:96	Treats	Inferred	Heart Disorder	MONDO:0005267		fibrinogen	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/477													
+Asset:97	Treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	PUBCHEM.COMPOUND:1727	4-Aminopyridine	4_NeverShow									block-list					
+Asset:98	Treats	Inferred	familial pityriasis rubra pilaris	MONDO:0008251		retinol	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/473													
+Asset:99	Treats	Inferred	Rabies	MONDO:0019173		Methionine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/463													
+Asset:100	Treats	Inferred	Rabies	MONDO:0019173		Cefaclor	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/463													
+Asset:101	Treats	Inferred	familial pityriasis rubra pilaris	MONDO:0008251	MESH:D000438	Alcohols	4_NeverShow									block-list					
+Asset:102	Treats	Inferred	Xeroderma Pigmentosum	MONDO:0019600		cadmium	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/465								block-list					
+Asset:103	Treats	Inferred	Xeroderma Pigmentosum	MONDO:0019600		mercury	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/465								block-list					
+Asset:104	Treats	Inferred	multiple sclerosis	MONDO:0005301	MESH:D014612	vaccines	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/431								block-list					
+Asset:105	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314		alendronic acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/428													
+Asset:106	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C5387588	Covid-19 vaccines	4_NeverShow														
+Asset:107	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	CHEMBL2109042	Influenza vaccines	4_NeverShow														
+Asset:108	Treats	Inferred	Multiple Sclerosis	MONDO:0005301		Vaccines, peptide	4_NeverShow														
+Asset:109	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0699680	Metric	4_NeverShow									block-list					
+Asset:110	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0243192	Agonists	4_NeverShow									block-list					
+Asset:111	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C1611640	Therapeutic agent	4_NeverShow									block-list					
+Asset:112	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0302837	Vitamin supplementation	4_NeverShow									block-list					
+Asset:113	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0003209	Anti-inflammatory agents	4_NeverShow									block-list					
+Asset:114	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000276	Adjuvants, immunologic	4_NeverShow									block-list					
+Asset:115	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000906	Antibodies	4_NeverShow									block-list					
+Asset:116	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0040616	Anti-anxiety agents	4_NeverShow									block-list					
+Asset:117	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000911	Antibodies, monoclonal	4_NeverShow									block-list					
+Asset:118	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLSC0005522	Biological products	4_NeverShow									block-list					
+Asset:119	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0242912	Neuroprotective agents	4_NeverShow									block-list					
+Asset:120	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0003232	Antibiotics	4_NeverShow									block-list					
+Asset:121	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C1874451	basis	4_NeverShow									block-list					
+Asset:122	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0242896	Anticholinergic agents	4_NeverShow									block-list					
+Asset:123	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000700	Analgesics	4_NeverShow									block-list					
+Asset:124	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:23931	Mercury	4_NeverShow									block-list					
+Asset:125	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D005227	Fatty acids	4_NeverShow									block-list					
+Asset:126	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D010936	Plant extracts	4_NeverShow									block-list					
+Asset:127	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D004365	Drugs, chinese herbal	4_NeverShow									block-list					
+Asset:128	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow									block-list					
+Asset:129	Treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:962	Water	4_NeverShow									block-list					
+Asset:130	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D011972	Receptor, insulin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/613													
+Asset:131	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D001323	Autoantibodies	4_NeverShow														
+Asset:132	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	PUBCHEM.COMPOUND:53462828	Thyroid hormones	4_NeverShow														
+Asset:133	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D004798	Enzymes	4_NeverShow														
+Asset:134	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D017526	Receptor, IGF Type 1	4_NeverShow														
+Asset:135	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D003165	Complement system proteins	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/615													
+Asset:136	Treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	PUBCHEM.COMPOUND:6623	bisphenol A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/444													
+Asset:137	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	MESH:D016756	Immunoglobulins, intravenous	4_NeverShow														
+Asset:138	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow														
+Asset:139	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746		Carbon	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/404													
+Asset:140	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746		Botulinum toxin type a	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/405													
+Asset:141	downregulate	Inferred	DDX3Y	NCBI Gene:8653		dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384													
+Asset:142	downregulate	Inferred	DDX3Y	NCBI Gene:8653		Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384													
+Asset:143	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:4096	Methamidophos	4_NeverShow														
+Asset:144	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493		Halothane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362													
+Asset:145	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493		isoflurane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362													
+Asset:146	Treats	Inferred	scotoma	MONDO:0004758		Prednisone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362													
+Asset:147	Treats	Inferred	scotoma	MONDO:0004758		vigabatrin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362													
+Asset:148	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493		Pharmaceutical preparations	4_NeverShow														
+Asset:149	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow														
+Asset:150	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	MESH:D000779	Anesthetics, local	4_NeverShow														
+Asset:151	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:1727	4-aminopyridine	4_NeverShow														
+Asset:152	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0002932	Anesthetics	4_NeverShow														
+Asset:153	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0003232	Antibiotics	4_NeverShow														
+Asset:154	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C1874451	basis	4_NeverShow														
+Asset:155	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:33250	Atom	4_NeverShow														
+Asset:156	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D002467	Cell nucleus	4_NeverShow														
+Asset:157	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D012492	salts	4_NeverShow														
+Asset:158	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:962	Water	3_BadButForgivable														
+Asset:159	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:962	Hydrogen(.)	3_BadButForgivable														
+Asset:160	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D004583	Electrons	4_NeverShow														
+Asset:161	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000838	Anions	4_NeverShow														
+Asset:162	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:977	Oxygen	4_NeverShow														
+Asset:163	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D002412	Cations	4_NeverShow														
+Asset:164	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:24471	Halogen molecular entity	4_NeverShow														
+Asset:165	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:51143	Nitrogen molecular entity	4_NeverShow														
+Asset:166	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000438	Alcohols	4_NeverShow														
+Asset:167	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:25367	Molecule	4_NeverShow														
+Asset:168	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:24868	Organic salt	4_NeverShow														
+Asset:169	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D009930	Organic chemicals	4_NeverShow														
+Asset:170	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:36094	Organic chloride salt	4_NeverShow														
+Asset:171	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	UMLS:C0030054	Oxygen	4_NeverShow														
+Asset:172	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000700	Analgesics	4_NeverShow														
+Asset:173	Treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:134179	Volatile organic compound	4_NeverShow														
+Asset:174	Treats	Inferred	Cerebral palsy	MONDO:0006497	UMLS:C0003232	Antibiotics	4_NeverShow														
+Asset:175	Treats	Inferred	Cerebral palsy	MONDO:0006497	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow														
+Asset:176	Treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:3672	Ibuprofen	3_BadButForgivable														
+Asset:177	Treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:2284	Baclofen	2_Acceptable														
+Asset:178	Treats	Inferred	Cerebral palsy	MONDO:0006497	CHEBML:CHEMBL1201569	Botulinum toxin type b	2_Acceptable												these should be "studied to treat"		
+Asset:179	Treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:2554	Carbamazepine	2_Acceptable												these should be "studied to treat"		
+Asset:180	Treats	Inferred	Nemaline myopathy	MONDO:0018958 	PUBCHEM.COMPOUND:6057	Tyrosine	2_Acceptable												these should be "studied to treat"		
+Asset:181	Treats	Inferred	Nemaline myopathy	MONDO:0018958 	PUBCHEM.COMPOUND:460612	Melphalan	2_Acceptable												these should be "studied to treat"		
+Asset:182	Treats	Inferred	Nemaline myopathy	MONDO:0018958 	PUBCHEM.COMPOUND:15625	2,3,7,8-tetrachlorodibenzo-p-dioxin	4_NeverShow														
+Asset:183	Treats	Inferred	Nemaline myopathy	MONDO:0018958 	PUBCHEM.COMPOUND:5426	Thalidimide	2_Acceptable														
+Asset:184	Treats	Inferred	ADHD	MONDO:0007743	PUBCHEM.COMPOUND:446220	Cocaine	4_NeverShow														
+Asset:185	Treats	Inferred	ADHD	MONDO:0007743	PUBCHEM.COMPOUND:4158	Methylphenidate	2_Acceptable

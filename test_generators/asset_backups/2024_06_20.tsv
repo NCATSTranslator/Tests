@@ -1,0 +1,662 @@
+id	Relationship	Settings	InputName	InputID	OutputID	OutputName	Expected Result / Suggested Comparator	Translator GitHubIssue	Method of Generation	Level of Validation	Test Author, Owner, Watch List	Link to notable evidence	Date of most recent validation 	Test GithubIssue	Overly Generic	In First 50	In Acceptance	Persona/Use Case	TBD: Data modeling: Disease-modifying, specific to treating symptoms/sequale, general 	Semantic Severity	Well Known	Person who cares about this, know about this	issue type	Blocklist (here or separate tabs)	Causes not treats	?	issue labels	Notes					InputName (user choice)
+Asset:1	treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506	Manual, SMurF		Sandrine Muller							clinical			Yes						causes not treats; TMKP	The CQS is returning iron for MONDO:0011426 (https://monarchinitiative.org/MONDO:0011426) . I (Kara) would have classified this as 3_BadButForgiveable, and I see that it is classified as such in row 18.					ACE
+Asset:10	treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:5352425	lead	4_NeverShow				Jennifer Hadlock							look-up															ACE
+Asset:100	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C5387588	Covid-19 vaccines	4_NeverShow		Manual, SMurF		Sandrine Muller																						ACE
+Asset:101	treats	Inferred	Multiple Sclerosis	MONDO:0005301	CHEMBL:2109042	Influenza vaccines	4_NeverShow		Manual, SMurF		Sandrine Muller																						ACE
+Asset:102	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0599934	Vaccines, peptide	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:103	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0699680	Metric	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:104	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0243192	Agonists	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:105	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C1611640	Therapeutic agent	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:106	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0302837	Vitamin supplementation	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:107	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0003209	Anti-inflammatory agents	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:108	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000276	Adjuvants, immunologic	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:109	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000906	Antibodies	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:11	treats	Inferred	Castleman Disease	MONDO:0015564	PUBCHEM.COMPOUND:5284616	sirolimus	1_TopAnswer				Jennifer Hadlock							look-up															
+Asset:110	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0040616	Anti-anxiety agents	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:111	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000911	Antibodies, monoclonal	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:112	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0005522	Biological products	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:113	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0242912	Neuroprotective agents	3_BadButForgivable		Manual, SMurF		Sandrine Muller												block-list										
+Asset:114	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0003232	Antibiotics	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:115	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C1874451	basis	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:116	treats	Inferred	Multiple Sclerosis	MONDO:0005301	UMLS:C0242896	Anticholinergic agents	2_Acceptable		Manual, SMurF		Jennifer Hadlock								treats symptoms or sequelae														
+Asset:117	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000700	Analgesics	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:118	treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:23931	Mercury	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:119	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D005227	Fatty acids	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:12	treats	Inferred	Castleman Disease	MONDO:0015564	UNII:4F4X42SYQ6	rituximab	1_TopAnswer				Jennifer Hadlock							look-up															
+Asset:120	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D010936	Plant extracts	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:121	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D004365	Drugs, chinese herbal	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:122	treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:123	treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:962	Water	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:124	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D011972	Receptor, insulin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/613	Manual, SMurF		Sandrine Muller																						
+Asset:125	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D001323	Autoantibodies	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:126	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	PUBCHEM.COMPOUND:53462828	Thyroid hormones	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:127	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D004798	Enzymes	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:128	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D017526	Receptor, IGF Type 1	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:129	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	MESH:D003165	Complement system proteins	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/615	Manual, SMurF		Sandrine Muller																						
+Asset:13	treats	Inferred	Castleman Disease	MONDO:0015564	UNII:9013DUQ28K	anakinra	1_TopAnswer		Manual, SMurF		Jennifer Hadlock							look-up															
+Asset:130	treats	Inferred	Maturity-onset Diabetes Of The Young	MONDO:0018911	PUBCHEM.COMPOUND:6623	bisphenol A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/444	Manual, SMurF		Sandrine Muller																						
+Asset:131	treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	MESH:D016756	Immunoglobulins, intravenous	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:132	treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:133	treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/404	Manual, SMurF		Sandrine Muller																						
+Asset:134	treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	UNII:E211KPY694	Botulinum toxin type a	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/405	Manual, SMurF		Sandrine Muller																						
+Asset:135	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C0311474	dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384	Manual, SMurF		Sandrine Muller																						
+Asset:136	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C1328819	Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384	Manual, SMurF		Sandrine Muller																						
+Asset:137	treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:4096	Methamidophos	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:138	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3562	Halothane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362	Manual, SMurF		Sandrine Muller																						
+Asset:139	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3763	isoflurane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362	Manual, SMurF		Sandrine Muller																						ADRB2
+Asset:14	treats	Inferred	Castleman Disease	MONDO:0015564	CHEMBL.COMPOUND:CHEMBL1201562	interferon-beta 1a	1_TopAnswer				Jennifer Hadlock							look-up															ADRB2
+Asset:140	treats	Inferred	scotoma	MONDO:0004758	PUBCHEM.COMPOUND:5865	prednisone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362	Manual, SMurF		Sandrine Muller																						ADRB2
+Asset:141	treats	Inferred	scotoma	MONDO:0004758	PUBCHEM.COMPOUND:5665	vigabatrin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362	Manual, SMurF		Sandrine Muller																						HBB
+Asset:142	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow		Manual, SMurF		Sandrine Muller																						HBB
+Asset:143	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow		Manual, SMurF		Sandrine Muller																						HBB
+Asset:144	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	MESH:D000779	Anesthetics, local	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:145	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:1727	4-aminopyridine	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:146	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0002932	Anesthetics	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:147	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0003232	Antibiotics	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:148	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C1874451	basis	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:149	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:33250	Atom	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:15	treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:4356	iron	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506	Manual, SMurF		Jennifer Hadlock			https://github.com/NCATSTranslator/Tests/issues/8				look-up															
+Asset:150	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D002467	Cell nucleus	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:151	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D012492	salts	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:152	treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:962	Water	4_NeverShow		Manual, SMurF		Sandrine Muller				Y																		
+Asset:153	treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:962	Hydrogen(.)	4_NeverShow		Manual, SMurF		Sandrine Muller				Y																		
+Asset:154	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D004583	Electrons	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:155	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000838	Anions	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:156	treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:977	Oxygen	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:157	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D002412	Cations	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:158	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:24471	Halogen molecular entity	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:159	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:51143	Nitrogen molecular entity	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:160	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000438	Alcohols	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:161	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:25367	Molecule	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:162	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:24868	Organic salt	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:163	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D009930	Organic chemicals	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:164	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:36094	Organic chloride salt	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:165	treats	Inferred	Fatal familial insomnia	MONDO:0010808	UMLS:C0030054	Oxygen	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:166	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D000700	Analgesics	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:167	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:134179	Volatile organic compound	4_NeverShow		Manual, SMurF		Sandrine Muller																						Beta 2 adrenergic (ADRB2)
+Asset:168	treats	Inferred	Cerebral palsy	MONDO:0006497	UMLS:C0003232	Antibiotics	4_NeverShow				Sierra Moxon																						Beta 2 adrenergic (ADRB2)
+Asset:169	treats	Inferred	Cerebral palsy	MONDO:0006497	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow				Sierra Moxon																						BRAF (human)
+Asset:17	treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/506	Manual, SMurF		Sandrine Muller							mechanistic				Change management					causes not treats; TMKP	See comment from Kara in X2.					BRCA2
+Asset:170	treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:3672	Ibuprofen	3_BadButForgivable				Sierra Moxon																						BRCA2
+Asset:171	treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:2284	Baclofen	2_Acceptable				Sierra Moxon																						BRCA2
+Asset:172	treats	Inferred	Cerebral palsy	MONDO:0006497	CHEMBL.COMPOUND:CHEMBL1201569	Botulinum toxin type b	2_Acceptable				Sierra Moxon															these should be "studied to treat"							BRCA2
+Asset:173	treats	Inferred	Cerebral palsy	MONDO:0006497	PUBCHEM.COMPOUND:2554	Carbamazepine	2_Acceptable				Sierra Moxon															these should be "studied to treat"							BRCA2
+Asset:174	treats	Inferred	Nemaline myopathy	MONDO:0018958	PUBCHEM.COMPOUND:6057	Tyrosine	2_Acceptable				Sierra Moxon															these should be "studied to treat"							BRCA2
+Asset:175	treats	Inferred	Nemaline myopathy	MONDO:0018958	PUBCHEM.COMPOUND:460612	Melphalan	2_Acceptable				Sierra Moxon															these should be "studied to treat"							BRCA2
+Asset:176	treats	Inferred	Nemaline myopathy	MONDO:0018958	PUBCHEM.COMPOUND:15625	2,3,7,8-tetrachlorodibenzo-p-dioxin	4_NeverShow				Sierra Moxon																						BRCA2
+Asset:177	treats	Inferred	Nemaline myopathy	MONDO:0018958	PUBCHEM.COMPOUND:5426	Thalidimide	2_Acceptable				Sierra Moxon																						BRCA2
+Asset:178	treats	Inferred	ADHD	MONDO:0007743	PUBCHEM.COMPOUND:446220	Cocaine	4_NeverShow				Sierra Moxon																						BRCA2
+Asset:179	treats	Inferred	ADHD	MONDO:0007743	PUBCHEM.COMPOUND:4158	Methylphenidate	2_Acceptable				Sierra Moxon																						BRCA2
+Asset:18	treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D009930	Organic Chemicals	4_NeverShow		Manual, SMurF		Sandrine Muller							all					block-list										BRCA2
+Asset:180	treats	Inferred	Gout	MONDO:0005393	UNNI:R581OT55EA	Pegloticase	2_Acceptable				Sierra Moxon																						BRCA2
+Asset:181	treats	Inferred	Gout	MONDO:0005393	PUBCHEM.COMPOUND:5865	Prednisone	2_Acceptable				Sierra Moxon																						
+Asset:182	treats	Inferred	Hereditary Sensory And Autonomic Neuropathy	MONDO:0015364	MONDO:0016028	Erythromelalgia	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/632	Manual, SMurF		Sandrine Muller																						
+Asset:183	treats	Inferred	Hereditary Sensory And Autonomic Neuropathy	MONDO:0015364	MONDO:0009131	Riley-day Syndrome	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/633	Manual, SMurF		Sandrine Muller																						
+Asset:184	treats	Inferred	Diabetes Mellitus	MONDO:0005015	UMLS:C0013227	Pharmaceutical preparations	5_OverlyGeneric		Manual, SMurF		Sandrine Muller																						
+Asset:185	treats	Inferred	Diabetes Mellitus	MONDO:0005015	PUBCHEM.COMPOUND:4091	Metformin	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:186	treats	Inferred	Diabetes Mellitus	MONDO:0005015	UNII:1Y17CTI5SR	Insulin human	1_TopAnswer		Manual, SMurF		Sandrine Muller																						CYP2D6
+Asset:187	treats	Inferred	Diabetes Mellitus	MONDO:0005015	PUBCHEM.COMPOUND:16137271	Insulin detremir	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:188	treats	Inferred	Cerebral Palsy	MONDO:0006497	UMLS:C3536832	Air	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman							CP SMuRF															
+Asset:189	treats	Inferred	Cerebral Palsy	MONDO:0006497	UMLS:C3536832	Air	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman							Molecular focus															
+Asset:19	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:23367	molecular entity	4_NeverShow		Manual, SMurF		Sandrine Muller							all					block-list										
+Asset:190	treats	Inferred	Cerebral Palsy	MONDO:0006497	UMLS:C3536832	Air	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman							CP SMuRF															
+Asset:192	treats	Inferred	Cerebral Palsy	MONDO:0006497	MESH:D000336	Aerosols	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman																						
+Asset:193	treats	Inferred	Cerebral Palsy	MONDO:0006497	UMLS:C0013227	Pharmaceutical Preparations	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman																						
+Asset:194	treats	Inferred	Cerebral Palsy	MONDO:0006497	NCIT:C38065	Hyperbaric oxygen therapy	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/624			Gwênlyn Glusman																						
+Asset:195	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:702	Ethanol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/638	Manual, SMurF		Sandrine Muller							clinical															
+Asset:196	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:702	Ethanol	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/638	Manual, SMurF		Sandrine Muller							mechanistic															
+Asset:197	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:3346	Fenthion	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:198	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:199	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:6758	Rotenone	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										CFTR (human)
+Asset:2	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33247	organic group	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/572	Manual, SMurF		Sandrine Muller							all					block-list				category too generic						
+Asset:20	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25367	molecule	4_NeverShow		Manual, SMurF		Sandrine Muller							all					block-list										
+Asset:200	treats	Inferred	alcoholic hepatitis	MONDO:0001505	UNII:59NEE7PCAB	Lindane	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:201	treats	Inferred	alcoholic hepatitis	MONDO:0001505	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow		Manual, SMurF		Sandrine Muller												block-list										
+Asset:202	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:1983	Acetaminophen	3_BadButForgivable		Manual, SMurF		Sandrine Muller												block-list										
+Asset:203	treats	Inferred	alcoholic hepatitis	MONDO:0001505	MESH:D037742	Nanotubes, carbon	4_NeverShow				Sandrine Muller												block-list										
+Asset:204	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:6623	Bisphenol a	4_NeverShow				Sandrine Muller												block-list										
+Asset:205	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:962	Water	4_NeverShow				Sandrine Muller																						
+Asset:206	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:3826	Ketorolac	4_NeverShow				Sandrine Muller																						
+Asset:207	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:439501	Ouabain	4_NeverShow				Sandrine Muller																						
+Asset:208	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:712	Formaldehyde	4_NeverShow				Sandrine Muller																						
+Asset:209	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:446220	Cocaine	4_NeverShow				Sandrine Muller																						
+Asset:21	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25806	oxygen molecular entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:210	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:323	Coumarin	4_NeverShow				Sandrine Muller																						
+Asset:211	treats	Inferred	alcoholic hepatitis	MONDO:0001505	CHEMBL.COMPOUND:CHEMBL2109152	Mineral oil	4_NeverShow				Sandrine Muller																						
+Asset:212	treats	Inferred	alcoholic hepatitis	MONDO:0001505	PUBCHEM.COMPOUND:10836	Methamphetamine	4_NeverShow				Sandrine Muller																						
+Asset:213	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:6741	Methylprednisolone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/636			Sandrine Muller																						
+Asset:214	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:5865	Prednisone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/636			Sandrine Muller																						
+Asset:215	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:5754	Hydrocortisone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/636			Sandrine Muller																						
+Asset:216	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:5743	Dexamethasone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/636			Sandrine Muller																						
+Asset:217	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:31307	Triamcinolone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/636			Sandrine Muller																						
+Asset:218	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D014028	Tobacco smoke pollution	4_NeverShow				Sandrine Muller																						
+Asset:219	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D002772	Cholera Toxin	4_NeverShow				Sandrine Muller																						
+Asset:22	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:36357	polyatomic entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:220	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D037342	Pertussis toxin	4_NeverShow				Sandrine Muller																						
+Asset:221	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:11302220	Cocain-chlorhydrat	4_NeverShow				Sandrine Muller																						
+Asset:222	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D002412	Cations	4_NeverShow				Sandrine Muller																						
+Asset:223	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:443495	Sodium arsenite	4_NeverShow				Sandrine Muller																						
+Asset:224	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D000838	Anions	4_NeverShow				Sandrine Muller																						
+Asset:225	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:23973	Cadmium	4_NeverShow				Sandrine Muller																						
+Asset:226	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:	Azoles	3_BadButForgivable				Sandrine Muller																						
+Asset:227	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:23424	Cyanides	3_BadButForgivable				Sandrine Muller																						
+Asset:228	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:	Imidazoles	3_BadButForgivable				Sandrine Muller																						
+Asset:229	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D007287	Inorganic chemicals	4_NeverShow				Sandrine Muller																						
+Asset:23	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33582	carbon group molecular entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:230	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:24431	Chemical entity	4_NeverShow				Sandrine Muller																						
+Asset:231	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:23367	Molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:232	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:51143	Nitrogen molecular entity	4_NeverShow				Sandrine Muller																						CYP2D6
+Asset:233	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:50860	Organic molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:234	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:33582	Carbon group molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:235	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D002467	Cell nucleus	4_NeverShow				Sandrine Muller																						
+Asset:236	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:36587	Organic oxo compound	4_NeverShow				Sandrine Muller																						
+Asset:237	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:33250	Atom	4_NeverShow				Sandrine Muller																						
+Asset:238	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:	Ions	4_NeverShow				Sandrine Muller																						
+Asset:239	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:24433	Group	4_NeverShow				Sandrine Muller																						
+Asset:24	treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D007287	inorganic chemicals	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:240	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:446220	Cocaine	4_NeverShow				Sandrine Muller																						
+Asset:241	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	PUBCHEM.COMPOUND:784	Hydrogen peroxide	3_BadButForgivable				Sandrine Muller																						
+Asset:242	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	UMLS:C1306770	Nitrogen 99.9 %	4_NeverShow				Sandrine Muller																						
+Asset:243	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:25806	Oxygen molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:244	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	MESH:D006219	Halogens	4_NeverShow				Sandrine Muller																						
+Asset:245	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:36586	Carbonyl compound	4_NeverShow				Sandrine Muller																						
+Asset:246	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	UMLS:C1337101	Nitrogen 99.7 %	4_NeverShow				Sandrine Muller																						
+Asset:247	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:36830	Monoanion	4_NeverShow				Sandrine Muller																						
+Asset:248	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:33832	Organic cyclic compound	4_NeverShow				Sandrine Muller																						DDX3Y
+Asset:249	treats	Inferred	Peptic Ulcer Perforation	MONDO:0004260	CHEBI:24532	Organic heterocyclic compound	4_NeverShow				Sandrine Muller																						DDX3Y
+Asset:25	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33285	heteroorganic entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:250	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:784	Hydrogen peroxide	4_NeverShow				Sandrine Muller																						
+Asset:251	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D037742	Nanotubes, carbon	4_NeverShow				Sandrine Muller																						
+Asset:252	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:15938	Paraquat dichloride	4_NeverShow				Sandrine Muller																						
+Asset:253	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:443495	Sodium arsenite	4_NeverShow				Sandrine Muller																						
+Asset:254	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:2912	Cypermethrin	4_NeverShow				Sandrine Muller																						
+Asset:255	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D054328	Proton pump inhibitors	4_NeverShow				Sandrine Muller																						
+Asset:256	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	UMLS:C0699680	Metric (substance)	4_NeverShow				Sandrine Muller																						
+Asset:257	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D014028	Tobacco smoke pollution	4_NeverShow				Sandrine Muller																						
+Asset:258	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	UMLS:C3166216	Prescribed medications	4_NeverShow				Sandrine Muller																						
+Asset:259	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D001786	Blood glucose	4_NeverShow				Sandrine Muller																						
+Asset:26	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33579	main group molecular entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:260	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:433294	Lithium Chloride	4_NeverShow				Sandrine Muller																						
+Asset:261	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	UMLS:C0003289	Antidepressive agents	4_NeverShow				Sandrine Muller																						
+Asset:262	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	DRUGBANK:DB05404	AZD 3355	1_TopAnswer				Sandrine Muller																						ADRB2
+Asset:263	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:174	1,2-ethanediol	4_NeverShow				Sandrine Muller																						ADRB2
+Asset:264	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:56842000	Talcid	1_TopAnswer				Sandrine Muller																						ADRB2
+Asset:265	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:311	Citric acid	4_NeverShow				Sandrine Muller																	The CQS is returning citric acid for MONDO:0007186 (https://monarchinitiative.org/MONDO:0007186). I (Kara) would have classified this as 3_BadButForgiveable. 					ADRB2
+Asset:266	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow				Sandrine Muller																						ADRB2
+Asset:267	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:176	Acetic acid	4_NeverShow				Sandrine Muller																						HBB
+Asset:268	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:962	Water	4_NeverShow				Sandrine Muller																						HBB
+Asset:269	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:	Oxygen	4_NeverShow				Sandrine Muller																						
+Asset:27	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:37577	heteroatomic molecular entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:270	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:23982	Gadolinium	4_NeverShow				Sandrine Muller																						
+Asset:271	treats	Inferred	Cowden Disease	MONDO:0016063	MESH:D007477	Ions	4_NeverShow				Sandrine Muller																						
+Asset:272	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:190217	Oxide	4_NeverShow				Sandrine Muller																						
+Asset:273	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow				Sandrine Muller																						
+Asset:274	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:962	Water	4_NeverShow				Sandrine Muller																						
+Asset:275	treats	Inferred	Cowden Disease	MONDO:0016063	MESH:D002412	Cations	4_NeverShow				Sandrine Muller																						
+Asset:276	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:	Electrons	4_NeverShow				Sandrine Muller																						
+Asset:277	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:	Formaldehyde	4_NeverShow				Sandrine Muller																						
+Asset:278	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:	Organic anion	4_NeverShow				Sandrine Muller																						
+Asset:279	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:	Acyl group	4_NeverShow				Sandrine Muller																						
+Asset:28	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33595	cyclic compound	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:280	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:25585	Nonmetal atom	4_NeverShow				Sandrine Muller																						
+Asset:281	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33677	F-block molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:282	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33497	Transition element molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:283	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:27081	Transition element atom	4_NeverShow				Sandrine Muller																						
+Asset:284	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33562	F-block element atom	4_NeverShow				Sandrine Muller																						
+Asset:285	treats	Inferred	Cowden Disease	MONDO:0016063	MESH:D000071940	Nucleons	4_NeverShow				Sandrine Muller																						
+Asset:286	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:36963	Organooxygen compound	4_NeverShow				Sandrine Muller																						
+Asset:287	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33695	Information biomacromolecule	4_NeverShow				Sandrine Muller																						
+Asset:288	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:24532	Organic heterocyclic compound	4_NeverShow				Sandrine Muller																						
+Asset:289	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33434	Elemental halogen	4_NeverShow				Sandrine Muller																						
+Asset:29	treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D006571 	heterocyclic compounds	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:290	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:24867	Monoatomic ion	4_NeverShow				Sandrine Muller																						
+Asset:291	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33432	Monoatomic chlorine	4_NeverShow				Sandrine Muller																						
+Asset:292	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33433	Monoatomic halogen	4_NeverShow				Sandrine Muller																						
+Asset:293	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33674	S-block molecular entity	4_NeverShow				Sandrine Muller																						
+Asset:294	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33431	Elemental chlorine	4_NeverShow				Sandrine Muller																						
+Asset:295	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:50047	Organic amino compound	4_NeverShow				Sandrine Muller																						
+Asset:296	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:37578	Halide	4_NeverShow				Sandrine Muller																						
+Asset:297	treats	Inferred	Cowden Disease	MONDO:0016063	PUBCHEM.COMPOUND:23991	Xenon	4_NeverShow				Sandrine Muller																						
+Asset:298	treats	Inferred	Cowden Disease	MONDO:0016063	MESH:D061065	Polyketides	4_NeverShow				Sandrine Muller																						
+Asset:299	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:33710	Alpha-amino-acid residue	4_NeverShow				Sandrine Muller																						
+Asset:3	treats	Inferred	NARP Syndrome	MONDO:0010794	DRUGBANK:DB00313	Valproic Acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147			Sandrine Muller							clinical			Yes						contraindications						
+Asset:30	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24836	inorganic oxide	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:300	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:79389	Monovalent inorganic anion	4_NeverShow				Sandrine Muller																						
+Asset:301	treats	Inferred	Cowden Disease	MONDO:0016063	MESH:D000470	Alkaloids	4_NeverShow				Sandrine Muller																						
+Asset:302	treats	Inferred	Cowden Disease	MONDO:0016063	CHEBI:16042	Halide anion	4_NeverShow				Sandrine Muller																						
+Asset:303	treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:2972	deferipone	1_TopAnswer				Jennifer Hadlock							look-up															CYP2D6
+Asset:304	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:49005	deferasirox 	1_TopAnswer				Jennifer Hadlock							look-up															CYP2D6
+Asset:305	treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:2973	Deferoxamine	1_TopAnswer																										CYP2D6
+Asset:306	treats	Inferred	Castleman Disease	MONDO:0015564	CHEMBL.COMPOUND:CHEMBL1201563	interferon-beta 1b	1_TopAnswer				Jennifer Hadlock																						CYP2D6
+Asset:307	increases activity or abundance of 	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2083	Albuterol	1_TopAnswer				Chris Bizon																						CYP2D6
+Asset:308	increases activity or abundance of 	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	Propranalol	4_NeverShow																										
+Asset:309	treats	Inferred	Neutropenia	MONDO:0001475	PUBCHEM.COMPOUND:77910626	Pegfilgrastim	1_TopAnswer																										
+Asset:31	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24431	chemical entity	4_NeverShow				Sandrine Muller							all					block-list										
+Asset:310	decreases abundance of	Inferred	Pseudoephedrine	PUBCHEM.COMPOUND:7028	NCBIGene:3558	interleukin-2	2_Acceptable																										
+Asset:311	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5362124	Benazapril	1_TopAnswer																										
+Asset:312	decreases activity or abundance of	Inferred	MYC proto-oncogene, bHLH transcription factor	NCBIGene:4609	MONDO:0004992	cancer	4_NeverShow																										
+Asset:313	increases activity or abundance of	Inferred	CFTR (human)	NCBIGene:1080	PUBCHEM.COMPOUND:16220172	Ivacaftor	2_Acceptable				Sarah Stemann																						
+Asset:314	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:5452	Thioridazine	2_Acceptable																										
+Asset:315	treats	Inferred	Asthma	MONDO:0004979	PUBCHEM.COMPOUND:5311101	Fluticasone	1_TopAnswer		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:316	treats	Inferred	Asthma	MONDO:0004979	UMLS:C2194286	Albuterol (salbutamol)	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:317	treats	Inferred	Asthma	MONDO:0004979	PUBCHEM.COMPOUND:4946	Propranolol	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho																	LLM-generated/SMurF-validated					
+Asset:318	treats	Inferred	Cystic fibrosis	MONDO:0009061	PUBCHEM.COMPOUND:16220172	Ivacaftor	1_TopAnswer		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:319	treats	Inferred	Cystic fibrosis	MONDO:0009061	UMLS:C3489797	AZD9668	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					HBB
+Asset:32	treats	Inferred	Lactose intolerance	MONDO:0100345	CHEMBL.COMPOUND:CHEMBL2108505	Lactase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/427			Sandrine Muller							look-up			yes						reasoning;opposite of what I asked for; data error						
+Asset:320	treats	Inferred	Cystic fibrosis	MONDO:0009061	PUBCHEM.COMPOUND:55283	Itraconazole	4_NeverShow		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:321	treats	Inferred	Idiopathic bronchiectasis	MONDO:0018956	PUBCHEM.COMPOUND:447043	Azithromycin	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:322	treats	Inferred	Idiopathic bronchiectasis	MONDO:0018956	PUBCHEM.COMPOUND:12560	Erythromycin	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:323	treats	Inferred	Idiopathic bronchiectasis	MONDO:0018956	PUBCHEM.COMPOUND:4946	Propranolol	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho																	LLM-generated/SMurF-validated					
+Asset:324	treats	Inferred	Idiopathic pulmonary fibrosis	MONDO:0008345	PUBCHEM.COMPOUND:40632	Pirfenidone	1_TopAnswer		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:325	treats	Inferred	Idiopathic pulmonary fibrosis	MONDO:0008345	PUBCHEM.COMPOUND:11671467	Fostamatinib	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:326	treats	Inferred	Idiopathic pulmonary fibrosis	MONDO:0008345	PUBCHEM.COMPOUND:90420193	GLPG1690 (Ziritaxestat)	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					CYP2D6
+Asset:327	treats	Inferred	Lymphangioleiomyomatosis	MONDO:0011705	PUBCHEM.COMPOUND:5284616	Sirolimus	1_TopAnswer		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					CYP2D6
+Asset:328	treats	Inferred	Lymphangioleiomyomatosis	MONDO:0011705	PUBCHEM.COMPOUND:11520894	Ridaforolimus	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					CYP2D6
+Asset:329	treats	Inferred	Lymphangioleiomyomatosis	MONDO:0011705	UMLS:C0116660	ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho																	LLM-generated/SMurF-validated					CYP2D6
+Asset:33	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134	beta-Lactose	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/427			Sandrine Muller							clinical									reasoning;opposite of what I asked for; data error						
+Asset:330	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:9934746	ensifentrine	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:331	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:447043	azithromycin	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
+Asset:332	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:5360696	dextromethorphan	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho																	LLM-generated/SMurF-validated					
+Asset:333	decreases activity or abundance of	Inferred	Docetaxel	PUBCHEM.COMPOUND:148124	NCBIGene:596	BCL2	2_Acceptable				Sarah Stemann																						
+Asset:334	treats	Inferred	Eosinophilic Esophagitis	MONDO:0005361	PUBCHEM.COMPOUND:223365910	DUPILUMAB	1_TopAnswer				Sarah Stemann																						
+Asset:335	decreases activity or abundance of	Inferred	BRAF (human)	NCBIGene:673	PUBCHEM.COMPOUND:44462760	dabrafenib	2_Acceptable				Sarah Stemann																						
+Asset:336	decreases activity or abundance of	Inferred	PDE5A (human)	NCBIGene:8654	PUBCHEM.COMPOUND:135398744	Sildenafil	1_TopAnswer				Sarah Stemann (StatPearl)																						
+Asset:337	decreases activity or abundance of	Inferred	MGAM (human)	NCBIGene:8972	PUBCHEM.COMPOUND:41774	Acarbose	1_TopAnswer				Sarah Stemann (DrugBank > Target)																						
+Asset:338	decreases activity or abundance of	Inferred	SLC5A2 (human)	NCBIGene:6524	PUBCHEM.COMPOUND:24812758	canagliflozin	1_TopAnswer				Sarah Stemann (StatPearl SGTL2 > SLC5A)																						
+Asset:339	decreases activity or abundance of	Inferred	Eliglustat	PUBCHEM.COMPOUND:23652731	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)																						
+Asset:34	treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D010936	Plant extracts	4_NeverShow				Sandrine Muller							all															
+Asset:340	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:23725625	olaparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:341	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:11960529	veliparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:342	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:24958200	niraparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:343	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:44093	rucaparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:344	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:135565082	talazoparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:345	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:135565981	PARP inhibitor 2x-121	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:346	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:16760621	PARP inhibitor VIII, PJ34	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:347	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:712	formaldehyde	3_BadButForgivable		Automated, LLM	No validation	Sharat Israni																						
+Asset:348	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:637511	Cinnamaldehyde	3_BadButForgivable		Automated, LLM	No validation	Sharat Israni																						
+Asset:349	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:14423521	Ursolic aldehyde	3_BadButForgivable		Automated, LLM	No validation	Sharat Israni																						
+Asset:35	treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D028321	Plant preparations	4_NeverShow				Sandrine Muller							all															
+Asset:350	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:5702198	Cisplatin	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:351	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:426756	Carboplatin	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:2733526	Tamoxifen	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:353	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:44093	Captopril	1_TopAnswer																										
+Asset:354	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5388962	Enalapril	1_TopAnswer																										
+Asset:355	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:55891	Fosinopril	1_TopAnswer																										
+Asset:356	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5362119	Lisinopril	1_TopAnswer																										
+Asset:357	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5362129	Ramipril	1_TopAnswer																										
+Asset:358	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:107807	Perindopril	1_TopAnswer																										
+Asset:359	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:54892	Quinapril	1_TopAnswer																										
+Asset:36	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134	alpha-Lactose	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/427			Sandrine Muller							clinical									reasoning;opposite of what I asked for; data error						
+Asset:360	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5484727	Trandolapril	1_TopAnswer																										
+Asset:361	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:91270	Moexipril	1_TopAnswer																										
+Asset:362	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:37056	ACE inhibitors	1_TopAnswer																										
+Asset:363	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3386	Fluoxetine	1_TopAnswer																										
+Asset:364	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:43815	Paroxetine	1_TopAnswer																										
+Asset:365	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:441074	Quinidine	1_TopAnswer																										
+Asset:366	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:60835	Duloxetine	1_TopAnswer																										
+Asset:367	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3031065	Bupropion	1_TopAnswer																										
+Asset:368	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:156419	Cinacalcet	1_TopAnswer																										
+Asset:369	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3100	Diphenhydramine	1_TopAnswer																										MGAM (human)
+Asset:37	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:5280793	Ergocalciferol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:370	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:2157	Amiodarone	1_TopAnswer																										
+Asset:371	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:135398735	Rifampicin	4_NeverShow																										
+Asset:372	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:2554	Carbamazepine	4_NeverShow																										
+Asset:373	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:4763	Phenobarbital	4_NeverShow																										
+Asset:374	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:1775	Phenytoin	4_NeverShow																										
+Asset:375	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3663	St. John's Wort (Hypericum perforatum)	4_NeverShow																										
+Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																										
+Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																										
+Asset:378	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	propranolol	1_TopAnswer																										
+Asset:379	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4171	metoprolol	1_TopAnswer																										
+Asset:38	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:4030	Mebendazole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:380	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2585	carvedilol	1_TopAnswer																										
+Asset:381	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2249	atenolol	1_TopAnswer																										
+Asset:382	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:18026	Butaxamine	2_Acceptable																					rated lower because PubChem reports its an Irritant					
+Asset:383	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:3682	ICI-118,551	1_TopAnswer																										
+Asset:384	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	ChEBI:35530	Beta-Blockers (Inhibitors)	1_TopAnswer																										
+Asset:386	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:5582	salmeterol	1_TopAnswer																										
+Asset:387	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:3410	formoterol	1_TopAnswer																										
+Asset:388	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:5403	terbutaline	1_TopAnswer																										
+Asset:389	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	OMIT:0027329	Beta-2 Agonists (Activators)	1_TopAnswer																										
+Asset:39	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:2406	Bithionol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:390	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:9444	azacitidine	1_TopAnswer																					causes sickle cell anemia, at a particular location of chromosome 11p15 where T becomes V					
+Asset:391	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:451668	decitabine	1_TopAnswer																										
+Asset:392	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	CHEMBL:4034633	DNMT inhibitor	1_TopAnswer																					class of above drugs					
+Asset:393	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:3657	Hydroxyurea	2_Acceptable																										ADRB2
+Asset:394	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:5222465	sodium butyrate	1_TopAnswer																										HBB
+Asset:395	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:23622962	arginine butyrate	1_TopAnswer																										
+Asset:396	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	UMLS:C0581820	Butyrate Derivatives	1_TopAnswer																					class of above drugs					MYC proto-oncogene, bHLH transcription factor
+Asset:397	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:26945	Hemin	1_TopAnswer																										
+Asset:398	decreases activity or abundance of	Inferred	HBB	NCBIGene:3043	PUBCHEM.COMPOUND:5961	L-Glutamine	2_Acceptable																					only a symptom manager					
+Asset:399	decreases activity or abundance of	Inferred	VKORC1	NCBIGene:79001	PUBCHEM.COMPOUND:54678486	warfarin	1_TopAnswer				Sarah Stemann																	only a symptom manager					
+Asset:4	treats	Inferred	NARP Syndrome	MONDO:0010794	MESH:D001463	Barbiturates	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147			Sandrine Muller							clinical			Yes						contraindications						
+Asset:40	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:5430	Thiabendazole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:400	treats	Inferred	Colorectal Cancer	MONDO:0005575	RXCUI:1657659	Cetuximab (Erbitux)	1_TopAnswer		Automated, LLM	SMuRF	Kara Fecho																						
+Asset:401	treats	Inferred	Colorectal Cancer	MONDO:0005575	PUBCHEM.COMPOUND:4091	Metformin	2_Acceptable		Automated, LLM	SMuRF	Kara Fecho																						
+Asset:402	treats	Inferred	Colorectal Cancer	MONDO:0005575	UNII:6T8C155666	Ipilimumab (Yervoy)	2_Acceptable		Automated, LLM	SMuRF	Kara Fecho																						CYP2D6
+Asset:403	treats	Inferred	Glycogen Storage Disease Ii	MONDO:0009290	UNII:DTI67O9503	Alglucosidase Alfa	1_TopAnswer	https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df			Sarah Stemann																						CYP2D6
+Asset:404	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:15606394 	afatinib	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					PDE5A (human)
+Asset:405	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:123631 	gefitinib	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					
+Asset:406	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	Substance SID: 387065587	amivantamab-vmjw	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					
+Asset:407	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:71496458	osimertinib	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					
+Asset:408	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:176870	erlotinib	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					
+Asset:409	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:70693519 	dacomitinib	2_Acceptable		Automated, LLM		Sharat Israni																	target EGFR					
+Asset:41	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:26879	Levamisole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:410	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	MESH:D000076983	histone-lysine methyltransferases	2_Acceptable		Automated, LLM		Sharat Israni																	class of drugs. target chromatin remodeling					
+Asset:411	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:54671203	doxycycline	3_BadButForgivable		Automated, LLM		Sharat Israni																	affect SWI/SNF complexes					
+Asset:412	increases activity or abundance of	Inferred	ACE1						Manual, SMurF	No validation																							
+Asset:413	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:738	VPS51	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:414	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	UMLS:C0001473	Adenosine Triphosphatases	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:415	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:495	ATP4A	4_NeverShow		Manual, SMurF		Sandrine Muller																						
+Asset:416	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:249	ALPL	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/750	Manual, SMurF		Sandrine Muller																						
+Asset:417	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:823	CAPN1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/750	Manual, SMurF		Sandrine Muller																						
+Asset:418	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:692639	SOD	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/750	Manual, SMurF		Sandrine Muller																						
+Asset:419	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:1437	CSF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:42	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:4096	Methamidophos	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:420	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:100125288	ZGLP1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:421	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:3562	IL3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:422	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:23118	TAB2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:423	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:147138	TMC8	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:424	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:57410	SCYL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:425	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:57154	SMURF1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:426	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:11035	RIPK3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:427	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:958	CD40	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:428	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:4843	NOS2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:429	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7182	NR2C2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:43	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:516893	Potassium bicarbonate	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:430	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:148327	CREB3L4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:431	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6776	STAT5A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:432	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:27352	SGSM3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:433	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:26330	GAPDHS	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:434	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:939	CD27	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:435	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6885	MAP3K7	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:436	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6646	SOAT1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:437	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:8717	TRADD	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:438	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:54884	RETSAT	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:439	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7472	WNT2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:44	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:5564	Triclosan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:440	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:56302	TRPV5	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:441	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:3576	CXCL8	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:442	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:3383	ICAM1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:443	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:4313	MMP2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:444	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6401	SELE	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:445	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7311	UBA52	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:446	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:1435	CSF1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:447	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:3479	IGF1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:448	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:2308	FOXO1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:449	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:8743	TNFSF10	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:45	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:445643	Tacrolimus	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
+Asset:450	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:4314	MMP3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:451	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:25816	TNFAIP8	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:452	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:51330	TNFRSF12A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:453	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:355	FAS	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:454	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:9815	GIT2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:455	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:8811	GALR2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:456	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:55824	PAG1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:457	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6402	SELL	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:458	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:811	CALR	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:459	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:285	ANGPT2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:46	treats	Inferred	Autism	MONDO:0005260	PUBCHEM.COMPOUND:3121	Valproic acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/577			Sandrine Muller																						
+Asset:460	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:10010	TANK	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:461	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:1153	CIRBP	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:462	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:23705	CADM1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:463	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7132	TNFRSF1A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:464	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:51497	NELFCD	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:465	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:5806	PTX3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:466	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7128	TNFAIP3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:467	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:2597	GAPDH	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:468	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:1956	EGFR	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:469	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:9421	HAND1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:47	treats	Inferred	Autism	MONDO:0005260	MESH:D010575	Pesticides	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/575			Sandrine Muller																						
+Asset:470	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:6403	SELP	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:471	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:650	BMP2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:472	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:5428	POLG	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:473	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:22943	DKK1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:474	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7130	TNFAIP6	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:475	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:5094	PCBP2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:476	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:200186	CRTC2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:477	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:22861	NLRP1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:478	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:2919	CXCL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:479	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:9943	OXSR1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:48	treats	Inferred	Premature Menopause	MONDO:0001119	UMLS:C1874451	basis	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/567	Manual, SMurF		Sandrine Muller												block-list										
+Asset:480	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:3952	LEP	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:481	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:1585	CYP11B2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:482	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:2641	GCG	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:483	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7108	TM7SF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:484	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:7098	TLR3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:485	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:80150	ASRGL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:486	increases activity or abundance of	Inferred	Potassium ion	CHEBI:32589	NCBIGene:10488	CREB3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/740	Manual, SMurF		Sandrine Muller																						
+Asset:487	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:476	ATP1A1	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
+Asset:488	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:477	ATP1A2	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
+Asset:489	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:479	ATP12A	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
+Asset:49	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:4158	methylphenidate	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/562			Sandrine Muller																						
+Asset:490	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:480	ATP1A4	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
+Asset:491	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:478	ATP1A3	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
+Asset:492	increases activity or abundance of	Inferred	Acetylcholine	PUBCHEM.COMPOUND:187	UMLS:C0083536	NG-NITROARGININE METHYL ESTER	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/753	Manual, SMurF		Sandrine Muller																						
+Asset:493	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	Substance SID: 481101797  	pembrolizumab	1_TopAnswer				Sharat Israni																						
+Asset:494	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:5394	temozolomide	1_TopAnswer				Sharat Israni																						
+Asset:495	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:3121	valproic acid	1_TopAnswer				Sharat Israni																						
+Asset:496	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:11707110	trametinib	1_TopAnswer				Sharat Israni																						
+Asset:497	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:476	ATP1A1	4_NeverShow		Manual, SMurF		Sandrine Muller							Translator developer															
+Asset:498	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:477	ATP1A2	4_NeverShow		Manual, SMurF		Sandrine Muller							Translator developer															
+Asset:499	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:479	ATP12A	4_NeverShow		Manual, SMurF		Sandrine Muller							Translator developer															
+Asset:5	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:12358480	hexadrin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/490	Manual, SMurF		Sandrine Muller							clinical									chemical roles						
+Asset:50	treats	Inferred	Allergic Asthma	MONDO:0004784	MESH:D052638	particulate matter	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/561			Sandrine Muller																						
+Asset:500	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:480	ATP1A4	4_NeverShow		Manual, SMurF		Sandrine Muller							Translator developer															
+Asset:501	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:478	ATP1A3	4_NeverShow		Manual, SMurF		Sandrine Muller							Translator developer															
+Asset:502	treats	Inferred	COVID-19	MONDO:0100096	PUBCHEM.COMPOUND:121304016	Remdesivir	2_Acceptable		Manual, SMurF	No validation	Prateek Goel																						
+Asset:503	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	CHEMBL.TARGET:CHEMBL204	UNIPROTKB:P00734	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:504	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	CHEMBL.COMPOUND:CHEMBL2108110	Thrombin	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:505	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5345	SERPINF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/761	Manual, SMurF		Sandrine Muller																						
+Asset:506	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5594	MAPK1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:507	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2670	GFAP	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:508	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3725	JUN	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:509	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:27352	SGSM3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:51	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	PUBCHEM.COMPOUND:774	Histamine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/488			Sandrine Muller																						
+Asset:510	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6714	SRC	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:511	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6774	STAT3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:512	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2335	FN1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:513	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1956	EGFR	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:514	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4513	COX2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:515	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6010	RHO	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:516	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:468	ATF4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:517	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3596	IL13	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					DDX3Y
+Asset:518	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1385	CREB1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					ADRB2
+Asset:519	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1386	ATF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					ADRB2
+Asset:52	treats	Inferred	Hookworm Infectious Disease	MONDO:0005799	PUBCHEM.COMPOUND:4030	Mebendazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483			Sandrine Muller					Yes																	ADRB2
+Asset:520	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6387	CXCL12	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:521	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5604	MAP2K1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:522	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5743	PTGS2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:523	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3576	CXCL8	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:524	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:9402	GRAP2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					HBB
+Asset:525	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:8720	MBTPS1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					HBB
+Asset:526	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6646	SOAT1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:527	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3567	IL5	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:528	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3717	JACK2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					SLC5A2 (human)
+Asset:529	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:10891	PPARGC1A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:53	treats	Inferred	Hookworm Infectious Disease	MONDO:0005799	PUBCHEM.COMPOUND:708857	Pyrantel	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483			Sandrine Muller					Yes																	
+Asset:530	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4803	NGF	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:531	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:896	CCND3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:532	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:133522	PPARGC1B	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:533	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5328	PLAU	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:534	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1435	CSF1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:535	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:348	APOE	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:536	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1901	S1PR1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:537	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2475	MTOR	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:538	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3480	IGF1R	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:539	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2919	CXCL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:54	treats	Inferred	Hookworm Infectious Disease	MONDO:0005799	PUBCHEM.COMPOUND:5430	Thiabendazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/483			Sandrine Muller					Yes																	
+Asset:540	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:860	RUNX2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					VKORC1
+Asset:541	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7442	TRPV1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:542	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:29126	CD274	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:543	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2167	FABP4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:544	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7020	TFAP2A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:545	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2099	ESR1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:546	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1843	DUSP1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:547	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:947	CD34	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:548	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:595	CCND1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:549	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:894	CCND2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:55	treats	Inferred	Hookworm Infectious Disease	MONDO:0005799	PUBCHEM.COMPOUND:3037	Dichlorophen	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/483			Sandrine Muller																						
+Asset:550	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7316	UBC	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:551	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1437	CSF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:552	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:655	BMP7	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:553	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5553	PRG2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:554	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7314	UBB	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:555	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4155	MBP	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:556	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:23409	SIRT4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:557	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6233	RPS27A	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:558	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7311	UBA52	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:559	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3976	LIF	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:56	treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D002467	cell nucleus	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/597			Sandrine Muller												block-list										
+Asset:560	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:10875	FGL2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:561	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6772	STAT1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:562	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:285	ANGPT2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:563	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6590	SLPI	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:564	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:284	ANGPT1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:565	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:6382	SDC1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:566	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:2048	EPHB2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:567	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:10850	CCL27	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:568	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:100506658	OCLN	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:569	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4843	NOS2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:57	treats	Inferred	Alzheimer Disease	MONDO:0004975	UMLS:C0013227	Pharmaceutical preparations	4_NeverShow				Sandrine Muller												block-list										
+Asset:570	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:361	AQP4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:571	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4214	MAP3K1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:572	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3574	IL7	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:573	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:3661	IRF3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:574	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:998	CDC42	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:575	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:4170	MCL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:576	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:7108	TM7SF2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:577	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:26033	ATRNL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:578	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:891	CCNB1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:579	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:283	ANG	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:58	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:24847884	Omniscan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller												block-list										
+Asset:580	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:339345	NANOS2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:581	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:22926	ATF6	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:582	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:29072	SETD2	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:583	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:8408	ULK1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:584	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:55226	NAT10	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:585	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:80150	ASRGL1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:586	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:27295	PDLIM3	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:587	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:857	CAV1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:588	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:920	CD4	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:589	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5175	PCAM1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:59	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	UNII:1BJ477IO2L	Gadobutrol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller												block-list										
+Asset:590	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:1958	EGR1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:591	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:10133	OPTN	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:592	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:5534	PPP3R1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:593	decreases activity or abundance of	Inferred	Lepirudin	PUBCHEM.COMPOUND:118856773	NCBIGene:10928	RALBP1	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/762	Manual, SMurF		Sandrine Muller																	here the reasoning path is wrong					
+Asset:594	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	NCBIGene:2147	F2	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/764	Manual, SMurF		Sandrine Muller																						
+Asset:595	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	UMLS:C0040018	Thrombin	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/764	Manual, SMurF		Sandrine Muller																						
+Asset:596	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	CHEMBL.TARGET:CHEMBL204	UNIPROTKB:P00734	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/764	Manual, SMurF		Sandrine Muller																						
+Asset:597	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	NCBIGene:4353	MPO	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/767	Manual, SMurF		Sandrine Muller																						
+Asset:598	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	PR:000010543	MYELOPEROXIDASE	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/767	Manual, SMurF		Sandrine Muller																						
+Asset:599	decreases activity or abundance of	Inferred	Bivalirudin	PUBCHEM.COMPOUND:16129704	CHEMBL.TARGET:CHEMBL2439	MPO PROTEIN, HUMAN	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/767	Manual, SMurF		Sandrine Muller																						
+Asset:6	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	busulfan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/490	Manual, SMurF		Sandrine Muller							clinical									chemical roles						
+Asset:60	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:73415823	Gadopentetate dimeglumine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller												block-list										
+Asset:601	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:843632	pS2	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:602	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:1956	EGFR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:603	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:1509	CTSD	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:604	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:43951	ER	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:605	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:35292	PR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:606	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:41957	AKT	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:607	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:2852	GPER-1	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:608	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D054328	Proton pump inhibitors	2_Acceptable				Jennifer Hadlock							MD															
+Asset:609	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEMBL.COMPOUND:CHEMBL2108744	sodium alginate	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:610	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:121494085	sucralfate	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:611	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:10112	calcium carbonate	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:612	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:6336693	aluminum hydroxide	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:613	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:73981	magnesium hydroxide	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:614	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:4975	famotidine	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:615	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:7601	nizatidine	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:616	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:3699	cimetidine	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:617	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:8776	ranitidine	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:618	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:7772	omeprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:619	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:6375	lansoprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:62	treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:6758	Rotenone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/505			Sandrine Muller							clinical															
+Asset:620	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:50275	esomeprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:621	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:7915	pantoprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:622	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:135931	dexlansoprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:623	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:8768	rabeprazole	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:624	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:49668	gefitinib	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:625	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	UNII:6A901E312A	panitumumab	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:626	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MONDO:0018958	nemaline	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:627	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MONDO:0018958	nemaline	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
+Asset:628	treats	Inferred	Creutzfeldt Jacob Disease	MONDO:0005357	MESH:D000911	Antibodies, Monoclonal	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF	SME	Jared Roach																						
+Asset:629	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEMBL.COMPOUND:CHEMBL3545346	Azd2516	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
+Asset:630	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:9823762	revexepride	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
+Asset:63	treats	Inferred	Gaucher Disease type1	MONDO:0009265	PUBCHEM.COMPOUND:23652731	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller							clinical															
+Asset:631	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:107736	metoclopramide	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
+Asset:632	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:15365	aspirin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
+Asset:633	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:15347	acetone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
+Asset:64	treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:Q6U6J48BWY	Imiglucerase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:65	treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:0R4NLX88O4	Taliglucerase alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:66	treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEMBL.COMPOUND:CHEMBL1201865	Velaglucerase-alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:67	treats	Inferred	Gaucher Disease type1	MONDO:0009265	PUBCHEM.COMPOUND:51634	Miglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:68	treats	Inferred	Obstructive Sleep Apnea	MONDO:0007147	MESH:D053260	Soot	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/494			Jared Roach							clinical															
+Asset:69	treats	Inferred	Obstructive Sleep Apnea	MONDO:0007147	MESH:D053260	Soot	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller, Jared Roach							mechanistic															
+Asset:7	treats	Inferred	Castleman Disease	MONDO:0015564	MESH:D001335	Vehicle Emissions	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/480			Sandrine Muller							clinical					block-list				chemical roles						
+Asset:70	treats	Inferred	Niemann-Pick type C	MONDO:0018982	PUBCHEM.COMPOUND:51634	Miglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:71	treats	Inferred	Homozygous Familial Hypercholesterolemia	MONDO:0018328	PUBCHEM.COMPOUND:446157	Rosuvastatin	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																	This may be a feature issue for UI - and separate case: expected answer is that you can't choose those option for may treats. Second is do we restrict this from being enter at the API level? If not, is this a high pri test case?					
+Asset:72	treats	Inferred	Homozygous Familial Hypercholesterolemia	MONDO:0018328	PUBCHEM.COMPOUND:9853053	Lomitapide	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:73	treats	Inferred	Homozygous Familial Hypercholesterolemia	MONDO:0018328	UNII:9GJ8S4GU0M	Mipomersen	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:74	treats	Inferred	Homozygous Familial Hypercholesterolemia	MONDO:0018328	UNII:LKC0U3A8NJ	Evolocumab	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller																						
+Asset:76	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:216416	lasofoxifene	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/489	Manual, SMurF		Sandrine Muller																						
+Asset:77	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	busulfan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/608	Manual, SMurF		Sandrine Muller																						
+Asset:78	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:5757	estradiol	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:79	treats	Inferred	Premature Menopause	MONDO:0001119	MESH:D011372	progestin	1_TopAnswer		Manual, SMurF		Sandrine Muller																						
+Asset:8	treats	Inferred	Multiple Sclerosis	MONDO:0005301	PUBCHEM.COMPOUND:107970	fingolimod	1_TopAnswer				Jennifer Hadlock							look-up															
+Asset:80	treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:5291	Imatinib	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/486			Sandrine Muller																						
+Asset:81	treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:216239	Sorafenib	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/486			Sandrine Muller																						
+Asset:82	treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:1140	Toluene	4_NeverShow				Sandrine Muller												block-list										
+Asset:83	treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow				Sandrine Muller												block-list										
+Asset:84	treats	Inferred	Exfoliative Dermatitis	MONDO:0043233	PUBCHEM.COMPOUND:3036	Clofenotane	4_NeverShow				Sandrine Muller												block-list										
+Asset:85	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	PUBCHEM.COMPOUND:3672	ibuprofen	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479			Sandrine Muller																						
+Asset:86	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	NCIT:C163032	botulinum toxin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479			Sandrine Muller																						
+Asset:87	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	NCIT:C61727	dinoprostone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479			Sandrine Muller																						
+Asset:88	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	CHEBI:17823	calcitriol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479			Sandrine Muller																						
+Asset:89	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	PUBCHEM.COMPOUND:5280793	ergocalciferol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/479			Sandrine Muller																						
+Asset:9	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D000069442	natalizumab	1_TopAnswer				Jennifer Hadlock							look-up															
+Asset:90	treats	Inferred	Heart Disorder	MONDO:0005267	CHEBI:80160	fibrinogen	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/477			Sandrine Muller																						
+Asset:91	treats	Inferred	Aggressive Systemic Mastocytosis	MONDO:0020333	PUBCHEM.COMPOUND:1727	4-Aminopyridine	4_NeverShow				Sandrine Muller												block-list										
+Asset:92	treats	Inferred	familial pityriasis rubra pilaris	MONDO:0008251	PUBCHEM.COMPOUND:445354	retinol	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/473			Sandrine Muller																						
+Asset:93	treats	Inferred	Rabies	MONDO:0019173	CHEBI:16811	methionine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/463			Sandrine Muller																						
+Asset:94	treats	Inferred	Rabies	MONDO:0019173	CHEBI:3478	cefaclor	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/463			Sandrine Muller																						
+Asset:95	treats	Inferred	familial pityriasis rubra pilaris	MONDO:0008251	MESH:D000438	Alcohols	4_NeverShow				Sandrine Muller												block-list										
+Asset:96	treats	Inferred	Xeroderma Pigmentosum	MONDO:0019600	CHEBI:22977  	cadmium	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/465	Manual, SMurF		Sandrine Muller												block-list										
+Asset:97	treats	Inferred	Xeroderma Pigmentosum	MONDO:0019600	CHEBI:25195	mercury	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/465	Manual, SMurF		Sandrine Muller												block-list										
+Asset:98	treats	Inferred	Multiple Sclerosis	MONDO:0005301	MESH:D014612	vaccines	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/431			Sandrine Muller												block-list										
+Asset:99	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	CHEBI:2567	alendronic acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/428			Sandrine Muller																						
+Asset:634	decreases activity or abundance of	Inferred	Nirmatrelvir	CHEBI:170007	NCBIGene:1576	CYP3A4	2_Acceptable																										
+Asset:635	increases activity or abundance of 	Inferred	Semaglutide	CHEBI:167574	NCBIGene:2740	GLP1R	1_TopAnswer																										
+Asset:636	increases activity or abundance of 	Inferred	Semaglutide	CHEBI:167574	CHEBI:5931	Insulin	2_Acceptable																										
+Asset:637	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:948	CD36	1_TopAnswer																										
+Asset:638	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:2171	FABP5	1_TopAnswer																										
+Asset:639	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:2180	ACSL	2_Acceptable																										
+Asset:640	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:8310	ACOX3	2_Acceptable																										
+Asset:641	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:123	PLIN2	2_Acceptable																										
+Asset:642	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:51129	ANGPTL4	2_Acceptable																										
+Asset:643	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:11343	MGLL	2_Acceptable																										
+Asset:644	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:364	AQP7	2_Acceptable																										
+Asset:645	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:5166	PDK4	2_Acceptable																										
+Asset:646	decreases activity or abundance of	Inferred	Semaglutide	CHEBI:167574	NCBIGene:4023	LPL	2_Acceptable																										
+Asset:647	decreases activity or abundance of	Inferred	Mifepristone	CHEBI:50692	NCBIGene:355	FAS	2_Acceptable																										
+Asset:648	decreases activity or abundance of	Inferred	Mifepristone	CHEBI:50692	NCBIGene:14103	FASL	2_Acceptable																										
+Asset:649	decreases activity or abundance of	Inferred	Mifepristone	CHEBI:50692	GTOPDB:1160	HCG	2_Acceptable																										
+Asset:650	decreases activity or abundance of	Inferred	Thalidomide	CHEBI:74947	NCBIGene:57167	SALL4	2_Acceptable																										
+Asset:651	decreases activity or abundance of	Inferred	Thalidomide	CHEBI:74947	NCBIGene:5004	ORM1	2_Acceptable																										
+Asset:652	decreases activity or abundance of	Inferred	Thalidomide	CHEBI:74947	NCBIGene:5005	ORM2	2_Acceptable																										
+Asset:653	increases activity or abundance of 	Inferred	Glyphosate	CHEBI:27744	NCBIGene:89780	Wnt3a	2_Acceptable																										
+Asset:654	increases activity or abundance of 	Inferred	Glyphosate	CHEBI:27744	NCBIGene:7474	Wnt5a	2_Acceptable																										
+Asset:655	increases activity or abundance of 	Inferred	Glyphosate	CHEBI:27744	NCBIGene:7476	Wnt7a	2_Acceptable																										
+Asset:656	increases activity or abundance of 	Inferred	Glyphosate	CHEBI:27744	NCBIGene:815	CAMK2A	2_Acceptable																										
+Asset:657	increases activity or abundance of 	Inferred	Glyphosate	CHEBI:27744	NCBIGene:816	CAMK2B	2_Acceptable																										
+Asset:658	decreases activity or abundance of	Inferred	Glyphosate	CHEBI:27744	NCBIGene:2596	GAP43	2_Acceptable																										
+Asset:659	decreases activity or abundance of	Inferred	Glyphosate	CHEBI:27744	NCBIGene:10381	TUBB3	2_Acceptable																										
+Asset:660	decreases activity or abundance of	Inferred	BPIFA1	NCBIGene:51297	CHEBI:16482	Naphthalene	2_Acceptable																										
+Asset:661	increases activity or abundance of 	Inferred	clofibric acid	CHEBI:34648	NCBIGene:5465	PPARA	1_TopAnswer																										
+Asset:662	increases activity or abundance of 	Inferred	permethrin	CHEBI:34911	NCBIGene:5465	PPARA	1_TopAnswer																										
+Asset:663	increases activity or abundance of 	Inferred	Augmentin (amoxicillin and clavulanate) - clavulanate (CHEBI:2676)	RXCUI:151392	NCBIGene:471948	HLA Class I (NCBIGene:471948)	2_Acceptable																										
+Asset:664	increases activity or abundance of 	Inferred	Augmentin (amoxicillin and clavulanate) - clavulanata (NCBIGene:2676)	RXCUI:151392	NCBIGene:100495492	HLA Class II	2_Acceptable																										
+Asset:665	decreases activity or abundance of	Inferred	KRAS	NCBIGene:3845	PUBCHEM.COMPOUND:156124857	KRASG12D inhibitor MRTX1133	1_TopAnswer																										
+Asset:666	increases activity or abundance of	Inferred	DLG4 (human)	NCBIGene:1742	CHEBI:5558	Guanfacine	2_Acceptable																										
+Asset:667	increases activity or abundance of	Inferred	Guafacine	CHEBI:5558	NCBIGene:150	ADRA2A	2_Acceptable																										
