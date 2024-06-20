@@ -1,7 +1,7 @@
 {
     "id": "TestCase_29",
-    "name": "what treats MONDO:0009061",
-    "description": "TopAnswer: Ivacaftor treats Cystic fibrosis; Acceptable: AZD9668 treats Cystic fibrosis; NeverShow: Itraconazole treats Cystic fibrosis",
+    "name": "what treats MONDO:0018958",
+    "description": "Acceptable: Tyrosine treats Nemaline myopathy; Acceptable: Melphalan treats Nemaline myopathy; NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy; Acceptable: Thalidimide treats Nemaline myopathy",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,69 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_318",
-            "name": "TopAnswer: Ivacaftor treats Cystic fibrosis",
-            "description": "TopAnswer: Ivacaftor treats Cystic fibrosis",
+            "id": "Asset_174",
+            "name": "Acceptable: Tyrosine treats Nemaline myopathy",
+            "description": "Acceptable: Tyrosine treats Nemaline myopathy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0009061",
-            "input_name": "Cystic fibrosis",
+            "input_id": "MONDO:0018958",
+            "input_name": "Nemaline myopathy",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:16220172",
-            "output_name": "Ivacaftor",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_319",
-            "name": "Acceptable: AZD9668 treats Cystic fibrosis",
-            "description": "Acceptable: AZD9668 treats Cystic fibrosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0009061",
-            "input_name": "Cystic fibrosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C3489797",
-            "output_name": "AZD9668",
+            "output_id": "PUBCHEM.COMPOUND:6057",
+            "output_name": "Tyrosine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -107,20 +58,69 @@
             }
         },
         {
-            "id": "Asset_320",
-            "name": "NeverShow: Itraconazole treats Cystic fibrosis",
-            "description": "NeverShow: Itraconazole treats Cystic fibrosis",
+            "id": "Asset_175",
+            "name": "Acceptable: Melphalan treats Nemaline myopathy",
+            "description": "Acceptable: Melphalan treats Nemaline myopathy",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0009061",
-            "input_name": "Cystic fibrosis",
+            "input_id": "MONDO:0018958",
+            "input_name": "Nemaline myopathy",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:55283",
-            "output_name": "Itraconazole",
+            "output_id": "PUBCHEM.COMPOUND:460612",
+            "output_name": "Melphalan",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_176",
+            "name": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
+            "description": "NeverShow: 2,3,7,8-tetrachlorodibenzo-p-dioxin treats Nemaline myopathy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018958",
+            "input_name": "Nemaline myopathy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:15625",
+            "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -154,6 +154,55 @@
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
+        },
+        {
+            "id": "Asset_177",
+            "name": "Acceptable: Thalidimide treats Nemaline myopathy",
+            "description": "Acceptable: Thalidimide treats Nemaline myopathy",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018958",
+            "input_name": "Nemaline myopathy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5426",
+            "output_name": "Thalidimide",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
         }
     ],
     "preconditions": [],
@@ -162,7 +211,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0009061",
+    "test_case_input_id": "MONDO:0018958",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

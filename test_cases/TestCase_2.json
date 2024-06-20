@@ -1,7 +1,7 @@
 {
     "id": "TestCase_2",
-    "name": "what treats MONDO:0005301",
-    "description": "NeverShow: lead treats Multiple Sclerosis; NeverShow: Covid-19 vaccines treats Multiple Sclerosis; NeverShow: Influenza vaccines treats Multiple Sclerosis; NeverShow: Metric treats Multiple Sclerosis; NeverShow: Agonists treats Multiple Sclerosis; NeverShow: Therapeutic agent treats Multiple Sclerosis; NeverShow: Vitamin supplementation treats Multiple Sclerosis; NeverShow: Anti-inflammatory agents treats Multiple Sclerosis; NeverShow: Adjuvants, immunologic treats Multiple Sclerosis; NeverShow: Antibodies treats Multiple Sclerosis; NeverShow: Anti-anxiety agents treats Multiple Sclerosis; NeverShow: Antibodies, monoclonal treats Multiple Sclerosis; NeverShow: Biological products treats Multiple Sclerosis; BadButForgivable: Neuroprotective agents treats Multiple Sclerosis; NeverShow: Antibiotics treats Multiple Sclerosis; NeverShow: basis treats Multiple Sclerosis; Acceptable: Anticholinergic agents treats Multiple Sclerosis; NeverShow: Analgesics treats Multiple Sclerosis; NeverShow: Mercury treats Multiple Sclerosis; NeverShow: Fatty acids treats Multiple Sclerosis; NeverShow: Plant extracts treats Multiple Sclerosis; NeverShow: Drugs, chinese herbal treats Multiple Sclerosis; NeverShow: Carbon treats Multiple Sclerosis; NeverShow: Water treats Multiple Sclerosis; TopAnswer: fingolimod treats Multiple Sclerosis; TopAnswer: natalizumab treats Multiple Sclerosis; NeverShow: vaccines treats Multiple Sclerosis",
+    "name": "what treats MONDO:0001119",
+    "description": "NeverShow: hexadrin treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; NeverShow: basis treats Premature Menopause; NeverShow: lasofoxifene treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_10",
-            "name": "NeverShow: lead treats Multiple Sclerosis",
-            "description": "NeverShow: lead treats Multiple Sclerosis",
+            "id": "Asset_5",
+            "name": "NeverShow: hexadrin treats Premature Menopause",
+            "description": "NeverShow: hexadrin treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5352425",
-            "output_name": "lead",
+            "output_id": "PUBCHEM.COMPOUND:12358480",
+            "output_name": "hexadrin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_100",
-            "name": "NeverShow: Covid-19 vaccines treats Multiple Sclerosis",
-            "description": "NeverShow: Covid-19 vaccines treats Multiple Sclerosis",
+            "id": "Asset_6",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C5387588",
-            "output_name": "Covid-19 vaccines",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,658 +101,21 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_101",
-            "name": "NeverShow: Influenza vaccines treats Multiple Sclerosis",
-            "description": "NeverShow: Influenza vaccines treats Multiple Sclerosis",
+            "id": "Asset_48",
+            "name": "NeverShow: basis treats Premature Menopause",
+            "description": "NeverShow: basis treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEMBL:2109042",
-            "output_name": "Influenza vaccines",
-            "output_category": null,
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_103",
-            "name": "NeverShow: Metric treats Multiple Sclerosis",
-            "description": "NeverShow: Metric treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0699680",
-            "output_name": "Metric",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_104",
-            "name": "NeverShow: Agonists treats Multiple Sclerosis",
-            "description": "NeverShow: Agonists treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0243192",
-            "output_name": "Agonists",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_105",
-            "name": "NeverShow: Therapeutic agent treats Multiple Sclerosis",
-            "description": "NeverShow: Therapeutic agent treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C1611640",
-            "output_name": "Therapeutic agent",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_106",
-            "name": "NeverShow: Vitamin supplementation treats Multiple Sclerosis",
-            "description": "NeverShow: Vitamin supplementation treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0302837",
-            "output_name": "Vitamin supplementation",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_107",
-            "name": "NeverShow: Anti-inflammatory agents treats Multiple Sclerosis",
-            "description": "NeverShow: Anti-inflammatory agents treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0003209",
-            "output_name": "Anti-inflammatory agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_108",
-            "name": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
-            "description": "NeverShow: Adjuvants, immunologic treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D000276",
-            "output_name": "Adjuvants, immunologic",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_109",
-            "name": "NeverShow: Antibodies treats Multiple Sclerosis",
-            "description": "NeverShow: Antibodies treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D000906",
-            "output_name": "Antibodies",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_110",
-            "name": "NeverShow: Anti-anxiety agents treats Multiple Sclerosis",
-            "description": "NeverShow: Anti-anxiety agents treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0040616",
-            "output_name": "Anti-anxiety agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_111",
-            "name": "NeverShow: Antibodies, monoclonal treats Multiple Sclerosis",
-            "description": "NeverShow: Antibodies, monoclonal treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D000911",
-            "output_name": "Antibodies, monoclonal",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_112",
-            "name": "NeverShow: Biological products treats Multiple Sclerosis",
-            "description": "NeverShow: Biological products treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0005522",
-            "output_name": "Biological products",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_113",
-            "name": "BadButForgivable: Neuroprotective agents treats Multiple Sclerosis",
-            "description": "BadButForgivable: Neuroprotective agents treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0242912",
-            "output_name": "Neuroprotective agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "BadButForgivable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_114",
-            "name": "NeverShow: Antibiotics treats Multiple Sclerosis",
-            "description": "NeverShow: Antibiotics treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C0003232",
-            "output_name": "Antibiotics",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_115",
-            "name": "NeverShow: basis treats Multiple Sclerosis",
-            "description": "NeverShow: basis treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -787,75 +150,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_116",
-            "name": "Acceptable: Anticholinergic agents treats Multiple Sclerosis",
-            "description": "Acceptable: Anticholinergic agents treats Multiple Sclerosis",
+            "id": "Asset_76",
+            "name": "NeverShow: lasofoxifene treats Premature Menopause",
+            "description": "NeverShow: lasofoxifene treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C0242896",
-            "output_name": "Anticholinergic agents",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_117",
-            "name": "NeverShow: Analgesics treats Multiple Sclerosis",
-            "description": "NeverShow: Analgesics treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D000700",
-            "output_name": "Analgesics",
+            "output_id": "PUBCHEM.COMPOUND:216416",
+            "output_name": "lasofoxifene",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -885,26 +199,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_118",
-            "name": "NeverShow: Mercury treats Multiple Sclerosis",
-            "description": "NeverShow: Mercury treats Multiple Sclerosis",
+            "id": "Asset_77",
+            "name": "NeverShow: busulfan treats Premature Menopause",
+            "description": "NeverShow: busulfan treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:23931",
-            "output_name": "Mercury",
+            "output_id": "PUBCHEM.COMPOUND:2478",
+            "output_name": "busulfan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -934,271 +248,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_119",
-            "name": "NeverShow: Fatty acids treats Multiple Sclerosis",
-            "description": "NeverShow: Fatty acids treats Multiple Sclerosis",
+            "id": "Asset_78",
+            "name": "TopAnswer: estradiol treats Premature Menopause",
+            "description": "TopAnswer: estradiol treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D005227",
-            "output_name": "Fatty acids",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_120",
-            "name": "NeverShow: Plant extracts treats Multiple Sclerosis",
-            "description": "NeverShow: Plant extracts treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D010936",
-            "output_name": "Plant extracts",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_121",
-            "name": "NeverShow: Drugs, chinese herbal treats Multiple Sclerosis",
-            "description": "NeverShow: Drugs, chinese herbal treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D004365",
-            "output_name": "Drugs, chinese herbal",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_122",
-            "name": "NeverShow: Carbon treats Multiple Sclerosis",
-            "description": "NeverShow: Carbon treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5462310",
-            "output_name": "Carbon",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_123",
-            "name": "NeverShow: Water treats Multiple Sclerosis",
-            "description": "NeverShow: Water treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:962",
-            "output_name": "Water",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_8",
-            "name": "TopAnswer: fingolimod treats Multiple Sclerosis",
-            "description": "TopAnswer: fingolimod treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:107970",
-            "output_name": "fingolimod",
+            "output_id": "PUBCHEM.COMPOUND:5757",
+            "output_name": "estradiol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -1234,20 +303,20 @@
             }
         },
         {
-            "id": "Asset_9",
-            "name": "TopAnswer: natalizumab treats Multiple Sclerosis",
-            "description": "TopAnswer: natalizumab treats Multiple Sclerosis",
+            "id": "Asset_79",
+            "name": "TopAnswer: progestin treats Premature Menopause",
+            "description": "TopAnswer: progestin treats Premature Menopause",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
+            "input_id": "MONDO:0001119",
+            "input_name": "Premature Menopause",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D000069442",
-            "output_name": "natalizumab",
+            "output_id": "MESH:D011372",
+            "output_name": "progestin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -1278,55 +347,6 @@
                 "test_runner_settings": [],
                 "test_source": "SMURF",
                 "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_98",
-            "name": "NeverShow: vaccines treats Multiple Sclerosis",
-            "description": "NeverShow: vaccines treats Multiple Sclerosis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005301",
-            "input_name": "Multiple Sclerosis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D014612",
-            "output_name": "vaccines",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/431",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -1338,7 +358,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005301",
+    "test_case_input_id": "MONDO:0001119",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

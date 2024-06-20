@@ -1,7 +1,7 @@
 {
     "id": "TestCase_68",
-    "name": "what treats MONDO:0005267",
-    "description": "NeverShow: fibrinogen treats Heart Disorder",
+    "name": "what treats MONDO:0100096",
+    "description": "Acceptable: Remdesivir treats COVID-19",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_90",
-            "name": "NeverShow: fibrinogen treats Heart Disorder",
-            "description": "NeverShow: fibrinogen treats Heart Disorder",
+            "id": "Asset_502",
+            "name": "Acceptable: Remdesivir treats COVID-19",
+            "description": "Acceptable: Remdesivir treats COVID-19",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005267",
-            "input_name": "Heart Disorder",
+            "input_id": "MONDO:0100096",
+            "input_name": "COVID-19",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:80160",
-            "output_name": "fibrinogen",
+            "output_id": "PUBCHEM.COMPOUND:121304016",
+            "output_name": "Remdesivir",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -39,7 +39,7 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,7 +52,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -64,7 +64,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005267",
+    "test_case_input_id": "MONDO:0100096",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

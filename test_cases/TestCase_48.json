@@ -1,7 +1,7 @@
 {
     "id": "TestCase_48",
-    "name": "what treats MONDO:0009290",
-    "description": "TopAnswer: Alglucosidase Alfa treats Glycogen Storage Disease Ii",
+    "name": "what treats MONDO:0011705",
+    "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis; Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis; NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_403",
-            "name": "TopAnswer: Alglucosidase Alfa treats Glycogen Storage Disease Ii",
-            "description": "TopAnswer: Alglucosidase Alfa treats Glycogen Storage Disease Ii",
+            "id": "Asset_327",
+            "name": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
+            "description": "TopAnswer: Sirolimus treats Lymphangioleiomyomatosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0009290",
-            "input_name": "Glycogen Storage Disease Ii",
+            "input_id": "MONDO:0011705",
+            "input_name": "Lymphangioleiomyomatosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:DTI67O9503",
-            "output_name": "Alglucosidase Alfa",
+            "output_id": "PUBCHEM.COMPOUND:5284616",
+            "output_name": "Sirolimus",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,7 +52,105 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_328",
+            "name": "Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis",
+            "description": "Acceptable: Ridaforolimus treats Lymphangioleiomyomatosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0011705",
+            "input_name": "Lymphangioleiomyomatosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:11520894",
+            "output_name": "Ridaforolimus",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_329",
+            "name": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+            "description": "NeverShow: ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol) treats Lymphangioleiomyomatosis",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0011705",
+            "input_name": "Lymphangioleiomyomatosis",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0116660",
+            "output_name": "ESTROSTEP Fe (Norethindrone Acetate and Ethinyl Estradiol)",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -64,7 +162,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0009290",
+    "test_case_input_id": "MONDO:0011705",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

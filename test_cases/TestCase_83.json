@@ -1,0 +1,137 @@
+{
+    "id": "TestCase_83",
+    "name": "what affects RXCUI:151392",
+    "description": "Acceptable: HLA Class I (NCBIGene:471948) increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanate (CHEBI:2676); Acceptable: HLA Class II increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanata (NCBIGene:2676)",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_663",
+            "name": "Acceptable: HLA Class I (NCBIGene:471948) increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanate (CHEBI:2676)",
+            "description": "Acceptable: HLA Class I (NCBIGene:471948) increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanate (CHEBI:2676)",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "RXCUI:151392",
+            "input_name": "Augmentin (amoxicillin and clavulanate) - clavulanate (CHEBI:2676)",
+            "input_category": null,
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:471948",
+            "output_name": "HLA Class I (NCBIGene:471948)",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "increased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_664",
+            "name": "Acceptable: HLA Class II increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanata (NCBIGene:2676)",
+            "description": "Acceptable: HLA Class II increases activity or abundance of Augmentin (amoxicillin and clavulanate) - clavulanata (NCBIGene:2676)",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "RXCUI:151392",
+            "input_name": "Augmentin (amoxicillin and clavulanate) - clavulanata (NCBIGene:2676)",
+            "input_category": null,
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:100495492",
+            "output_name": "HLA Class II",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "increased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "RXCUI:151392",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "input_category": null,
+    "output_category": "biolink:Gene",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
+}

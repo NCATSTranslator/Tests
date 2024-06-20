@@ -1,7 +1,7 @@
 {
     "id": "TestCase_31",
-    "name": "what treats MONDO:0018956",
-    "description": "Acceptable: Azithromycin treats Idiopathic bronchiectasis; Acceptable: Erythromycin treats Idiopathic bronchiectasis; NeverShow: Propranolol treats Idiopathic bronchiectasis",
+    "name": "what treats MONDO:0005393",
+    "description": "Acceptable: Pegloticase treats Gout; Acceptable: Prednisone treats Gout",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,21 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_321",
-            "name": "Acceptable: Azithromycin treats Idiopathic bronchiectasis",
-            "description": "Acceptable: Azithromycin treats Idiopathic bronchiectasis",
+            "id": "Asset_180",
+            "name": "Acceptable: Pegloticase treats Gout",
+            "description": "Acceptable: Pegloticase treats Gout",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
+            "input_id": "MONDO:0005393",
+            "input_name": "Gout",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:447043",
-            "output_name": "Azithromycin",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "UNNI:R581OT55EA",
+            "output_name": "Pegloticase",
+            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -58,20 +58,20 @@
             }
         },
         {
-            "id": "Asset_322",
-            "name": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
-            "description": "Acceptable: Erythromycin treats Idiopathic bronchiectasis",
+            "id": "Asset_181",
+            "name": "Acceptable: Prednisone treats Gout",
+            "description": "Acceptable: Prednisone treats Gout",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
+            "input_id": "MONDO:0005393",
+            "input_name": "Gout",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:12560",
-            "output_name": "Erythromycin",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "Prednisone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -89,55 +89,6 @@
                 }
             ],
             "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_323",
-            "name": "NeverShow: Propranolol treats Idiopathic bronchiectasis",
-            "description": "NeverShow: Propranolol treats Idiopathic bronchiectasis",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018956",
-            "input_name": "Idiopathic bronchiectasis",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4946",
-            "output_name": "Propranolol",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -162,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018956",
+    "test_case_input_id": "MONDO:0005393",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
