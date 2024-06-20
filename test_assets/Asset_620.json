@@ -1,0 +1,49 @@
+{
+    "id": "Asset_620",
+    "name": "TopAnswer: esomeprazole treats Gastroesophageal Reflux Disease",
+    "description": "TopAnswer: esomeprazole treats Gastroesophageal Reflux Disease",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0007186",
+    "input_name": "Gastroesophageal Reflux Disease",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "CHEBI:50275",
+    "output_name": "esomeprazole",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/772",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

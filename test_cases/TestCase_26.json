@@ -1,7 +1,7 @@
 {
     "id": "TestCase_26",
-    "name": "what affects NCBIGene:1080",
-    "description": "Acceptable: Ivacaftor increases activity or abundance of CFTR (human)",
+    "name": "what treats MONDO:0004758",
+    "description": "NeverShow: prednisone treats scotoma; NeverShow: vigabatrin treats scotoma",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,37 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_313",
-            "name": "Acceptable: Ivacaftor increases activity or abundance of CFTR (human)",
-            "description": "Acceptable: Ivacaftor increases activity or abundance of CFTR (human)",
+            "id": "Asset_140",
+            "name": "NeverShow: prednisone treats scotoma",
+            "description": "NeverShow: prednisone treats scotoma",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1080",
-            "input_name": "CFTR (human)",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:16220172",
-            "output_name": "Ivacaftor",
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5865",
+            "output_name": "prednisone",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,7 +52,56 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_141",
+            "name": "NeverShow: vigabatrin treats scotoma",
+            "description": "NeverShow: vigabatrin treats scotoma",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0004758",
+            "input_name": "scotoma",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:5665",
+            "output_name": "vigabatrin",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/362",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -62,24 +111,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:1080",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0004758",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "increased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:Gene",
+    "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

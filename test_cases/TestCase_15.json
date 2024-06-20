@@ -1,7 +1,7 @@
 {
     "id": "TestCase_15",
-    "name": "what treats MONDO:0005015",
-    "description": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus; TopAnswer: Metformin treats Diabetes Mellitus; TopAnswer: Insulin human treats Diabetes Mellitus; TopAnswer: Insulin detremir treats Diabetes Mellitus",
+    "name": "what treats MONDO:0018328",
+    "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia; TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia; TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia; TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,69 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_184",
-            "name": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus",
-            "description": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus",
+            "id": "Asset_71",
+            "name": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Rosuvastatin treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005015",
-            "input_name": "Diabetes Mellitus",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C0013227",
-            "output_name": "Pharmaceutical preparations",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "OverlyGeneric",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_185",
-            "name": "TopAnswer: Metformin treats Diabetes Mellitus",
-            "description": "TopAnswer: Metformin treats Diabetes Mellitus",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005015",
-            "input_name": "Diabetes Mellitus",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4091",
-            "output_name": "Metformin",
+            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_186",
-            "name": "TopAnswer: Insulin human treats Diabetes Mellitus",
-            "description": "TopAnswer: Insulin human treats Diabetes Mellitus",
+            "id": "Asset_72",
+            "name": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Lomitapide treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005015",
-            "input_name": "Diabetes Mellitus",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:1Y17CTI5SR",
-            "output_name": "Insulin human",
+            "output_id": "PUBCHEM.COMPOUND:9853053",
+            "output_name": "Lomitapide",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -150,26 +101,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_187",
-            "name": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
-            "description": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
+            "id": "Asset_73",
+            "name": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Mipomersen treats Homozygous Familial Hypercholesterolemia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005015",
-            "input_name": "Diabetes Mellitus",
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:16137271",
-            "output_name": "Insulin detremir",
+            "output_id": "UNII:9GJ8S4GU0M",
+            "output_name": "Mipomersen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -199,7 +150,56 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_74",
+            "name": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "description": "TopAnswer: Evolocumab treats Homozygous Familial Hypercholesterolemia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018328",
+            "input_name": "Homozygous Familial Hypercholesterolemia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UNII:LKC0U3A8NJ",
+            "output_name": "Evolocumab",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -211,7 +211,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005015",
+    "test_case_input_id": "MONDO:0018328",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

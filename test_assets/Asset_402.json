@@ -11,9 +11,9 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "RXCUI:1094837",
+    "output_id": "UNII:6T8C155666",
     "output_name": "Ipilimumab (Yervoy)",
-    "output_category": null,
+    "output_category": "biolink:ChemicalEntity",
     "association": null,
     "qualifiers": [
         {

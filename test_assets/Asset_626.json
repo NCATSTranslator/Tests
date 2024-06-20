@@ -1,0 +1,49 @@
+{
+    "id": "Asset_626",
+    "name": "NeverShow: nemaline treats Gastroesophageal Reflux Disease",
+    "description": "NeverShow: nemaline treats Gastroesophageal Reflux Disease",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0007186",
+    "input_name": "Gastroesophageal Reflux Disease",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "MONDO:0018958",
+    "output_name": "nemaline",
+    "output_category": "biolink:Disease",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "NeverShow",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/772",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

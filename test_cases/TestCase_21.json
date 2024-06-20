@@ -1,7 +1,7 @@
 {
     "id": "TestCase_21",
-    "name": "what affects NCBIGene:154",
-    "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2; NeverShow: Propranalol increases activity or abundance of ADRB2; TopAnswer: salmeterol increases activity or abundance of ADRB2; TopAnswer: formoterol increases activity or abundance of ADRB2; TopAnswer: terbutaline increases activity or abundance of ADRB2; TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+    "name": "what treats MONDO:0018911",
+    "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young; NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young; NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young; NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young; NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young; NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young; NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,37 +9,37 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_307",
-            "name": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
-            "description": "TopAnswer: Albuterol increases activity or abundance of ADRB2",
+            "id": "Asset_124",
+            "name": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2083",
-            "output_name": "Albuterol",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D011972",
+            "output_name": "Receptor, insulin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -52,40 +52,40 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_308",
-            "name": "NeverShow: Propranalol increases activity or abundance of ADRB2",
-            "description": "NeverShow: Propranalol increases activity or abundance of ADRB2",
+            "id": "Asset_125",
+            "name": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:4946",
-            "output_name": "Propranalol",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D001323",
+            "output_name": "Autoantibodies",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -107,37 +107,37 @@
             }
         },
         {
-            "id": "Asset_386",
-            "name": "TopAnswer: salmeterol increases activity or abundance of ADRB2",
-            "description": "TopAnswer: salmeterol increases activity or abundance of ADRB2",
+            "id": "Asset_126",
+            "name": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5582",
-            "output_name": "salmeterol",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:53462828",
+            "output_name": "Thyroid hormones",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -156,37 +156,37 @@
             }
         },
         {
-            "id": "Asset_387",
-            "name": "TopAnswer: formoterol increases activity or abundance of ADRB2",
-            "description": "TopAnswer: formoterol increases activity or abundance of ADRB2",
+            "id": "Asset_127",
+            "name": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3410",
-            "output_name": "formoterol",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D004798",
+            "output_name": "Enzymes",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -205,37 +205,37 @@
             }
         },
         {
-            "id": "Asset_388",
-            "name": "TopAnswer: terbutaline increases activity or abundance of ADRB2",
-            "description": "TopAnswer: terbutaline increases activity or abundance of ADRB2",
+            "id": "Asset_128",
+            "name": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5403",
-            "output_name": "terbutaline",
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D017526",
+            "output_name": "Receptor, IGF Type 1",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -254,37 +254,37 @@
             }
         },
         {
-            "id": "Asset_389",
-            "name": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
-            "description": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
+            "id": "Asset_129",
+            "name": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:154",
-            "input_name": "ADRB2",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "OMIT:0027329",
-            "output_name": "Beta-2 Agonists (Activators)",
-            "output_category": null,
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D003165",
+            "output_name": "Complement system proteins",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "increased"
+                    "value": ""
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -297,7 +297,56 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": null,
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_130",
+            "name": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
+            "description": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0018911",
+            "input_name": "Maturity-onset Diabetes Of The Young",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:6623",
+            "output_name": "bisphenol A",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -307,25 +356,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:154",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0018911",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "increased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:Gene",
-    "output_category": null,
+    "input_category": "biolink:Disease",
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],

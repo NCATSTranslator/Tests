@@ -1,7 +1,7 @@
 {
     "id": "TestCase_47",
-    "name": "what treats MONDO:0005575",
-    "description": "TopAnswer: Cetuximab (Erbitux) treats Colorectal Cancer; Acceptable: Metformin treats Colorectal Cancer; Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer; Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer",
+    "name": "what treats MONDO:0008345",
+    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis; Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis; Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,21 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_400",
-            "name": "TopAnswer: Cetuximab (Erbitux) treats Colorectal Cancer",
-            "description": "TopAnswer: Cetuximab (Erbitux) treats Colorectal Cancer",
+            "id": "Asset_324",
+            "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005575",
-            "input_name": "Colorectal Cancer",
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "RXCUI:1657659",
-            "output_name": "Cetuximab (Erbitux)",
-            "output_category": null,
+            "output_id": "PUBCHEM.COMPOUND:40632",
+            "output_name": "Pirfenidone",
+            "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
@@ -58,20 +58,20 @@
             }
         },
         {
-            "id": "Asset_401",
-            "name": "Acceptable: Metformin treats Colorectal Cancer",
-            "description": "Acceptable: Metformin treats Colorectal Cancer",
+            "id": "Asset_325",
+            "name": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005575",
-            "input_name": "Colorectal Cancer",
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4091",
-            "output_name": "Metformin",
+            "output_id": "PUBCHEM.COMPOUND:11671467",
+            "output_name": "Fostamatinib",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -107,70 +107,21 @@
             }
         },
         {
-            "id": "Asset_402",
-            "name": "Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer",
-            "description": "Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer",
+            "id": "Asset_326",
+            "name": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
+            "description": "Acceptable: GLPG1690 (Ziritaxestat) treats Idiopathic pulmonary fibrosis",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005575",
-            "input_name": "Colorectal Cancer",
+            "input_id": "MONDO:0008345",
+            "input_name": "Idiopathic pulmonary fibrosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:6T8C155666",
-            "output_name": "Ipilimumab (Yervoy)",
+            "output_id": "PUBCHEM.COMPOUND:90420193",
+            "output_name": "GLPG1690 (Ziritaxestat)",
             "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_402",
-            "name": "Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer",
-            "description": "Acceptable: Ipilimumab (Yervoy) treats Colorectal Cancer",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005575",
-            "input_name": "Colorectal Cancer",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "RXCUI:1094837",
-            "output_name": "Ipilimumab (Yervoy)",
-            "output_category": null,
             "association": null,
             "qualifiers": [
                 {
@@ -211,7 +162,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005575",
+    "test_case_input_id": "MONDO:0008345",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -227,7 +178,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": null,
+    "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
     ],

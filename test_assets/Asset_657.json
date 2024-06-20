@@ -1,0 +1,49 @@
+{
+    "id": "Asset_657",
+    "name": "Acceptable: CAMK2B increases activity or abundance of Glyphosate",
+    "description": "Acceptable: CAMK2B increases activity or abundance of Glyphosate",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "CHEBI:27744",
+    "input_name": "Glyphosate",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "NCBIGene:816",
+    "output_name": "CAMK2B",
+    "output_category": "biolink:Gene",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

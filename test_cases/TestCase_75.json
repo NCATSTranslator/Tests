@@ -1,0 +1,529 @@
+{
+    "id": "TestCase_75",
+    "name": "what affects CHEBI:167574",
+    "description": "TopAnswer: CD36 decreases activity or abundance of Semaglutide; TopAnswer: FABP5 decreases activity or abundance of Semaglutide; Acceptable: ACSL decreases activity or abundance of Semaglutide; Acceptable: ACOX3 decreases activity or abundance of Semaglutide; Acceptable: PLIN2 decreases activity or abundance of Semaglutide; Acceptable: ANGPTL4 decreases activity or abundance of Semaglutide; Acceptable: MGLL decreases activity or abundance of Semaglutide; Acceptable: AQP7 decreases activity or abundance of Semaglutide; Acceptable: PDK4 decreases activity or abundance of Semaglutide; Acceptable: LPL decreases activity or abundance of Semaglutide",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "query_type": null,
+    "test_assets": [
+        {
+            "id": "Asset_637",
+            "name": "TopAnswer: CD36 decreases activity or abundance of Semaglutide",
+            "description": "TopAnswer: CD36 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:948",
+            "output_name": "CD36",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_638",
+            "name": "TopAnswer: FABP5 decreases activity or abundance of Semaglutide",
+            "description": "TopAnswer: FABP5 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:2171",
+            "output_name": "FABP5",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_639",
+            "name": "Acceptable: ACSL decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: ACSL decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:2180",
+            "output_name": "ACSL",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_640",
+            "name": "Acceptable: ACOX3 decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: ACOX3 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:8310",
+            "output_name": "ACOX3",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_641",
+            "name": "Acceptable: PLIN2 decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: PLIN2 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:123",
+            "output_name": "PLIN2",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_642",
+            "name": "Acceptable: ANGPTL4 decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: ANGPTL4 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:51129",
+            "output_name": "ANGPTL4",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_643",
+            "name": "Acceptable: MGLL decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: MGLL decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:11343",
+            "output_name": "MGLL",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_644",
+            "name": "Acceptable: AQP7 decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: AQP7 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:364",
+            "output_name": "AQP7",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_645",
+            "name": "Acceptable: PDK4 decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: PDK4 decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:5166",
+            "output_name": "PDK4",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_646",
+            "name": "Acceptable: LPL decreases activity or abundance of Semaglutide",
+            "description": "Acceptable: LPL decreases activity or abundance of Semaglutide",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "CHEBI:167574",
+            "input_name": "Semaglutide",
+            "input_category": "biolink:ChemicalEntity",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "NCBIGene:4023",
+            "output_name": "LPL",
+            "output_category": "biolink:Gene",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:causes"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": "activity_or_abundance"
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": "decreased"
+                }
+            ],
+            "expected_output": "Acceptable",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        }
+    ],
+    "preconditions": [],
+    "trapi_template": null,
+    "test_case_objective": "AcceptanceTest",
+    "test_case_source": null,
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "CHEBI:167574",
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "input_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Gene",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
+}
