@@ -1735,7 +1735,7 @@
           "input_category": "biolink:Disease",
           "predicate_id": "biolink:treats",
           "predicate_name": "treats",
-          "output_id": "CHEMBL:2109042",
+          "output_id": "MESH:D007252",
           "output_name": "Influenza vaccines",
           "output_category": null,
           "association": null,
