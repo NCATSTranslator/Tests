@@ -119,7 +119,7 @@
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5582",
+            "output_id": "CHEBI:64064",
             "output_name": "salmeterol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,

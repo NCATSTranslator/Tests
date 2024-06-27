@@ -317,7 +317,7 @@ Asset:382	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM
 Asset:383	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:3682	ICI-118,551	1_TopAnswer																								
 Asset:384	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	ChEBI:35530	Beta-Blockers (Inhibitors)	1_TopAnswer																								
 Asset:385	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2083	albuterol,	1_TopAnswer																								
-Asset:386	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:5582	salmeterol	1_TopAnswer																								
+Asset:386	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	CHEBI:64064	salmeterol	1_TopAnswer																								
 Asset:387	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:3410	formoterol	1_TopAnswer																								
 Asset:388	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:5403	terbutaline	1_TopAnswer																								
 Asset:389	increases activity or abundance of	Inferred	ADRB2	NCBIGene:154	OMIT:0027329	Beta-2 Agonists (Activators)	1_TopAnswer																								
