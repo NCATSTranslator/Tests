@@ -7,16 +7,16 @@ assignees: ''
 
 ---
 
-## Relationship: _treats_ or _increases_activity_or_abundance_of_ or _decreases_activity_or_abundance_of
+## Relationship: _treats_ or _increases_activity_or_abundance_of_ or _decreases_activity_or_abundance_of_
 
 ## Creative: _true or false_
 
-## Input Name: _Multiple Sclerosis_
+## Input Name: ex:_Multiple Sclerosis_
 
-## Input Curie: _MONDO:0005301_
+## Input Curie: ex:_MONDO:0005301_
 
-## Output Name: _Lead_
+## Output Name: ex:_Lead_
 
-## Output Curie: _PUBCHEM.COMPOUND:5352425_
+## Output Curie: ex:_PUBCHEM.COMPOUND:5352425_
 
 ## Expected Output: _TopAnswer or Acceptable or BadButForgivable or NeverShow_
