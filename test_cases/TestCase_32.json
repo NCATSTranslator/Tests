@@ -1,12 +1,7 @@
 {
     "id": "TestCase_32",
-<<<<<<< HEAD
-    "name": "what treats MONDO:0800029",
-    "description": "TopAnswer: Pirfenidone treats Interstitial lung disease 2; Acceptable: Fostamatinib treats Interstitial lung disease 2; Acceptable: GLPG1690 (Ziritaxestat) treats Interstitial lung disease 2",
-=======
     "name": "what treats MONDO:0005015",
     "description": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus; TopAnswer: Metformin treats Diabetes Mellitus; TopAnswer: Insulin human treats Diabetes Mellitus; TopAnswer: Insulin detremir treats Diabetes Mellitus",
->>>>>>> main
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -14,26 +9,15 @@
     "query_type": null,
     "test_assets": [
         {
-<<<<<<< HEAD
-            "id": "Asset_324",
-            "name": "TopAnswer: Pirfenidone treats Interstitial lung disease 2",
-            "description": "TopAnswer: Pirfenidone treats Interstitial lung disease 2",
-=======
             "id": "Asset_184",
             "name": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus",
             "description": "OverlyGeneric: Pharmaceutical preparations treats Diabetes Mellitus",
->>>>>>> main
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-<<<<<<< HEAD
-            "input_id": "MONDO:0800029",
-            "input_name": "Interstitial lung disease 2",
-=======
             "input_id": "MONDO:0005015",
             "input_name": "Diabetes Mellitus",
->>>>>>> main
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -123,26 +107,15 @@
             }
         },
         {
-<<<<<<< HEAD
-            "id": "Asset_325",
-            "name": "Acceptable: Fostamatinib treats Interstitial lung disease 2",
-            "description": "Acceptable: Fostamatinib treats Interstitial lung disease 2",
-=======
             "id": "Asset_186",
             "name": "TopAnswer: Insulin human treats Diabetes Mellitus",
             "description": "TopAnswer: Insulin human treats Diabetes Mellitus",
->>>>>>> main
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-<<<<<<< HEAD
-            "input_id": "MONDO:0800029",
-            "input_name": "Interstitial lung disease 2",
-=======
             "input_id": "MONDO:0005015",
             "input_name": "Diabetes Mellitus",
->>>>>>> main
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -183,26 +156,15 @@
             }
         },
         {
-<<<<<<< HEAD
-            "id": "Asset_326",
-            "name": "Acceptable: GLPG1690 (Ziritaxestat) treats Interstitial lung disease 2",
-            "description": "Acceptable: GLPG1690 (Ziritaxestat) treats Interstitial lung disease 2",
-=======
             "id": "Asset_187",
             "name": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
             "description": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
->>>>>>> main
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-<<<<<<< HEAD
-            "input_id": "MONDO:0800029",
-            "input_name": "Interstitial lung disease 2",
-=======
             "input_id": "MONDO:0005015",
             "input_name": "Diabetes Mellitus",
->>>>>>> main
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
@@ -249,11 +211,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-<<<<<<< HEAD
-    "test_case_input_id": "MONDO:0800029",
-=======
     "test_case_input_id": "MONDO:0005015",
->>>>>>> main
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
