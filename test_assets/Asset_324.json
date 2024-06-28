@@ -1,13 +1,13 @@
 {
     "id": "Asset_324",
-    "name": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
-    "description": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
+    "name": "TopAnswer: Pirfenidone treats Interstitial lung disease 2",
+    "description": "TopAnswer: Pirfenidone treats Interstitial lung disease 2",
     "tags": [],
     "test_runner_settings": [
         "inferred"
     ],
     "input_id": "MONDO:0800029",
-    "input_name": "interstitial lung disease 2",
+    "input_name": "Interstitial lung disease 2",
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
