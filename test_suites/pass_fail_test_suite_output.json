@@ -26552,8 +26552,8 @@
         },
         "TestCase_27": {
             "id": "TestCase_27",
-            "name": "what treats MONDO:0008345",
-            "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis; TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+            "name": "what treats MONDO:0800029",
+            "description": "TopAnswer: Pirfenidone treats interstitial lung disease 2; TopAnswer: Pirfenidone treats interstitial lung disease 2",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
@@ -26562,14 +26562,14 @@
             "test_assets": [
                 {
                     "id": "Asset_324",
-                    "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
-                    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+                    "name": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
+                    "description": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0008345",
-                    "input_name": "Idiopathic pulmonary fibrosis",
+                    "input_id": "MONDO:0800029",
+                    "input_name": "interstitial lung disease 2",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
@@ -26611,14 +26611,14 @@
                 },
                 {
                     "id": "Asset_324",
-                    "name": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
-                    "description": "TopAnswer: Pirfenidone treats Idiopathic pulmonary fibrosis",
+                    "name": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
+                    "description": "TopAnswer: Pirfenidone treats interstitial lung disease 2",
                     "tags": [],
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "MONDO:0008345",
-                    "input_name": "Idiopathic pulmonary fibrosis",
+                    "input_id": "MONDO:0800029",
+                    "input_name": "interstitial lung disease 2",
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
@@ -26665,7 +26665,7 @@
             "test_case_source": null,
             "test_case_predicate_name": "treats",
             "test_case_predicate_id": "biolink:treats",
-            "test_case_input_id": "MONDO:0008345",
+            "test_case_input_id": "MONDO:0800029",
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",

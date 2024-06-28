@@ -1,13 +1,13 @@
 {
     "id": "Asset_325",
-    "name": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
-    "description": "Acceptable: Fostamatinib treats Idiopathic pulmonary fibrosis",
+    "name": "Acceptable: Fostamatinib treats interstitial lung disease 2",
+    "description": "Acceptable: Fostamatinib treats interstitial lung disease 2",
     "tags": [],
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "MONDO:0008345",
-    "input_name": "Idiopathic pulmonary fibrosis",
+    "input_id": "MONDO:0800029",
+    "input_name": "interstitial lung disease 2",
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
