@@ -1,0 +1,2 @@
+linkml-runtime==1.7.5
+translator-testing-model==0.3.2

@@ -1,7 +1,7 @@
 {
     "id": "TestCase_20",
-    "name": "what treats MONDO:0010794",
-    "description": "NeverShow: Valproic Acid treats NARP Syndrome; NeverShow: Barbiturates treats NARP Syndrome",
+    "name": "what treats MONDO:0019600",
+    "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,20 +9,20 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_3",
-            "name": "NeverShow: Valproic Acid treats NARP Syndrome",
-            "description": "NeverShow: Valproic Acid treats NARP Syndrome",
+            "id": "Asset_96",
+            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
+            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0010794",
-            "input_name": "NARP Syndrome",
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB00313",
-            "output_name": "Valproic Acid",
+            "output_id": "CHEBI:22977",
+            "output_name": "cadmium",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -52,26 +52,26 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_4",
-            "name": "NeverShow: Barbiturates treats NARP Syndrome",
-            "description": "NeverShow: Barbiturates treats NARP Syndrome",
+            "id": "Asset_97",
+            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
+            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0010794",
-            "input_name": "NARP Syndrome",
+            "input_id": "MONDO:0019600",
+            "input_name": "Xeroderma Pigmentosum",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D001463",
-            "output_name": "Barbiturates",
+            "output_id": "CHEBI:25195",
+            "output_name": "mercury",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
@@ -101,7 +101,7 @@
                 "tags": [],
                 "test_runner_settings": [],
                 "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/147",
+                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -113,7 +113,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0010794",
+    "test_case_input_id": "MONDO:0019600",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

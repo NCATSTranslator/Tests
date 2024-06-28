@@ -1,7 +1,7 @@
 {
     "id": "TestCase_39",
-    "name": "what affects NCBIGene:8972",
-    "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+    "name": "what affects PUBCHEM.COMPOUND:7028",
+    "description": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,21 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_337",
-            "name": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
-            "description": "TopAnswer: Acarbose decreases activity or abundance of MGAM (human)",
+            "id": "Asset_310",
+            "name": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
+            "description": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8972",
-            "input_name": "MGAM (human)",
-            "input_category": "biolink:Gene",
+            "input_id": "PUBCHEM.COMPOUND:7028",
+            "input_name": "Pseudoephedrine",
+            "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:41774",
-            "output_name": "Acarbose",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "NCBIGene:3558",
+            "output_name": "interleukin-2",
+            "output_category": "biolink:Gene",
             "association": null,
             "qualifiers": [
                 {
@@ -32,14 +32,14 @@
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": "abundance"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
                     "value": "decreased"
                 }
             ],
-            "expected_output": "TopAnswer",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -64,7 +64,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:8972",
+    "test_case_input_id": "PUBCHEM.COMPOUND:7028",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -72,15 +72,15 @@
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": "abundance"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
             "value": "decreased"
         }
     ],
-    "input_category": "biolink:Gene",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Gene",
     "components": [
         "ars"
     ],

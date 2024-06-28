@@ -1,7 +1,7 @@
 {
     "id": "TestCase_27",
-    "name": "what affects NCBIGene:1565",
-    "description": "Acceptable: Thioridazine decreases activity or abundance of CYP2D6; TopAnswer: Fluoxetine decreases activity or abundance of CYP2D6; TopAnswer: Paroxetine decreases activity or abundance of CYP2D6; TopAnswer: Quinidine decreases activity or abundance of CYP2D6; TopAnswer: Duloxetine decreases activity or abundance of CYP2D6; TopAnswer: Bupropion decreases activity or abundance of CYP2D6; TopAnswer: Cinacalcet decreases activity or abundance of CYP2D6; TopAnswer: Diphenhydramine decreases activity or abundance of CYP2D6; TopAnswer: Amiodarone decreases activity or abundance of CYP2D6; NeverShow: Rifampicin decreases activity or abundance of CYP2D6; NeverShow: Carbamazepine decreases activity or abundance of CYP2D6; NeverShow: Phenobarbital decreases activity or abundance of CYP2D6; NeverShow: Phenytoin decreases activity or abundance of CYP2D6; NeverShow: St. John's Wort (Hypericum perforatum) decreases activity or abundance of CYP2D6",
+    "name": "what treats MONDO:0010808",
+    "description": "NeverShow: Atom treats Fatal familial insomnia; NeverShow: Cell nucleus treats Fatal familial insomnia; NeverShow: salts treats Fatal familial insomnia; NeverShow: Water treats Fatal familial insomnia; NeverShow: Hydrogen(.) treats Fatal familial insomnia; NeverShow: Electrons treats Fatal familial insomnia; NeverShow: Anions treats Fatal familial insomnia; NeverShow: Oxygen treats Fatal familial insomnia; NeverShow: Cations treats Fatal familial insomnia; NeverShow: Halogen molecular entity treats Fatal familial insomnia; NeverShow: Nitrogen molecular entity treats Fatal familial insomnia; NeverShow: Alcohols treats Fatal familial insomnia; NeverShow: Molecule treats Fatal familial insomnia; NeverShow: Organic salt treats Fatal familial insomnia; NeverShow: Organic chemicals treats Fatal familial insomnia; NeverShow: Organic chloride salt treats Fatal familial insomnia; NeverShow: Oxygen treats Fatal familial insomnia; NeverShow: Analgesics treats Fatal familial insomnia; NeverShow: Volatile organic compound treats Fatal familial insomnia",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,475 +9,34 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_314",
-            "name": "Acceptable: Thioridazine decreases activity or abundance of CYP2D6",
-            "description": "Acceptable: Thioridazine decreases activity or abundance of CYP2D6",
+            "id": "Asset_149",
+            "name": "NeverShow: Atom treats Fatal familial insomnia",
+            "description": "NeverShow: Atom treats Fatal familial insomnia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:5452",
-            "output_name": "Thioridazine",
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:33250",
+            "output_name": "Atom",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_363",
-            "name": "TopAnswer: Fluoxetine decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Fluoxetine decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3386",
-            "output_name": "Fluoxetine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_364",
-            "name": "TopAnswer: Paroxetine decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Paroxetine decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:43815",
-            "output_name": "Paroxetine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_365",
-            "name": "TopAnswer: Quinidine decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Quinidine decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:441074",
-            "output_name": "Quinidine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_366",
-            "name": "TopAnswer: Duloxetine decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Duloxetine decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:60835",
-            "output_name": "Duloxetine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_367",
-            "name": "TopAnswer: Bupropion decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Bupropion decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3031065",
-            "output_name": "Bupropion",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_368",
-            "name": "TopAnswer: Cinacalcet decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Cinacalcet decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:156419",
-            "output_name": "Cinacalcet",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_369",
-            "name": "TopAnswer: Diphenhydramine decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Diphenhydramine decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3100",
-            "output_name": "Diphenhydramine",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_370",
-            "name": "TopAnswer: Amiodarone decreases activity or abundance of CYP2D6",
-            "description": "TopAnswer: Amiodarone decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2157",
-            "output_name": "Amiodarone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_371",
-            "name": "NeverShow: Rifampicin decreases activity or abundance of CYP2D6",
-            "description": "NeverShow: Rifampicin decreases activity or abundance of CYP2D6",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:135398735",
-            "output_name": "Rifampicin",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -499,34 +58,34 @@
             }
         },
         {
-            "id": "Asset_372",
-            "name": "NeverShow: Carbamazepine decreases activity or abundance of CYP2D6",
-            "description": "NeverShow: Carbamazepine decreases activity or abundance of CYP2D6",
+            "id": "Asset_150",
+            "name": "NeverShow: Cell nucleus treats Fatal familial insomnia",
+            "description": "NeverShow: Cell nucleus treats Fatal familial insomnia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2554",
-            "output_name": "Carbamazepine",
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D002467",
+            "output_name": "Cell nucleus",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -548,34 +107,34 @@
             }
         },
         {
-            "id": "Asset_373",
-            "name": "NeverShow: Phenobarbital decreases activity or abundance of CYP2D6",
-            "description": "NeverShow: Phenobarbital decreases activity or abundance of CYP2D6",
+            "id": "Asset_151",
+            "name": "NeverShow: salts treats Fatal familial insomnia",
+            "description": "NeverShow: salts treats Fatal familial insomnia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:4763",
-            "output_name": "Phenobarbital",
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D012492",
+            "output_name": "salts",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -597,34 +156,34 @@
             }
         },
         {
-            "id": "Asset_374",
-            "name": "NeverShow: Phenytoin decreases activity or abundance of CYP2D6",
-            "description": "NeverShow: Phenytoin decreases activity or abundance of CYP2D6",
+            "id": "Asset_152",
+            "name": "NeverShow: Water treats Fatal familial insomnia",
+            "description": "NeverShow: Water treats Fatal familial insomnia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:1775",
-            "output_name": "Phenytoin",
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:962",
+            "output_name": "Water",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -646,34 +205,720 @@
             }
         },
         {
-            "id": "Asset_375",
-            "name": "NeverShow: St. John's Wort (Hypericum perforatum) decreases activity or abundance of CYP2D6",
-            "description": "NeverShow: St. John's Wort (Hypericum perforatum) decreases activity or abundance of CYP2D6",
+            "id": "Asset_153",
+            "name": "NeverShow: Hydrogen(.) treats Fatal familial insomnia",
+            "description": "NeverShow: Hydrogen(.) treats Fatal familial insomnia",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:1565",
-            "input_name": "CYP2D6",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:3663",
-            "output_name": "St. John's Wort (Hypericum perforatum)",
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:962",
+            "output_name": "Hydrogen(.)",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
+                    "value": "biolink:treats"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": ""
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_154",
+            "name": "NeverShow: Electrons treats Fatal familial insomnia",
+            "description": "NeverShow: Electrons treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D004583",
+            "output_name": "Electrons",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_155",
+            "name": "NeverShow: Anions treats Fatal familial insomnia",
+            "description": "NeverShow: Anions treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000838",
+            "output_name": "Anions",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_156",
+            "name": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "description": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "PUBCHEM.COMPOUND:977",
+            "output_name": "Oxygen",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_157",
+            "name": "NeverShow: Cations treats Fatal familial insomnia",
+            "description": "NeverShow: Cations treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D002412",
+            "output_name": "Cations",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_158",
+            "name": "NeverShow: Halogen molecular entity treats Fatal familial insomnia",
+            "description": "NeverShow: Halogen molecular entity treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:24471",
+            "output_name": "Halogen molecular entity",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_159",
+            "name": "NeverShow: Nitrogen molecular entity treats Fatal familial insomnia",
+            "description": "NeverShow: Nitrogen molecular entity treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:51143",
+            "output_name": "Nitrogen molecular entity",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_160",
+            "name": "NeverShow: Alcohols treats Fatal familial insomnia",
+            "description": "NeverShow: Alcohols treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000438",
+            "output_name": "Alcohols",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_161",
+            "name": "NeverShow: Molecule treats Fatal familial insomnia",
+            "description": "NeverShow: Molecule treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:25367",
+            "output_name": "Molecule",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_162",
+            "name": "NeverShow: Organic salt treats Fatal familial insomnia",
+            "description": "NeverShow: Organic salt treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:24868",
+            "output_name": "Organic salt",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_163",
+            "name": "NeverShow: Organic chemicals treats Fatal familial insomnia",
+            "description": "NeverShow: Organic chemicals treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D009930",
+            "output_name": "Organic chemicals",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_164",
+            "name": "NeverShow: Organic chloride salt treats Fatal familial insomnia",
+            "description": "NeverShow: Organic chloride salt treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:36094",
+            "output_name": "Organic chloride salt",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_165",
+            "name": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "description": "NeverShow: Oxygen treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "UMLS:C0030054",
+            "output_name": "Oxygen",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_166",
+            "name": "NeverShow: Analgesics treats Fatal familial insomnia",
+            "description": "NeverShow: Analgesics treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "MESH:D000700",
+            "output_name": "Analgesics",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "NeverShow",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": false,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_167",
+            "name": "NeverShow: Volatile organic compound treats Fatal familial insomnia",
+            "description": "NeverShow: Volatile organic compound treats Fatal familial insomnia",
+            "tags": [],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0010808",
+            "input_name": "Fatal familial insomnia",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:134179",
+            "output_name": "Volatile organic compound",
+            "output_category": "biolink:ChemicalEntity",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
                 }
             ],
             "expected_output": "NeverShow",
@@ -699,24 +944,24 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "affects",
-    "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:1565",
+    "test_case_predicate_name": "treats",
+    "test_case_predicate_id": "biolink:treats",
+    "test_case_input_id": "MONDO:0010808",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:causes"
+            "value": "biolink:treats"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": ""
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": "decreased"
+            "value": ""
         }
     ],
-    "input_category": "biolink:Gene",
+    "input_category": "biolink:Disease",
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"

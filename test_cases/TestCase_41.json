@@ -1,7 +1,7 @@
 {
     "id": "TestCase_41",
-    "name": "what affects PUBCHEM.COMPOUND:23652731",
-    "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
+    "name": "what affects NCBIGene:4609",
+    "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,21 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_339",
-            "name": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
-            "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
+            "id": "Asset_312",
+            "name": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
+            "description": "NeverShow: cancer decreases activity or abundance of MYC proto-oncogene, bHLH transcription factor",
             "tags": [],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:23652731",
-            "input_name": "Eliglustat",
-            "input_category": "biolink:ChemicalEntity",
+            "input_id": "NCBIGene:4609",
+            "input_name": "MYC proto-oncogene, bHLH transcription factor",
+            "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "NCBI:2629",
-            "output_name": "GBA1",
-            "output_category": null,
+            "output_id": "MONDO:0004992",
+            "output_name": "cancer",
+            "output_category": "biolink:Disease",
             "association": null,
             "qualifiers": [
                 {
@@ -39,7 +39,7 @@
                     "value": "decreased"
                 }
             ],
-            "expected_output": "Acceptable",
+            "expected_output": "NeverShow",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
@@ -64,7 +64,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:23652731",
+    "test_case_input_id": "NCBIGene:4609",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -79,8 +79,8 @@
             "value": "decreased"
         }
     ],
-    "input_category": "biolink:ChemicalEntity",
-    "output_category": null,
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:Disease",
     "components": [
         "ars"
     ],
