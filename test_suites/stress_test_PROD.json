@@ -40,57 +40,8 @@
           "input_category": "biolink:Disease",
           "predicate_id": "biolink:treats",
           "predicate_name": "treats",
-          "output_id": "DRUGBANK:DB01592",
+          "output_id": "PUBCHEM.COMPOUND:23925",
           "output_name": "Iron (PUBCHEM)",
-          "output_category": "biolink:ChemicalEntity",
-          "association": null,
-          "qualifiers": [
-            {
-              "parameter": "biolink_qualified_predicate",
-              "value": "biolink:treats"
-            },
-            {
-              "parameter": "biolink_object_aspect_qualifier",
-              "value": ""
-            },
-            {
-              "parameter": "biolink_object_direction_qualifier",
-              "value": ""
-            }
-          ],
-          "expected_output": "NeverShow",
-          "test_issue": null,
-          "semantic_severity": null,
-          "in_v1": null,
-          "well_known": false,
-          "test_reference": null,
-          "test_metadata": {
-            "id": "1",
-            "name": null,
-            "description": null,
-            "tags": [],
-            "test_runner_settings": [],
-            "test_source": "SMURF",
-            "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/506",
-            "test_objective": "AcceptanceTest",
-            "test_annotations": []
-          }
-        },
-        {
-          "id": "Asset_15",
-          "name": "NeverShow: iron treats Aceruloplasminemia",
-          "description": "NeverShow: iron treats Aceruloplasminemia",
-          "tags": [],
-          "test_runner_settings": [
-            "inferred"
-          ],
-          "input_id": "MONDO:0011426",
-          "input_name": "Aceruloplasminemia",
-          "input_category": "biolink:Disease",
-          "predicate_id": "biolink:treats",
-          "predicate_name": "treats",
-          "output_id": "PUBCHEM.COMPOUND:4356",
-          "output_name": "iron",
           "output_category": "biolink:ChemicalEntity",
           "association": null,
           "qualifiers": [
@@ -187,7 +138,7 @@
           "input_category": "biolink:Disease",
           "predicate_id": "biolink:treats",
           "predicate_name": "treats",
-          "output_id": "DRUGBANK:DB01592",
+          "output_id": "PUBCHEM.COMPOUND:23925",
           "output_name": "Iron (PUBCHEM)",
           "output_category": "biolink:ChemicalEntity",
           "association": null,

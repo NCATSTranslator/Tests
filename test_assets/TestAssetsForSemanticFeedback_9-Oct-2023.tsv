@@ -1,5 +1,5 @@
 AssetIdentifier	Query	Settings	InputName (user choice)	InputID, node normalized	OutputID	OutputName	Expected Output	Persona	Well Known	GitHubIssue	Source?
-Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/506	Github user feedback
+Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:23925	Iron (PUBCHEM)	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/506	Github user feedback
 Asset:2	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33247	organic group ***?	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	Github user feedback
 Asset:3	Treats	Inferred	NARP Syndrome	MONDO:0010794	DRUGBANK:DB00313	Valproic Acid	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/147	Github user feedback
 Asset:4	Treats	Inferred	NARP Syndrome	MONDO:0010794		Barbiturates	NeverShow	clinical	Yes	https://github.com/NCATSTranslator/Feedback/issues/147	
@@ -15,7 +15,7 @@ Asset:13	Treats	Inferred	Castleman's	MONDO:0015564		anakinra	1_TopAnswer	look-up
 Asset:14	Treats	Inferred	Castleman's	MONDO:0015564		interferon-alpha	1_TopAnswer	look-up			
 Asset:15	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		iron	4_NeverShow	look-up			
 Asset:16	Treats	Inferred	Aceruloplasminemia	MONDO:0011426		desferrioxamine	1_TopAnswer	look-up			
-Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	NeverShow	mechanistic		https://github.com/NCATSTranslator/Feedback/issues/506	
+Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:23925	Iron (PUBCHEM)	NeverShow	mechanistic		https://github.com/NCATSTranslator/Feedback/issues/506	
 Asset:18	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D009930	Organic Chemicals	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
 Asset:19	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:23367	molecular entity	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	
 Asset:20	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25367	molecule	NeverShow	all		https://github.com/NCATSTranslator/Feedback/issues/572	

@@ -1,5 +1,5 @@
 id	Relationship	Settings	InputName (user choice)	InputID, node normalized	OutputID	OutputName	Expected Result / Suggested Comparator	GitHubIssue	Test Author, Owner, Watch List	Overly Generic	In First 50	In Acceptance	Persona/Use Case	TBD: Data modeling: Disease-modifying, specific to treating symptoms/sequale, general 	Semantic Severity	Well Known	Person who cares about this, know about this	issue type	Blocklist (here or separate tabs)	Causes not treats	?	issue labels	Notes
-Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506	Sandrine Muller				clinical			Yes						causes not treats; TMKP	
+Asset:1	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:23925	Iron (PUBCHEM)	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506	Sandrine Muller				clinical			Yes						causes not treats; TMKP	
 Asset:2	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:33247	organic group	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/572	Sandrine Muller				all					block-list				category too generic	
 Asset:3	Treats	Inferred	NARP Syndrome	MONDO:0010794	DRUGBANK:DB00313	Valproic Acid	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147	Sandrine Muller				clinical			Yes						contraindications	
 Asset:4	Treats	Inferred	NARP Syndrome	MONDO:0010794	MESH:D001463	Barbiturates	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/147	Sandrine Muller				clinical			Yes						contraindications	
@@ -15,7 +15,7 @@ Asset:13	Treats	Inferred	Multiple Sclerosis	MONDO:0015564	UNII:9013DUQ28K	anakin
 Asset:14	Treats	Inferred	Multiple Sclerosis	MONDO:0015564	UMLS:C0002199	interferon-alpha	1_TopAnswer		Jennifer Hadlock				look-up										
 Asset:15	Treats	Inferred	Multiple Sclerosis	MONDO:0011426	PUBCHEM.COMPOUND:23925	iron	4_NeverShow		Jennifer Hadlock				look-up										
 Asset:16	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:50453	desferrioxamine	1_TopAnswer		Jennifer Hadlock				look-up										
-Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	DRUGBANK:DB01592	Iron (PUBCHEM)	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/506	Sandrine Muller				mechanistic				Change management					causes not treats; TMKP	
+Asset:17	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:23925	Iron (PUBCHEM)	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/506	Sandrine Muller				mechanistic				Change management					causes not treats; TMKP	
 Asset:18	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	MESH:D009930	Organic Chemicals	4_NeverShow		Sandrine Muller				all					block-list					
 Asset:19	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:23367	molecular entity	4_NeverShow		Sandrine Muller				all					block-list					
 Asset:20	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:25367	molecule	4_NeverShow		Sandrine Muller				all					block-list					
