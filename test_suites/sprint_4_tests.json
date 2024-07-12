@@ -4279,7 +4279,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3031065",
+                    "output_id": "CHEBI:3219",
                     "output_name": "Bupropion",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
