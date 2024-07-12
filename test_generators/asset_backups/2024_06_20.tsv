@@ -55,7 +55,6 @@ Asset:146	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UML
 Asset:147	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C0003232	Antibiotics	4_NeverShow		Manual, SMurF		Sandrine Muller																						
 Asset:148	treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	UMLS:C1874451	basis	4_NeverShow		Manual, SMurF		Sandrine Muller																						
 Asset:149	treats	Inferred	Fatal familial insomnia	MONDO:0010808	CHEBI:33250	Atom	4_NeverShow		Manual, SMurF		Sandrine Muller																						
-Asset:15	treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:4356	iron	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/506	Manual, SMurF		Jennifer Hadlock			https://github.com/NCATSTranslator/Tests/issues/8				look-up															
 Asset:150	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D002467	Cell nucleus	4_NeverShow		Manual, SMurF		Sandrine Muller																						
 Asset:151	treats	Inferred	Fatal familial insomnia	MONDO:0010808	MESH:D012492	salts	4_NeverShow		Manual, SMurF		Sandrine Muller																						
 Asset:152	treats	Inferred	Fatal familial insomnia	MONDO:0010808	PUBCHEM.COMPOUND:962	Water	4_NeverShow		Manual, SMurF		Sandrine Muller				Y																		
