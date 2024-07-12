@@ -433,7 +433,7 @@ Asset:49	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:4
 Asset:490	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:480	ATP1A4	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
 Asset:491	increases activity or abundance of	Inferred	Potassium ion	PUBCHEM.COMPOUND:813	NCBIGene:478	ATP1A3	4_NeverShow		Manual, SMurF		Sandrine Muller							computational biologist															
 Asset:492	increases activity or abundance of	Inferred	Acetylcholine	PUBCHEM.COMPOUND:187	UMLS:C0083536	NG-NITROARGININE METHYL ESTER	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/753	Manual, SMurF		Sandrine Muller																						
-Asset:493	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	Substance SID: 481101797  	pembrolizumab	1_TopAnswer				Sharat Israni																						
+Asset:493	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	UNII:DPT0O3T46P  	pembrolizumab	1_TopAnswer				Sharat Israni																						
 Asset:494	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:5394	temozolomide	1_TopAnswer				Sharat Israni																						
 Asset:495	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:3121	valproic acid	1_TopAnswer				Sharat Israni																						
 Asset:496	decreases activity or abundance of	Inferred	SMARCE1	NCBIGene:6605	PUBCHEM.COMPOUND:11707110	trametinib	1_TopAnswer				Sharat Israni																						

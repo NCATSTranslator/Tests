@@ -16941,7 +16941,7 @@
           "input_category": "biolink:Gene",
           "predicate_id": "biolink:affects",
           "predicate_name": "affects",
-          "output_id": "Substance SID: 481101797",
+          "output_id": "UNII:DPT0O3T46P",
           "output_name": "pembrolizumab",
           "output_category": null,
           "association": null,
