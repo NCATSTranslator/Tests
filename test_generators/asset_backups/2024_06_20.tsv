@@ -294,7 +294,7 @@ Asset:363	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCH
 Asset:364	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:43815	Paroxetine	1_TopAnswer																										
 Asset:365	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:441074	Quinidine	1_TopAnswer																										
 Asset:366	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:60835	Duloxetine	1_TopAnswer																										
-Asset:367	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3031065	Bupropion	1_TopAnswer																										
+Asset:367	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	CHEBI:3219	Bupropion	1_TopAnswer																										
 Asset:368	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:156419	Cinacalcet	1_TopAnswer																										
 Asset:369	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3100	Diphenhydramine	1_TopAnswer																										MGAM (human)
 Asset:37	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:5280793	Ergocalciferol	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						
