@@ -1,6 +1,6 @@
 {
     "id": "TestCase_39",
-    "name": "what affects PUBCHEM.COMPOUND:7028",
+    "name": "what affects CHEBI:51209",
     "description": "Acceptable: interleukin-2 decreases abundance of Pseudoephedrine",
     "tags": [],
     "test_runner_settings": [
@@ -16,7 +16,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:7028",
+            "input_id": "CHEBI:51209",
             "input_name": "Pseudoephedrine",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -64,7 +64,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:7028",
+    "test_case_input_id": "CHEBI:51209",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

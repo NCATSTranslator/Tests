@@ -231,7 +231,7 @@ Asset:307	increases activity or abundance of 	Inferred	ADRB2	NCBIGene:154	PUBCHE
 Asset:308	increases activity or abundance of 	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	Propranalol	4_NeverShow																										
 Asset:309	treats	Inferred	Neutropenia	MONDO:0001475	PUBCHEM.COMPOUND:77910626	Pegfilgrastim	1_TopAnswer																										
 Asset:31	treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24431	chemical entity	4_NeverShow				Sandrine Muller							all					block-list										
-Asset:310	decreases abundance of	Inferred	Pseudoephedrine	PUBCHEM.COMPOUND:7028	NCBIGene:3558	interleukin-2	2_Acceptable																										
+Asset:310	decreases abundance of	Inferred	Pseudoephedrine	CHEBI:51209	NCBIGene:3558	interleukin-2	2_Acceptable																										
 Asset:311	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5362124	Benazapril	1_TopAnswer																										
 Asset:312	decreases activity or abundance of	Inferred	MYC proto-oncogene, bHLH transcription factor	NCBIGene:4609	MONDO:0004992	cancer	4_NeverShow																										
 Asset:313	increases activity or abundance of	Inferred	CFTR (human)	NCBIGene:1080	PUBCHEM.COMPOUND:16220172	Ivacaftor	2_Acceptable				Sarah Stemann																						
