@@ -10108,7 +10108,7 @@
     },
     "TestCase_51": {
       "id": "TestCase_51",
-      "name": "what affects CHEBI:32589",
+      "name": "what affects CHEBI:29103",
       "description": "NeverShow: CSF2 increases activity or abundance of Potassium ion; NeverShow: ZGLP1 increases activity or abundance of Potassium ion; NeverShow: IL3 increases activity or abundance of Potassium ion; NeverShow: TAB2 increases activity or abundance of Potassium ion; NeverShow: TMC8 increases activity or abundance of Potassium ion; NeverShow: SCYL1 increases activity or abundance of Potassium ion; NeverShow: SMURF1 increases activity or abundance of Potassium ion; NeverShow: RIPK3 increases activity or abundance of Potassium ion; NeverShow: CD40 increases activity or abundance of Potassium ion; NeverShow: NOS2 increases activity or abundance of Potassium ion; NeverShow: NR2C2 increases activity or abundance of Potassium ion; NeverShow: CREB3L4 increases activity or abundance of Potassium ion; NeverShow: STAT5A increases activity or abundance of Potassium ion; NeverShow: SGSM3 increases activity or abundance of Potassium ion; NeverShow: GAPDHS increases activity or abundance of Potassium ion; NeverShow: CD27 increases activity or abundance of Potassium ion; NeverShow: MAP3K7 increases activity or abundance of Potassium ion; NeverShow: SOAT1 increases activity or abundance of Potassium ion; NeverShow: TRADD increases activity or abundance of Potassium ion; NeverShow: RETSAT increases activity or abundance of Potassium ion; NeverShow: WNT2 increases activity or abundance of Potassium ion; NeverShow: TRPV5 increases activity or abundance of Potassium ion; NeverShow: CXCL8 increases activity or abundance of Potassium ion; NeverShow: ICAM1 increases activity or abundance of Potassium ion; NeverShow: MMP2 increases activity or abundance of Potassium ion; NeverShow: SELE increases activity or abundance of Potassium ion; NeverShow: UBA52 increases activity or abundance of Potassium ion; NeverShow: CSF1 increases activity or abundance of Potassium ion; NeverShow: IGF1 increases activity or abundance of Potassium ion; NeverShow: FOXO1 increases activity or abundance of Potassium ion; NeverShow: TNFSF10 increases activity or abundance of Potassium ion; NeverShow: MMP3 increases activity or abundance of Potassium ion; NeverShow: TNFAIP8 increases activity or abundance of Potassium ion; NeverShow: TNFRSF12A increases activity or abundance of Potassium ion; NeverShow: FAS increases activity or abundance of Potassium ion; NeverShow: GIT2 increases activity or abundance of Potassium ion; NeverShow: GALR2 increases activity or abundance of Potassium ion; NeverShow: PAG1 increases activity or abundance of Potassium ion; NeverShow: SELL increases activity or abundance of Potassium ion; NeverShow: CALR increases activity or abundance of Potassium ion; NeverShow: ANGPT2 increases activity or abundance of Potassium ion; NeverShow: TANK increases activity or abundance of Potassium ion; NeverShow: CIRBP increases activity or abundance of Potassium ion; NeverShow: CADM1 increases activity or abundance of Potassium ion; NeverShow: TNFRSF1A increases activity or abundance of Potassium ion; NeverShow: NELFCD increases activity or abundance of Potassium ion; NeverShow: PTX3 increases activity or abundance of Potassium ion; NeverShow: TNFAIP3 increases activity or abundance of Potassium ion; NeverShow: GAPDH increases activity or abundance of Potassium ion; NeverShow: EGFR increases activity or abundance of Potassium ion; NeverShow: HAND1 increases activity or abundance of Potassium ion; NeverShow: SELP increases activity or abundance of Potassium ion; NeverShow: BMP2 increases activity or abundance of Potassium ion; NeverShow: POLG increases activity or abundance of Potassium ion; NeverShow: DKK1 increases activity or abundance of Potassium ion; NeverShow: TNFAIP6 increases activity or abundance of Potassium ion; NeverShow: PCBP2 increases activity or abundance of Potassium ion; NeverShow: CRTC2 increases activity or abundance of Potassium ion; NeverShow: NLRP1 increases activity or abundance of Potassium ion; NeverShow: CXCL1 increases activity or abundance of Potassium ion; NeverShow: OXSR1 increases activity or abundance of Potassium ion; NeverShow: LEP increases activity or abundance of Potassium ion; NeverShow: CYP11B2 increases activity or abundance of Potassium ion; NeverShow: GCG increases activity or abundance of Potassium ion; NeverShow: TM7SF2 increases activity or abundance of Potassium ion; NeverShow: TLR3 increases activity or abundance of Potassium ion; NeverShow: ASRGL1 increases activity or abundance of Potassium ion; NeverShow: CREB3 increases activity or abundance of Potassium ion",
       "tags": [],
       "test_runner_settings": [
@@ -10124,7 +10124,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10173,7 +10173,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10222,7 +10222,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10271,7 +10271,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10320,7 +10320,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10369,7 +10369,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10418,7 +10418,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10467,7 +10467,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10516,7 +10516,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10565,7 +10565,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10614,7 +10614,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10663,7 +10663,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10712,7 +10712,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10761,7 +10761,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10810,7 +10810,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10859,7 +10859,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10908,7 +10908,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -10957,7 +10957,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11006,7 +11006,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11055,7 +11055,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11104,7 +11104,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11153,7 +11153,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11202,7 +11202,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11251,7 +11251,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11300,7 +11300,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11349,7 +11349,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11398,7 +11398,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11447,7 +11447,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11496,7 +11496,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11545,7 +11545,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11594,7 +11594,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11643,7 +11643,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11692,7 +11692,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11741,7 +11741,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11790,7 +11790,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11839,7 +11839,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11888,7 +11888,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11937,7 +11937,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -11986,7 +11986,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12035,7 +12035,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12084,7 +12084,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12133,7 +12133,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12182,7 +12182,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12231,7 +12231,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12280,7 +12280,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12329,7 +12329,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12378,7 +12378,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12427,7 +12427,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12476,7 +12476,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12525,7 +12525,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12574,7 +12574,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12623,7 +12623,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12672,7 +12672,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12721,7 +12721,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12770,7 +12770,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12819,7 +12819,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12868,7 +12868,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12917,7 +12917,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -12966,7 +12966,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13015,7 +13015,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13064,7 +13064,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13113,7 +13113,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13162,7 +13162,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13211,7 +13211,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13260,7 +13260,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13309,7 +13309,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13358,7 +13358,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13407,7 +13407,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "CHEBI:32589",
+          "input_id": "CHEBI:29103",
           "input_name": "Potassium ion",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -13455,7 +13455,7 @@
       "test_case_source": null,
       "test_case_predicate_name": "affects",
       "test_case_predicate_id": "biolink:affects",
-      "test_case_input_id": "CHEBI:32589",
+      "test_case_input_id": "CHEBI:29103",
       "qualifiers": [
         {
           "parameter": "biolink_qualified_predicate",
