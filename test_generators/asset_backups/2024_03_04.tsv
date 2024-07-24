@@ -280,7 +280,7 @@ Asset:349	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM
 Asset:35	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D028321	Plant preparations	4_NeverShow				Sandrine Muller					all										
 Asset:350	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:5702198	Cisplatin	2_Acceptable																			
 Asset:351	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:426756	Carboplatin	2_Acceptable																			
-Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:2733526	Tamoxifen	1_TopAnswer																			
+Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	CHEBI:41774	Tamoxifen	1_TopAnswer																			
 Asset:353	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:44093	Captopril	1_TopAnswer																			
 Asset:354	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5388962	Enalapril	1_TopAnswer																			
 Asset:355	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:55891	Fosinopril	1_TopAnswer																			

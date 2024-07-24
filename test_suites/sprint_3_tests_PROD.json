@@ -19,7 +19,7 @@
   "test_cases": {
     "TestCase_0": {
       "id": "TestCase_0",
-      "name": "what affects PUBCHEM.COMPOUND:2733526",
+      "name": "what affects CHEBI:41774",
       "description": "Acceptable: pS2 increases activity or abundance of Tamoxifen; Acceptable: EGFR increases activity or abundance of Tamoxifen; Acceptable: CTSD increases activity or abundance of Tamoxifen; Acceptable: ER increases activity or abundance of Tamoxifen; Acceptable: PR increases activity or abundance of Tamoxifen; Acceptable: AKT increases activity or abundance of Tamoxifen; Acceptable: GPER-1 increases activity or abundance of Tamoxifen",
       "tags": [],
       "test_runner_settings": [
@@ -35,7 +35,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -84,7 +84,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -133,7 +133,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -182,7 +182,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -231,7 +231,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -280,7 +280,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -329,7 +329,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:2733526",
+          "input_id": "CHEBI:41774",
           "input_name": "Tamoxifen",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -377,7 +377,7 @@
       "test_case_source": null,
       "test_case_predicate_name": "affects",
       "test_case_predicate_id": "biolink:affects",
-      "test_case_input_id": "PUBCHEM.COMPOUND:2733526",
+      "test_case_input_id": "CHEBI:41774",
       "qualifiers": [
         {
           "parameter": "biolink_qualified_predicate",
@@ -17799,7 +17799,7 @@
           "input_category": "biolink:Gene",
           "predicate_id": "biolink:affects",
           "predicate_name": "affects",
-          "output_id": "PUBCHEM.COMPOUND:2733526",
+          "output_id": "CHEBI:41774",
           "output_name": "Tamoxifen",
           "output_category": "biolink:ChemicalEntity",
           "association": null,

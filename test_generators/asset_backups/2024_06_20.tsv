@@ -277,7 +277,7 @@ Asset:349	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM
 Asset:35	treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D028321	Plant preparations	4_NeverShow				Sandrine Muller							all															
 Asset:350	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:5702198	Cisplatin	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
 Asset:351	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:426756	Carboplatin	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
-Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:2733526	Tamoxifen	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
+Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	CHEBI:41774	Tamoxifen	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
 Asset:353	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:44093	Captopril	1_TopAnswer																										
 Asset:354	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5388962	Enalapril	1_TopAnswer																										
 Asset:355	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:55891	Fosinopril	1_TopAnswer																										
@@ -551,13 +551,13 @@ Asset:597	decreases activity or abundance of	Inferred	Bivalirudin	CHEBI:59173	NC
 Asset:598	decreases activity or abundance of	Inferred	Bivalirudin	CHEBI:59173	PR:000010543	MYELOPEROXIDASE	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/767	Manual, SMurF		Sandrine Muller																						
 Asset:6	treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	busulfan	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/490	Manual, SMurF		Sandrine Muller							clinical									chemical roles						
 Asset:60	treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:73415823	Gadopentetate dimeglumine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller												block-list										
-Asset:601	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:843632	pS2	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:602	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:1956	EGFR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:603	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:1509	CTSD	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:604	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:43951	ER	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:605	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:35292	PR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:606	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:41957	AKT	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
-Asset:607	increases activity or abundance of 	Inferred	Tamoxifen	PUBCHEM.COMPOUND:2733526	NCBIGene:2852	GPER-1	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:601	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:843632	pS2	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:602	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:1956	EGFR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:603	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:1509	CTSD	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:604	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:43951	ER	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:605	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:35292	PR	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:606	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:41957	AKT	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
+Asset:607	increases activity or abundance of 	Inferred	Tamoxifen	CHEBI:41774	NCBIGene:2852	GPER-1	2_Acceptable		Manual, SMurF		Kevin Vizhalil																						ACE
 Asset:608	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MESH:D054328	Proton pump inhibitors	2_Acceptable				Jennifer Hadlock							MD															
 Asset:609	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEMBL.COMPOUND:CHEMBL2108744	sodium alginate	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
 Asset:610	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:121494085	sucralfate	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/772	Manual, SMurF																								
