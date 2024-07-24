@@ -8590,7 +8590,7 @@
     },
     "TestCase_41": {
       "id": "TestCase_41",
-      "name": "what affects PUBCHEM.COMPOUND:23652731",
+      "name": "what affects CHEBI:82752",
       "description": "Acceptable: GBA1 decreases activity or abundance of Eliglustat",
       "tags": [],
       "test_runner_settings": [
@@ -8606,7 +8606,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:23652731",
+          "input_id": "CHEBI:82752",
           "input_name": "Eliglustat",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -8654,7 +8654,7 @@
       "test_case_source": null,
       "test_case_predicate_name": "affects",
       "test_case_predicate_id": "biolink:affects",
-      "test_case_input_id": "PUBCHEM.COMPOUND:23652731",
+      "test_case_input_id": "CHEBI:82752",
       "qualifiers": [
         {
           "parameter": "biolink_qualified_predicate",
@@ -14528,7 +14528,7 @@
           "input_category": "biolink:Disease",
           "predicate_id": "biolink:treats",
           "predicate_name": "treats",
-          "output_id": "PUBCHEM.COMPOUND:23652731",
+          "output_id": "CHEBI:82752",
           "output_name": "Eliglustat",
           "output_category": "biolink:ChemicalEntity",
           "association": null,

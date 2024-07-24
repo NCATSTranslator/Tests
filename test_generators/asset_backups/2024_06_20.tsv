@@ -262,7 +262,7 @@ Asset:335	decreases activity or abundance of	Inferred	BRAF (human)	NCBIGene:673	
 Asset:336	decreases activity or abundance of	Inferred	PDE5A (human)	NCBIGene:8654	PUBCHEM.COMPOUND:135398744	Sildenafil	1_TopAnswer				Sarah Stemann (StatPearl)																						
 Asset:337	decreases activity or abundance of	Inferred	MGAM (human)	NCBIGene:8972	PUBCHEM.COMPOUND:41774	Acarbose	1_TopAnswer				Sarah Stemann (DrugBank > Target)																						
 Asset:338	decreases activity or abundance of	Inferred	SLC5A2 (human)	NCBIGene:6524	PUBCHEM.COMPOUND:24812758	canagliflozin	1_TopAnswer				Sarah Stemann (StatPearl SGTL2 > SLC5A)																						
-Asset:339	decreases activity or abundance of	Inferred	Eliglustat	PUBCHEM.COMPOUND:23652731	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)																						
+Asset:339	decreases activity or abundance of	Inferred	Eliglustat	CHEBI:82752	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)																						
 Asset:34	treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D010936	Plant extracts	4_NeverShow				Sandrine Muller							all															
 Asset:340	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:23725625	olaparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
 Asset:341	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:11960529	veliparib	2_Acceptable		Automated, LLM	No validation	Sharat Israni																						
@@ -582,7 +582,7 @@ Asset:627	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	MONDO:00
 Asset:628	treats	Inferred	Creutzfeldt Jacob Disease	MONDO:0005357	MESH:D000911	Antibodies, Monoclonal	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF	SME	Jared Roach																						
 Asset:629	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEMBL.COMPOUND:CHEMBL3545346	Azd2516	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
 Asset:630	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	PUBCHEM.COMPOUND:9823762	revexepride	3_BadButForgivable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
-Asset:63	treats	Inferred	Gaucher Disease type1	MONDO:0009265	PUBCHEM.COMPOUND:23652731	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller							clinical															
+Asset:63	treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEBI:82752	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller							clinical															
 Asset:631	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:107736	metoclopramide	2_Acceptable	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
 Asset:632	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:15365	aspirin	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								
 Asset:633	treats	Inferred	Gastroesophageal Reflux Disease	MONDO:0007186	CHEBI:15347	acetone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/338	Manual, SMurF																								

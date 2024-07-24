@@ -265,7 +265,7 @@ Asset:335	decreases activity or abundance of	Inferred	BRAF (human)	NCBIGene:673	
 Asset:336	decreases activity or abundance of	Inferred	PDE5A (human)	NCBIGene:8654	PUBCHEM.COMPOUND:135398744	Sildenafil	1_TopAnswer				Sarah Stemann (StatPearl)															
 Asset:337	decreases activity or abundance of	Inferred	MGAM (human)	NCBIGene:8972	PUBCHEM.COMPOUND:41774	Acarbose	1_TopAnswer				Sarah Stemann (DrugBank > Target)															
 Asset:338	decreases activity or abundance of	Inferred	SLC5A2 (human)	NCBIGene:6524	PUBCHEM.COMPOUND:24812758	Canagliflozin	1_TopAnswer				Sarah Stemann (StatPearl SGTL2 > SLC5A)															
-Asset:339	decreases activity or abundance of	Inferred	Eliglustat	PUBCHEM.COMPOUND:23652731	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)															
+Asset:339	decreases activity or abundance of	Inferred	Eliglustat	CHEBI:82752	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)															
 Asset:34	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D010936	Plant extracts	4_NeverShow				Sandrine Muller					all										
 Asset:340	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:23725625	olaparib	1_TopAnswer																			
 Asset:341	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:11960529	veliparib	1_TopAnswer																			
@@ -321,7 +321,7 @@ Asset:6	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	
 Asset:60	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:73415823	Gadopentetate dimeglumine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller										block-list					
 Asset:61	Treats	Inferred	Diabetes Milletus	MONDO:0005015							Sandrine Muller															
 Asset:62	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:6758	Rotenone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/505			Sandrine Muller					clinical										
-Asset:63	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	PUBCHEM.COMPOUND:23652731	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller					clinical										
+Asset:63	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEBI:82752	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller					clinical										
 Asset:64	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:Q6U6J48BWY	Imiglucerase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
 Asset:65	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:0R4NLX88O4	Taliglucerase alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
 Asset:66	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEMBL.COMPOUND:CHEMBL1201865	Velaglucerase-alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
