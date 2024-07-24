@@ -16574,7 +16574,7 @@
     },
     "TestCase_35": {
       "id": "TestCase_35",
-      "name": "what affects PUBCHEM.COMPOUND:148124",
+      "name": "what affects CHEBI:4672",
       "description": "Acceptable: BCL2 decreases activity or abundance of Docetaxel",
       "tags": [],
       "test_runner_settings": [
@@ -16590,7 +16590,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "PUBCHEM.COMPOUND:148124",
+          "input_id": "CHEBI:4672",
           "input_name": "Docetaxel",
           "input_category": "biolink:ChemicalEntity",
           "predicate_id": "biolink:affects",
@@ -16638,7 +16638,7 @@
       "test_case_source": null,
       "test_case_predicate_name": "affects",
       "test_case_predicate_id": "biolink:affects",
-      "test_case_input_id": "PUBCHEM.COMPOUND:148124",
+      "test_case_input_id": "CHEBI:4672",
       "qualifiers": [
         {
           "parameter": "biolink_qualified_predicate",

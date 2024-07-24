@@ -256,7 +256,7 @@ Asset:33	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134
 Asset:330	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:9934746	ensifentrine	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
 Asset:331	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:447043	azithromycin	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho																	LLM-generated/SMurF-SME-validated					
 Asset:332	treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:5360696	dextromethorphan	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho																	LLM-generated/SMurF-validated					
-Asset:333	decreases activity or abundance of	Inferred	Docetaxel	PUBCHEM.COMPOUND:148124	NCBIGene:596	BCL2	2_Acceptable				Sarah Stemann																						
+Asset:333	decreases activity or abundance of	Inferred	Docetaxel	CHEBI:4672	NCBIGene:596	BCL2	2_Acceptable				Sarah Stemann																						
 Asset:334	treats	Inferred	Eosinophilic Esophagitis	MONDO:0005361	UNII:420K487FSG	DUPILUMAB	1_TopAnswer				Sarah Stemann																						
 Asset:335	decreases activity or abundance of	Inferred	BRAF (human)	NCBIGene:673	PUBCHEM.COMPOUND:44462760	dabrafenib	2_Acceptable				Sarah Stemann																						
 Asset:336	decreases activity or abundance of	Inferred	PDE5A (human)	NCBIGene:8654	PUBCHEM.COMPOUND:135398744	Sildenafil	1_TopAnswer				Sarah Stemann (StatPearl)																						
