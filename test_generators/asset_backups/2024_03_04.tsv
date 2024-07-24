@@ -39,8 +39,8 @@ Asset:131	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO
 Asset:132	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow				Sandrine Muller															
 Asset:133	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/404			Sandrine Muller															
 Asset:134	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	UNII:E211KPY694	Botulinum toxin type a	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/405			Sandrine Muller															
-Asset:135	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	UMLS:C0311474	dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
-Asset:136	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	UMLS:C1328819	Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
+Asset:135	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C0311474	dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
+Asset:136	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C1328819	Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
 Asset:137	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:4096	Methamidophos	4_NeverShow				Sandrine Muller															
 Asset:138	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3562	Halothane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362			Sandrine Muller															
 Asset:139	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3763	isoflurane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362			Sandrine Muller															
@@ -374,8 +374,8 @@ Asset:372	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCH
 Asset:373	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:4763	Phenobarbital	4_NeverShow																			
 Asset:374	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:1775	Phenytoin	4_NeverShow																			
 Asset:375	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3663	St. John's Wort (Hypericum perforatum)	4_NeverShow																			
-Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																			
-Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																			
+Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																			
+Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																			
 Asset:378	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	propranolol	1_TopAnswer																			
 Asset:379	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4171	metoprolol	1_TopAnswer																			
 Asset:380	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2585	carvedilol	1_TopAnswer																			

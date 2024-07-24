@@ -303,8 +303,8 @@ Asset:372	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCH
 Asset:373	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:4763	Phenobarbital	4_NeverShow																										
 Asset:374	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:1775	Phenytoin	4_NeverShow																										
 Asset:375	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3663	St. John's Wort (Hypericum perforatum)	4_NeverShow																										
-Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																										
-Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																										
+Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																										
+Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																										
 Asset:378	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	propranolol	1_TopAnswer																										
 Asset:379	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4171	metoprolol	1_TopAnswer																										
 Asset:38	treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:4030	Mebendazole	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/601			Sandrine Muller							clinical									chemical roles;opposite of what I asked for;reasoning						

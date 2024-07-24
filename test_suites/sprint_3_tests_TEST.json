@@ -17866,7 +17866,7 @@
     },
     "TestCase_43": {
       "id": "TestCase_43",
-      "name": "what affects NCBI Gene:8653",
+      "name": "what affects NCBIGene:8653",
       "description": "Acceptable: Doxorubicin decreases activity or abundance of DDX3Y; Acceptable: RK-33 decreases activity or abundance of DDX3Y",
       "tags": [],
       "test_runner_settings": [
@@ -17882,7 +17882,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "NCBI Gene:8653",
+          "input_id": "NCBIGene:8653",
           "input_name": "DDX3Y",
           "input_category": null,
           "predicate_id": "biolink:affects",
@@ -17931,7 +17931,7 @@
           "test_runner_settings": [
             "inferred"
           ],
-          "input_id": "NCBI Gene:8653",
+          "input_id": "NCBIGene:8653",
           "input_name": "DDX3Y",
           "input_category": null,
           "predicate_id": "biolink:affects",
@@ -17979,7 +17979,7 @@
       "test_case_source": null,
       "test_case_predicate_name": "affects",
       "test_case_predicate_id": "biolink:affects",
-      "test_case_input_id": "NCBI Gene:8653",
+      "test_case_input_id": "NCBIGene:8653",
       "qualifiers": [
         {
           "parameter": "biolink_qualified_predicate",
