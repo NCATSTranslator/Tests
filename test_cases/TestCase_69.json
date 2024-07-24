@@ -1,6 +1,6 @@
 {
     "id": "TestCase_69",
-    "name": "what affects PUBCHEM.COMPOUND:118856773",
+    "name": "what affects CHEBI:142437",
     "description": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Lepirudin; TopAnswer: Thrombin decreases activity or abundance of Lepirudin; NeverShow: SERPINF2 decreases activity or abundance of Lepirudin; NeverShow: MAPK1 decreases activity or abundance of Lepirudin; NeverShow: GFAP decreases activity or abundance of Lepirudin; NeverShow: JUN decreases activity or abundance of Lepirudin; NeverShow: SGSM3 decreases activity or abundance of Lepirudin; NeverShow: SRC decreases activity or abundance of Lepirudin; NeverShow: STAT3 decreases activity or abundance of Lepirudin; NeverShow: FN1 decreases activity or abundance of Lepirudin; NeverShow: EGFR decreases activity or abundance of Lepirudin; NeverShow: COX2 decreases activity or abundance of Lepirudin; NeverShow: RHO decreases activity or abundance of Lepirudin; NeverShow: ATF4 decreases activity or abundance of Lepirudin; NeverShow: IL13 decreases activity or abundance of Lepirudin; NeverShow: CREB1 decreases activity or abundance of Lepirudin; NeverShow: ATF2 decreases activity or abundance of Lepirudin; NeverShow: CXCL12 decreases activity or abundance of Lepirudin; NeverShow: MAP2K1 decreases activity or abundance of Lepirudin; NeverShow: PTGS2 decreases activity or abundance of Lepirudin; NeverShow: CXCL8 decreases activity or abundance of Lepirudin; NeverShow: GRAP2 decreases activity or abundance of Lepirudin; NeverShow: MBTPS1 decreases activity or abundance of Lepirudin; NeverShow: SOAT1 decreases activity or abundance of Lepirudin; NeverShow: IL5 decreases activity or abundance of Lepirudin; NeverShow: JACK2 decreases activity or abundance of Lepirudin; NeverShow: PPARGC1A decreases activity or abundance of Lepirudin; NeverShow: NGF decreases activity or abundance of Lepirudin; NeverShow: CCND3 decreases activity or abundance of Lepirudin; NeverShow: PPARGC1B decreases activity or abundance of Lepirudin; NeverShow: PLAU decreases activity or abundance of Lepirudin; NeverShow: CSF1 decreases activity or abundance of Lepirudin; NeverShow: APOE decreases activity or abundance of Lepirudin; NeverShow: S1PR1 decreases activity or abundance of Lepirudin; NeverShow: MTOR decreases activity or abundance of Lepirudin; NeverShow: IGF1R decreases activity or abundance of Lepirudin; NeverShow: CXCL1 decreases activity or abundance of Lepirudin; NeverShow: RUNX2 decreases activity or abundance of Lepirudin; NeverShow: TRPV1 decreases activity or abundance of Lepirudin; NeverShow: CD274 decreases activity or abundance of Lepirudin; NeverShow: FABP4 decreases activity or abundance of Lepirudin; NeverShow: TFAP2A decreases activity or abundance of Lepirudin; NeverShow: ESR1 decreases activity or abundance of Lepirudin; NeverShow: DUSP1 decreases activity or abundance of Lepirudin; NeverShow: CD34 decreases activity or abundance of Lepirudin; NeverShow: CCND1 decreases activity or abundance of Lepirudin; NeverShow: CCND2 decreases activity or abundance of Lepirudin; NeverShow: UBC decreases activity or abundance of Lepirudin; NeverShow: CSF2 decreases activity or abundance of Lepirudin; NeverShow: BMP7 decreases activity or abundance of Lepirudin; NeverShow: PRG2 decreases activity or abundance of Lepirudin; NeverShow: UBB decreases activity or abundance of Lepirudin; NeverShow: MBP decreases activity or abundance of Lepirudin; NeverShow: SIRT4 decreases activity or abundance of Lepirudin; NeverShow: RPS27A decreases activity or abundance of Lepirudin; NeverShow: UBA52 decreases activity or abundance of Lepirudin; NeverShow: LIF decreases activity or abundance of Lepirudin; NeverShow: FGL2 decreases activity or abundance of Lepirudin; NeverShow: STAT1 decreases activity or abundance of Lepirudin; NeverShow: ANGPT2 decreases activity or abundance of Lepirudin; NeverShow: SLPI decreases activity or abundance of Lepirudin; NeverShow: ANGPT1 decreases activity or abundance of Lepirudin; NeverShow: SDC1 decreases activity or abundance of Lepirudin; NeverShow: EPHB2 decreases activity or abundance of Lepirudin; NeverShow: CCL27 decreases activity or abundance of Lepirudin; NeverShow: OCLN decreases activity or abundance of Lepirudin; NeverShow: NOS2 decreases activity or abundance of Lepirudin; NeverShow: AQP4 decreases activity or abundance of Lepirudin; NeverShow: MAP3K1 decreases activity or abundance of Lepirudin; NeverShow: IL7 decreases activity or abundance of Lepirudin; NeverShow: IRF3 decreases activity or abundance of Lepirudin; NeverShow: CDC42 decreases activity or abundance of Lepirudin; NeverShow: MCL1 decreases activity or abundance of Lepirudin; NeverShow: TM7SF2 decreases activity or abundance of Lepirudin; NeverShow: ATRNL1 decreases activity or abundance of Lepirudin; NeverShow: CCNB1 decreases activity or abundance of Lepirudin; NeverShow: ANG decreases activity or abundance of Lepirudin; NeverShow: NANOS2 decreases activity or abundance of Lepirudin; NeverShow: ATF6 decreases activity or abundance of Lepirudin; NeverShow: SETD2 decreases activity or abundance of Lepirudin; NeverShow: ULK1 decreases activity or abundance of Lepirudin; NeverShow: NAT10 decreases activity or abundance of Lepirudin; NeverShow: ASRGL1 decreases activity or abundance of Lepirudin; NeverShow: PDLIM3 decreases activity or abundance of Lepirudin; NeverShow: CAV1 decreases activity or abundance of Lepirudin; NeverShow: CD4 decreases activity or abundance of Lepirudin; NeverShow: PCAM1 decreases activity or abundance of Lepirudin; NeverShow: EGR1 decreases activity or abundance of Lepirudin; NeverShow: OPTN decreases activity or abundance of Lepirudin; NeverShow: PPP3R1 decreases activity or abundance of Lepirudin; NeverShow: RALBP1 decreases activity or abundance of Lepirudin",
     "tags": [],
     "test_runner_settings": [
@@ -16,7 +16,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -65,7 +65,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -114,7 +114,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -163,7 +163,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -212,7 +212,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -261,7 +261,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -310,7 +310,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -359,7 +359,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -408,7 +408,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -457,7 +457,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -506,7 +506,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -555,7 +555,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -604,7 +604,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -653,7 +653,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -702,7 +702,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -751,7 +751,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -800,7 +800,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -849,7 +849,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -898,7 +898,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -947,7 +947,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -996,7 +996,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1045,7 +1045,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1094,7 +1094,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1143,7 +1143,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1192,7 +1192,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1241,7 +1241,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1290,7 +1290,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1339,7 +1339,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1388,7 +1388,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1437,7 +1437,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1486,7 +1486,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1535,7 +1535,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1584,7 +1584,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1633,7 +1633,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1682,7 +1682,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1731,7 +1731,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1780,7 +1780,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1829,7 +1829,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1878,7 +1878,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1927,7 +1927,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -1976,7 +1976,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2025,7 +2025,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2074,7 +2074,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2123,7 +2123,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2172,7 +2172,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2221,7 +2221,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2270,7 +2270,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2319,7 +2319,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2368,7 +2368,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2417,7 +2417,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2466,7 +2466,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2515,7 +2515,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2564,7 +2564,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2613,7 +2613,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2662,7 +2662,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2711,7 +2711,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2760,7 +2760,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2809,7 +2809,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2858,7 +2858,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2907,7 +2907,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -2956,7 +2956,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3005,7 +3005,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3054,7 +3054,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3103,7 +3103,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3152,7 +3152,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3201,7 +3201,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3250,7 +3250,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3299,7 +3299,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3348,7 +3348,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3397,7 +3397,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3446,7 +3446,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3495,7 +3495,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3544,7 +3544,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3593,7 +3593,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3642,7 +3642,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3691,7 +3691,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3740,7 +3740,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3789,7 +3789,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3838,7 +3838,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3887,7 +3887,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3936,7 +3936,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -3985,7 +3985,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4034,7 +4034,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4083,7 +4083,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4132,7 +4132,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4181,7 +4181,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4230,7 +4230,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4279,7 +4279,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4328,7 +4328,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4377,7 +4377,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4426,7 +4426,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:118856773",
+            "input_id": "CHEBI:142437",
             "input_name": "Lepirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -4474,7 +4474,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:118856773",
+    "test_case_input_id": "CHEBI:142437",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",

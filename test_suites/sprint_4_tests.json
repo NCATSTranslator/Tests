@@ -5707,7 +5707,7 @@
         },
         "TestCase_29": {
             "id": "TestCase_29",
-            "name": "what affects PUBCHEM.COMPOUND:118856773",
+            "name": "what affects CHEBI:142437",
             "description": "TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Lepirudin; TopAnswer: Thrombin decreases activity or abundance of Lepirudin",
             "tags": [],
             "test_runner_settings": [
@@ -5723,7 +5723,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "PUBCHEM.COMPOUND:118856773",
+                    "input_id": "CHEBI:142437",
                     "input_name": "Lepirudin",
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
@@ -5772,7 +5772,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "PUBCHEM.COMPOUND:118856773",
+                    "input_id": "CHEBI:142437",
                     "input_name": "Lepirudin",
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
@@ -5820,7 +5820,7 @@
             "test_case_source": null,
             "test_case_predicate_name": "affects",
             "test_case_predicate_id": "biolink:affects",
-            "test_case_input_id": "PUBCHEM.COMPOUND:118856773",
+            "test_case_input_id": "CHEBI:142437",
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
