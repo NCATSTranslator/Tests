@@ -39,8 +39,8 @@ Asset:131	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO
 Asset:132	Treats	Inferred	Hereditary Sensory And Autonomic Neuropathy Type	MONDO:0015364	PUBCHEM.COMPOUND:84098	Isoxaflutole	4_NeverShow				Sandrine Muller															
 Asset:133	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:5462310	Carbon	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/404			Sandrine Muller															
 Asset:134	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	UNII:E211KPY694	Botulinum toxin type a	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/405			Sandrine Muller															
-Asset:135	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	UMLS:C0311474	dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
-Asset:136	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	UMLS:C1328819	Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
+Asset:135	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C0311474	dna double stranded	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
+Asset:136	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	UMLS:C1328819	Small molecule	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/384			Sandrine Muller															
 Asset:137	Treats	Inferred	Hereditary sensory and autonomic neuropathy type 4	MONDO:0009746	PUBCHEM.COMPOUND:4096	Methamidophos	4_NeverShow				Sandrine Muller															
 Asset:138	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3562	Halothane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362			Sandrine Muller															
 Asset:139	Treats	Inferred	Malignant Hyperthermia Of Anesthesia	MONDO:0018493	PUBCHEM.COMPOUND:3763	isoflurane	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/362			Sandrine Muller															
@@ -234,7 +234,7 @@ Asset:307	increases activity or abundance of 	Inferred	Beta 2 adrenergic (ADRB2)
 Asset:308	increases activity or abundance of 	Inferred	Beta 2 adrenergic (ADRB2)	NCBIGene:154	PUBCHEM.COMPOUND:4946	Propranalol	4_NeverShow																			
 Asset:309	Treats	Inferred	Neutropenia	MONDO:0001475	PUBCHEM.COMPOUND:77910626	Pegfilgrastim	1_TopAnswer																			
 Asset:31	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	CHEBI:24431	chemical entity	4_NeverShow				Sandrine Muller					all					block-list					
-Asset:310	decreases abundance of	Inferred	Pseudoephedrine	PUBCHEM.COMPOUND:7028	NCBIGene:3558	Interleukin-2	2_Acceptable																			
+Asset:310	decreases abundance of	Inferred	Pseudoephedrine	CHEBI:51209	NCBIGene:3558	Interleukin-2	2_Acceptable																			
 Asset:311	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5362124	Benazapril	1_TopAnswer																			
 Asset:312	decreases activity or abundance of	Inferred	MYC proto-oncogene, bHLH transcription factor	NCBIGene:7553	MONDO:0004992	cancer	4_NeverShow																			
 Asset:313	increases activity or abundance of 	Inferred	CFTR (human)	NCBIGene:1080	PUBCHEM.COMPOUND:16220172	Ivacaftor	2_Acceptable				Sarah Stemann															
@@ -259,13 +259,13 @@ Asset:33	Treats	Inferred	Lactose intolerance	MONDO:0100345	PUBCHEM.COMPOUND:6134
 Asset:330	Treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:9934746	Ensifentrine	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho															LLM-generated/SMurF-SME-validated
 Asset:331	Treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:447043	Azithromycin	2_Acceptable		Automated, LLM	SMuRF, SME	Kara Fecho															LLM-generated/SMurF-SME-validated
 Asset:332	Treats	Inferred	Primary ciliary dyskinesia	MONDO:0016575	PUBCHEM.COMPOUND:5360696	Dextromethorphan	4_NeverShow		Automated, LLM	SMuRF	Kara Fecho															LLM-generated/SMurF-validated
-Asset:333	decreases activity or abundance of	Inferred	Docetaxel	PUBCHEM.COMPOUND:148124	NCBIGene:596	BCL2	2_Acceptable				Sarah Stemann															
+Asset:333	decreases activity or abundance of	Inferred	Docetaxel	CHEBI:4672	NCBIGene:596	BCL2	2_Acceptable				Sarah Stemann															
 Asset:334	Treats	Inferred	Eosinophilic Esophagitis	MONDO:0005361	UNII:420K487FSG	DUPILUMAB	1_TopAnswer				Sarah Stemann															
 Asset:335	decreases activity or abundance of	Inferred	BRAF (human)	NCBIGene:673	PUBCHEM.COMPOUND:44462760	dabrafenib	2_Acceptable				Sarah Stemann															
 Asset:336	decreases activity or abundance of	Inferred	PDE5A (human)	NCBIGene:8654	PUBCHEM.COMPOUND:135398744	Sildenafil	1_TopAnswer				Sarah Stemann (StatPearl)															
 Asset:337	decreases activity or abundance of	Inferred	MGAM (human)	NCBIGene:8972	PUBCHEM.COMPOUND:41774	Acarbose	1_TopAnswer				Sarah Stemann (DrugBank > Target)															
 Asset:338	decreases activity or abundance of	Inferred	SLC5A2 (human)	NCBIGene:6524	PUBCHEM.COMPOUND:24812758	Canagliflozin	1_TopAnswer				Sarah Stemann (StatPearl SGTL2 > SLC5A)															
-Asset:339	decreases activity or abundance of	Inferred	Eliglustat	PUBCHEM.COMPOUND:23652731	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)															
+Asset:339	decreases activity or abundance of	Inferred	Eliglustat	CHEBI:82752	NCBI:2629	GBA1	2_Acceptable				Sarah Stemann (DrugBank)															
 Asset:34	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D010936	Plant extracts	4_NeverShow				Sandrine Muller					all										
 Asset:340	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:23725625	olaparib	1_TopAnswer																			
 Asset:341	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:11960529	veliparib	1_TopAnswer																			
@@ -280,7 +280,7 @@ Asset:349	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM
 Asset:35	Treats	Inferred	Lactose intolerance	MONDO:0100345	MESH:D028321	Plant preparations	4_NeverShow				Sandrine Muller					all										
 Asset:350	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:5702198	Cisplatin	2_Acceptable																			
 Asset:351	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:426756	Carboplatin	2_Acceptable																			
-Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	PUBCHEM.COMPOUND:2733526	Tamoxifen	1_TopAnswer																			
+Asset:352	decreases activity or abundance of	Inferred	BRCA2	NCBIGene:675	CHEBI:41774	Tamoxifen	1_TopAnswer																			
 Asset:353	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:44093	Captopril	1_TopAnswer																			
 Asset:354	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:5388962	Enalapril	1_TopAnswer																			
 Asset:355	decreases activity or abundance of	Inferred	ACE	NCBIGene:1636	PUBCHEM.COMPOUND:55891	Fosinopril	1_TopAnswer																			
@@ -321,7 +321,7 @@ Asset:6	Treats	Inferred	Premature Menopause	MONDO:0001119	PUBCHEM.COMPOUND:2478	
 Asset:60	Treats	Inferred	Ehlers-Danlos Syndrome	MONDO:0017314	PUBCHEM.COMPOUND:73415823	Gadopentetate dimeglumine	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/546			Sandrine Muller										block-list					
 Asset:61	Treats	Inferred	Diabetes Milletus	MONDO:0005015							Sandrine Muller															
 Asset:62	Treats	Inferred	Aceruloplasminemia	MONDO:0011426	PUBCHEM.COMPOUND:6758	Rotenone	4_NeverShow	https://github.com/NCATSTranslator/Feedback/issues/505			Sandrine Muller					clinical										
-Asset:63	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	PUBCHEM.COMPOUND:23652731	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller					clinical										
+Asset:63	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEBI:82752	Eliglustat	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller					clinical										
 Asset:64	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:Q6U6J48BWY	Imiglucerase	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
 Asset:65	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	UNII:0R4NLX88O4	Taliglucerase alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
 Asset:66	Treats	Inferred	Gaucher Disease type1	MONDO:0009265	CHEMBL.COMPOUND:CHEMBL1201865	Velaglucerase-alfa	1_TopAnswer	https://github.com/NCATSTranslator/Feedback/issues/494			Sandrine Muller															
@@ -374,8 +374,8 @@ Asset:372	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCH
 Asset:373	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:4763	Phenobarbital	4_NeverShow																			
 Asset:374	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:1775	Phenytoin	4_NeverShow																			
 Asset:375	decreases activity or abundance of	Inferred	CYP2D6	NCBIGene:1565	PUBCHEM.COMPOUND:3663	St. John's Wort (Hypericum perforatum)	4_NeverShow																			
-Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																			
-Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBI Gene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																			
+Asset:376	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:31703	Doxorubicin	2_Acceptable																			
+Asset:377	decreases activity or abundance of	Inferred	DDX3Y	NCBIGene:8653	PUBCHEM.COMPOUND:46184988	RK-33	2_Acceptable																			
 Asset:378	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4946	propranolol	1_TopAnswer																			
 Asset:379	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:4171	metoprolol	1_TopAnswer																			
 Asset:380	decreases activity or abundance of	Inferred	ADRB2	NCBIGene:154	PUBCHEM.COMPOUND:2585	carvedilol	1_TopAnswer																			

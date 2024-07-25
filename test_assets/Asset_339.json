@@ -6,7 +6,7 @@
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "PUBCHEM.COMPOUND:23652731",
+    "input_id": "CHEBI:82752",
     "input_name": "Eliglustat",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",

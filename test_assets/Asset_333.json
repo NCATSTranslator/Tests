@@ -6,7 +6,7 @@
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "PUBCHEM.COMPOUND:148124",
+    "input_id": "CHEBI:4672",
     "input_name": "Docetaxel",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",

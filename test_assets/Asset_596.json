@@ -6,7 +6,7 @@
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "PUBCHEM.COMPOUND:16129704",
+    "input_id": "CHEBI:59173",
     "input_name": "Bivalirudin",
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",

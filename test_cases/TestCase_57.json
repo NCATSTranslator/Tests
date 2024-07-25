@@ -609,7 +609,7 @@
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:2733526",
+            "output_id": "CHEBI:41774",
             "output_name": "Tamoxifen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,

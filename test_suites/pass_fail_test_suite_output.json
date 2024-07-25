@@ -6917,7 +6917,7 @@
         },
         "TestCase_6": {
             "id": "TestCase_6",
-            "name": "what affects NCBI Gene:8653",
+            "name": "what affects NCBIGene:8653",
             "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y",
             "tags": [],
             "test_runner_settings": [
@@ -6933,7 +6933,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "NCBI Gene:8653",
+                    "input_id": "NCBIGene:8653",
                     "input_name": "DDX3Y",
                     "input_category": null,
                     "predicate_id": "biolink:affects",
@@ -6982,7 +6982,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "NCBI Gene:8653",
+                    "input_id": "NCBIGene:8653",
                     "input_name": "DDX3Y",
                     "input_category": null,
                     "predicate_id": "biolink:affects",
@@ -7031,7 +7031,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "NCBI Gene:8653",
+                    "input_id": "NCBIGene:8653",
                     "input_name": "DDX3Y",
                     "input_category": null,
                     "predicate_id": "biolink:affects",
@@ -7080,7 +7080,7 @@
                     "test_runner_settings": [
                         "inferred"
                     ],
-                    "input_id": "NCBI Gene:8653",
+                    "input_id": "NCBIGene:8653",
                     "input_name": "DDX3Y",
                     "input_category": null,
                     "predicate_id": "biolink:affects",
@@ -7128,7 +7128,7 @@
             "test_case_source": null,
             "test_case_predicate_name": "affects",
             "test_case_predicate_id": "biolink:affects",
-            "test_case_input_id": "NCBI Gene:8653",
+            "test_case_input_id": "NCBIGene:8653",
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
@@ -32665,7 +32665,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:23652731",
+                    "output_id": "CHEBI:82752",
                     "output_name": "Eliglustat",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -32714,7 +32714,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:23652731",
+                    "output_id": "CHEBI:82752",
                     "output_name": "Eliglustat",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,

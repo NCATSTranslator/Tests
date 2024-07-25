@@ -1,6 +1,6 @@
 {
     "id": "TestCase_70",
-    "name": "what affects PUBCHEM.COMPOUND:16129704",
+    "name": "what affects CHEBI:59173",
     "description": "TopAnswer: F2 decreases activity or abundance of Bivalirudin; TopAnswer: Thrombin decreases activity or abundance of Bivalirudin; TopAnswer: UNIPROTKB:P00734 decreases activity or abundance of Bivalirudin; TopAnswer: MPO decreases activity or abundance of Bivalirudin; TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin; TopAnswer: MPO PROTEIN, HUMAN decreases activity or abundance of Bivalirudin",
     "tags": [],
     "test_runner_settings": [
@@ -16,7 +16,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
+            "input_id": "CHEBI:59173",
             "input_name": "Bivalirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -65,7 +65,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
+            "input_id": "CHEBI:59173",
             "input_name": "Bivalirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -114,7 +114,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
+            "input_id": "CHEBI:59173",
             "input_name": "Bivalirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -163,7 +163,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
+            "input_id": "CHEBI:59173",
             "input_name": "Bivalirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -212,7 +212,7 @@
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "PUBCHEM.COMPOUND:16129704",
+            "input_id": "CHEBI:59173",
             "input_name": "Bivalirudin",
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
@@ -260,7 +260,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "PUBCHEM.COMPOUND:16129704",
+    "test_case_input_id": "CHEBI:59173",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
