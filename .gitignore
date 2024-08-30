@@ -2,3 +2,11 @@
 
 # ignore Pycharms IDE metadata
 .idea
+__pycache__/
+*.py[cod]
+*.egg-info
+*.so
+*.o
+*.pyc
+
+test_generators/
