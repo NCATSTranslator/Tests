@@ -52,7 +52,7 @@ def create_test_suite(
                 asset_json = json.load(f)
                 try:
                     test_asset = TestAsset.parse_obj(asset_json)
-                    if test_asset.expected_output in ["TopAnswer", "NeverShow"]:
+                    if test_asset.expected_output in ["TopAnswer", "Acceptable", "BadButForgivable", "NeverShow"]:
                         test_assets.append(test_asset)
                 except Exception as e:
                     logger.warning(f"Failed to read asset {asset_json['id']}: {e}")
