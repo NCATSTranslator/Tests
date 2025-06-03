@@ -77,55 +77,6 @@
           }
         },
         {
-          "id": "Asset_16",
-          "name": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-          "description": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-          "tags": [],
-          "test_runner_settings": [
-            "inferred"
-          ],
-          "input_id": "MONDO:0011426",
-          "input_name": "Aceruloplasminemia",
-          "input_category": "biolink:Disease",
-          "predicate_id": "biolink:treats",
-          "predicate_name": "treats",
-          "output_id": "CHEBI:50453",
-          "output_name": "desferrioxamine",
-          "output_category": "biolink:ChemicalEntity",
-          "association": null,
-          "qualifiers": [
-            {
-              "parameter": "biolink_qualified_predicate",
-              "value": "biolink:treats"
-            },
-            {
-              "parameter": "biolink_object_aspect_qualifier",
-              "value": ""
-            },
-            {
-              "parameter": "biolink_object_direction_qualifier",
-              "value": ""
-            }
-          ],
-          "expected_output": "TopAnswer",
-          "test_issue": null,
-          "semantic_severity": null,
-          "in_v1": null,
-          "well_known": false,
-          "test_reference": null,
-          "test_metadata": {
-            "id": "1",
-            "name": null,
-            "description": null,
-            "tags": [],
-            "test_runner_settings": [],
-            "test_source": "SMURF",
-            "test_reference": null,
-            "test_objective": "AcceptanceTest",
-            "test_annotations": []
-          }
-        },
-        {
           "id": "Asset_17",
           "name": "BadButForgivable: Iron (PUBCHEM) treats Aceruloplasminemia",
           "description": "BadButForgivable: Iron (PUBCHEM) treats Aceruloplasminemia",
@@ -2863,55 +2814,6 @@
           "predicate_name": "treats",
           "output_id": "PUBCHEM.COMPOUND:4091",
           "output_name": "Metformin",
-          "output_category": "biolink:ChemicalEntity",
-          "association": null,
-          "qualifiers": [
-            {
-              "parameter": "biolink_qualified_predicate",
-              "value": "biolink:treats"
-            },
-            {
-              "parameter": "biolink_object_aspect_qualifier",
-              "value": ""
-            },
-            {
-              "parameter": "biolink_object_direction_qualifier",
-              "value": ""
-            }
-          ],
-          "expected_output": "TopAnswer",
-          "test_issue": null,
-          "semantic_severity": null,
-          "in_v1": null,
-          "well_known": false,
-          "test_reference": null,
-          "test_metadata": {
-            "id": "1",
-            "name": null,
-            "description": null,
-            "tags": [],
-            "test_runner_settings": [],
-            "test_source": "SMURF",
-            "test_reference": null,
-            "test_objective": "AcceptanceTest",
-            "test_annotations": []
-          }
-        },
-        {
-          "id": "Asset_186",
-          "name": "TopAnswer: Insulin human treats Diabetes Mellitus",
-          "description": "TopAnswer: Insulin human treats Diabetes Mellitus",
-          "tags": [],
-          "test_runner_settings": [
-            "inferred"
-          ],
-          "input_id": "MONDO:0005015",
-          "input_name": "Diabetes Mellitus",
-          "input_category": "biolink:Disease",
-          "predicate_id": "biolink:treats",
-          "predicate_name": "treats",
-          "output_id": "UNII:1Y17CTI5SR",
-          "output_name": "Insulin human",
           "output_category": "biolink:ChemicalEntity",
           "association": null,
           "qualifiers": [
@@ -6754,55 +6656,6 @@
           "output_id": "PUBCHEM.COMPOUND:5403",
           "output_name": "terbutaline",
           "output_category": "biolink:ChemicalEntity",
-          "association": null,
-          "qualifiers": [
-            {
-              "parameter": "biolink_qualified_predicate",
-              "value": "biolink:causes"
-            },
-            {
-              "parameter": "biolink_object_aspect_qualifier",
-              "value": "activity_or_abundance"
-            },
-            {
-              "parameter": "biolink_object_direction_qualifier",
-              "value": "increased"
-            }
-          ],
-          "expected_output": "TopAnswer",
-          "test_issue": null,
-          "semantic_severity": null,
-          "in_v1": null,
-          "well_known": false,
-          "test_reference": null,
-          "test_metadata": {
-            "id": "1",
-            "name": null,
-            "description": null,
-            "tags": [],
-            "test_runner_settings": [],
-            "test_source": "SMURF",
-            "test_reference": null,
-            "test_objective": "AcceptanceTest",
-            "test_annotations": []
-          }
-        },
-        {
-          "id": "Asset_389",
-          "name": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
-          "description": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
-          "tags": [],
-          "test_runner_settings": [
-            "inferred"
-          ],
-          "input_id": "NCBIGene:154",
-          "input_name": "ADRB2",
-          "input_category": "biolink:Gene",
-          "predicate_id": "biolink:affects",
-          "predicate_name": "affects",
-          "output_id": "OMIT:0027329",
-          "output_name": "Beta-2 Agonists (Activators)",
-          "output_category": null,
           "association": null,
           "qualifiers": [
             {

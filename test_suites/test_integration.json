@@ -14442,104 +14442,6 @@
                     }
                 },
                 {
-                    "id": "Asset_385",
-                    "name": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-                    "description": "TopAnswer: albuterol, increases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2083",
-                    "output_name": "albuterol,",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "increased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_389",
-                    "name": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
-                    "description": "TopAnswer: Beta-2 Agonists (Activators) increases activity or abundance of ADRB2",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:154",
-                    "input_name": "ADRB2",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "OMIT:0027329",
-                    "output_name": "Beta-2 Agonists (Activators)",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "increased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
                     "id": "Asset_388",
                     "name": "TopAnswer: terbutaline increases activity or abundance of ADRB2",
                     "description": "TopAnswer: terbutaline increases activity or abundance of ADRB2",
@@ -17724,55 +17626,6 @@
                     }
                 },
                 {
-                    "id": "Asset_16",
-                    "name": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-                    "description": "TopAnswer: desferrioxamine treats Aceruloplasminemia",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0011426",
-                    "input_name": "Aceruloplasminemia",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "CHEBI:50453",
-                    "output_name": "desferrioxamine",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
                     "id": "Asset_20",
                     "name": "NeverShow: molecule treats Aceruloplasminemia",
                     "description": "NeverShow: molecule treats Aceruloplasminemia",
@@ -18689,55 +18542,6 @@
                         "test_runner_settings": [],
                         "test_source": "SMURF",
                         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/764",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_598",
-                    "name": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-                    "description": "TopAnswer: MYELOPEROXIDASE decreases activity or abundance of Bivalirudin",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "CHEBI:59173",
-                    "input_name": "Bivalirudin",
-                    "input_category": "biolink:ChemicalEntity",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PR:000010543",
-                    "output_name": "MYELOPEROXIDASE",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/767",
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -20972,55 +20776,6 @@
                         "test_runner_settings": [],
                         "test_source": "SMURF",
                         "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/338",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
-                    "id": "Asset_262",
-                    "name": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-                    "description": "TopAnswer: AZD 3355 treats Gastroesophageal Reflux Disease",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0007186",
-                    "input_name": "Gastroesophageal Reflux Disease",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "DRUGBANK:DB05404",
-                    "output_name": "AZD 3355",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
                         "test_objective": "AcceptanceTest",
                         "test_annotations": []
                     }
@@ -24974,55 +24729,6 @@
             "query_type": null,
             "test_assets": [
                 {
-                    "id": "Asset_186",
-                    "name": "TopAnswer: Insulin human treats Diabetes Mellitus",
-                    "description": "TopAnswer: Insulin human treats Diabetes Mellitus",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0005015",
-                    "input_name": "Diabetes Mellitus",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "UNII:1Y17CTI5SR",
-                    "output_name": "Insulin human",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:treats"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": ""
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": ""
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
                     "id": "Asset_187",
                     "name": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
                     "description": "TopAnswer: Insulin detremir treats Diabetes Mellitus",
@@ -28567,55 +28273,6 @@
                     }
                 },
                 {
-                    "id": "Asset_362",
-                    "name": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
-                    "description": "TopAnswer: ACE inhibitors decreases activity or abundance of ACE",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "NCBIGene:1636",
-                    "input_name": "ACE",
-                    "input_category": "biolink:Gene",
-                    "predicate_id": "biolink:affects",
-                    "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:37056",
-                    "output_name": "ACE inhibitors",
-                    "output_category": "biolink:ChemicalEntity",
-                    "association": null,
-                    "qualifiers": [
-                        {
-                            "parameter": "biolink_qualified_predicate",
-                            "value": "biolink:causes"
-                        },
-                        {
-                            "parameter": "biolink_object_aspect_qualifier",
-                            "value": "activity_or_abundance"
-                        },
-                        {
-                            "parameter": "biolink_object_direction_qualifier",
-                            "value": "decreased"
-                        }
-                    ],
-                    "expected_output": "TopAnswer",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": null,
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                },
-                {
                     "id": "Asset_358",
                     "name": "TopAnswer: Perindopril decreases activity or abundance of ACE",
                     "description": "TopAnswer: Perindopril decreases activity or abundance of ACE",
@@ -29256,68 +28913,6 @@
             ],
             "input_category": "biolink:Disease",
             "output_category": "biolink:ChemicalEntity",
-            "components": [
-                "ars"
-            ],
-            "test_env": "test"
-        },
-        "TestCase_45": {
-            "id": "TestCase_45",
-            "name": "what treats MONDO:0006497",
-            "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "query_type": null,
-            "test_assets": [
-                {
-                    "id": "Asset_191",
-                    "name": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-                    "description": "Acceptable: Hyperbaric oxygen therapy treats Cerebral Palsy",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "inferred"
-                    ],
-                    "input_id": "MONDO:0006497",
-                    "input_name": "Cerebral Palsy",
-                    "input_category": "biolink:Disease",
-                    "predicate_id": "biolink:treats",
-                    "predicate_name": "treats",
-                    "output_id": "NCIT:C38065",
-                    "output_name": "Hyperbaric oxygen therapy",
-                    "output_category": null,
-                    "association": null,
-                    "qualifiers": [],
-                    "expected_output": "Acceptable",
-                    "test_issue": null,
-                    "semantic_severity": null,
-                    "in_v1": null,
-                    "well_known": false,
-                    "test_reference": null,
-                    "test_metadata": {
-                        "id": "1",
-                        "name": null,
-                        "description": null,
-                        "tags": [],
-                        "test_runner_settings": [],
-                        "test_source": "SMURF",
-                        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/624",
-                        "test_objective": "AcceptanceTest",
-                        "test_annotations": []
-                    }
-                }
-            ],
-            "preconditions": [],
-            "trapi_template": null,
-            "test_case_objective": "AcceptanceTest",
-            "test_case_source": null,
-            "test_case_predicate_name": "treats",
-            "test_case_predicate_id": "biolink:treats",
-            "test_case_input_id": "MONDO:0006497",
-            "qualifiers": [],
-            "input_category": "biolink:Disease",
-            "output_category": null,
             "components": [
                 "ars"
             ],
