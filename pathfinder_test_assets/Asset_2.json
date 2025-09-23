@@ -1,0 +1,54 @@
+{
+    "id": "PTFQ_1.2",
+    "name": "Imatinib to Asthma",
+    "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_ids": "CHEBI:31690",
+    "source_input_name": "Imatinib",
+    "source_input_category": "biolink:Drug",
+    "target_input_ids": "MONDO:0004784",
+    "target_input_name": "Asthma",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "path_nodes": [
+        {
+            "ids": ["NCBIGene:3815"],
+            "name": "KIT"
+        },
+        {
+            "ids": ["CHEBI:18295", "PR:000049994"],
+            "name": "Histamine"
+        },
+        {
+            "ids": ["NCBIGene:4254"],
+            "name": "SCF-1"
+        },
+        {
+            "ids": ["CL:0000097"],
+            "name": "Mast Cell"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
