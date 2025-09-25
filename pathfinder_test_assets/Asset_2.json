@@ -6,10 +6,10 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "source_input_ids": "CHEBI:31690",
+    "source_input_id": "CHEBI:31690",
     "source_input_name": "Imatinib",
     "source_input_category": "biolink:Drug",
-    "target_input_ids": "MONDO:0004784",
+    "target_input_id": "MONDO:0004784",
     "target_input_name": "Asthma",
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
