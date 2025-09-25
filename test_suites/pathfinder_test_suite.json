@@ -1,11 +1,11 @@
 {
-    "id": "TestSuite_5",
+    "id": "pathfinder_tests",
     "name": null,
     "description": null,
     "tags": [],
     "test_runner_settings": [],
     "test_metadata": {
-        "id": "5",
+        "id": "pathfinder_tests",
         "name": null,
         "description": null,
         "tags": [],
