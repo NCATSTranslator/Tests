@@ -1,6 +1,6 @@
 {
-    "id": "PTFQ_1a",
-    "name": "Imatinib to Asthma",
+    "id": "PTFQ_1b.4",
+    "name": "Imatinib to Allergic Asthma, Mast Cell",
     "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
     "tags": [],
     "test_runner_settings": [
@@ -9,25 +9,13 @@
     "source_input_id": "CHEBI:31690",
     "source_input_name": "Imatinib",
     "source_input_category": "biolink:Drug",
-    "target_input_id": "MONDO:0004979",
+    "target_input_id": "MONDO:0004784",
     "target_input_name": "Asthma",
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
     "predicate_name": "related to",
-    "minimum_expected_path_nodes": 2,
+    "minimum_expected_path_nodes": 1,
     "path_nodes": [
-        {
-            "ids": ["NCBIGene:3815"],
-            "name": "KIT"
-        },
-        {
-            "ids": ["CHEBI:18295", "PR:000049994"],
-            "name": "Histamine"
-        },
-        {
-            "ids": ["NCBIGene:4254"],
-            "name": "SCF-1"
-        },
         {
             "ids": ["CL:0000097"],
             "name": "Mast Cell"

@@ -1,6 +1,6 @@
 {
-    "id": "PTFQ_1a",
-    "name": "Imatinib to Asthma",
+    "id": "PTFQ_1a.3",
+    "name": "Imatinib to Asthma, through SCF-1",
     "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
     "tags": [],
     "test_runner_settings": [
@@ -14,23 +14,11 @@
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
     "predicate_name": "related to",
-    "minimum_expected_path_nodes": 2,
+    "minimum_expected_path_nodes": 1,
     "path_nodes": [
-        {
-            "ids": ["NCBIGene:3815"],
-            "name": "KIT"
-        },
-        {
-            "ids": ["CHEBI:18295", "PR:000049994"],
-            "name": "Histamine"
-        },
         {
             "ids": ["NCBIGene:4254"],
             "name": "SCF-1"
-        },
-        {
-            "ids": ["CL:0000097"],
-            "name": "Mast Cell"
         }
     ],
     "association": null,
