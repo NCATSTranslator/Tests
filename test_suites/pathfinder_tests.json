@@ -43,7 +43,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 2,
+                    "minimum_required_path_nodes": 2,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:3815"],
@@ -98,7 +98,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:3815"],
@@ -141,7 +141,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["CHEBI:18295", "PR:000049994"],
@@ -184,7 +184,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:4254"],
@@ -227,7 +227,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["CL:0000097"],
@@ -290,7 +290,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 2,
+                    "minimum_required_path_nodes": 2,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:3815"],
@@ -345,7 +345,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:3815"],
@@ -388,7 +388,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["CHEBI:18295", "PR:000049994"],
@@ -431,7 +431,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["NCBIGene:4254"],
@@ -474,7 +474,7 @@
                     "target_input_category": "biolink:Disease",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
-                    "minimum_expected_path_nodes": 1,
+                    "minimum_required_path_nodes": 1,
                     "path_nodes": [
                         {
                             "ids": ["CL:0000097"],
