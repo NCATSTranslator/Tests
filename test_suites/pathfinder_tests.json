@@ -35,7 +35,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004979",
@@ -90,7 +90,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004979",
@@ -133,7 +133,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004979",
@@ -176,7 +176,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004979",
@@ -219,7 +219,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004979",
@@ -282,7 +282,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004784",
@@ -337,7 +337,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004784",
@@ -380,7 +380,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004784",
@@ -423,7 +423,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004784",
@@ -466,7 +466,7 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "CHEBI:31690",
+                    "source_input_id": "CHEBI:45783",
                     "source_input_name": "Imatinib",
                     "source_input_category": "biolink:Drug",
                     "target_input_id": "MONDO:0004784",
