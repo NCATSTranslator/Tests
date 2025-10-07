@@ -76,7 +76,7 @@
       ],
       "preconditions": [],
       "trapi_template": null,
-      "test_case_objective": "AcceptanceTest",
+      "test_case_objective": "QuantitativeTest",
       "test_case_source": null,
       "test_case_predicate_name": "treats",
       "test_case_predicate_id": "biolink:treats",
