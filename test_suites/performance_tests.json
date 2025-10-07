@@ -4,8 +4,18 @@
   "description": "Performance Tests",
   "tags": [],
   "test_runner_settings": [],
-  "test_metadata": {},
-  "test_persona": "Developer",
+  "test_metadata": {
+    "id": "performance_tests",
+    "name": null,
+    "description": null,
+    "tags": [],
+    "test_runner_settings": [],
+    "test_source": null,
+    "test_reference": null,
+    "test_objective": "QuantitativeTest",
+    "test_annotations": []
+  },
+  "test_persona": null,
   "test_suite_specification": null,
   "test_cases": {
     "TestCase_87": {
