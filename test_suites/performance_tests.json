@@ -25,6 +25,8 @@
       "tags": [],
       "test_runner_settings": ["inferred"],
       "query_type": null,
+      "test_run_time": 20,
+      "spawn_rate": 0.1,
       "test_assets": [
         {
           "id": "Asset_668",
@@ -96,7 +98,7 @@
         }
       ],
       "input_category": "biolink:Disease",
-      "output_category": "biolink:ChemicalEntity",
+      "output_category": null,
       "components": ["ars"],
       "test_env": "ci"
     }
