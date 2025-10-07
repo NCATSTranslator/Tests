@@ -7,6 +7,8 @@
         "inferred"
     ],
     "query_type": null,
+    "test_run_time": 20,
+    "spawn_rate": 0.1,
     "test_assets": [
         {
             "id": "Asset_668",
@@ -60,7 +62,7 @@
     ],
     "preconditions": [],
     "trapi_template": null,
-    "test_case_objective": "AcceptanceTest",
+    "test_case_objective": "QuantitativeTest",
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
@@ -80,7 +82,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": null,
     "components": [
         "ars"
     ],
