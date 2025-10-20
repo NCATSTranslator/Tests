@@ -10,7 +10,7 @@
     "test_assets": [
         {
             "id": "Asset_6",
-            "name": "PTFQ_1b",
+            "name": "PTFQ_1b: Imatinib to Allergic Asthma",
             "description": "Imatinib to Allergic Asthma",
             "tags": [],
             "test_runner_settings": [
@@ -65,7 +65,7 @@
         },
         {
             "id": "Asset_7",
-            "name": "PTFQ_1b.1",
+            "name": "PTFQ_1b.1: Imatinib to Allergic Asthma, through KIT",
             "description": "Imatinib to Allergic Asthma, through KIT",
             "tags": [],
             "test_runner_settings": [
@@ -108,7 +108,7 @@
         },
         {
             "id": "Asset_8",
-            "name": "PTFQ_1b.2",
+            "name": "PTFQ_1b.2: Imatinib to Allergic Asthma, through Histamine",
             "description": "Imatinib to Allergic Asthma, through Histamine",
             "tags": [],
             "test_runner_settings": [
@@ -151,7 +151,7 @@
         },
         {
             "id": "Asset_9",
-            "name": "PTFQ_1b.3",
+            "name": "PTFQ_1b.3: Imatinib to Allergic Asthma, through SCF-1",
             "description": "Imatinib to Allergic Asthma, through SCF-1",
             "tags": [],
             "test_runner_settings": [
@@ -194,7 +194,7 @@
         },
         {
             "id": "Asset_10",
-            "name": "PTFQ_1b.4",
+            "name": "PTFQ_1b.4: Imatinib to Allergic Asthma, through Mast Cell",
             "description": "Imatinib to Allergic Asthma, through Mast Cell",
             "tags": [],
             "test_runner_settings": [
