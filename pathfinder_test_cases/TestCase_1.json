@@ -9,8 +9,8 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "PTFQ_1a",
-            "name": "Imatinib to Asthma",
+            "id": "Asset_1",
+            "name": "PTFQ_1a: Imatinib to Asthma",
             "description": "Imatinib to Asthma",
             "tags": [],
             "test_runner_settings": [
@@ -64,8 +64,8 @@
             }
         },
         {
-            "id": "PTFQ_1a.1",
-            "name": "Imatinib to Asthma, KIT",
+            "id": "Asset_2",
+            "name": "PTFQ_1a.1: Imatinib to Asthma, through KIT",
             "description": "Imatinib to Asthma, through KIT",
             "tags": [],
             "test_runner_settings": [
@@ -107,8 +107,8 @@
             }
         },
         {
-            "id": "PTFQ_1a.2",
-            "name": "Imatinib to Asthma, Histamine",
+            "id": "Asset_3",
+            "name": "PTFQ_1a.2: Imatinib to Asthma, through Histamine",
             "description": "Imatinib to Asthma, through Histamine",
             "tags": [],
             "test_runner_settings": [
@@ -150,8 +150,8 @@
             }
         },
         {
-            "id": "PTFQ_1a.3",
-            "name": "Imatinib to Asthma, SCF-1",
+            "id": "Asset_4",
+            "name": "PTFQ_1a.3: Imatinib to Asthma, through SCF-1",
             "description": "Imatinib to Asthma, through SCF-1",
             "tags": [],
             "test_runner_settings": [
@@ -193,8 +193,8 @@
             }
         },
         {
-            "id": "PTFQ_1a.4",
-            "name": "Imatinib to Asthma, Mast Cell",
+            "id": "Asset_4",
+            "name": "PTFQ_1a.5: Imatinib to Asthma, through Mast Cell",
             "description": "Imatinib to Asthma, through Mast Cell",
             "tags": [],
             "test_runner_settings": [
