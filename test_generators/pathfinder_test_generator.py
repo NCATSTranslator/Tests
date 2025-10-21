@@ -83,6 +83,6 @@ def create_test_suite(
 
 if __name__ == "__main__":
     create_test_suite(
-        "https://github.com/NCATSTranslator/Tests/archive/refs/heads/more_pathfinder.zip",
+        "https://github.com/NCATSTranslator/Tests/archive/refs/heads/main.zip",
         logging.Logger("tester"),
     )
