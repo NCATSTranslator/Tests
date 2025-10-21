@@ -1,0 +1,63 @@
+{
+    "id": "Asset_88",
+    "name": "PTFQ_10: Warfarin to Cancer Neoplasia",
+    "description": "Why do patients on Warfarin have a markedly reduced incidence of various cancers?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:10033",
+    "source_input_name": "Warfarin",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0004992",
+    "target_input_name": "Cancer",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": ["NCBIGene:79001"],
+            "name": "VKORC1"
+        },
+        {
+            "ids": ["MESH:C021527"],
+            "name": "vitamin K oxidoreductase"
+        },
+        {
+            "ids": ["NCBIGene:558"],
+            "name": "AXL"
+        },
+        {
+            "ids": ["NCBIGene:2621"],
+            "name": "GAS6"
+        },
+        {
+            "ids": ["CHEBI:28384"],
+            "name": "Vitamin K"
+        },
+        {
+            "ids": ["GO:0001837, GO:0010717"],
+            "name": "Epthelial-to-Mesenchymal -transition"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
