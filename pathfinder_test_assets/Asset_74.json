@@ -1,0 +1,43 @@
+{
+    "id": "Asset_74",
+    "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, IRE1",
+    "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:5118",
+    "source_input_name": "Fluoxetine (Prozac)",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0100233",
+    "target_input_name": "long-COVID",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": ["NCBIGene:856478", "NCBIGene:856478"],
+            "name": "IRE1"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
