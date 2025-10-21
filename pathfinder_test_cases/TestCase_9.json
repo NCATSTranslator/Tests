@@ -1,7 +1,7 @@
 {
-    "id": "TestCase_1",
-    "name": "PTFQ_4",
-    "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+    "id": "TestCase_9",
+    "name": "PTFQ2a",
+    "description": "How does resveratrol affect glyoxalase?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
@@ -9,139 +9,44 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_26",
-            "name": "PTFQ_4.2: SLC6A20 to COVID-19, NFE2L2",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+            "id": "Asset_11",
+            "name": "PTFQ2a",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:4780"
+                        "NCBIGene:3815"
                     ],
-                    "name": "NFE2L2"
-                }
-            ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "PTFQ_4.3: SLC6A20 to COVID-19, SARAS-Cov2 - Spike-protein",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "UniProtKB:P0DTC2"
-                    ],
-                    "name": "SARAS-Cov2 - Spike-protein"
-                }
-            ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "PTFQ_4: SLC6A20 to COVID-19",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:59272"
-                    ],
-                    "name": "ACE2"
+                    "name": "KIT"
                 },
                 {
                     "ids": [
-                        "NCBIGene:4780"
+                        "NCBIGene:855009"
                     ],
-                    "name": "NFE2L2"
+                    "name": "GLO1"
                 },
                 {
                     "ids": [
-                        "UniProtKB:P0DTC2"
+                        "GO:0034599"
                     ],
-                    "name": "SARAS-Cov2 - Spike-protein"
+                    "name": "Cellular response to oxidative stress"
+                },
+                {
+                    "ids": [
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
+                    ],
+                    "name": "NFT2 pathway"
                 }
             ],
             "minimum_required_path_nodes": 2,
@@ -174,25 +79,179 @@
             }
         },
         {
-            "id": "Asset_25",
-            "name": "PTFQ_4.1: SLC6A20 to COVID-19, ACE2",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+            "id": "Asset_14",
+            "name": "PTFQ2a.3",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:59272"
+                        "GO:0034599"
                     ],
-                    "name": "ACE2"
+                    "name": "Cellular response to oxidative stress"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_15",
+            "name": "PTFQ2a.4",
+            "description": "How does resveratrol affect glyoxalase?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
+                    ],
+                    "name": "NFT2 pathway"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_12",
+            "name": "PTFQ2a.1",
+            "description": "How does resveratrol affect glyoxalase?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3815"
+                    ],
+                    "name": "KIT"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_13",
+            "name": "PTFQ2a.2",
+            "description": "How does resveratrol affect glyoxalase?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:855009"
+                    ],
+                    "name": "GLO1"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -231,8 +290,8 @@
     "test_case_source": null,
     "test_case_predicate_name": "related to",
     "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "NCBIGene:54716",
-    "test_case_target_input_id": "MONDO:0100096",
+    "test_case_source_input_id": "CHEBI:45713",
+    "test_case_target_input_id": "NCBIGene:2739",
     "qualifiers": null,
     "source_input_category": null,
     "target_input_category": null,
