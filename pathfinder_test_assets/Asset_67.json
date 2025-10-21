@@ -1,0 +1,43 @@
+{
+    "id": "Asset_67",
+    "name": "PTFQ_7b.4: Aspirin to Colorectal Cancer, prostaglandin PGE2",
+    "description": "How does aspirin help prevent colorectal cancer?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:15365",
+    "source_input_name": "Aspirin",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0005575",
+    "target_input_name": "Colorectal Cancer",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": ["CHEBI:26333", "CHEBI:176067", "CHEBI:15551"],
+            "name": "prostaglandin PGE2"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
