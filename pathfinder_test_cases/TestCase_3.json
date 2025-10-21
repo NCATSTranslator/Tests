@@ -1,7 +1,7 @@
 {
-    "id": "TestCase_2",
-    "name": "PTFQ_8",
-    "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+    "id": "TestCase_3",
+    "name": "PTFQ_7b",
+    "description": "How does aspirin help prevent colorectal cancer?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
@@ -9,25 +9,27 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_71",
-            "name": "PTFQ_8.1: Fluoxetine (Prozac) to long-COVID, IFNG",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_67",
+            "name": "PTFQ_7b.4: Aspirin to Colorectal Cancer, prostaglandin PGE2",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:3458"
+                        "CHEBI:26333",
+                        "CHEBI:176067",
+                        "CHEBI:15551"
                     ],
-                    "name": "IFNG"
+                    "name": "prostaglandin PGE2"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -60,50 +62,114 @@
             }
         },
         {
-            "id": "Asset_70",
-            "name": "PTFQ_8: Fluoxetine (Prozac) to long-COVID",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_66",
+            "name": "PTFQ_7b.3: Aspirin to Colorectal Cancer, resolvins",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:3458"
+                        "CHEBI:132120",
+                        "UMLS:C4288292"
                     ],
-                    "name": "IFNG"
+                    "name": "resolvins"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_63",
+            "name": "PTFQ_7b: Aspirin to Colorectal Cancer",
+            "description": "How does aspirin help prevent colorectal cancer?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
+            "target_input_category": "biolink:Disease",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:4513"
+                    ],
+                    "name": "COX2"
                 },
                 {
                     "ids": [
-                        "CHEBI:50949"
+                        "NCBIGene:4791",
+                        "NCBIGene:4790"
                     ],
-                    "name": "SSRI agonist"
+                    "name": "NFKB"
                 },
                 {
                     "ids": [
-                        "NCBIGene:10280"
+                        "CHEBI:132120",
+                        "UMLS:C4288292"
                     ],
-                    "name": "SIGMAR1"
+                    "name": "resolvins"
                 },
                 {
                     "ids": [
-                        "NCBIGene:856478",
-                        "NCBIGene:856478"
+                        "CHEBI:26333",
+                        "CHEBI:176067",
+                        "CHEBI:15551"
                     ],
-                    "name": "IRE1"
+                    "name": "prostaglandin PGE2"
                 },
                 {
                     "ids": [
-                        "UBERON:0001759"
+                        "UniProtKB:P43246-1",
+                        "UniProtKB:P43246-2"
                     ],
-                    "name": "vagus nerve"
+                    "name": "hMSH2"
+                },
+                {
+                    "ids": [
+                        "UniProtKB:P40692-2",
+                        "UniProtKB:P40692-3",
+                        "UniProtKB:P40692-1"
+                    ],
+                    "name": "hMLH1"
                 }
             ],
             "minimum_required_path_nodes": 2,
@@ -136,25 +202,26 @@
             }
         },
         {
-            "id": "Asset_75",
-            "name": "PTFQ_8.5: Fluoxetine (Prozac) to long-COVID, vagus nerve",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_65",
+            "name": "PTFQ_7b.2: Aspirin to Colorectal Cancer, NFKB",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "UBERON:0001759"
+                        "NCBIGene:4791",
+                        "NCBIGene:4790"
                     ],
-                    "name": "vagus nerve"
+                    "name": "NFKB"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -187,26 +254,27 @@
             }
         },
         {
-            "id": "Asset_74",
-            "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, IRE1",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_69",
+            "name": "PTFQ_7b.6: Aspirin to Colorectal Cancer, hMLH1",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:856478",
-                        "NCBIGene:856478"
+                        "UniProtKB:P40692-2",
+                        "UniProtKB:P40692-3",
+                        "UniProtKB:P40692-1"
                     ],
-                    "name": "IRE1"
+                    "name": "hMLH1"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -239,25 +307,26 @@
             }
         },
         {
-            "id": "Asset_73",
-            "name": "PTFQ_8.3: Fluoxetine (Prozac) to long-COVID, SIGMAR1",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_68",
+            "name": "PTFQ_7b.5: Aspirin to Colorectal Cancer, hMSH2",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:10280"
+                        "UniProtKB:P43246-1",
+                        "UniProtKB:P43246-2"
                     ],
-                    "name": "SIGMAR1"
+                    "name": "hMSH2"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -290,25 +359,25 @@
             }
         },
         {
-            "id": "Asset_72",
-            "name": "PTFQ_8.2: Fluoxetine (Prozac) to long-COVID, SSRI agonist",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_64",
+            "name": "PTFQ_7b.1: Aspirin to Colorectal Cancer, COX2",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:15365",
+            "source_input_name": "Aspirin",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "CHEBI:50949"
+                        "NCBIGene:4513"
                     ],
-                    "name": "SSRI agonist"
+                    "name": "COX2"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -347,8 +416,8 @@
     "test_case_source": null,
     "test_case_predicate_name": "related to",
     "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "CHEBI:5118",
-    "test_case_target_input_id": "MONDO:0100233",
+    "test_case_source_input_id": "CHEBI:15365",
+    "test_case_target_input_id": "MONDO:0005575",
     "qualifiers": null,
     "source_input_category": null,
     "target_input_category": null,

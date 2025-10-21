@@ -1,7 +1,7 @@
 {
-    "id": "TestCase_2",
-    "name": "PTFQ_8",
-    "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+    "id": "TestCase_11",
+    "name": "PTFQ2b",
+    "description": "How does resveratrol affect glyoxalase?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
@@ -9,101 +9,44 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_71",
-            "name": "PTFQ_8.1: Fluoxetine (Prozac) to long-COVID, IFNG",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_16",
+            "name": "PTFQ2b",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "resveratrol",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
-            "target_input_category": "biolink:Disease",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:3458"
+                        "NCBIGene:3815"
                     ],
-                    "name": "IFNG"
-                }
-            ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_70",
-            "name": "PTFQ_8: Fluoxetine (Prozac) to long-COVID",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:3458"
-                    ],
-                    "name": "IFNG"
+                    "name": "KIT"
                 },
                 {
                     "ids": [
-                        "CHEBI:50949"
+                        "NCBIGene:855009"
                     ],
-                    "name": "SSRI agonist"
+                    "name": "GLO1"
                 },
                 {
                     "ids": [
-                        "NCBIGene:10280"
+                        "GO:0034599"
                     ],
-                    "name": "SIGMAR1"
+                    "name": "Cellular response to oxidative stress"
                 },
                 {
                     "ids": [
-                        "NCBIGene:856478",
-                        "NCBIGene:856478"
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
                     ],
-                    "name": "IRE1"
-                },
-                {
-                    "ids": [
-                        "UBERON:0001759"
-                    ],
-                    "name": "vagus nerve"
+                    "name": "NFT2 pathway"
                 }
             ],
             "minimum_required_path_nodes": 2,
@@ -136,25 +79,26 @@
             }
         },
         {
-            "id": "Asset_75",
-            "name": "PTFQ_8.5: Fluoxetine (Prozac) to long-COVID, vagus nerve",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_20",
+            "name": "PTFQ2b.4",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "resveratrol",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
-            "target_input_category": "biolink:Disease",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "path_nodes": [
                 {
                     "ids": [
-                        "UBERON:0001759"
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
                     ],
-                    "name": "vagus nerve"
+                    "name": "NFT2 pathway"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -187,26 +131,82 @@
             }
         },
         {
-            "id": "Asset_74",
-            "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, IRE1",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_21",
+            "name": "PTFQ3",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:856478",
-                        "NCBIGene:856478"
+                        "NCBIGene:11315"
                     ],
-                    "name": "IRE1"
+                    "name": "PARK7"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:120892"
+                    ],
+                    "name": "LRRK2"
+                }
+            ],
+            "minimum_required_path_nodes": 2,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_17",
+            "name": "PTFQ2b.1",
+            "description": "How does resveratrol affect glyoxalase?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3815"
+                    ],
+                    "name": "KIT"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -239,25 +239,76 @@
             }
         },
         {
-            "id": "Asset_73",
-            "name": "PTFQ_8.3: Fluoxetine (Prozac) to long-COVID, SIGMAR1",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_22",
+            "name": "PTFQ3.1",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:10280"
+                        "NCBIGene:11315"
                     ],
-                    "name": "SIGMAR1"
+                    "name": "PARK7"
+                }
+            ],
+            "minimum_required_path_nodes": 2,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_18",
+            "name": "PTFQ2b.2",
+            "description": "How does resveratrol affect glyoxalase?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:855009"
+                    ],
+                    "name": "GLO1"
                 }
             ],
             "minimum_required_path_nodes": 1,
@@ -290,28 +341,79 @@
             }
         },
         {
-            "id": "Asset_72",
-            "name": "PTFQ_8.2: Fluoxetine (Prozac) to long-COVID, SSRI agonist",
-            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "id": "Asset_19",
+            "name": "PTFQ2b.3",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:5118",
-            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "resveratrol",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "MONDO:0100233",
-            "target_input_name": "long-COVID",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "GO:0034599"
+                    ],
+                    "name": "Cellular response to oxidative stress"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_23",
+            "name": "PTFQ3.2",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:27881",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "CHEBI:50949"
+                        "NCBIGene:120892"
                     ],
-                    "name": "SSRI agonist"
+                    "name": "LRRK2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
+            "minimum_required_path_nodes": 2,
             "input_id": null,
             "input_name": null,
             "input_category": null,
@@ -347,8 +449,8 @@
     "test_case_source": null,
     "test_case_predicate_name": "related to",
     "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "CHEBI:5118",
-    "test_case_target_input_id": "MONDO:0100233",
+    "test_case_source_input_id": "CHEBI:27881",
+    "test_case_target_input_id": "NCBIGene:2739",
     "qualifiers": null,
     "source_input_category": null,
     "target_input_category": null,

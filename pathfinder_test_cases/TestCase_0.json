@@ -1,7 +1,7 @@
 {
-    "id": "TestCase_1",
-    "name": "PTFQ_4",
-    "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+    "id": "TestCase_0",
+    "name": "PTFQ_1a",
+    "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
@@ -9,193 +9,252 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_26",
-            "name": "PTFQ_4.2: SLC6A20 to COVID-19, NFE2L2",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+            "id": "Asset_2",
+            "name": "PTFQ_1a.1: Imatinib to Asthma, through KIT",
+            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
+            "source_input_id": "CHEBI:45783",
+            "source_input_name": "Imatinib",
+            "source_input_category": "biolink:Drug",
+            "target_input_id": "MONDO:0004979",
+            "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:4780"
+                        "NCBIGene:3815"
                     ],
-                    "name": "NFE2L2"
-                }
-            ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "PTFQ_4.3: SLC6A20 to COVID-19, SARAS-Cov2 - Spike-protein",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "UniProtKB:P0DTC2"
-                    ],
-                    "name": "SARAS-Cov2 - Spike-protein"
-                }
-            ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_24",
-            "name": "PTFQ_4: SLC6A20 to COVID-19",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:59272"
-                    ],
-                    "name": "ACE2"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:4780"
-                    ],
-                    "name": "NFE2L2"
-                },
-                {
-                    "ids": [
-                        "UniProtKB:P0DTC2"
-                    ],
-                    "name": "SARAS-Cov2 - Spike-protein"
-                }
-            ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_25",
-            "name": "PTFQ_4.1: SLC6A20 to COVID-19, ACE2",
-            "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "NCBIGene:54716",
-            "source_input_name": "SLC6A20",
-            "source_input_category": "biolink:Gene",
-            "target_input_id": "MONDO:0100096",
-            "target_input_name": "COVID-19",
-            "target_input_category": "biolink:Disease",
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:59272"
-                    ],
-                    "name": "ACE2"
+                    "name": "KIT"
                 }
             ],
             "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_3",
+            "name": "PTFQ_1a.2: Imatinib to Asthma, through Histamine",
+            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45783",
+            "source_input_name": "Imatinib",
+            "source_input_category": "biolink:Drug",
+            "target_input_id": "MONDO:0004979",
+            "target_input_name": "Asthma",
+            "target_input_category": "biolink:Disease",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CHEBI:18295",
+                        "PR:000049994"
+                    ],
+                    "name": "Histamine"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_4",
+            "name": "PTFQ_1a.3: Imatinib to Asthma, through SCF-1",
+            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45783",
+            "source_input_name": "Imatinib",
+            "source_input_category": "biolink:Drug",
+            "target_input_id": "MONDO:0004979",
+            "target_input_name": "Asthma",
+            "target_input_category": "biolink:Disease",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:4254"
+                    ],
+                    "name": "SCF-1"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_5",
+            "name": "PTFQ_1a.4: Imatinib to Asthma, through Mast Cell",
+            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45783",
+            "source_input_name": "Imatinib",
+            "source_input_category": "biolink:Drug",
+            "target_input_id": "MONDO:0004979",
+            "target_input_name": "Asthma",
+            "target_input_category": "biolink:Disease",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CL:0000097"
+                    ],
+                    "name": "Mast Cell"
+                }
+            ],
+            "minimum_required_path_nodes": 1,
+            "input_id": null,
+            "input_name": null,
+            "input_category": null,
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "output_id": null,
+            "output_name": null,
+            "output_category": null,
+            "association": null,
+            "qualifiers": null,
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "1",
+                "name": null,
+                "description": null,
+                "tags": [],
+                "test_runner_settings": [],
+                "test_source": "SMURF",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_1",
+            "name": "PTFQ_1a: Imatinib to Asthma",
+            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:45783",
+            "source_input_name": "Imatinib",
+            "source_input_category": "biolink:Drug",
+            "target_input_id": "MONDO:0004979",
+            "target_input_name": "Asthma",
+            "target_input_category": "biolink:Disease",
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3815"
+                    ],
+                    "name": "KIT"
+                },
+                {
+                    "ids": [
+                        "CHEBI:18295",
+                        "PR:000049994"
+                    ],
+                    "name": "Histamine"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:4254"
+                    ],
+                    "name": "SCF-1"
+                },
+                {
+                    "ids": [
+                        "CL:0000097"
+                    ],
+                    "name": "Mast Cell"
+                }
+            ],
+            "minimum_required_path_nodes": 2,
             "input_id": null,
             "input_name": null,
             "input_category": null,
@@ -231,8 +290,8 @@
     "test_case_source": null,
     "test_case_predicate_name": "related to",
     "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "NCBIGene:54716",
-    "test_case_target_input_id": "MONDO:0100096",
+    "test_case_source_input_id": "CHEBI:45783",
+    "test_case_target_input_id": "MONDO:0004979",
     "qualifiers": null,
     "source_input_category": null,
     "target_input_category": null,
