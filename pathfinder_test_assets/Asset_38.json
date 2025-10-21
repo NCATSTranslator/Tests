@@ -1,0 +1,43 @@
+{
+    "id": "Asset_30",
+    "name": "PTFQ_5b.2: IFNG to tryptophan, IFNGR",
+    "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "NCBIGene:3458",
+    "source_input_name": "IFNG",
+    "source_input_category": "biolink:Gene",
+    "target_input_id": "CHEBI:16828",
+    "target_input_name": "tryptophan",
+    "target_input_category": "biolink:SmallMolecule",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": ["NCBIGene:3459", "NCBIGene:3460"],
+            "name": "IFNGR"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "SMURF",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
