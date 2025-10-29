@@ -6,7 +6,6 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
             "id": "Asset_41",
@@ -22,6 +21,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptohphan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -30,34 +33,7 @@
                     "name": "Regulator T Cell"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_36",
@@ -73,6 +49,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -119,34 +99,7 @@
                     "name": "aryl hydrocarbon receptor"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_37",
@@ -162,6 +115,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -170,34 +127,7 @@
                     "name": "IDO1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_40",
@@ -213,6 +143,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -221,37 +155,10 @@
                     "name": "T Cell"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_30",
+            "id": "Asset_38",
             "name": "PTFQ_5b.2: IFNG to tryptophan, IFNGR",
             "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
             "tags": [],
@@ -264,6 +171,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -273,34 +184,7 @@
                     "name": "IFNGR"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_43",
@@ -316,6 +200,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -325,34 +213,7 @@
                     "name": "aryl hydrocarbon receptor"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_42",
@@ -368,6 +229,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptohphan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -376,34 +241,7 @@
                     "name": "IDO2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_39",
@@ -419,6 +257,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -427,37 +269,10 @@
                     "name": "kynurenine"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_36",
+            "id": "Asset_28",
             "name": "PTFQ_5a: IFNG to tryptophan",
             "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
             "tags": [],
@@ -470,6 +285,10 @@
             "target_input_id": "CHEBI:16828",
             "target_input_name": "tryptophan",
             "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -516,47 +335,10 @@
                     "name": "aryl hydrocarbon receptor"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "related to",
-    "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "NCBIGene:3458",
-    "test_case_target_input_id": "CHEBI:16828",
-    "qualifiers": null,
-    "source_input_category": null,
-    "target_input_category": null,
     "components": [
         "ars"
     ],

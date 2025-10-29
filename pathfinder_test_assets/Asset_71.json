@@ -14,30 +14,15 @@
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
     "predicate_name": "related to",
+    "qualifiers": null,
     "minimum_required_path_nodes": 1,
     "path_nodes": [
         {
-            "ids": ["NCBIGene:3458"],
+            "ids": [
+                "NCBIGene:3458"
+            ],
             "name": "IFNG"
         }
     ],
-    "association": null,
-    "qualifiers": null,
-    "expected_output": "TopAnswer",
-    "test_issue": null,
-    "semantic_severity": null,
-    "in_v1": null,
-    "well_known": true,
-    "test_reference": null,
-    "test_metadata": {
-        "id": "1",
-        "name": null,
-        "description": null,
-        "tags": [],
-        "test_runner_settings": [],
-        "test_source": "SMURF",
-        "test_reference": null,
-        "test_objective": "AcceptanceTest",
-        "test_annotations": []
-    }
+    "expected_output": "TopAnswer"
 }

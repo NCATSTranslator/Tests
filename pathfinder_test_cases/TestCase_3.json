@@ -6,7 +6,6 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
             "id": "Asset_67",
@@ -22,6 +21,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -32,34 +35,7 @@
                     "name": "prostaglandin PGE2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_66",
@@ -75,6 +51,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -84,34 +64,7 @@
                     "name": "resolvins"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_63",
@@ -127,6 +80,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -172,34 +129,7 @@
                     "name": "hMLH1"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_65",
@@ -215,6 +145,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -224,34 +158,7 @@
                     "name": "NFKB"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_69",
@@ -267,6 +174,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -277,34 +188,7 @@
                     "name": "hMLH1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_68",
@@ -320,6 +204,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -329,34 +217,7 @@
                     "name": "hMSH2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_64",
@@ -372,6 +233,10 @@
             "target_input_id": "MONDO:0005575",
             "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -380,47 +245,10 @@
                     "name": "COX2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "related to",
-    "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "CHEBI:15365",
-    "test_case_target_input_id": "MONDO:0005575",
-    "qualifiers": null,
-    "source_input_category": null,
-    "target_input_category": null,
     "components": [
         "ars"
     ],

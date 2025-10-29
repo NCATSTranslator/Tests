@@ -6,7 +6,6 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
             "id": "Asset_84",
@@ -22,6 +21,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -30,34 +33,7 @@
                     "name": "UCHL1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_85",
@@ -73,6 +49,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -81,34 +61,7 @@
                     "name": "TRPM7"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_82",
@@ -124,6 +77,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -132,34 +89,7 @@
                     "name": "PLA2G6"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_77",
@@ -175,6 +105,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -183,34 +117,7 @@
                     "name": "PRKN"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_76",
@@ -226,6 +133,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -294,34 +205,7 @@
                     "name": "Vitamin D Deficiency"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_83",
@@ -337,6 +221,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -345,34 +233,7 @@
                     "name": "HTRA2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_80",
@@ -388,6 +249,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -396,34 +261,7 @@
                     "name": "PARK7"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_79",
@@ -439,6 +277,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -447,34 +289,7 @@
                     "name": "LRRK2"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_78",
@@ -490,6 +305,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -498,34 +317,7 @@
                     "name": "SNCA"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_81",
@@ -541,6 +333,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -549,34 +345,7 @@
                     "name": "PINK1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_86",
@@ -592,6 +361,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -600,34 +373,7 @@
                     "name": "MC1R"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_87",
@@ -643,6 +389,10 @@
             "target_input_id": "MONDO:0005105",
             "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -651,47 +401,10 @@
                     "name": "Vitamin D Deficiency"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "related to",
-    "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "MONDO:0005180",
-    "test_case_target_input_id": "MONDO:0005105",
-    "qualifiers": null,
-    "source_input_category": null,
-    "target_input_category": null,
     "components": [
         "ars"
     ],

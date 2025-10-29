@@ -6,7 +6,6 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
             "id": "Asset_2",
@@ -22,6 +21,10 @@
             "target_input_id": "MONDO:0004979",
             "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -30,34 +33,7 @@
                     "name": "KIT"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_3",
@@ -73,6 +49,10 @@
             "target_input_id": "MONDO:0004979",
             "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -82,34 +62,7 @@
                     "name": "Histamine"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_4",
@@ -125,6 +78,10 @@
             "target_input_id": "MONDO:0004979",
             "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -133,34 +90,7 @@
                     "name": "SCF-1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_5",
@@ -176,6 +106,10 @@
             "target_input_id": "MONDO:0004979",
             "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -184,34 +118,7 @@
                     "name": "Mast Cell"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_1",
@@ -227,6 +134,10 @@
             "target_input_id": "MONDO:0004979",
             "target_input_name": "Asthma",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -254,47 +165,10 @@
                     "name": "Mast Cell"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "related to",
-    "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "CHEBI:45783",
-    "test_case_target_input_id": "MONDO:0004979",
-    "qualifiers": null,
-    "source_input_category": null,
-    "target_input_category": null,
     "components": [
         "ars"
     ],

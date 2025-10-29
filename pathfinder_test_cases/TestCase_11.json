@@ -6,7 +6,6 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
             "id": "Asset_16",
@@ -22,6 +21,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "glyoxalase",
             "target_input_category": "biolink:Gene",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -49,34 +52,7 @@
                     "name": "NFT2 pathway"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_20",
@@ -92,6 +68,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "glyoxalase",
             "target_input_category": "biolink:Gene",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -101,34 +81,7 @@
                     "name": "NFT2 pathway"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_21",
@@ -144,6 +97,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -158,34 +115,7 @@
                     "name": "LRRK2"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_17",
@@ -201,6 +131,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "glyoxalase",
             "target_input_category": "biolink:Gene",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -209,34 +143,7 @@
                     "name": "KIT"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_22",
@@ -252,6 +159,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -260,34 +171,7 @@
                     "name": "PARK7"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_18",
@@ -303,6 +187,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "glyoxalase",
             "target_input_category": "biolink:Gene",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -311,34 +199,7 @@
                     "name": "GLO1"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_19",
@@ -354,6 +215,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "glyoxalase",
             "target_input_category": "biolink:Gene",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -362,34 +227,7 @@
                     "name": "Cellular response to oxidative stress"
                 }
             ],
-            "minimum_required_path_nodes": 1,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
             "id": "Asset_23",
@@ -405,6 +243,10 @@
             "target_input_id": "NCBIGene:2739",
             "target_input_name": "Parkinson's Disease",
             "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
@@ -413,47 +255,10 @@
                     "name": "LRRK2"
                 }
             ],
-            "minimum_required_path_nodes": 2,
-            "input_id": null,
-            "input_name": null,
-            "input_category": null,
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "output_id": null,
-            "output_name": null,
-            "output_category": null,
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
-    "test_case_predicate_name": "related to",
-    "test_case_predicate_id": "biolink:related to",
-    "test_case_source_input_id": "CHEBI:27881",
-    "test_case_target_input_id": "NCBIGene:2739",
-    "qualifiers": null,
-    "source_input_category": null,
-    "target_input_category": null,
     "components": [
         "ars"
     ],

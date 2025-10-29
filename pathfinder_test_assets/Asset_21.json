@@ -14,34 +14,21 @@
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
     "predicate_name": "related to",
+    "qualifiers": null,
     "minimum_required_path_nodes": 2,
     "path_nodes": [
         {
-            "ids": ["NCBIGene:11315"],
+            "ids": [
+                "NCBIGene:11315"
+            ],
             "name": "PARK7"
         },
         {
-            "ids": ["NCBIGene:120892"],
+            "ids": [
+                "NCBIGene:120892"
+            ],
             "name": "LRRK2"
         }
     ],
-    "association": null,
-    "qualifiers": null,
-    "expected_output": "TopAnswer",
-    "test_issue": null,
-    "semantic_severity": null,
-    "in_v1": null,
-    "well_known": true,
-    "test_reference": null,
-    "test_metadata": {
-        "id": "1",
-        "name": null,
-        "description": null,
-        "tags": [],
-        "test_runner_settings": [],
-        "test_source": "SMURF",
-        "test_reference": null,
-        "test_objective": "AcceptanceTest",
-        "test_annotations": []
-    }
+    "expected_output": "TopAnswer"
 }
