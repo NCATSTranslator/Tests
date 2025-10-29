@@ -1,13 +1,13 @@
 {
-    "id": "Asset_M00001_10_28_25",
-    "name": "Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",
-    "description": "This is the start and end compound from KEGG pathway M00001, with a random compound from the pathway required to be an intermediate.",
+    "id": "Asset_96",
+    "name": "Glycolysis, core module involving three-carbon compounds",
+    "description": "This is the start and end compound from KEGG pathway M00002, with a random compound from the pathway required to be an intermediate.",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
-    "source_input_id": "KEGG.COMPOUND:C00267",
-    "source_input_name": "alpha-D-Glucose",
+    "source_input_id": "KEGG.COMPOUND:C00111",
+    "source_input_name": "Glycerone phosphate",
     "source_input_category": "biolink:ChemicalEntity",
     "target_input_id": "KEGG.COMPOUND:C00022",
     "target_input_name": "Pyruvate",
