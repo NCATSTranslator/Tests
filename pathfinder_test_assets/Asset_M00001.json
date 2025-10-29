@@ -1,0 +1,43 @@
+{
+    "id": "Asset_M00001_10_28_25",
+    "name": "Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",
+    "description": "This is the start and end compound from KEGG pathway M00001, with a random compound from the pathway required to be an intermediate.",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "KEGG.COMPOUND:C00267",
+    "source_input_name": "alpha-D-Glucose",
+    "source_input_category": "biolink:ChemicalEntity",
+    "target_input_id": "KEGG.COMPOUND:C00022",
+    "target_input_name": "Pyruvate",
+    "target_input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": ["KEGG.COMPOUND:C00197"],
+            "name": "3-Phospho-D-glycerate"
+        }
+    ],
+    "association": null,
+    "qualifiers": null,
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "NCATS_Translator_make_test_assets_from_KEGG.pl",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
