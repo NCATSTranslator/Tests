@@ -1,0 +1,28 @@
+{
+    "id": "Asset_81",
+    "name": "PTFQ_9.5: Parkinson's Disease to melanoma, PINK1",
+    "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "MONDO:0005180",
+    "source_input_name": "Parkinson's Disease",
+    "source_input_category": "biolink:Disease",
+    "target_input_id": "MONDO:0005105",
+    "target_input_name": "melanoma",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:65018"
+            ],
+            "name": "PINK1"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

@@ -1,0 +1,40 @@
+{
+    "id": "Asset_24",
+    "name": "PTFQ_4: SLC6A20 to COVID-19",
+    "description": "A GWAS study suggests that a variant in gene SLC6A20 may be associated with susceptibility to COVID19. What could be the molecular mechanism(s) that explain(s) this connection ?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "NCBIGene:54716",
+    "source_input_name": "SLC6A20",
+    "source_input_category": "biolink:Gene",
+    "target_input_id": "MONDO:0100096",
+    "target_input_name": "COVID-19",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:59272"
+            ],
+            "name": "ACE2"
+        },
+        {
+            "ids": [
+                "NCBIGene:4780"
+            ],
+            "name": "NFE2L2"
+        },
+        {
+            "ids": [
+                "UniProtKB:P0DTC2"
+            ],
+            "name": "SARAS-Cov2 - Spike-protein"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

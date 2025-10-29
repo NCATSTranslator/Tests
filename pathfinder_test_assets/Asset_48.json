@@ -1,0 +1,28 @@
+{
+    "id": "Asset_48",
+    "name": "PTFQ_5c.4: IFNG to tryptophan N-allylamide, T Cell",
+    "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "NCBIGene:3458",
+    "source_input_name": "IFNG",
+    "source_input_category": "biolink:Gene",
+    "target_input_id": "PUBCHEM.COMPOUND:22691495",
+    "target_input_name": "tryptophan N-allylamide",
+    "target_input_category": "biolink:SmallMolecule",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "CL:0000084"
+            ],
+            "name": "T Cell"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

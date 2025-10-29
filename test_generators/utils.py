@@ -3,9 +3,11 @@
 Utility functions for creating Test Suites.
 """
 import json
+import re
 from typing import Dict
 
 from translator_testing_model.datamodel.pydanticmodel import (
+    PathfinderTestCase,
     TestCase,
     TestObjectiveEnum,
     TestEnvEnum,
@@ -77,6 +79,41 @@ def create_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Di
 
     return test_cases
 
+def create_pathfinder_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Dict[str, PathfinderTestCase]:
+    # Group test assets based on input_id and relationship
+    grouped_assets = {}
+    for test_asset in test_assets:
+        qualifier_key = ""
+        if test_asset.qualifiers and test_asset.qualifiers is not None:
+            for qualifier in test_asset.qualifiers:
+                qualifier_key = qualifier_key + qualifier.value
+        key = (test_asset.source_input_id, test_asset.target_input_id, test_asset.predicate_name, qualifier_key)
+        if key not in grouped_assets:
+            grouped_assets[key] = []
+        grouped_assets[key].append(test_asset)
+
+    # Create test cases from grouped test assets
+    test_cases = {}
+    for idx, (key, assets) in enumerate(grouped_assets.items()):
+        test_case_id = f"TestCase_{idx}"
+        first_asset = next(iter(assets))
+        test_case = PathfinderTestCase(
+            id=test_case_id,
+            name=re.findall("[^.:\s]*", first_asset.name)[0],
+            description=first_asset.description,
+            test_env=test_env,
+            components=[ComponentEnum.ars],
+            test_case_objective=TestObjectiveEnum.AcceptanceTest,
+            test_assets=assets,
+            test_runner_settings=["pathfinder"],
+        )
+        if test_case.test_assets is None:
+            print("test case has no assets", test_case)
+
+        if test_case.test_case_objective == "AcceptanceTest":
+            test_cases[test_case_id] = test_case
+
+    return test_cases
 
 def dump_to_json(file_path, test_object):
     filename = f"{file_path}/{test_object.id}.json"

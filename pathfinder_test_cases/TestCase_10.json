@@ -1,0 +1,346 @@
+{
+    "id": "TestCase_10",
+    "name": "PTFQ_5b",
+    "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "test_assets": [
+        {
+            "id": "Asset_41",
+            "name": "PTFQ_5b.5: IFNG to tryptophan, Regulator T Cell",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptohphan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CL:0000815"
+                    ],
+                    "name": "Regulator T Cell"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_36",
+            "name": "PTFQ_5b: IFNG to tryptophan",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3620"
+                    ],
+                    "name": "IDO1"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:3459",
+                        "NCBIGene:3460"
+                    ],
+                    "name": "IFNGR"
+                },
+                {
+                    "ids": [
+                        "CHEBI:16946"
+                    ],
+                    "name": "kynurenine"
+                },
+                {
+                    "ids": [
+                        "CL:0000084"
+                    ],
+                    "name": "T cell"
+                },
+                {
+                    "ids": [
+                        "CL:0000815"
+                    ],
+                    "name": "Regulator T cell"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:169355"
+                    ],
+                    "name": "IDO2"
+                },
+                {
+                    "ids": [
+                        "PR:000003858",
+                        "UniProtKB:P35869"
+                    ],
+                    "name": "aryl hydrocarbon receptor"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_37",
+            "name": "PTFQ_5b.1: IFNG to tryptophan, IDO1",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3620"
+                    ],
+                    "name": "IDO1"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_40",
+            "name": "PTFQ_5b.4: IFNG to tryptophan, T Cell",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CL:0000084"
+                    ],
+                    "name": "T Cell"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_38",
+            "name": "PTFQ_5b.2: IFNG to tryptophan, IFNGR",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3459",
+                        "NCBIGene:3460"
+                    ],
+                    "name": "IFNGR"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_43",
+            "name": "PTFQ_5b.7: IFNG to tryptophan, aryl hydrocarbon receptor",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "PR:000003858",
+                        "UniProtKB:P35869"
+                    ],
+                    "name": "aryl hydrocarbon receptor"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_42",
+            "name": "PTFQ_5b.6: IFNG to tryptophan, IDO2",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptohphan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:169355"
+                    ],
+                    "name": "IDO2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_39",
+            "name": "PTFQ_5b.3: IFNG to tryptophan, kyurenine",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CHEBI:16946"
+                    ],
+                    "name": "kynurenine"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_28",
+            "name": "PTFQ_5a: IFNG to tryptophan",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "CHEBI:16828",
+            "target_input_name": "tryptophan",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3620"
+                    ],
+                    "name": "IDO1"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:3459",
+                        "NCBIGene:3460"
+                    ],
+                    "name": "IFNGR"
+                },
+                {
+                    "ids": [
+                        "CHEBI:16946"
+                    ],
+                    "name": "kynurenine"
+                },
+                {
+                    "ids": [
+                        "CL:0000084"
+                    ],
+                    "name": "T cell"
+                },
+                {
+                    "ids": [
+                        "CL:0000815"
+                    ],
+                    "name": "Regulator T cell"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:169355"
+                    ],
+                    "name": "IDO2"
+                },
+                {
+                    "ids": [
+                        "PR:000003858",
+                        "UniProtKB:P35869"
+                    ],
+                    "name": "aryl hydrocarbon receptor"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        }
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
+}

@@ -1,0 +1,28 @@
+{
+    "id": "Asset_29",
+    "name": "PTFQ_5a.1: IFNG to COVID-19, IDO1",
+    "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "NCBIGene:3458",
+    "source_input_name": "IFNG",
+    "source_input_category": "biolink:Gene",
+    "target_input_id": "MONDO:0100096",
+    "target_input_name": "COVID-19",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:3620"
+            ],
+            "name": "IDO1"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

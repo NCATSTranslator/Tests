@@ -1,245 +1,208 @@
 {
     "id": "TestCase_2",
-    "name": "Imatinib to Allergic Asthma",
-    "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+    "name": "PTFQ_8",
+    "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
-    "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_6",
-            "name": "PTFQ_1b: Imatinib to Allergic Asthma",
-            "description": "Imatinib to Allergic Asthma",
+            "id": "Asset_71",
+            "name": "PTFQ_8.1: Fluoxetine (Prozac) to long-COVID, IFNG",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3458"
+                    ],
+                    "name": "IFNG"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_70",
+            "name": "PTFQ_8: Fluoxetine (Prozac) to long-COVID",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
             "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
-                    "ids": ["NCBIGene:3815"],
-                    "name": "KIT"
+                    "ids": [
+                        "NCBIGene:3458"
+                    ],
+                    "name": "IFNG"
                 },
                 {
-                    "ids": ["CHEBI:18295", "PR:000049994"],
-                    "name": "Histamine"
+                    "ids": [
+                        "CHEBI:50949"
+                    ],
+                    "name": "SSRI agonist"
                 },
                 {
-                    "ids": ["NCBIGene:4254"],
-                    "name": "SCF-1"
+                    "ids": [
+                        "NCBIGene:10280"
+                    ],
+                    "name": "SIGMAR1"
                 },
                 {
-                    "ids": ["CL:0000097"],
-                    "name": "Mast Cell"
+                    "ids": [
+                        "NCBIGene:856478",
+                        "NCBIGene:856478"
+                    ],
+                    "name": "IRE1"
+                },
+                {
+                    "ids": [
+                        "UBERON:0001759"
+                    ],
+                    "name": "vagus nerve"
                 }
             ],
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_7",
-            "name": "PTFQ_1b.1: Imatinib to Allergic Asthma, through KIT",
-            "description": "Imatinib to Allergic Asthma, through KIT",
+            "id": "Asset_75",
+            "name": "PTFQ_8.5: Fluoxetine (Prozac) to long-COVID, vagus nerve",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:31690",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
+            "qualifiers": null,
             "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
-                    "ids": ["NCBIGene:3815"],
-                    "name": "KIT"
+                    "ids": [
+                        "UBERON:0001759"
+                    ],
+                    "name": "vagus nerve"
                 }
             ],
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_8",
-            "name": "PTFQ_1b.2: Imatinib to Allergic Asthma, through Histamine",
-            "description": "Imatinib to Allergic Asthma, through Histamine",
+            "id": "Asset_74",
+            "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, IRE1",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:31690",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
+            "qualifiers": null,
             "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
-                    "ids": ["CHEBI:18295", "PR:000049994"],
-                    "name": "Histamine"
+                    "ids": [
+                        "NCBIGene:856478",
+                        "NCBIGene:856478"
+                    ],
+                    "name": "IRE1"
                 }
             ],
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_9",
-            "name": "PTFQ_1b.3: Imatinib to Allergic Asthma, through SCF-1",
-            "description": "Imatinib to Allergic Asthma, through SCF-1",
+            "id": "Asset_73",
+            "name": "PTFQ_8.3: Fluoxetine (Prozac) to long-COVID, SIGMAR1",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:31690",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
+            "qualifiers": null,
             "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
-                    "ids": ["NCBIGene:4254"],
-                    "name": "SCF-1"
+                    "ids": [
+                        "NCBIGene:10280"
+                    ],
+                    "name": "SIGMAR1"
                 }
             ],
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_10",
-            "name": "PTFQ_1b.4: Imatinib to Allergic Asthma, through Mast Cell",
-            "description": "Imatinib to Allergic Asthma, through Mast Cell",
+            "id": "Asset_72",
+            "name": "PTFQ_8.2: Fluoxetine (Prozac) to long-COVID, SSRI agonist",
+            "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:31690",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "CHEBI:5118",
+            "source_input_name": "Fluoxetine (Prozac)",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0100233",
+            "target_input_name": "long-COVID",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
+            "qualifiers": null,
             "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
-                    "ids": ["CL:0000097"],
-                    "name": "Mast Cell"
+                    "ids": [
+                        "CHEBI:50949"
+                    ],
+                    "name": "SSRI agonist"
                 }
             ],
-            "association": null,
-            "qualifiers": null,
-            "expected_output": "TopAnswer",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": true,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
+            "expected_output": "TopAnswer"
         }
     ],
-    "preconditions": [],
-    "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
-    "test_case_source": null,
     "components": [
         "ars"
     ],

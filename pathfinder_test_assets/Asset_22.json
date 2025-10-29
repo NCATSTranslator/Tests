@@ -1,0 +1,28 @@
+{
+    "id": "Asset_22",
+    "name": "PTFQ3.1",
+    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:27881",
+    "source_input_name": "Crohn's Disease",
+    "source_input_category": "biolink:Disease",
+    "target_input_id": "NCBIGene:2739",
+    "target_input_name": "Parkinson's Disease",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:11315"
+            ],
+            "name": "PARK7"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

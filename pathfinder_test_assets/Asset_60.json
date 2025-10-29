@@ -1,0 +1,30 @@
+{
+    "id": "Asset_60",
+    "name": "PTFQ_7a.4: Acetylsalicylate to Colorectal Cancer, prostaglandin PGE2",
+    "description": "How does aspirin help prevent colorectal cancer?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:13719",
+    "source_input_name": "Acetylsalicylate",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0005575",
+    "target_input_name": "Colorectal Cancer",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "CHEBI:26333",
+                "CHEBI:176067",
+                "CHEBI:15551"
+            ],
+            "name": "prostaglandin PGE2"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

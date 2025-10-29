@@ -1,0 +1,28 @@
+{
+    "id": "Asset_92",
+    "name": "PTFQ_10.4: Warfarin to Cancer Neoplasia, GAS6",
+    "description": "Why do patients on Warfarin have a markedly reduced incidence of various cancers?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:10033",
+    "source_input_name": "Warfarin",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0004992",
+    "target_input_name": "Cancer",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:2621"
+            ],
+            "name": "GAS6"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}
