@@ -104,38 +104,13 @@ def create_pathfinder_test_cases_from_test_assets(test_assets, test_env: TestEnv
             test_env=test_env,
             components=[ComponentEnum.ars],
             test_case_objective=TestObjectiveEnum.AcceptanceTest,
-            test_case_predicate_name=first_asset.predicate_name,
-            test_case_predicate_id=first_asset.predicate_id,
-            test_case_source_input_id=first_asset.source_input_id,
-            test_case_target_input_id=first_asset.target_input_id,
-            source_input_category=first_asset.input_category,
-            target_input_category=first_asset.output_category,
             test_assets=assets,
             test_runner_settings=["pathfinder"],
-            query_type=None,
-            trapi_template=None,
-            test_case_source=None,
         )
         if test_case.test_assets is None:
             print("test case has no assets", test_case)
 
         if test_case.test_case_objective == "AcceptanceTest":
-            test_source_input_id = ""
-            test_target_input_id = ""
-            test_case_predicate_name = ""
-            test_case_qualifiers = []
-            for asset in assets:
-                # these all assume group by applies to the same input_id and predicate_name
-                test_source_input_id = asset.source_input_id
-                test_target_input_id = asset.target_input_id
-                test_case_predicate_name = asset.predicate_name
-                test_case_qualifiers = asset.qualifiers
-
-            test_case.test_case_source_input_id = test_source_input_id
-            test_case.test_case_target_input_id = test_target_input_id
-            test_case.test_case_predicate_name = test_case_predicate_name
-            test_case.test_case_predicate_id = "biolink:" + test_case_predicate_name
-            test_case.qualifiers = test_case_qualifiers
             test_cases[test_case_id] = test_case
 
     return test_cases
