@@ -1,6 +1,6 @@
 {
-    "id": "PTFQ_1b.3",
-    "name": "Imatinib to Allergic Asthma, SCF-1",
+    "id": "Asset_9",
+    "name": "PTFQ_1b.3: Imatinib to Allergic Asthma, SCF-1",
     "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
     "tags": [],
     "test_runner_settings": [
@@ -14,30 +14,15 @@
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
     "predicate_name": "related to",
+    "qualifiers": null,
     "minimum_required_path_nodes": 1,
     "path_nodes": [
         {
-            "ids": ["NCBIGene:4254"],
+            "ids": [
+                "NCBIGene:4254"
+            ],
             "name": "SCF-1"
         }
     ],
-    "association": null,
-    "qualifiers": null,
-    "expected_output": "TopAnswer",
-    "test_issue": null,
-    "semantic_severity": null,
-    "in_v1": null,
-    "well_known": true,
-    "test_reference": null,
-    "test_metadata": {
-        "id": "1",
-        "name": null,
-        "description": null,
-        "tags": [],
-        "test_runner_settings": [],
-        "test_source": "SMURF",
-        "test_reference": null,
-        "test_objective": "AcceptanceTest",
-        "test_annotations": []
-    }
+    "expected_output": "TopAnswer"
 }

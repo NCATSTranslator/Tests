@@ -1,0 +1,47 @@
+{
+    "id": "Asset_52",
+    "name": "PTFQ_6: Sildenafil to Alzheimer's disease",
+    "description": "What is the mechanism behind the hypothesis (now in clinical trial) that Viagra (and other ED drugs of same class) may slow senile dementia?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:9139",
+    "source_input_name": "Sildenafil",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0004975",
+    "target_input_name": "Alzheimer's disease",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:8654"
+            ],
+            "name": "PDE5A"
+        },
+        {
+            "ids": [
+                "GO:0004692",
+                "GO:0006182",
+                "GO:0019934",
+                "GO:0030553",
+                "GO:0046068",
+                "GO:0046069",
+                "GO:0070731",
+                "UniProtKB:Q13237-1"
+            ],
+            "name": "cGMP"
+        },
+        {
+            "ids": [
+                "GO:0042311"
+            ],
+            "name": "vasodilation"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

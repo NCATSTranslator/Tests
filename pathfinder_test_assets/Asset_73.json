@@ -1,0 +1,28 @@
+{
+    "id": "Asset_73",
+    "name": "PTFQ_8.3: Fluoxetine (Prozac) to long-COVID, SIGMAR1",
+    "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:5118",
+    "source_input_name": "Fluoxetine (Prozac)",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0100233",
+    "target_input_name": "long-COVID",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:10280"
+            ],
+            "name": "SIGMAR1"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

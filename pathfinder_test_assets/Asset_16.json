@@ -1,0 +1,47 @@
+{
+    "id": "Asset_16",
+    "name": "PTFQ2b",
+    "description": "How does resveratrol affect glyoxalase?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:27881",
+    "source_input_name": "resveratrol",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "NCBIGene:2739",
+    "target_input_name": "glyoxalase",
+    "target_input_category": "biolink:Gene",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:3815"
+            ],
+            "name": "KIT"
+        },
+        {
+            "ids": [
+                "NCBIGene:855009"
+            ],
+            "name": "GLO1"
+        },
+        {
+            "ids": [
+                "GO:0034599"
+            ],
+            "name": "Cellular response to oxidative stress"
+        },
+        {
+            "ids": [
+                "UMLS:C5543862",
+                "NCBIGene:84900"
+            ],
+            "name": "NFT2 pathway"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

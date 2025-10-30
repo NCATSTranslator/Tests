@@ -1,0 +1,280 @@
+{
+    "id": "TestCase_6",
+    "name": "PTFQ_5c",
+    "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "test_assets": [
+        {
+            "id": "Asset_47",
+            "name": "PTFQ_5c.3: IFNG to tryptophan N-allylamide, kyurenine",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CHEBI:16946"
+                    ],
+                    "name": "kynurenine"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_51",
+            "name": "PTFQ_5c.7: IFNG to tryptophan N-allylamide, aryl hydrocarbon receptor",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "PR:000003858",
+                        "UniProtKB:P35869"
+                    ],
+                    "name": "aryl hydrocarbon receptor"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_50",
+            "name": "PTFQ_5c.6: IFNG to tryptophan N-allylamide, IDO2",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptohphan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:169355"
+                    ],
+                    "name": "IDO2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_46",
+            "name": "PTFQ_5c.2: IFNG to tryptophan N-allylamide, IFNGR",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3459",
+                        "NCBIGene:3460"
+                    ],
+                    "name": "IFNGR"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_49",
+            "name": "PTFQ_5c.5: IFNG to tryptophan N-allylamide, Regulator T Cell",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptohphan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CL:0000815"
+                    ],
+                    "name": "Regulator T Cell"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_45",
+            "name": "PTFQ_5c.1: IFNG to tryptophan N-allylamide, IDO1",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3620"
+                    ],
+                    "name": "IDO1"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_44",
+            "name": "PTFQ_5c: IFNG to tryptophan N-allylamide",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:3620"
+                    ],
+                    "name": "IDO1"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:3459",
+                        "NCBIGene:3460"
+                    ],
+                    "name": "IFNGR"
+                },
+                {
+                    "ids": [
+                        "CHEBI:16946"
+                    ],
+                    "name": "kynurenine"
+                },
+                {
+                    "ids": [
+                        "CL:0000084"
+                    ],
+                    "name": "T cell"
+                },
+                {
+                    "ids": [
+                        "CL:0000815"
+                    ],
+                    "name": "Regulator T cell"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:169355"
+                    ],
+                    "name": "IDO2"
+                },
+                {
+                    "ids": [
+                        "PR:000003858",
+                        "UniProtKB:P35869"
+                    ],
+                    "name": "aryl hydrocarbon receptor"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_48",
+            "name": "PTFQ_5c.4: IFNG to tryptophan N-allylamide, T Cell",
+            "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "NCBIGene:3458",
+            "source_input_name": "IFNG",
+            "source_input_category": "biolink:Gene",
+            "target_input_id": "PUBCHEM.COMPOUND:22691495",
+            "target_input_name": "tryptophan N-allylamide",
+            "target_input_category": "biolink:SmallMolecule",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CL:0000084"
+                    ],
+                    "name": "T Cell"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        }
+    ],
+    "test_case_objective": "AcceptanceTest",
+    "components": [
+        "ars"
+    ],
+    "test_env": "ci"
+}

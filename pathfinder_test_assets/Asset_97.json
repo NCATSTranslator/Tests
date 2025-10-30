@@ -1,0 +1,28 @@
+{
+    "id": "Asset_97",
+    "name": "Gluconeogenesis, oxaloacetate => fructose-6P",
+    "description": "This is the start and end compound from KEGG pathway M00003, with a random compound from the pathway required to be an intermediate.",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "KEGG.COMPOUND:C00036",
+    "source_input_name": "Oxaloacetate",
+    "source_input_category": "biolink:ChemicalEntity",
+    "target_input_id": "KEGG.COMPOUND:C00085",
+    "target_input_name": "D-Fructose 6-phosphate",
+    "target_input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 1,
+    "path_nodes": [
+        {
+            "ids": [
+                "KEGG.COMPOUND:C00236"
+            ],
+            "name": "3-Phospho-D-glyceroyl phosphate"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}

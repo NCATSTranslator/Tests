@@ -1,0 +1,65 @@
+{
+    "id": "Asset_56",
+    "name": "PTFQ_7a: Acetylsalicylate to Colorectal Cancer",
+    "description": "How does aspirin help prevent colorectal cancer?",
+    "tags": [],
+    "test_runner_settings": [
+        "pathfinder"
+    ],
+    "source_input_id": "CHEBI:13719",
+    "source_input_name": "Acetylsalicylate",
+    "source_input_category": "biolink:SmallMolecule",
+    "target_input_id": "MONDO:0005575",
+    "target_input_name": "Colorectal Cancer",
+    "target_input_category": "biolink:Disease",
+    "predicate_id": "biolink:related_to",
+    "predicate_name": "related to",
+    "qualifiers": null,
+    "minimum_required_path_nodes": 2,
+    "path_nodes": [
+        {
+            "ids": [
+                "NCBIGene:4513"
+            ],
+            "name": "COX2"
+        },
+        {
+            "ids": [
+                "NCBIGene:4791",
+                "NCBIGene:4790"
+            ],
+            "name": "NFKB"
+        },
+        {
+            "ids": [
+                "CHEBI:132120",
+                "UMLS:C4288292"
+            ],
+            "name": "resolvins"
+        },
+        {
+            "ids": [
+                "CHEBI:26333",
+                "CHEBI:176067",
+                "CHEBI:15551"
+            ],
+            "name": "prostaglandin PGE2"
+        },
+        {
+            "ids": [
+                "UniProtKB:P43246-1",
+                "UniProtKB:P43246-2"
+            ],
+            "name": "hMSH2"
+        },
+        {
+            "ids": [
+                "UniProtKB:P40692-2",
+                "UniProtKB:P40692-3",
+                "UniProtKB:P40692-1"
+            ],
+            "name": "hMLH1"
+        }
+    ],
+    "expected_output": "TopAnswer"
+}
