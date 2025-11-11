@@ -25,7 +25,7 @@
       "tags": [],
       "test_runner_settings": ["inferred"],
       "query_type": null,
-      "test_run_time": 660,
+      "test_run_time": 1200,
       "spawn_rate": 0.1,
       "test_assets": [
         {
