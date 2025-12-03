@@ -1,138 +1,26 @@
 {
     "id": "TestCase_8",
-    "name": "PTFQ_9",
-    "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+    "name": "PTFQ2a",
+    "description": "How does resveratrol affect glyoxalase?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
     "test_assets": [
         {
-            "id": "Asset_84",
-            "name": "PTFQ_9.8: Parkinson's Disease to melanoma, UCHL1",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "id": "Asset_11",
+            "name": "PTFQ2a",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:7345"
-                    ],
-                    "name": "UCHL1"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_85",
-            "name": "PTFQ_9.9: Parkinson's Disease to melanoma, TRPM7",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:54822"
-                    ],
-                    "name": "TRPM7"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_82",
-            "name": "PTFQ_9.6: Parkinson's Disease to melanoma, PLA2G6",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:8398"
-                    ],
-                    "name": "PLA2G6"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_77",
-            "name": "PTFQ_9.1: Parkinson's Disease to melanoma, PRKN",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:5071"
-                    ],
-                    "name": "PRKN"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_76",
-            "name": "PTFQ_9: Parkinson's Disease to melanoma",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -140,87 +28,46 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:5071"
+                        "NCBIGene:3815"
                     ],
-                    "name": "PRKN"
+                    "name": "KIT"
                 },
                 {
                     "ids": [
-                        "NCBIGene:6622"
+                        "NCBIGene:855009"
                     ],
-                    "name": "SNCA"
+                    "name": "GLO1"
                 },
                 {
                     "ids": [
-                        "NCBIGene:120892"
+                        "GO:0034599"
                     ],
-                    "name": "LRRK2"
+                    "name": "Cellular response to oxidative stress"
                 },
                 {
                     "ids": [
-                        "NCBIGene:11315"
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
                     ],
-                    "name": "PARK7"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:65018"
-                    ],
-                    "name": "PINK1"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:8398"
-                    ],
-                    "name": "PLA2G6"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:27429"
-                    ],
-                    "name": "HTRA2"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:7345"
-                    ],
-                    "name": "UCHL1"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:54822"
-                    ],
-                    "name": "TRPM7"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:4157"
-                    ],
-                    "name": "MC1R"
-                },
-                {
-                    "ids": [
-                        "MONDO:0100471"
-                    ],
-                    "name": "Vitamin D Deficiency"
+                    "name": "NFT2 pathway"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_83",
-            "name": "PTFQ_9.7: Parkinson's Disease to melanoma, HTRA2",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "id": "Asset_14",
+            "name": "PTFQ2a.3",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -228,27 +75,27 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:27429"
+                        "GO:0034599"
                     ],
-                    "name": "HTRA2"
+                    "name": "Cellular response to oxidative stress"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_80",
-            "name": "PTFQ_9.4: Parkinson's Disease to melanoma, PARK7",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "id": "Asset_15",
+            "name": "PTFQ2a.4",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -256,27 +103,28 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:11315"
+                        "UMLS:C5543862",
+                        "NCBIGene:84900"
                     ],
-                    "name": "PARK7"
+                    "name": "NFT2 pathway"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_79",
-            "name": "PTFQ_9.3: Parkinson's Disease to melanoma, LRRK2",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "id": "Asset_12",
+            "name": "PTFQ2a.1",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -284,27 +132,27 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:120892"
+                        "NCBIGene:3815"
                     ],
-                    "name": "LRRK2"
+                    "name": "KIT"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_78",
-            "name": "PTFQ_9.2: Parkinson's Disease to melanoma, SNCA",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "id": "Asset_13",
+            "name": "PTFQ2a.2",
+            "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
+            "source_input_id": "CHEBI:45713",
+            "source_input_name": "trans-resveratrol",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "NCBIGene:2739",
+            "target_input_name": "glyoxalase",
+            "target_input_category": "biolink:Gene",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -312,93 +160,9 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:6622"
+                        "NCBIGene:855009"
                     ],
-                    "name": "SNCA"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_81",
-            "name": "PTFQ_9.5: Parkinson's Disease to melanoma, PINK1",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:65018"
-                    ],
-                    "name": "PINK1"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_86",
-            "name": "PTFQ_9.10: Parkinson's Disease to melanoma, MC1R",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:4157"
-                    ],
-                    "name": "MC1R"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_87",
-            "name": "PTFQ_9.11: Parkinson's Disease to melanoma, Vitamin D Deficiency",
-            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "MONDO:0005180",
-            "source_input_name": "Parkinson's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "MONDO:0005105",
-            "target_input_name": "melanoma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "MONDO:0100471"
-                    ],
-                    "name": "Vitamin D Deficiency"
+                    "name": "GLO1"
                 }
             ],
             "expected_output": "TopAnswer"
