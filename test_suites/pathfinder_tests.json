@@ -1285,8 +1285,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_7": {
-            "id": "TestCase_7",
+        "TestCase_6": {
+            "id": "TestCase_6",
             "name": "PTFQ_1b",
             "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
             "tags": [],
@@ -1461,8 +1461,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_8": {
-            "id": "TestCase_8",
+        "TestCase_7": {
+            "id": "TestCase_7",
             "name": "PTFQ_9",
             "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
@@ -1873,8 +1873,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_9": {
-            "id": "TestCase_9",
+        "TestCase_8": {
+            "id": "TestCase_8",
             "name": "PTFQ2a",
             "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
@@ -2049,8 +2049,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_10": {
-            "id": "TestCase_10",
+        "TestCase_9": {
+            "id": "TestCase_9",
             "name": "PTFQ_5b",
             "description": "What pathway explains why serum IFN-g and tryptophane are generally anticorrelated - but even more so in COVID-19 patients, when IFN-g is elevated?",
             "tags": [],
@@ -2395,8 +2395,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_11": {
-            "id": "TestCase_11",
+        "TestCase_10": {
+            "id": "TestCase_10",
             "name": "PTFQ2b",
             "description": "How does resveratrol affect glyoxalase?",
             "tags": [],
@@ -2481,40 +2481,6 @@
                     "expected_output": "TopAnswer"
                 },
                 {
-                    "id": "Asset_21",
-                    "name": "PTFQ3",
-                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "pathfinder"
-                    ],
-                    "source_input_id": "CHEBI:27881",
-                    "source_input_name": "Crohn's Disease",
-                    "source_input_category": "biolink:Disease",
-                    "target_input_id": "NCBIGene:2739",
-                    "target_input_name": "Parkinson's Disease",
-                    "target_input_category": "biolink:Disease",
-                    "predicate_id": "biolink:related_to",
-                    "predicate_name": "related to",
-                    "qualifiers": null,
-                    "minimum_required_path_nodes": 2,
-                    "path_nodes": [
-                        {
-                            "ids": [
-                                "NCBIGene:11315"
-                            ],
-                            "name": "PARK7"
-                        },
-                        {
-                            "ids": [
-                                "NCBIGene:120892"
-                            ],
-                            "name": "LRRK2"
-                        }
-                    ],
-                    "expected_output": "TopAnswer"
-                },
-                {
                     "id": "Asset_17",
                     "name": "PTFQ2b.1",
                     "description": "How does resveratrol affect glyoxalase?",
@@ -2538,34 +2504,6 @@
                                 "NCBIGene:3815"
                             ],
                             "name": "KIT"
-                        }
-                    ],
-                    "expected_output": "TopAnswer"
-                },
-                {
-                    "id": "Asset_22",
-                    "name": "PTFQ3.1",
-                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "pathfinder"
-                    ],
-                    "source_input_id": "CHEBI:27881",
-                    "source_input_name": "Crohn's Disease",
-                    "source_input_category": "biolink:Disease",
-                    "target_input_id": "NCBIGene:2739",
-                    "target_input_name": "Parkinson's Disease",
-                    "target_input_category": "biolink:Disease",
-                    "predicate_id": "biolink:related_to",
-                    "predicate_name": "related to",
-                    "qualifiers": null,
-                    "minimum_required_path_nodes": 2,
-                    "path_nodes": [
-                        {
-                            "ids": [
-                                "NCBIGene:11315"
-                            ],
-                            "name": "PARK7"
                         }
                     ],
                     "expected_output": "TopAnswer"
@@ -2625,34 +2563,6 @@
                         }
                     ],
                     "expected_output": "TopAnswer"
-                },
-                {
-                    "id": "Asset_23",
-                    "name": "PTFQ3.2",
-                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
-                    "tags": [],
-                    "test_runner_settings": [
-                        "pathfinder"
-                    ],
-                    "source_input_id": "CHEBI:27881",
-                    "source_input_name": "Crohn's Disease",
-                    "source_input_category": "biolink:Disease",
-                    "target_input_id": "NCBIGene:2739",
-                    "target_input_name": "Parkinson's Disease",
-                    "target_input_category": "biolink:Disease",
-                    "predicate_id": "biolink:related_to",
-                    "predicate_name": "related to",
-                    "qualifiers": null,
-                    "minimum_required_path_nodes": 2,
-                    "path_nodes": [
-                        {
-                            "ids": [
-                                "NCBIGene:120892"
-                            ],
-                            "name": "LRRK2"
-                        }
-                    ],
-                    "expected_output": "TopAnswer"
                 }
             ],
             "test_case_objective": "AcceptanceTest",
@@ -2661,8 +2571,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_12": {
-            "id": "TestCase_12",
+        "TestCase_11": {
+            "id": "TestCase_11",
             "name": "PTFQ_7a",
             "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
@@ -2917,8 +2827,8 @@
             ],
             "test_env": "ci"
         },
-        "TestCase_13": {
-            "id": "TestCase_13",
+        "TestCase_12": {
+            "id": "TestCase_12",
             "name": "Pentose",
             "description": "This is the start and end compound from KEGG pathway M00004, with a random compound from the pathway required to be an intermediate.",
             "tags": [],
@@ -2950,6 +2860,112 @@
                                 "KEGG.COMPOUND:C00117"
                             ],
                             "name": "D-Ribose 5-phosphate"
+                        }
+                    ],
+                    "expected_output": "TopAnswer"
+                }
+            ],
+            "test_case_objective": "AcceptanceTest",
+            "components": [
+                "ars"
+            ],
+            "test_env": "ci"
+        },
+        "TestCase_13": {
+            "id": "TestCase_13",
+            "name": "PTFQ3",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "test_assets": [
+                {
+                    "id": "Asset_21",
+                    "name": "PTFQ3",
+                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "pathfinder"
+                    ],
+                    "source_input_id": "MONDO:0005011",
+                    "source_input_name": "Crohn's Disease",
+                    "source_input_category": "biolink:Disease",
+                    "target_input_id": "MONDO:0005180",
+                    "target_input_name": "Parkinson's Disease",
+                    "target_input_category": "biolink:Disease",
+                    "predicate_id": "biolink:related_to",
+                    "predicate_name": "related to",
+                    "qualifiers": null,
+                    "minimum_required_path_nodes": 2,
+                    "path_nodes": [
+                        {
+                            "ids": [
+                                "NCBIGene:11315"
+                            ],
+                            "name": "PARK7"
+                        },
+                        {
+                            "ids": [
+                                "NCBIGene:120892"
+                            ],
+                            "name": "LRRK2"
+                        }
+                    ],
+                    "expected_output": "TopAnswer"
+                },
+                {
+                    "id": "Asset_22",
+                    "name": "PTFQ3.1",
+                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "pathfinder"
+                    ],
+                    "source_input_id": "MONDO:0005011",
+                    "source_input_name": "Crohn's Disease",
+                    "source_input_category": "biolink:Disease",
+                    "target_input_id": "MONDO:0005180",
+                    "target_input_name": "Parkinson's Disease",
+                    "target_input_category": "biolink:Disease",
+                    "predicate_id": "biolink:related_to",
+                    "predicate_name": "related to",
+                    "qualifiers": null,
+                    "minimum_required_path_nodes": 2,
+                    "path_nodes": [
+                        {
+                            "ids": [
+                                "NCBIGene:11315"
+                            ],
+                            "name": "PARK7"
+                        }
+                    ],
+                    "expected_output": "TopAnswer"
+                },
+                {
+                    "id": "Asset_23",
+                    "name": "PTFQ3.2",
+                    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+                    "tags": [],
+                    "test_runner_settings": [
+                        "pathfinder"
+                    ],
+                    "source_input_id": "MONDO:0005011",
+                    "source_input_name": "Crohn's Disease",
+                    "source_input_category": "biolink:Disease",
+                    "target_input_id": "MONDO:0005180",
+                    "target_input_name": "Parkinson's Disease",
+                    "target_input_category": "biolink:Disease",
+                    "predicate_id": "biolink:related_to",
+                    "predicate_name": "related to",
+                    "qualifiers": null,
+                    "minimum_required_path_nodes": 2,
+                    "path_nodes": [
+                        {
+                            "ids": [
+                                "NCBIGene:120892"
+                            ],
+                            "name": "LRRK2"
                         }
                     ],
                     "expected_output": "TopAnswer"
