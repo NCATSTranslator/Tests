@@ -6,10 +6,10 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "source_input_id": "CHEBI:27881",
+    "source_input_id": "MONDO:0005011",
     "source_input_name": "Crohn's Disease",
     "source_input_category": "biolink:Disease",
-    "target_input_id": "NCBIGene:2739",
+    "target_input_id": "MONDO:0005180",
     "target_input_name": "Parkinson's Disease",
     "target_input_category": "biolink:Disease",
     "predicate_id": "biolink:related_to",
