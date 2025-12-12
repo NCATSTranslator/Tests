@@ -1,25 +1,25 @@
 {
     "id": "TestCase_7",
-    "name": "PTFQ_1b",
-    "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+    "name": "PTFQ_9",
+    "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
     "test_assets": [
         {
-            "id": "Asset_10",
-            "name": "PTFQ_1b.4: Imatinib to Allergic Asthma, Mast Cell",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "id": "Asset_84",
+            "name": "PTFQ_9.8: Parkinson's Disease to melanoma, UCHL1",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -28,26 +28,26 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "CL:0000097"
+                        "NCBIGene:7345"
                     ],
-                    "name": "Mast Cell"
+                    "name": "UCHL1"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_8",
-            "name": "PTFQ_1b.2: Imatinib to Allergic Asthma, Histamine",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "id": "Asset_85",
+            "name": "PTFQ_9.9: Parkinson's Disease to melanoma, TRPM7",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -56,27 +56,26 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "CHEBI:18295",
-                        "PR:000049994"
+                        "NCBIGene:54822"
                     ],
-                    "name": "Histamine"
+                    "name": "TRPM7"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_9",
-            "name": "PTFQ_1b.3: Imatinib to Allergic Asthma, SCF-1",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "id": "Asset_82",
+            "name": "PTFQ_9.6: Parkinson's Disease to melanoma, PLA2G6",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -85,26 +84,54 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:4254"
+                        "NCBIGene:8398"
                     ],
-                    "name": "SCF-1"
+                    "name": "PLA2G6"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_6",
-            "name": "IPTFQ_1b: Imatinib to Allergic Asthma",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "id": "Asset_77",
+            "name": "PTFQ_9.1: Parkinson's Disease to melanoma, PRKN",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:5071"
+                    ],
+                    "name": "PRKN"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_76",
+            "name": "PTFQ_9: Parkinson's Disease to melanoma",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -113,45 +140,86 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:3815"
+                        "NCBIGene:5071"
                     ],
-                    "name": "KIT"
+                    "name": "PRKN"
                 },
                 {
                     "ids": [
-                        "CHEBI:18295",
-                        "PR:000049994"
+                        "NCBIGene:6622"
                     ],
-                    "name": "Histamine"
+                    "name": "SNCA"
                 },
                 {
                     "ids": [
-                        "NCBIGene:4254"
+                        "NCBIGene:120892"
                     ],
-                    "name": "SCF-1"
+                    "name": "LRRK2"
                 },
                 {
                     "ids": [
-                        "CL:0000097"
+                        "NCBIGene:11315"
                     ],
-                    "name": "Mast Cell"
+                    "name": "PARK7"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:65018"
+                    ],
+                    "name": "PINK1"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:8398"
+                    ],
+                    "name": "PLA2G6"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:27429"
+                    ],
+                    "name": "HTRA2"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:7345"
+                    ],
+                    "name": "UCHL1"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:54822"
+                    ],
+                    "name": "TRPM7"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:4157"
+                    ],
+                    "name": "MC1R"
+                },
+                {
+                    "ids": [
+                        "MONDO:0100471"
+                    ],
+                    "name": "Vitamin D Deficiency"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_7",
-            "name": "PTFQ_1b.1: Imatinib to Allergic Asthma, KIT",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
+            "id": "Asset_83",
+            "name": "PTFQ_9.7: Parkinson's Disease to melanoma, HTRA2",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004784",
-            "target_input_name": "Asthma",
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -160,9 +228,177 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:3815"
+                        "NCBIGene:27429"
                     ],
-                    "name": "KIT"
+                    "name": "HTRA2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_80",
+            "name": "PTFQ_9.4: Parkinson's Disease to melanoma, PARK7",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:11315"
+                    ],
+                    "name": "PARK7"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_79",
+            "name": "PTFQ_9.3: Parkinson's Disease to melanoma, LRRK2",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:120892"
+                    ],
+                    "name": "LRRK2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_78",
+            "name": "PTFQ_9.2: Parkinson's Disease to melanoma, SNCA",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:6622"
+                    ],
+                    "name": "SNCA"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_81",
+            "name": "PTFQ_9.5: Parkinson's Disease to melanoma, PINK1",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:65018"
+                    ],
+                    "name": "PINK1"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_86",
+            "name": "PTFQ_9.10: Parkinson's Disease to melanoma, MC1R",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:4157"
+                    ],
+                    "name": "MC1R"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_87",
+            "name": "PTFQ_9.11: Parkinson's Disease to melanoma, Vitamin D Deficiency",
+            "description": "Why do patients with Parkinson's disease have a markedly higher tendency to develop melanoma?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005180",
+            "source_input_name": "Parkinson's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005105",
+            "target_input_name": "melanoma",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "MONDO:0100471"
+                    ],
+                    "name": "Vitamin D Deficiency"
                 }
             ],
             "expected_output": "TopAnswer"
