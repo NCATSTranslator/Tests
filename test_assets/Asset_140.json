@@ -1,7 +1,7 @@
 {
     "id": "Asset_140",
-    "name": "NeverShow: prednisone treats scotoma",
-    "description": "NeverShow: prednisone treats scotoma",
+    "name": "BadButForgivable: prednisone treats scotoma",
+    "description": "BadButForgivable: prednisone treats scotoma",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "NeverShow",
+    "expected_output": "BadButForgivable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,

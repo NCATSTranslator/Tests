@@ -1,7 +1,7 @@
 {
     "id": "Asset_170",
-    "name": "BadButForgivable: Ibuprofen treats Cerebral palsy",
-    "description": "BadButForgivable: Ibuprofen treats Cerebral palsy",
+    "name": "Acceptable: Ibuprofen treats Cerebral palsy",
+    "description": "Acceptable: Ibuprofen treats Cerebral palsy",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "BadButForgivable",
+    "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,

@@ -1,7 +1,7 @@
 {
     "id": "Asset_92",
-    "name": "BadButForgivable: retinol treats familial pityriasis rubra pilaris",
-    "description": "BadButForgivable: retinol treats familial pityriasis rubra pilaris",
+    "name": "Acceptable: retinol treats familial pityriasis rubra pilaris",
+    "description": "Acceptable: retinol treats familial pityriasis rubra pilaris",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "BadButForgivable",
+    "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
