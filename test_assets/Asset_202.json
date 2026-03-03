@@ -1,7 +1,7 @@
 {
     "id": "Asset_202",
-    "name": "BadButForgivable: Acetaminophen treats alcoholic hepatitis",
-    "description": "BadButForgivable: Acetaminophen treats alcoholic hepatitis",
+    "name": "NeverShow: Acetaminophen treats alcoholic hepatitis",
+    "description": "NeverShow: Acetaminophen treats alcoholic hepatitis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "BadButForgivable",
+    "expected_output": "NeverShow",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
