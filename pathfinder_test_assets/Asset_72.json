@@ -19,7 +19,8 @@
     "path_nodes": [
         {
             "ids": [
-                "CHEBI:50949"
+                "CHEBI:50949",
+                "UMLS:C0162758"
             ],
             "name": "SSRI agonist"
         }

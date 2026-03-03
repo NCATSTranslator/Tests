@@ -1,6 +1,6 @@
 {
     "id": "Asset_74",
-    "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, IRE1",
+    "name": "PTFQ_8.4: Fluoxetine (Prozac) to long-COVID, ERN1",
     "description": "Fluxetine has been widely touted as a possible treatment for the psychic symptoms of LONG-COVID. Many mechanism have neen proposed. Could the Translator retrieve them without the literature summaries?",
     "tags": [],
     "test_runner_settings": [
@@ -19,10 +19,9 @@
     "path_nodes": [
         {
             "ids": [
-                "NCBIGene:856478",
-                "NCBIGene:856478"
+                "NCBIGene:2081"
             ],
-            "name": "IRE1"
+            "name": "ERN1"
         }
     ],
     "expected_output": "TopAnswer"
