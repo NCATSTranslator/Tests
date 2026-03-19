@@ -1,7 +1,7 @@
 {
     "id": "TestCase_14",
-    "name": "what treats MONDO:0018982",
-    "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
+    "name": "what treats MONDO:0004975",
+    "description": "TopAnswer: Rivastigmine treats Alzheimer disease. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_70",
-            "name": "TopAnswer: Miglustat treats Niemann-Pick type C",
-            "description": "TopAnswer: Miglustat treats Niemann-Pick type C",
-            "tags": [],
+            "id": "Asset_695",
+            "name": "TopAnswer: Rivastigmine treats Alzheimer disease",
+            "description": "TopAnswer: Rivastigmine treats Alzheimer disease. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018982",
-            "input_name": "Niemann-Pick type C",
+            "input_id": "MONDO:0004975",
+            "input_name": "Alzheimer disease",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
-            "output_name": "Miglustat",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:8874",
+            "output_name": "Rivastigmine",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -43,16 +45,18 @@
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "26",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -64,7 +68,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018982",
+    "test_case_input_id": "MONDO:0004975",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -80,7 +84,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

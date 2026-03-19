@@ -1,7 +1,7 @@
 {
     "id": "TestCase_8",
-    "name": "what treats MONDO:0004784",
-    "description": "NeverShow: particulate matter treats Allergic Asthma",
+    "name": "what treats MONDO:0005027",
+    "description": "TopAnswer: Phenytoin treats epilepsy. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd; TopAnswer: Lamotrigine treats epilepsy. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_50",
-            "name": "NeverShow: particulate matter treats Allergic Asthma",
-            "description": "NeverShow: particulate matter treats Allergic Asthma",
-            "tags": [],
+            "id": "Asset_682",
+            "name": "TopAnswer: Phenytoin treats epilepsy",
+            "description": "TopAnswer: Phenytoin treats epilepsy. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0004784",
-            "input_name": "Allergic Asthma",
+            "input_id": "MONDO:0005027",
+            "input_name": "epilepsy",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D052638",
-            "output_name": "particulate matter",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:8107",
+            "output_name": "Phenytoin",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -39,20 +41,75 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "13",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/561",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_693",
+            "name": "TopAnswer: Lamotrigine treats epilepsy",
+            "description": "TopAnswer: Lamotrigine treats epilepsy. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0005027",
+            "input_name": "epilepsy",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:6367",
+            "output_name": "Lamotrigine",
+            "output_category": "biolink:Drug",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "24",
+                "name": null,
+                "description": null,
+                "tags": [
+                    "semmeddb_replacement"
+                ],
+                "test_runner_settings": [],
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -64,7 +121,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0004784",
+    "test_case_input_id": "MONDO:0005027",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -80,7 +137,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

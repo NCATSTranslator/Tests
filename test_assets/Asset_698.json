@@ -1,0 +1,53 @@
+{
+    "id": "Asset_698",
+    "name": "TopAnswer: Olaparib treats ovarian cancer",
+    "description": "TopAnswer: Olaparib treats ovarian cancer. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+    "tags": [
+        "semmeddb_replacement"
+    ],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0008170",
+    "input_name": "ovarian cancer",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "CHEBI:83766",
+    "output_name": "Olaparib",
+    "output_category": "biolink:Drug",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "29",
+        "name": null,
+        "description": null,
+        "tags": [
+            "semmeddb_replacement"
+        ],
+        "test_runner_settings": [],
+        "test_source": "TranslatorTeam",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

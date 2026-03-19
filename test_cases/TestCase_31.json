@@ -1,7 +1,7 @@
 {
     "id": "TestCase_31",
-    "name": "what treats MONDO:0005393",
-    "description": "Acceptable: Pegloticase treats Gout; Acceptable: Prednisone treats Gout",
+    "name": "what affects NCBIGene:135",
+    "description": "Acceptable: Adenosine affects ADORA2A. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,34 +9,36 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_180",
-            "name": "Acceptable: Pegloticase treats Gout",
-            "description": "Acceptable: Pegloticase treats Gout",
-            "tags": [],
+            "id": "Asset_715",
+            "name": "Acceptable: Adenosine affects ADORA2A",
+            "description": "Acceptable: Adenosine affects ADORA2A. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005393",
-            "input_name": "Gout",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UNNI:R581OT55EA",
-            "output_name": "Pegloticase",
-            "output_category": null,
+            "input_id": "NCBIGene:135",
+            "input_name": "ADORA2A",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "CHEBI:16335",
+            "output_name": "Adenosine",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
             "expected_output": "Acceptable",
@@ -46,61 +48,14 @@
             "well_known": false,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "46",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_181",
-            "name": "Acceptable: Prednisone treats Gout",
-            "description": "Acceptable: Prednisone treats Gout",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0005393",
-            "input_name": "Gout",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5865",
-            "output_name": "Prednisone",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
+                "test_source": "TranslatorTeam",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
@@ -111,25 +66,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005393",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:135",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "increased"
         }
     ],
-    "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

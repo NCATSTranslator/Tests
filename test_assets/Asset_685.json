@@ -1,19 +1,21 @@
 {
-    "id": "Asset_68",
-    "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
-    "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
-    "tags": [],
+    "id": "Asset_685",
+    "name": "TopAnswer: Tamsulosin treats benign prostatic hyperplasia",
+    "description": "TopAnswer: Tamsulosin treats benign prostatic hyperplasia. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+    "tags": [
+        "semmeddb_replacement"
+    ],
     "test_runner_settings": [
         "inferred"
     ],
-    "input_id": "MONDO:0007147",
-    "input_name": "Obstructive Sleep Apnea",
+    "input_id": "MONDO:0010811",
+    "input_name": "benign prostatic hyperplasia",
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D053260",
-    "output_name": "Soot",
-    "output_category": "biolink:ChemicalEntity",
+    "output_id": "CHEBI:9398",
+    "output_name": "Tamsulosin",
+    "output_category": "biolink:Drug",
     "association": null,
     "qualifiers": [
         {
@@ -29,20 +31,22 @@
             "value": ""
         }
     ],
-    "expected_output": "NeverShow",
+    "expected_output": "TopAnswer",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
-    "well_known": false,
+    "well_known": true,
     "test_reference": null,
     "test_metadata": {
-        "id": "1",
+        "id": "16",
         "name": null,
         "description": null,
-        "tags": [],
+        "tags": [
+            "semmeddb_replacement"
+        ],
         "test_runner_settings": [],
-        "test_source": "SMURF",
-        "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+        "test_source": "TranslatorTeam",
+        "test_reference": null,
         "test_objective": "AcceptanceTest",
         "test_annotations": []
     }

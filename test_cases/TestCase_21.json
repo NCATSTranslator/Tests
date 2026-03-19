@@ -1,7 +1,7 @@
 {
     "id": "TestCase_21",
-    "name": "what treats MONDO:0018911",
-    "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young; NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young; NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young; NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young; NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young; NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young; NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
+    "name": "what affects NCBIGene:6532",
+    "description": "Acceptable: Fluoxetine affects SLC6A4. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd; Acceptable: Citalopram affects SLC6A4. SemMedDB replacement test - also covered by: chembl, dgidb, drugcentral, signor, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,344 +9,107 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_124",
-            "name": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Receptor, insulin treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
+            "id": "Asset_703",
+            "name": "Acceptable: Fluoxetine affects SLC6A4",
+            "description": "Acceptable: Fluoxetine affects SLC6A4. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D011972",
-            "output_name": "Receptor, insulin",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "NCBIGene:6532",
+            "input_name": "SLC6A4",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "CHEBI:5118",
+            "output_name": "Fluoxetine",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "34",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/613",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_125",
-            "name": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Autoantibodies treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D001323",
-            "output_name": "Autoantibodies",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
+                "test_source": "TranslatorTeam",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_126",
-            "name": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Thyroid hormones treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
+            "id": "Asset_717",
+            "name": "Acceptable: Citalopram affects SLC6A4",
+            "description": "Acceptable: Citalopram affects SLC6A4. SemMedDB replacement test - also covered by: chembl, dgidb, drugcentral, signor, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:53462828",
-            "output_name": "Thyroid hormones",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "NCBIGene:6532",
+            "input_name": "SLC6A4",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "CHEBI:3723",
+            "output_name": "Citalopram",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "48",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
+                "test_source": "TranslatorTeam",
                 "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_127",
-            "name": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Enzymes treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D004798",
-            "output_name": "Enzymes",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_128",
-            "name": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Receptor, IGF Type 1 treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D017526",
-            "output_name": "Receptor, IGF Type 1",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": null,
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_129",
-            "name": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: Complement system proteins treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D003165",
-            "output_name": "Complement system proteins",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/615",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_130",
-            "name": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
-            "description": "NeverShow: bisphenol A treats Maturity-onset Diabetes Of The Young",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0018911",
-            "input_name": "Maturity-onset Diabetes Of The Young",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:6623",
-            "output_name": "bisphenol A",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/444",
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -356,25 +119,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0018911",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:6532",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "decreased"
         }
     ],
-    "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

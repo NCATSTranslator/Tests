@@ -1,0 +1,53 @@
+{
+    "id": "Asset_703",
+    "name": "Acceptable: Fluoxetine affects SLC6A4",
+    "description": "Acceptable: Fluoxetine affects SLC6A4. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
+    "tags": [
+        "semmeddb_replacement"
+    ],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "NCBIGene:6532",
+    "input_name": "SLC6A4",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_id": "CHEBI:5118",
+    "output_name": "Fluoxetine",
+    "output_category": "biolink:Drug",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "34",
+        "name": null,
+        "description": null,
+        "tags": [
+            "semmeddb_replacement"
+        ],
+        "test_runner_settings": [],
+        "test_source": "TranslatorTeam",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}
