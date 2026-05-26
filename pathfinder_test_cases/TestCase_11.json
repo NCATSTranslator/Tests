@@ -1,73 +1,26 @@
 {
     "id": "TestCase_11",
-    "name": "PTFQ2b",
-    "description": "How does resveratrol affect glyoxalase?",
+    "name": "PTFQ_7a",
+    "description": "How does aspirin help prevent colorectal cancer?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
     "test_assets": [
         {
-            "id": "Asset_16",
-            "name": "PTFQ2b",
-            "description": "How does resveratrol affect glyoxalase?",
+            "id": "Asset_57",
+            "name": "PTFQ_7a.1: Acetylsalicylate to Colorectal Cancer, COX2",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "resveratrol",
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "glyoxalase",
-            "target_input_category": "biolink:Gene",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 2,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:3815"
-                    ],
-                    "name": "KIT"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:855009"
-                    ],
-                    "name": "GLO1"
-                },
-                {
-                    "ids": [
-                        "GO:0034599"
-                    ],
-                    "name": "Cellular response to oxidative stress"
-                },
-                {
-                    "ids": [
-                        "UMLS:C5543862",
-                        "NCBIGene:84900"
-                    ],
-                    "name": "NFT2 pathway"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_20",
-            "name": "PTFQ2b.4",
-            "description": "How does resveratrol affect glyoxalase?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "resveratrol",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "glyoxalase",
-            "target_input_category": "biolink:Gene",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
+            "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
@@ -75,27 +28,85 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "UMLS:C5543862",
-                        "NCBIGene:84900"
+                        "NCBIGene:4513"
                     ],
-                    "name": "NFT2 pathway"
+                    "name": "COX2"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_21",
-            "name": "PTFQ3",
-            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "id": "Asset_61",
+            "name": "PTFQ_7a.5: Acetylsalicylate to Colorectal Cancer, hMSH2",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "Crohn's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "Parkinson's Disease",
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "UniProtKB:P43246-1",
+                        "UniProtKB:P43246-2"
+                    ],
+                    "name": "hMSH2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_60",
+            "name": "PTFQ_7a.4: Acetylsalicylate to Colorectal Cancer, prostaglandin PGE2",
+            "description": "How does aspirin help prevent colorectal cancer?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "CHEBI:26333",
+                        "CHEBI:176067",
+                        "CHEBI:15551"
+                    ],
+                    "name": "prostaglandin PGE2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_56",
+            "name": "PTFQ_7a: Acetylsalicylate to Colorectal Cancer",
+            "description": "How does aspirin help prevent colorectal cancer?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -104,155 +115,134 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:11315"
+                        "NCBIGene:4513"
                     ],
-                    "name": "PARK7"
+                    "name": "COX2"
                 },
                 {
                     "ids": [
-                        "NCBIGene:120892"
+                        "NCBIGene:4791",
+                        "NCBIGene:4790"
                     ],
-                    "name": "LRRK2"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_17",
-            "name": "PTFQ2b.1",
-            "description": "How does resveratrol affect glyoxalase?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "resveratrol",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "glyoxalase",
-            "target_input_category": "biolink:Gene",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
+                    "name": "NFKB"
+                },
                 {
                     "ids": [
-                        "NCBIGene:3815"
+                        "CHEBI:132120",
+                        "UMLS:C4288292"
                     ],
-                    "name": "KIT"
+                    "name": "resolvins"
+                },
+                {
+                    "ids": [
+                        "CHEBI:26333",
+                        "CHEBI:176067",
+                        "CHEBI:15551"
+                    ],
+                    "name": "prostaglandin PGE2"
+                },
+                {
+                    "ids": [
+                        "UniProtKB:P43246-1",
+                        "UniProtKB:P43246-2"
+                    ],
+                    "name": "hMSH2"
+                },
+                {
+                    "ids": [
+                        "UniProtKB:P40692-2",
+                        "UniProtKB:P40692-3",
+                        "UniProtKB:P40692-1"
+                    ],
+                    "name": "hMLH1"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_22",
-            "name": "PTFQ3.1",
-            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "id": "Asset_59",
+            "name": "PTFQ_7a.3: Acetylsalicylate to Colorectal Cancer, resolvins",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "Crohn's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "Parkinson's Disease",
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
-            "minimum_required_path_nodes": 2,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:11315"
-                    ],
-                    "name": "PARK7"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_18",
-            "name": "PTFQ2b.2",
-            "description": "How does resveratrol affect glyoxalase?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "resveratrol",
-            "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "glyoxalase",
-            "target_input_category": "biolink:Gene",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
             "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:855009"
+                        "CHEBI:132120",
+                        "UMLS:C4288292"
                     ],
-                    "name": "GLO1"
+                    "name": "resolvins"
                 }
             ],
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_19",
-            "name": "PTFQ2b.3",
-            "description": "How does resveratrol affect glyoxalase?",
+            "id": "Asset_58",
+            "name": "PTFQ_7a.2: Acetylsalicylate to Colorectal Cancer, NFKB",
+            "description": "How does aspirin help prevent colorectal cancer?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "resveratrol",
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
             "source_input_category": "biolink:SmallMolecule",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "glyoxalase",
-            "target_input_category": "biolink:Gene",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "GO:0034599"
-                    ],
-                    "name": "Cellular response to oxidative stress"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
-            "id": "Asset_23",
-            "name": "PTFQ3.2",
-            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:27881",
-            "source_input_name": "Crohn's Disease",
-            "source_input_category": "biolink:Disease",
-            "target_input_id": "NCBIGene:2739",
-            "target_input_name": "Parkinson's Disease",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
             "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
-            "minimum_required_path_nodes": 2,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
-                        "NCBIGene:120892"
+                        "NCBIGene:4791",
+                        "NCBIGene:4790"
                     ],
-                    "name": "LRRK2"
+                    "name": "NFKB"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_62",
+            "name": "PTFQ_7a.6: Acetylsalicylate to Colorectal Cancer, hMLH1",
+            "description": "How does aspirin help prevent colorectal cancer?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "CHEBI:13719",
+            "source_input_name": "Acetylsalicylate",
+            "source_input_category": "biolink:SmallMolecule",
+            "target_input_id": "MONDO:0005575",
+            "target_input_name": "Colorectal Cancer",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 1,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "UniProtKB:P40692-2",
+                        "UniProtKB:P40692-3",
+                        "UniProtKB:P40692-1"
+                    ],
+                    "name": "hMLH1"
                 }
             ],
             "expected_output": "TopAnswer"

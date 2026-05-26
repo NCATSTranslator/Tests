@@ -25,7 +25,8 @@
         },
         {
             "ids": [
-                "CHEBI:50949"
+                "CHEBI:50949",
+                "UMLS:C0162758"
             ],
             "name": "SSRI agonist"
         },
@@ -37,10 +38,9 @@
         },
         {
             "ids": [
-                "NCBIGene:856478",
-                "NCBIGene:856478"
+                "NCBIGene:2081"
             ],
-            "name": "IRE1"
+            "name": "ERN1"
         },
         {
             "ids": [

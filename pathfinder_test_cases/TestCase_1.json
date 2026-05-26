@@ -24,7 +24,7 @@
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
-            "minimum_required_path_nodes": 2,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [
@@ -52,7 +52,7 @@
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
-            "minimum_required_path_nodes": 2,
+            "minimum_required_path_nodes": 1,
             "path_nodes": [
                 {
                     "ids": [

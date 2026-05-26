@@ -1,36 +1,98 @@
 {
     "id": "TestCase_13",
-    "name": "Pentose",
-    "description": "This is the start and end compound from KEGG pathway M00004, with a random compound from the pathway required to be an intermediate.",
+    "name": "PTFQ3",
+    "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
     "tags": [],
     "test_runner_settings": [
         "pathfinder"
     ],
     "test_assets": [
         {
-            "id": "Asset_98",
-            "name": "Pentose phosphate pathway (Pentose phosphate cycle)",
-            "description": "This is the start and end compound from KEGG pathway M00004, with a random compound from the pathway required to be an intermediate.",
+            "id": "Asset_21",
+            "name": "PTFQ3",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
             "tags": [],
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "KEGG.COMPOUND:C01172",
-            "source_input_name": "beta-D-Glucose 6-phosphate",
-            "source_input_category": "biolink:ChemicalEntity",
-            "target_input_id": "KEGG.COMPOUND:C00668",
-            "target_input_name": "alpha-D-Glucose 6-phosphate",
-            "target_input_category": "biolink:ChemicalEntity",
+            "source_input_id": "MONDO:0005011",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005180",
+            "target_input_name": "Parkinson's Disease",
+            "target_input_category": "biolink:Disease",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
             "qualifiers": null,
-            "minimum_required_path_nodes": 1,
+            "minimum_required_path_nodes": 2,
             "path_nodes": [
                 {
                     "ids": [
-                        "KEGG.COMPOUND:C00117"
+                        "NCBIGene:11315"
                     ],
-                    "name": "D-Ribose 5-phosphate"
+                    "name": "PARK7"
+                },
+                {
+                    "ids": [
+                        "NCBIGene:120892"
+                    ],
+                    "name": "LRRK2"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_22",
+            "name": "PTFQ3.1",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005011",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005180",
+            "target_input_name": "Parkinson's Disease",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:11315"
+                    ],
+                    "name": "PARK7"
+                }
+            ],
+            "expected_output": "TopAnswer"
+        },
+        {
+            "id": "Asset_23",
+            "name": "PTFQ3.2",
+            "description": "In some rare families, Crohn's disease and Parkinson's disease co-occur. Is there a possible genetic link between these two apparently distinct conditions?",
+            "tags": [],
+            "test_runner_settings": [
+                "pathfinder"
+            ],
+            "source_input_id": "MONDO:0005011",
+            "source_input_name": "Crohn's Disease",
+            "source_input_category": "biolink:Disease",
+            "target_input_id": "MONDO:0005180",
+            "target_input_name": "Parkinson's Disease",
+            "target_input_category": "biolink:Disease",
+            "predicate_id": "biolink:related_to",
+            "predicate_name": "related to",
+            "qualifiers": null,
+            "minimum_required_path_nodes": 2,
+            "path_nodes": [
+                {
+                    "ids": [
+                        "NCBIGene:120892"
+                    ],
+                    "name": "LRRK2"
                 }
             ],
             "expected_output": "TopAnswer"
