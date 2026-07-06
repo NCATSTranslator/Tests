@@ -2975,7 +2975,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "ci"
+            "test_env": "dev"
         },
         "TestCase_14": {
             "id": "TestCase_14",
