@@ -191,7 +191,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_1": {
             "id": "TestCase_1",
@@ -331,7 +331,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_2": {
             "id": "TestCase_2",
@@ -541,7 +541,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_3": {
             "id": "TestCase_3",
@@ -797,7 +797,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_4": {
             "id": "TestCase_4",
@@ -1069,7 +1069,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_5": {
             "id": "TestCase_5",
@@ -1283,7 +1283,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_6": {
             "id": "TestCase_6",
@@ -1459,7 +1459,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_7": {
             "id": "TestCase_7",
@@ -1871,7 +1871,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_8": {
             "id": "TestCase_8",
@@ -2047,7 +2047,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_9": {
             "id": "TestCase_9",
@@ -2393,7 +2393,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_10": {
             "id": "TestCase_10",
@@ -2569,7 +2569,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_11": {
             "id": "TestCase_11",
@@ -2825,7 +2825,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_12": {
             "id": "TestCase_12",
@@ -2869,7 +2869,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_13": {
             "id": "TestCase_13",
@@ -2975,7 +2975,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_14": {
             "id": "TestCase_14",
@@ -3019,7 +3019,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_15": {
             "id": "TestCase_15",
@@ -3063,7 +3063,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_16": {
             "id": "TestCase_16",
@@ -3217,7 +3217,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         },
         "TestCase_17": {
             "id": "TestCase_17",
@@ -3261,7 +3261,7 @@
             "components": [
                 "ars"
             ],
-            "test_env": "dev"
+            "test_env": "ci"
         }
     },
     "test_suite_specification": null
