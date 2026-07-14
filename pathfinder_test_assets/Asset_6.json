@@ -32,12 +32,6 @@
         },
         {
             "ids": [
-                "NCBIGene:4254"
-            ],
-            "name": "SCF-1"
-        },
-        {
-            "ids": [
                 "CL:0000097"
             ],
             "name": "Mast Cell"
