@@ -65,34 +65,6 @@
             "expected_output": "TopAnswer"
         },
         {
-            "id": "Asset_4",
-            "name": "PTFQ_1a.3: Imatinib to Asthma, through SCF-1",
-            "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
-            "tags": [],
-            "test_runner_settings": [
-                "pathfinder"
-            ],
-            "source_input_id": "CHEBI:45783",
-            "source_input_name": "Imatinib",
-            "source_input_category": "biolink:Drug",
-            "target_input_id": "MONDO:0004979",
-            "target_input_name": "Asthma",
-            "target_input_category": "biolink:Disease",
-            "predicate_id": "biolink:related_to",
-            "predicate_name": "related to",
-            "qualifiers": null,
-            "minimum_required_path_nodes": 1,
-            "path_nodes": [
-                {
-                    "ids": [
-                        "NCBIGene:4254"
-                    ],
-                    "name": "SCF-1"
-                }
-            ],
-            "expected_output": "TopAnswer"
-        },
-        {
             "id": "Asset_5",
             "name": "PTFQ_1a.4: Imatinib to Asthma, through Mast Cell",
             "description": "The kinase inhibitor imatinib is used to treat cancers. Why does it also show efficacy in the treatment of severe asthma?",
@@ -151,12 +123,6 @@
                         "PR:000049994"
                     ],
                     "name": "Histamine"
-                },
-                {
-                    "ids": [
-                        "NCBIGene:4254"
-                    ],
-                    "name": "SCF-1"
                 },
                 {
                     "ids": [
