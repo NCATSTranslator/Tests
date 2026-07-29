@@ -1,7 +1,7 @@
 {
     "id": "Asset_55",
-    "name": "BadButForgivable: Dichlorophen treats Hookworm Infectious Disease",
-    "description": "BadButForgivable: Dichlorophen treats Hookworm Infectious Disease",
+    "name": "Acceptable: Dichlorophen treats Hookworm Infectious Disease",
+    "description": "Acceptable: Dichlorophen treats Hookworm Infectious Disease",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "BadButForgivable",
+    "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,

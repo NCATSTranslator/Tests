@@ -1,7 +1,7 @@
 {
     "id": "Asset_179",
-    "name": "Acceptable: Methylphenidate treats ADHD",
-    "description": "Acceptable: Methylphenidate treats ADHD",
+    "name": "TopAnswer: Methylphenidate treats ADHD",
+    "description": "TopAnswer: Methylphenidate treats ADHD",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "Acceptable",
+    "expected_output": "TopAnswer",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,

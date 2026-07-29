@@ -1,7 +1,7 @@
 {
     "id": "Asset_320",
-    "name": "NeverShow: Itraconazole treats Cystic fibrosis",
-    "description": "NeverShow: Itraconazole treats Cystic fibrosis",
+    "name": "Acceptable: Itraconazole treats Cystic fibrosis",
+    "description": "Acceptable: Itraconazole treats Cystic fibrosis",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -29,7 +29,7 @@
             "value": ""
         }
     ],
-    "expected_output": "NeverShow",
+    "expected_output": "Acceptable",
     "test_issue": null,
     "semantic_severity": null,
     "in_v1": null,
