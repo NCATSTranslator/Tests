@@ -1,7 +1,7 @@
 {
     "id": "TestCase_2",
-    "name": "what treats MONDO:0001119",
-    "description": "NeverShow: hexadrin treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; NeverShow: basis treats Premature Menopause; NeverShow: lasofoxifene treats Premature Menopause; NeverShow: busulfan treats Premature Menopause; TopAnswer: estradiol treats Premature Menopause; TopAnswer: progestin treats Premature Menopause",
+    "name": "what treats MONDO:0005044",
+    "description": "TopAnswer: Clonidine treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd; TopAnswer: Quinapril treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd; TopAnswer: Telmisartan treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,266 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_5",
-            "name": "NeverShow: hexadrin treats Premature Menopause",
-            "description": "NeverShow: hexadrin treats Premature Menopause",
-            "tags": [],
+            "id": "Asset_672",
+            "name": "TopAnswer: Clonidine treats hypertension",
+            "description": "TopAnswer: Clonidine treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
+            "input_id": "MONDO:0005044",
+            "input_name": "hypertension",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:12358480",
-            "output_name": "hexadrin",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_6",
-            "name": "NeverShow: busulfan treats Premature Menopause",
-            "description": "NeverShow: busulfan treats Premature Menopause",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2478",
-            "output_name": "busulfan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/490",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_48",
-            "name": "NeverShow: basis treats Premature Menopause",
-            "description": "NeverShow: basis treats Premature Menopause",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "UMLS:C1874451",
-            "output_name": "basis",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/567",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_76",
-            "name": "NeverShow: lasofoxifene treats Premature Menopause",
-            "description": "NeverShow: lasofoxifene treats Premature Menopause",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:216416",
-            "output_name": "lasofoxifene",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/489",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_77",
-            "name": "NeverShow: busulfan treats Premature Menopause",
-            "description": "NeverShow: busulfan treats Premature Menopause",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:2478",
-            "output_name": "busulfan",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/608",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_78",
-            "name": "TopAnswer: estradiol treats Premature Menopause",
-            "description": "TopAnswer: estradiol treats Premature Menopause",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5757",
-            "output_name": "estradiol",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:3757",
+            "output_name": "Clonidine",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -288,36 +45,40 @@
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "3",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
+                "test_source": "TranslatorTeam",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
         },
         {
-            "id": "Asset_79",
-            "name": "TopAnswer: progestin treats Premature Menopause",
-            "description": "TopAnswer: progestin treats Premature Menopause",
-            "tags": [],
+            "id": "Asset_679",
+            "name": "TopAnswer: Quinapril treats hypertension",
+            "description": "TopAnswer: Quinapril treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0001119",
-            "input_name": "Premature Menopause",
+            "input_id": "MONDO:0005044",
+            "input_name": "hypertension",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D011372",
-            "output_name": "progestin",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:8713",
+            "output_name": "Quinapril",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -337,15 +98,70 @@
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "10",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
+                "test_objective": "AcceptanceTest",
+                "test_annotations": []
+            }
+        },
+        {
+            "id": "Asset_684",
+            "name": "TopAnswer: Telmisartan treats hypertension",
+            "description": "TopAnswer: Telmisartan treats hypertension. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
+            "test_runner_settings": [
+                "inferred"
+            ],
+            "input_id": "MONDO:0005044",
+            "input_name": "hypertension",
+            "input_category": "biolink:Disease",
+            "predicate_id": "biolink:treats",
+            "predicate_name": "treats",
+            "output_id": "CHEBI:9434",
+            "output_name": "Telmisartan",
+            "output_category": "biolink:Drug",
+            "association": null,
+            "qualifiers": [
+                {
+                    "parameter": "biolink_qualified_predicate",
+                    "value": "biolink:treats"
+                },
+                {
+                    "parameter": "biolink_object_aspect_qualifier",
+                    "value": ""
+                },
+                {
+                    "parameter": "biolink_object_direction_qualifier",
+                    "value": ""
+                }
+            ],
+            "expected_output": "TopAnswer",
+            "test_issue": null,
+            "semantic_severity": null,
+            "in_v1": null,
+            "well_known": true,
+            "test_reference": null,
+            "test_metadata": {
+                "id": "15",
+                "name": null,
+                "description": null,
+                "tags": [
+                    "semmeddb_replacement"
+                ],
+                "test_runner_settings": [],
+                "test_source": "TranslatorTeam",
                 "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
@@ -358,7 +174,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0001119",
+    "test_case_input_id": "MONDO:0005044",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -374,7 +190,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

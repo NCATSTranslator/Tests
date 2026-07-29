@@ -1,7 +1,7 @@
 {
     "id": "TestCase_24",
-    "name": "what affects NCBIGene:8653",
-    "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y; NeverShow: Small molecule decreases activity or abundance of DDX3Y",
+    "name": "what affects NCBIGene:1312",
+    "description": "Acceptable: Tolcapone affects COMT. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_135",
-            "name": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: dna double stranded decreases activity or abundance of DDX3Y",
-            "tags": [],
+            "id": "Asset_708",
+            "name": "Acceptable: Tolcapone affects COMT",
+            "description": "Acceptable: Tolcapone affects COMT. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
+            "input_id": "NCBIGene:1312",
+            "input_name": "COMT",
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "UMLS:C0311474",
-            "output_name": "dna double stranded",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:63630",
+            "output_name": "Tolcapone",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -32,76 +34,29 @@
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
+                    "value": "activity"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
                     "value": "decreased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "39",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_136",
-            "name": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
-            "description": "NeverShow: Small molecule decreases activity or abundance of DDX3Y",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "NCBIGene:8653",
-            "input_name": "DDX3Y",
-            "input_category": "biolink:Gene",
-            "predicate_id": "biolink:affects",
-            "predicate_name": "affects",
-            "output_id": "UMLS:C1328819",
-            "output_name": "Small molecule",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:causes"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": "activity_or_abundance"
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": "decreased"
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/384",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -113,7 +68,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "affects",
     "test_case_predicate_id": "biolink:affects",
-    "test_case_input_id": "NCBIGene:8653",
+    "test_case_input_id": "NCBIGene:1312",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -121,7 +76,7 @@
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": "activity_or_abundance"
+            "value": "activity"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
@@ -129,7 +84,7 @@
         }
     ],
     "input_category": "biolink:Gene",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

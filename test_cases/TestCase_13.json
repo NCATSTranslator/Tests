@@ -1,7 +1,7 @@
 {
     "id": "TestCase_13",
-    "name": "what treats MONDO:0007147",
-    "description": "NeverShow: Soot treats Obstructive Sleep Apnea; Acceptable: Soot treats Obstructive Sleep Apnea",
+    "name": "what treats MONDO:0004976",
+    "description": "TopAnswer: Riluzole treats amyotrophic lateral sclerosis. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_68",
-            "name": "NeverShow: Soot treats Obstructive Sleep Apnea",
-            "description": "NeverShow: Soot treats Obstructive Sleep Apnea",
-            "tags": [],
+            "id": "Asset_692",
+            "name": "TopAnswer: Riluzole treats amyotrophic lateral sclerosis",
+            "description": "TopAnswer: Riluzole treats amyotrophic lateral sclerosis. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0007147",
-            "input_name": "Obstructive Sleep Apnea",
+            "input_id": "MONDO:0004976",
+            "input_name": "amyotrophic lateral sclerosis",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D053260",
-            "output_name": "Soot",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:8863",
+            "output_name": "Riluzole",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -39,69 +41,22 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "23",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_69",
-            "name": "Acceptable: Soot treats Obstructive Sleep Apnea",
-            "description": "Acceptable: Soot treats Obstructive Sleep Apnea",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0007147",
-            "input_name": "Obstructive Sleep Apnea",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "MESH:D053260",
-            "output_name": "Soot",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "Acceptable",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/494",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -113,7 +68,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0007147",
+    "test_case_input_id": "MONDO:0004976",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -129,7 +84,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

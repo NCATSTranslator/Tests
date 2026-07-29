@@ -1,7 +1,7 @@
 {
     "id": "TestCase_17",
-    "name": "what treats MONDO:0005267",
-    "description": "NeverShow: fibrinogen treats Heart Disorder",
+    "name": "what treats MONDO:0005002",
+    "description": "TopAnswer: Aclidinium treats chronic obstructive pulmonary disease. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,21 +9,23 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_90",
-            "name": "NeverShow: fibrinogen treats Heart Disorder",
-            "description": "NeverShow: fibrinogen treats Heart Disorder",
-            "tags": [],
+            "id": "Asset_699",
+            "name": "TopAnswer: Aclidinium treats chronic obstructive pulmonary disease",
+            "description": "TopAnswer: Aclidinium treats chronic obstructive pulmonary disease. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0005267",
-            "input_name": "Heart Disorder",
+            "input_id": "MONDO:0005002",
+            "input_name": "chronic obstructive pulmonary disease",
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:80160",
-            "output_name": "fibrinogen",
-            "output_category": "biolink:ChemicalEntity",
+            "output_id": "CHEBI:65346",
+            "output_name": "Aclidinium",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
@@ -39,20 +41,22 @@
                     "value": ""
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "TopAnswer",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
-            "well_known": false,
+            "well_known": true,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "30",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/477",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -64,7 +68,7 @@
     "test_case_source": null,
     "test_case_predicate_name": "treats",
     "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0005267",
+    "test_case_input_id": "MONDO:0005002",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
@@ -80,7 +84,7 @@
         }
     ],
     "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],

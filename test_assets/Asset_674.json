@@ -1,0 +1,53 @@
+{
+    "id": "Asset_674",
+    "name": "TopAnswer: Methylprednisolone treats rheumatoid arthritis",
+    "description": "TopAnswer: Methylprednisolone treats rheumatoid arthritis. SemMedDB replacement test - also covered by: ctkp, dakp, drug_rep_hub, drugcentral, tmkp, ttd",
+    "tags": [
+        "semmeddb_replacement"
+    ],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0008383",
+    "input_name": "rheumatoid arthritis",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_id": "CHEBI:6888",
+    "output_name": "Methylprednisolone",
+    "output_category": "biolink:Drug",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "TopAnswer",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": true,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "5",
+        "name": null,
+        "description": null,
+        "tags": [
+            "semmeddb_replacement"
+        ],
+        "test_runner_settings": [],
+        "test_source": "TranslatorTeam",
+        "test_reference": null,
+        "test_objective": "AcceptanceTest",
+        "test_annotations": []
+    }
+}

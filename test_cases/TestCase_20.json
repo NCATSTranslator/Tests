@@ -1,7 +1,7 @@
 {
     "id": "TestCase_20",
-    "name": "what treats MONDO:0019600",
-    "description": "NeverShow: cadmium treats Xeroderma Pigmentosum; NeverShow: mercury treats Xeroderma Pigmentosum",
+    "name": "what affects NCBIGene:3350",
+    "description": "Acceptable: Buspirone affects HTR1A. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
     "tags": [],
     "test_runner_settings": [
         "inferred"
@@ -9,99 +9,54 @@
     "query_type": null,
     "test_assets": [
         {
-            "id": "Asset_96",
-            "name": "NeverShow: cadmium treats Xeroderma Pigmentosum",
-            "description": "NeverShow: cadmium treats Xeroderma Pigmentosum",
-            "tags": [],
+            "id": "Asset_702",
+            "name": "Acceptable: Buspirone affects HTR1A",
+            "description": "Acceptable: Buspirone affects HTR1A. SemMedDB replacement test - also covered by: chembl, dgidb, drug_rep_hub, drugcentral, signor, tmkp, ttd",
+            "tags": [
+                "semmeddb_replacement"
+            ],
             "test_runner_settings": [
                 "inferred"
             ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:22977",
-            "output_name": "cadmium",
-            "output_category": "biolink:ChemicalEntity",
+            "input_id": "NCBIGene:3350",
+            "input_name": "HTR1A",
+            "input_category": "biolink:Gene",
+            "predicate_id": "biolink:affects",
+            "predicate_name": "affects",
+            "output_id": "CHEBI:3223",
+            "output_name": "Buspirone",
+            "output_category": "biolink:Drug",
             "association": null,
             "qualifiers": [
                 {
                     "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
+                    "value": "biolink:causes"
                 },
                 {
                     "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
+                    "value": "activity"
                 },
                 {
                     "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
+                    "value": "increased"
                 }
             ],
-            "expected_output": "NeverShow",
+            "expected_output": "Acceptable",
             "test_issue": null,
             "semantic_severity": null,
             "in_v1": null,
             "well_known": false,
             "test_reference": null,
             "test_metadata": {
-                "id": "1",
+                "id": "33",
                 "name": null,
                 "description": null,
-                "tags": [],
+                "tags": [
+                    "semmeddb_replacement"
+                ],
                 "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
-                "test_objective": "AcceptanceTest",
-                "test_annotations": []
-            }
-        },
-        {
-            "id": "Asset_97",
-            "name": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "description": "NeverShow: mercury treats Xeroderma Pigmentosum",
-            "tags": [],
-            "test_runner_settings": [
-                "inferred"
-            ],
-            "input_id": "MONDO:0019600",
-            "input_name": "Xeroderma Pigmentosum",
-            "input_category": "biolink:Disease",
-            "predicate_id": "biolink:treats",
-            "predicate_name": "treats",
-            "output_id": "CHEBI:25195",
-            "output_name": "mercury",
-            "output_category": "biolink:ChemicalEntity",
-            "association": null,
-            "qualifiers": [
-                {
-                    "parameter": "biolink_qualified_predicate",
-                    "value": "biolink:treats"
-                },
-                {
-                    "parameter": "biolink_object_aspect_qualifier",
-                    "value": ""
-                },
-                {
-                    "parameter": "biolink_object_direction_qualifier",
-                    "value": ""
-                }
-            ],
-            "expected_output": "NeverShow",
-            "test_issue": null,
-            "semantic_severity": null,
-            "in_v1": null,
-            "well_known": false,
-            "test_reference": null,
-            "test_metadata": {
-                "id": "1",
-                "name": null,
-                "description": null,
-                "tags": [],
-                "test_runner_settings": [],
-                "test_source": "SMURF",
-                "test_reference": "https://github.com/NCATSTranslator/Feedback/issues/465",
+                "test_source": "TranslatorTeam",
+                "test_reference": null,
                 "test_objective": "AcceptanceTest",
                 "test_annotations": []
             }
@@ -111,25 +66,25 @@
     "trapi_template": null,
     "test_case_objective": "AcceptanceTest",
     "test_case_source": null,
-    "test_case_predicate_name": "treats",
-    "test_case_predicate_id": "biolink:treats",
-    "test_case_input_id": "MONDO:0019600",
+    "test_case_predicate_name": "affects",
+    "test_case_predicate_id": "biolink:affects",
+    "test_case_input_id": "NCBIGene:3350",
     "qualifiers": [
         {
             "parameter": "biolink_qualified_predicate",
-            "value": "biolink:treats"
+            "value": "biolink:causes"
         },
         {
             "parameter": "biolink_object_aspect_qualifier",
-            "value": ""
+            "value": "activity"
         },
         {
             "parameter": "biolink_object_direction_qualifier",
-            "value": ""
+            "value": "increased"
         }
     ],
-    "input_category": "biolink:Disease",
-    "output_category": "biolink:ChemicalEntity",
+    "input_category": "biolink:Gene",
+    "output_category": "biolink:Drug",
     "components": [
         "ars"
     ],
