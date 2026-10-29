@@ -21,7 +21,7 @@
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "NCBIGene:2596",
+            "output_ids": ["NCBIGene:2596"],
             "output_name": "GAP43",
             "output_category": "biolink:Gene",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "NCBIGene:10381",
+            "output_ids": ["NCBIGene:10381"],
             "output_name": "TUBB3",
             "output_category": "biolink:Gene",
             "association": null,
@@ -132,6 +132,5 @@
     "output_category": "biolink:Gene",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

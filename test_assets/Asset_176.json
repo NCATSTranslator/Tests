@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:15625",
+    "output_ids": ["PUBCHEM.COMPOUND:15625"],
     "output_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

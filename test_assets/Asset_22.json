@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:36357",
+    "output_ids": ["CHEBI:36357"],
     "output_name": "polyatomic entity",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:6134",
+    "output_ids": ["PUBCHEM.COMPOUND:6134"],
     "output_name": "alpha-Lactose",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

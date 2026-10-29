@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D001786",
+    "output_ids": ["MESH:D001786"],
     "output_name": "Blood glucose",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

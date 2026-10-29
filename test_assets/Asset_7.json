@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D001335",
+    "output_ids": ["MESH:D001335"],
     "output_name": "Vehicle Emissions",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

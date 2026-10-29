@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D002467",
+    "output_ids": ["MESH:D002467"],
     "output_name": "Cell nucleus",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

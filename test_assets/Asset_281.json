@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:33677",
+    "output_ids": ["CHEBI:33677"],
     "output_name": "F-block molecular entity",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

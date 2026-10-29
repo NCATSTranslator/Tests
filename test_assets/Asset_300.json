@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:79389",
+    "output_ids": ["CHEBI:79389"],
     "output_name": "Monovalent inorganic anion",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

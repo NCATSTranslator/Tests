@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MONDO:0016028",
+    "output_ids": ["MONDO:0016028"],
     "output_name": "Erythromelalgia",
     "output_category": "biolink:Disease",
     "association": null,

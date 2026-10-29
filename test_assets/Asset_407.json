@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "PUBCHEM.COMPOUND:71496458",
+    "output_ids": ["PUBCHEM.COMPOUND:71496458"],
     "output_name": "osimertinib",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

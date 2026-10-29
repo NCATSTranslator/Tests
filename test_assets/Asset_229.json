@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D007287",
+    "output_ids": ["MESH:D007287"],
     "output_name": "Inorganic chemicals",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

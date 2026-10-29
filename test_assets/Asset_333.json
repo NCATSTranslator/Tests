@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:596",
+    "output_ids": ["NCBIGene:596"],
     "output_name": "BCL2",
     "output_category": "biolink:Gene",
     "association": null,

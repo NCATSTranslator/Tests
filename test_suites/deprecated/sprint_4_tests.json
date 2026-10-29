@@ -40,7 +40,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:107970",
+                    "output_ids": ["PUBCHEM.COMPOUND:107970"],
                     "output_name": "fingolimod",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -89,7 +89,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "MESH:D000069442",
+                    "output_ids": ["MESH:D000069442"],
                     "output_name": "natalizumab",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -151,8 +151,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_1": {
             "id": "TestCase_1",
@@ -177,7 +176,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5284616",
+                    "output_ids": ["PUBCHEM.COMPOUND:5284616", "CHEBI:9168"],
                     "output_name": "sirolimus",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -226,7 +225,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:4F4X42SYQ6",
+                    "output_ids": ["UNII:4F4X42SYQ6"],
                     "output_name": "rituximab",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -275,7 +274,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:9013DUQ28K",
+                    "output_ids": ["UNII:9013DUQ28K"],
                     "output_name": "anakinra",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -324,7 +323,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEMBL.COMPOUND:CHEMBL1201562",
+                    "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201562"],
                     "output_name": "interferon-beta 1a",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -373,7 +372,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEMBL.COMPOUND:CHEMBL1201563",
+                    "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201563"],
                     "output_name": "interferon-beta 1b",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -435,8 +434,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_2": {
             "id": "TestCase_2",
@@ -461,7 +459,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEMBL.COMPOUND:CHEMBL2108505",
+                    "output_ids": ["CHEMBL.COMPOUND:CHEMBL2108505"],
                     "output_name": "Lactase",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -523,8 +521,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_3": {
             "id": "TestCase_3",
@@ -549,7 +546,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:4030",
+                    "output_ids": ["PUBCHEM.COMPOUND:4030"],
                     "output_name": "Mebendazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -598,7 +595,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:708857",
+                    "output_ids": ["PUBCHEM.COMPOUND:708857"],
                     "output_name": "Pyrantel",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -647,7 +644,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5430",
+                    "output_ids": ["PUBCHEM.COMPOUND:5430"],
                     "output_name": "Thiabendazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -709,8 +706,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_4": {
             "id": "TestCase_4",
@@ -735,7 +731,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:82752",
+                    "output_ids": ["CHEBI:82752"],
                     "output_name": "Eliglustat",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -784,7 +780,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:Q6U6J48BWY",
+                    "output_ids": ["UNII:Q6U6J48BWY"],
                     "output_name": "Imiglucerase",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -833,7 +829,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:0R4NLX88O4",
+                    "output_ids": ["UNII:0R4NLX88O4"],
                     "output_name": "Taliglucerase alfa",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -882,7 +878,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEMBL.COMPOUND:CHEMBL1201865",
+                    "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201865"],
                     "output_name": "Velaglucerase-alfa",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -931,7 +927,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:51634",
+                    "output_ids": ["PUBCHEM.COMPOUND:51634"],
                     "output_name": "Miglustat",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -993,8 +989,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_5": {
             "id": "TestCase_5",
@@ -1019,7 +1014,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:51634",
+                    "output_ids": ["PUBCHEM.COMPOUND:51634"],
                     "output_name": "Miglustat",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1081,8 +1076,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_6": {
             "id": "TestCase_6",
@@ -1107,7 +1101,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:446157",
+                    "output_ids": ["PUBCHEM.COMPOUND:446157"],
                     "output_name": "Rosuvastatin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1156,7 +1150,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:9853053",
+                    "output_ids": ["PUBCHEM.COMPOUND:9853053"],
                     "output_name": "Lomitapide",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1205,7 +1199,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:9GJ8S4GU0M",
+                    "output_ids": ["UNII:9GJ8S4GU0M"],
                     "output_name": "Mipomersen",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1254,7 +1248,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:LKC0U3A8NJ",
+                    "output_ids": ["UNII:LKC0U3A8NJ"],
                     "output_name": "Evolocumab",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1316,8 +1310,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_7": {
             "id": "TestCase_7",
@@ -1342,7 +1335,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5757",
+                    "output_ids": ["PUBCHEM.COMPOUND:5757"],
                     "output_name": "estradiol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1391,7 +1384,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "MESH:D011372",
+                    "output_ids": ["MESH:D011372"],
                     "output_name": "progestin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1453,8 +1446,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_8": {
             "id": "TestCase_8",
@@ -1479,7 +1471,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:4091",
+                    "output_ids": ["PUBCHEM.COMPOUND:4091"],
                     "output_name": "Metformin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1528,7 +1520,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:1Y17CTI5SR",
+                    "output_ids": ["UNII:1Y17CTI5SR"],
                     "output_name": "Insulin human",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1577,7 +1569,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:16137271",
+                    "output_ids": ["PUBCHEM.COMPOUND:16137271"],
                     "output_name": "Insulin detremir",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1639,8 +1631,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_9": {
             "id": "TestCase_9",
@@ -1665,7 +1656,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "DRUGBANK:DB05404",
+                    "output_ids": ["DRUGBANK:DB05404"],
                     "output_name": "AZD 3355",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1714,7 +1705,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:56842000",
+                    "output_ids": ["PUBCHEM.COMPOUND:56842000"],
                     "output_name": "Talcid",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1763,7 +1754,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:4975",
+                    "output_ids": ["CHEBI:4975"],
                     "output_name": "famotidine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1812,7 +1803,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:7601",
+                    "output_ids": ["CHEBI:7601"],
                     "output_name": "nizatidine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1861,7 +1852,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:3699",
+                    "output_ids": ["CHEBI:3699"],
                     "output_name": "cimetidine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1910,7 +1901,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:7772",
+                    "output_ids": ["CHEBI:7772"],
                     "output_name": "omeprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -1959,7 +1950,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:6375",
+                    "output_ids": ["CHEBI:6375"],
                     "output_name": "lansoprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2008,7 +1999,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:50275",
+                    "output_ids": ["CHEBI:50275"],
                     "output_name": "esomeprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2057,7 +2048,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:7915",
+                    "output_ids": ["CHEBI:7915"],
                     "output_name": "pantoprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2106,7 +2097,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:135931",
+                    "output_ids": ["CHEBI:135931"],
                     "output_name": "dexlansoprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2155,7 +2146,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:8768",
+                    "output_ids": ["CHEBI:8768"],
                     "output_name": "rabeprazole",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2217,8 +2208,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_10": {
             "id": "TestCase_10",
@@ -2243,7 +2233,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2972",
+                    "output_ids": ["PUBCHEM.COMPOUND:2972"],
                     "output_name": "deferipone",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2292,7 +2282,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "CHEBI:49005",
+                    "output_ids": ["CHEBI:49005"],
                     "output_name": "deferasirox",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2341,7 +2331,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:2973",
+                    "output_ids": ["PUBCHEM.COMPOUND:2973"],
                     "output_name": "Deferoxamine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2403,8 +2393,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_11": {
             "id": "TestCase_11",
@@ -2429,7 +2418,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2083",
+                    "output_ids": ["PUBCHEM.COMPOUND:2083"],
                     "output_name": "Albuterol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2478,7 +2467,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEBI:64064",
+                    "output_ids": ["CHEBI:64064"],
                     "output_name": "salmeterol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2527,7 +2516,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3410",
+                    "output_ids": ["PUBCHEM.COMPOUND:3410"],
                     "output_name": "formoterol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2576,7 +2565,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5403",
+                    "output_ids": ["PUBCHEM.COMPOUND:5403"],
                     "output_name": "terbutaline",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2625,7 +2614,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "OMIT:0027329",
+                    "output_ids": ["OMIT:0027329"],
                     "output_name": "Beta-2 Agonists (Activators)",
                     "output_category": null,
                     "association": null,
@@ -2687,8 +2676,7 @@
             "output_category": null,
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_12": {
             "id": "TestCase_12",
@@ -2713,7 +2701,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:77910626",
+                    "output_ids": ["PUBCHEM.COMPOUND:77910626"],
                     "output_name": "Pegfilgrastim",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2775,8 +2763,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_13": {
             "id": "TestCase_13",
@@ -2801,7 +2788,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5362124",
+                    "output_ids": ["PUBCHEM.COMPOUND:5362124"],
                     "output_name": "Benazapril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2850,7 +2837,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:44093",
+                    "output_ids": ["PUBCHEM.COMPOUND:44093"],
                     "output_name": "Captopril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2899,7 +2886,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5388962",
+                    "output_ids": ["PUBCHEM.COMPOUND:5388962"],
                     "output_name": "Enalapril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2948,7 +2935,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:55891",
+                    "output_ids": ["PUBCHEM.COMPOUND:55891"],
                     "output_name": "Fosinopril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -2997,7 +2984,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5362119",
+                    "output_ids": ["PUBCHEM.COMPOUND:5362119"],
                     "output_name": "Lisinopril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3046,7 +3033,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5362129",
+                    "output_ids": ["PUBCHEM.COMPOUND:5362129"],
                     "output_name": "Ramipril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3095,7 +3082,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:107807",
+                    "output_ids": ["PUBCHEM.COMPOUND:107807"],
                     "output_name": "Perindopril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3144,7 +3131,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:54892",
+                    "output_ids": ["PUBCHEM.COMPOUND:54892"],
                     "output_name": "Quinapril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3193,7 +3180,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5484727",
+                    "output_ids": ["PUBCHEM.COMPOUND:5484727"],
                     "output_name": "Trandolapril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3242,7 +3229,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:91270",
+                    "output_ids": ["PUBCHEM.COMPOUND:91270"],
                     "output_name": "Moexipril",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3291,7 +3278,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:37056",
+                    "output_ids": ["PUBCHEM.COMPOUND:37056"],
                     "output_name": "ACE inhibitors",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3353,8 +3340,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_14": {
             "id": "TestCase_14",
@@ -3379,7 +3365,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5311101",
+                    "output_ids": ["PUBCHEM.COMPOUND:5311101"],
                     "output_name": "Fluticasone",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3441,8 +3427,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_15": {
             "id": "TestCase_15",
@@ -3467,7 +3452,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:16220172",
+                    "output_ids": ["PUBCHEM.COMPOUND:16220172"],
                     "output_name": "Ivacaftor",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3529,8 +3514,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_16": {
             "id": "TestCase_16",
@@ -3555,7 +3539,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:40632",
+                    "output_ids": ["PUBCHEM.COMPOUND:40632"],
                     "output_name": "Pirfenidone",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3617,8 +3601,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_17": {
             "id": "TestCase_17",
@@ -3643,7 +3626,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "PUBCHEM.COMPOUND:5284616",
+                    "output_ids": ["PUBCHEM.COMPOUND:5284616", "CHEBI:9168"],
                     "output_name": "Sirolimus",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3705,8 +3688,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_18": {
             "id": "TestCase_18",
@@ -3731,7 +3713,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:420K487FSG",
+                    "output_ids": ["UNII:420K487FSG"],
                     "output_name": "DUPILUMAB",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3793,8 +3775,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_19": {
             "id": "TestCase_19",
@@ -3819,7 +3800,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:135398744",
+                    "output_ids": ["PUBCHEM.COMPOUND:135398744"],
                     "output_name": "Sildenafil",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3881,8 +3862,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_20": {
             "id": "TestCase_20",
@@ -3907,7 +3887,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:41774",
+                    "output_ids": ["PUBCHEM.COMPOUND:41774"],
                     "output_name": "Acarbose",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -3969,8 +3949,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_21": {
             "id": "TestCase_21",
@@ -3995,7 +3974,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:24812758",
+                    "output_ids": ["PUBCHEM.COMPOUND:24812758"],
                     "output_name": "canagliflozin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4057,8 +4036,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_22": {
             "id": "TestCase_22",
@@ -4083,7 +4061,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3386",
+                    "output_ids": ["PUBCHEM.COMPOUND:3386"],
                     "output_name": "Fluoxetine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4132,7 +4110,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:43815",
+                    "output_ids": ["PUBCHEM.COMPOUND:43815"],
                     "output_name": "Paroxetine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4181,7 +4159,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:441074",
+                    "output_ids": ["PUBCHEM.COMPOUND:441074"],
                     "output_name": "Quinidine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4230,7 +4208,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:60835",
+                    "output_ids": ["PUBCHEM.COMPOUND:60835"],
                     "output_name": "Duloxetine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4279,7 +4257,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEBI:3219",
+                    "output_ids": ["CHEBI:3219"],
                     "output_name": "Bupropion",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4328,7 +4306,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:156419",
+                    "output_ids": ["PUBCHEM.COMPOUND:156419"],
                     "output_name": "Cinacalcet",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4377,7 +4355,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3100",
+                    "output_ids": ["PUBCHEM.COMPOUND:3100"],
                     "output_name": "Diphenhydramine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4426,7 +4404,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2157",
+                    "output_ids": ["PUBCHEM.COMPOUND:2157"],
                     "output_name": "Amiodarone",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4488,8 +4466,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_23": {
             "id": "TestCase_23",
@@ -4514,7 +4491,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4946",
+                    "output_ids": ["PUBCHEM.COMPOUND:4946"],
                     "output_name": "propranolol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4563,7 +4540,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:4171",
+                    "output_ids": ["PUBCHEM.COMPOUND:4171"],
                     "output_name": "metoprolol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4612,7 +4589,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2585",
+                    "output_ids": ["PUBCHEM.COMPOUND:2585"],
                     "output_name": "carvedilol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4661,7 +4638,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:2249",
+                    "output_ids": ["PUBCHEM.COMPOUND:2249"],
                     "output_name": "atenolol",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4710,7 +4687,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3682",
+                    "output_ids": ["PUBCHEM.COMPOUND:3682"],
                     "output_name": "ICI-118,551",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4759,7 +4736,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "ChEBI:35530",
+                    "output_ids": ["ChEBI:35530"],
                     "output_name": "Beta-Blockers (Inhibitors)",
                     "output_category": null,
                     "association": null,
@@ -4821,8 +4798,7 @@
             "output_category": null,
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_24": {
             "id": "TestCase_24",
@@ -4847,7 +4823,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:9444",
+                    "output_ids": ["PUBCHEM.COMPOUND:9444"],
                     "output_name": "azacitidine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4896,7 +4872,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:451668",
+                    "output_ids": ["PUBCHEM.COMPOUND:451668"],
                     "output_name": "decitabine",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -4945,7 +4921,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEMBL:4034633",
+                    "output_ids": ["CHEMBL:4034633"],
                     "output_name": "DNMT inhibitor",
                     "output_category": null,
                     "association": null,
@@ -4994,7 +4970,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5222465",
+                    "output_ids": ["PUBCHEM.COMPOUND:5222465"],
                     "output_name": "sodium butyrate",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5043,7 +5019,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:23622962",
+                    "output_ids": ["PUBCHEM.COMPOUND:23622962"],
                     "output_name": "arginine butyrate",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5092,7 +5068,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "UMLS:C0581820",
+                    "output_ids": ["UMLS:C0581820"],
                     "output_name": "Butyrate Derivatives",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5141,7 +5117,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:26945",
+                    "output_ids": ["PUBCHEM.COMPOUND:26945"],
                     "output_name": "Hemin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5203,8 +5179,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_25": {
             "id": "TestCase_25",
@@ -5229,7 +5204,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:54678486",
+                    "output_ids": ["PUBCHEM.COMPOUND:54678486"],
                     "output_name": "warfarin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5291,8 +5266,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_26": {
             "id": "TestCase_26",
@@ -5317,7 +5291,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "RXCUI:1657659",
+                    "output_ids": ["RXCUI:1657659"],
                     "output_name": "Cetuximab (Erbitux)",
                     "output_category": null,
                     "association": null,
@@ -5379,8 +5353,7 @@
             "output_category": null,
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_27": {
             "id": "TestCase_27",
@@ -5405,7 +5378,7 @@
                     "input_category": "biolink:Disease",
                     "predicate_id": "biolink:treats",
                     "predicate_name": "treats",
-                    "output_id": "UNII:DTI67O9503",
+                    "output_ids": ["UNII:DTI67O9503"],
                     "output_name": "Alglucosidase Alfa",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5467,8 +5440,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_28": {
             "id": "TestCase_28",
@@ -5493,7 +5465,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "UNII:DPT0O3T46P",
+                    "output_ids": ["UNII:DPT0O3T46P"],
                     "output_name": "pembrolizumab",
                     "output_category": null,
                     "association": null,
@@ -5542,7 +5514,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:5394",
+                    "output_ids": ["PUBCHEM.COMPOUND:5394"],
                     "output_name": "temozolomide",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5591,7 +5563,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:3121",
+                    "output_ids": ["PUBCHEM.COMPOUND:3121"],
                     "output_name": "valproic acid",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5640,7 +5612,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:11707110",
+                    "output_ids": ["PUBCHEM.COMPOUND:11707110"],
                     "output_name": "trametinib",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5702,8 +5674,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_29": {
             "id": "TestCase_29",
@@ -5728,7 +5699,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEMBL.TARGET:CHEMBL204",
+                    "output_ids": ["CHEMBL.TARGET:CHEMBL204"],
                     "output_name": "UNIPROTKB:P00734",
                     "output_category": null,
                     "association": null,
@@ -5777,7 +5748,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEMBL.COMPOUND:CHEMBL2108110",
+                    "output_ids": ["CHEMBL.COMPOUND:CHEMBL2108110"],
                     "output_name": "Thrombin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5839,8 +5810,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_30": {
             "id": "TestCase_30",
@@ -5865,7 +5835,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:2147",
+                    "output_ids": ["NCBIGene:2147"],
                     "output_name": "F2",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -5914,7 +5884,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "UMLS:C0040018",
+                    "output_ids": ["UMLS:C0040018"],
                     "output_name": "Thrombin",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -5963,7 +5933,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "CHEMBL.TARGET:CHEMBL204",
+                    "output_ids": ["CHEMBL.TARGET:CHEMBL204"],
                     "output_name": "UNIPROTKB:P00734",
                     "output_category": null,
                     "association": null,
@@ -6012,7 +5982,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:4353",
+                    "output_ids": ["NCBIGene:4353"],
                     "output_name": "MPO",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6061,7 +6031,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PR:000010543",
+                    "output_ids": ["PR:000010543"],
                     "output_name": "MYELOPEROXIDASE",
                     "output_category": null,
                     "association": null,
@@ -6123,8 +6093,7 @@
             "output_category": null,
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_31": {
             "id": "TestCase_31",
@@ -6149,7 +6118,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:2740",
+                    "output_ids": ["NCBIGene:2740"],
                     "output_name": "GLP1R",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6211,8 +6180,7 @@
             "output_category": "biolink:Gene",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_32": {
             "id": "TestCase_32",
@@ -6237,7 +6205,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:948",
+                    "output_ids": ["NCBIGene:948"],
                     "output_name": "CD36",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6286,7 +6254,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:2171",
+                    "output_ids": ["NCBIGene:2171"],
                     "output_name": "FABP5",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6348,8 +6316,7 @@
             "output_category": "biolink:Gene",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_33": {
             "id": "TestCase_33",
@@ -6374,7 +6341,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:5465",
+                    "output_ids": ["NCBIGene:5465"],
                     "output_name": "PPARA",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6436,8 +6403,7 @@
             "output_category": "biolink:Gene",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_34": {
             "id": "TestCase_34",
@@ -6462,7 +6428,7 @@
                     "input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "NCBIGene:5465",
+                    "output_ids": ["NCBIGene:5465"],
                     "output_name": "PPARA",
                     "output_category": "biolink:Gene",
                     "association": null,
@@ -6524,8 +6490,7 @@
             "output_category": "biolink:Gene",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_35": {
             "id": "TestCase_35",
@@ -6550,7 +6515,7 @@
                     "input_category": "biolink:Gene",
                     "predicate_id": "biolink:affects",
                     "predicate_name": "affects",
-                    "output_id": "PUBCHEM.COMPOUND:156124857",
+                    "output_ids": ["PUBCHEM.COMPOUND:156124857"],
                     "output_name": "KRASG12D inhibitor MRTX1133",
                     "output_category": "biolink:ChemicalEntity",
                     "association": null,
@@ -6612,8 +6577,7 @@
             "output_category": "biolink:ChemicalEntity",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         }
     },
     "test_suite_specification": null

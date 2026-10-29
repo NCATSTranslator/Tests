@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4030",
+            "output_ids": ["PUBCHEM.COMPOUND:4030"],
             "output_name": "Mebendazole",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:708857",
+            "output_ids": ["PUBCHEM.COMPOUND:708857"],
             "output_name": "Pyrantel",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5430",
+            "output_ids": ["PUBCHEM.COMPOUND:5430"],
             "output_name": "Thiabendazole",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3037",
+            "output_ids": ["PUBCHEM.COMPOUND:3037"],
             "output_name": "Dichlorophen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -230,6 +230,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

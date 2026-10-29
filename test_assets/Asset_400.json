@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "RXCUI:1657659",
+    "output_ids": ["RXCUI:1657659"],
     "output_name": "Cetuximab (Erbitux)",
     "output_category": null,
     "association": null,

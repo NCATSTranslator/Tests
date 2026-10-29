@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:16137271",
+    "output_ids": ["PUBCHEM.COMPOUND:16137271"],
     "output_name": "Insulin detremir",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

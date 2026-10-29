@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4158",
+            "output_ids": ["PUBCHEM.COMPOUND:4158"],
             "output_name": "methylphenidate",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:24847884",
+            "output_ids": ["PUBCHEM.COMPOUND:24847884"],
             "output_name": "Omniscan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:1BJ477IO2L",
+            "output_ids": ["UNII:1BJ477IO2L"],
             "output_name": "Gadobutrol",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:73415823",
+            "output_ids": ["PUBCHEM.COMPOUND:73415823"],
             "output_name": "Gadopentetate dimeglumine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -217,7 +217,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:2567",
+            "output_ids": ["CHEBI:2567"],
             "output_name": "alendronic acid",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -279,6 +279,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

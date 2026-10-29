@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "ChEBI:35530",
+    "output_ids": ["ChEBI:35530"],
     "output_name": "Beta-Blockers (Inhibitors)",
     "output_category": null,
     "association": null,

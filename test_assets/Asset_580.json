@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:339345",
+    "output_ids": ["NCBIGene:339345"],
     "output_name": "NANOS2",
     "output_category": "biolink:Gene",
     "association": null,

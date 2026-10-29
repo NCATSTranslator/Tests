@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D001335",
+            "output_ids": ["MESH:D001335"],
             "output_name": "Vehicle Emissions",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5284616",
+            "output_ids": ["PUBCHEM.COMPOUND:5284616", "CHEBI:9168"],
             "output_name": "sirolimus",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:4F4X42SYQ6",
+            "output_ids": ["UNII:4F4X42SYQ6"],
             "output_name": "rituximab",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:9013DUQ28K",
+            "output_ids": ["UNII:9013DUQ28K"],
             "output_name": "anakinra",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -217,7 +217,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEMBL.COMPOUND:CHEMBL1201562",
+            "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201562"],
             "output_name": "interferon-beta 1a",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -266,7 +266,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEMBL.COMPOUND:CHEMBL1201563",
+            "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201563"],
             "output_name": "interferon-beta 1b",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -328,6 +328,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

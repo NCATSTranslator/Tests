@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:1BJ477IO2L",
+    "output_ids": ["UNII:1BJ477IO2L"],
     "output_name": "Gadobutrol",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

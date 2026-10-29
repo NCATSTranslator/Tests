@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:121494085",
+    "output_ids": ["PUBCHEM.COMPOUND:121494085"],
     "output_name": "sucralfate",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

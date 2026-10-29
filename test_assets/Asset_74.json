@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:LKC0U3A8NJ",
+    "output_ids": ["UNII:LKC0U3A8NJ"],
     "output_name": "Evolocumab",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

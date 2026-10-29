@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:4023",
+    "output_ids": ["NCBIGene:4023"],
     "output_name": "LPL",
     "output_category": "biolink:Gene",
     "association": null,

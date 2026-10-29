@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:6T8C155666",
+    "output_ids": ["UNII:6T8C155666"],
     "output_name": "Ipilimumab (Yervoy)",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -21,7 +21,7 @@
             "input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "UMLS:C0083536",
+            "output_ids": ["UMLS:C0083536"],
             "output_name": "NG-NITROARGININE METHYL ESTER",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -83,6 +83,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

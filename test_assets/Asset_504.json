@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "CHEMBL.COMPOUND:CHEMBL2108110",
+    "output_ids": ["CHEMBL.COMPOUND:CHEMBL2108110"],
     "output_name": "Thrombin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

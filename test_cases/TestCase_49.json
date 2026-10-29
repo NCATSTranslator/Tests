@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9934746",
+            "output_ids": ["PUBCHEM.COMPOUND:9934746"],
             "output_name": "ensifentrine",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:447043",
+            "output_ids": ["PUBCHEM.COMPOUND:447043"],
             "output_name": "azithromycin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5360696",
+            "output_ids": ["PUBCHEM.COMPOUND:5360696"],
             "output_name": "dextromethorphan",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -181,6 +181,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

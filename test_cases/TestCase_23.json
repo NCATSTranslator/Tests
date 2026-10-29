@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:5462310",
+            "output_ids": ["PUBCHEM.COMPOUND:5462310"],
             "output_name": "Carbon",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:E211KPY694",
+            "output_ids": ["UNII:E211KPY694"],
             "output_name": "Botulinum toxin type a",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:4096",
+            "output_ids": ["PUBCHEM.COMPOUND:4096"],
             "output_name": "Methamidophos",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -181,6 +181,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

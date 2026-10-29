@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:4803",
+    "output_ids": ["NCBIGene:4803"],
     "output_name": "NGF",
     "output_category": "biolink:Gene",
     "association": null,

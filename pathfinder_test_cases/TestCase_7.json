@@ -407,6 +407,5 @@
     "test_case_objective": "AcceptanceTest",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

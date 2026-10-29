@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "UMLS:C1328819",
+    "output_ids": ["UMLS:C1328819"],
     "output_name": "Small molecule",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

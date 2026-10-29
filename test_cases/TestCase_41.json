@@ -21,7 +21,7 @@
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "MONDO:0004992",
+            "output_ids": ["MONDO:0004992"],
             "output_name": "cancer",
             "output_category": "biolink:Disease",
             "association": null,
@@ -83,6 +83,5 @@
     "output_category": "biolink:Disease",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

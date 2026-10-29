@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:24836",
+    "output_ids": ["CHEBI:24836"],
     "output_name": "inorganic oxide",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UMLS:C0013227",
+            "output_ids": ["UMLS:C0013227"],
             "output_name": "Pharmaceutical preparations",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -83,6 +83,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

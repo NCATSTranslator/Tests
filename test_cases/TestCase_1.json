@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "DRUGBANK:DB00313",
+            "output_ids": ["DRUGBANK:DB00313"],
             "output_name": "Valproic Acid",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D001463",
+            "output_ids": ["MESH:D001463"],
             "output_name": "Barbiturates",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -132,6 +132,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

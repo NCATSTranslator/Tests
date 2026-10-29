@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D000276",
+    "output_ids": ["MESH:D000276"],
     "output_name": "Adjuvants, immunologic",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
