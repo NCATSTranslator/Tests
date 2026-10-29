@@ -12,7 +12,6 @@ from translator_testing_model.datamodel.pydanticmodel import (
   TestPersonaEnum,
   TestSourceEnum,
   TestObjectiveEnum,
-  TestEnvEnum,
   ComponentEnum,
 )
 from typing import Dict, List
@@ -93,7 +92,9 @@ def create_test_asset(row):
 
     chem_prefixes = toolkit.get_element("chemical entity").id_prefixes
     input_category = get_category(chem_prefixes, row.get("InputID"))
-    output_category = get_category(chem_prefixes, row.get("OutputID"))
+    # several CURIEs for the same answer are comma-separated
+    output_ids = [curie.strip() for curie in row.get("OutputID").split(",") if curie.strip()]
+    output_category = get_category(chem_prefixes, output_ids[0])
 
     ta = TestAsset(
         id=row.get("id").replace(":", "_"),
@@ -103,7 +104,7 @@ def create_test_asset(row):
         input_name=row.get("InputName").strip(),
         predicate_name=converted_predicate,
         predicate_id=f"biolink:{converted_predicate}",
-        output_id=row.get("OutputID").strip(),
+        output_ids=output_ids,
         output_name=row.get("OutputName").strip(),
         output_category=output_category,
         expected_output=expected_output.strip(),
@@ -161,7 +162,6 @@ def create_test_cases_from_test_assets(test_assets) -> Dict[str, TestCase]:
             id=test_case_id,
             name="what " + key[1] + " " + key[0],
             description=descriptions,
-            test_env=TestEnvEnum.ci,
             components=[ComponentEnum.ars],
             test_case_objective=TestObjectiveEnum.AcceptanceTest,
             test_case_predicate_name=first_asset.predicate_name,
