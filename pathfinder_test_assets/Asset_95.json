@@ -6,7 +6,7 @@
     "test_runner_settings": [
         "pathfinder"
     ],
-    "source_input_id": "CHEBI:15444",
+    "source_input_id": "CHEBI:4167",
     "source_input_name": "alpha-D-Glucose",
     "source_input_category": "biolink:ChemicalEntity",
     "target_input_id": "CHEBI:15361",

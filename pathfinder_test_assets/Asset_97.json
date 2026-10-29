@@ -9,7 +9,7 @@
     "source_input_id": "CHEBI:30744",
     "source_input_name": "Oxaloacetate",
     "source_input_category": "biolink:ChemicalEntity",
-    "target_input_id": "PUBCHEM.COMPOUND:21872891",
+    "target_input_id": " CHEBI:15946",
     "target_input_name": "D-Fructose 6-phosphate",
     "target_input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:related_to",
