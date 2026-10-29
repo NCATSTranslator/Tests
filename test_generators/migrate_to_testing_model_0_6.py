@@ -19,7 +19,8 @@ else in them changes:
    ``performance_tests`` keep their names; every other suite, including the
    old per-environment copies, moves to test_suites/deprecated/.
 
-Run it from anywhere; it is idempotent:
+Files are read and written as UTF-8 with their line endings untouched, so
+the result is the same on every OS. Run it from anywhere; it is idempotent:
 
     python test_generators/migrate_to_testing_model_0_6.py --dry-run   # report only
     python test_generators/migrate_to_testing_model_0_6.py --check     # convert, then validate
@@ -129,7 +130,7 @@ def consolidate_suites(dry_run: bool) -> List[str]:
         if suite == source or os.path.exists(target):
             continue
         source_path = os.path.join(SUITES, f"{source}.json")
-        with open(source_path) as f:
+        with open(source_path, encoding="utf-8", newline="") as f:
             text = f.read()
         # the suite's own id, name and descriptions; its test cases keep theirs
         document = json.loads(text)
@@ -147,7 +148,7 @@ def consolidate_suites(dry_run: bool) -> List[str]:
             head = head.replace(old, new)
         done.append(f"test_suites/{source}.json -> test_suites/{suite}.json")
         if not dry_run:
-            with open(target, "w") as f:
+            with open(target, "w", encoding="utf-8", newline="") as f:
                 f.write(head + sep + tail)
     keep = set(SHARED_SUITES)
     for path in sorted(glob.glob(os.path.join(SUITES, "*.json"))):
@@ -159,6 +160,11 @@ def consolidate_suites(dry_run: bool) -> List[str]:
             os.makedirs(DEPRECATED, exist_ok=True)
             os.rename(path, os.path.join(DEPRECATED, os.path.basename(path)))
     return done
+
+
+def relative_path(path: str) -> str:
+    """``path`` relative to the repo, with forward slashes on every OS."""
+    return os.path.relpath(path, REPO).replace(os.sep, "/")
 
 
 def check(paths: List[str]) -> int:
@@ -183,13 +189,13 @@ def check(paths: List[str]) -> int:
     for directory, class_name in KINDS.items():
         cls = getattr(model, class_name)
         files = [
-            p for p in paths if os.path.dirname(os.path.relpath(p, REPO)) == directory
+            p for p in paths if os.path.dirname(relative_path(p)) == directory
         ]
         new, old = [], []
         for path in files:
-            relative = os.path.relpath(path, REPO)
+            relative = relative_path(path)
             try:
-                with open(path) as f:
+                with open(path, encoding="utf-8", newline="") as f:
                     cls.model_validate(json.load(f))
             except Exception as e:
                 (old if relative in ALREADY_INVALID else new).append((relative, e))
@@ -249,9 +255,9 @@ def main():
     flagged = {}
     leftover_env = []
     for path in json_files():
-        with open(path) as f:
+        with open(path, encoding="utf-8", newline="") as f:
             text = f.read()
-        relative = os.path.relpath(path, REPO)
+        relative = relative_path(path)
         matches = OUTPUT_ID.findall(text)
         new_text = convert_output_ids(text, aliases)
         for _, _, raw, _ in matches:
@@ -271,13 +277,13 @@ def main():
                 continue
         for asset in assets_in(document):
             bad = flag_curies(asset)
-            if bad and relative.startswith("test_assets" + os.sep):
+            if bad and relative.startswith("test_assets/"):
                 flagged[asset.get("id")] = (relative, asset.get("name"), bad)
         if new_text != text:
             changed_files += 1
             converted += len(matches)
             if not args.dry_run:
-                with open(path, "w") as f:
+                with open(path, "w", encoding="utf-8", newline="") as f:
                     f.write(new_text)
 
     verb = "Would change" if args.dry_run else "Changed"
