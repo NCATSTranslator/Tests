@@ -56,7 +56,7 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "UniProtKB:P0DTC2"
+                        "NCBIGene:43740568"
                     ],
                     "name": "SARAS-Cov2 - Spike-protein"
                 }
@@ -96,7 +96,7 @@
                 },
                 {
                     "ids": [
-                        "UniProtKB:P0DTC2"
+                        "NCBIGene:43740568"
                     ],
                     "name": "SARAS-Cov2 - Spike-protein"
                 }

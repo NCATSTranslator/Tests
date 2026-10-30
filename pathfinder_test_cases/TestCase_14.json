@@ -15,10 +15,10 @@
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "KEGG.COMPOUND:C00267",
-            "source_input_name": "alpha-D-Glucose",
+            "source_input_id": "CHEBI:4167",
+            "source_input_name": "D-glucopyranose",
             "source_input_category": "biolink:ChemicalEntity",
-            "target_input_id": "KEGG.COMPOUND:C00022",
+            "target_input_id": "CHEBI:15361",
             "target_input_name": "Pyruvate",
             "target_input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:related_to",
@@ -28,7 +28,7 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "KEGG.COMPOUND:C00197"
+                        "CHEBI:17794"
                     ],
                     "name": "3-Phospho-D-glycerate"
                 }

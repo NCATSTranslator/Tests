@@ -56,7 +56,6 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "UMLS:C5543862",
                         "NCBIGene:84900"
                     ],
                     "name": "NFT2 pathway"

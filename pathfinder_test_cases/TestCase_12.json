@@ -15,10 +15,10 @@
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "KEGG.COMPOUND:C01172",
+            "source_input_id": "CHEBI:17719",
             "source_input_name": "beta-D-Glucose 6-phosphate",
             "source_input_category": "biolink:ChemicalEntity",
-            "target_input_id": "KEGG.COMPOUND:C00668",
+            "target_input_id": "CHEBI:136602",
             "target_input_name": "alpha-D-Glucose 6-phosphate",
             "target_input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:related_to",
@@ -28,7 +28,7 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "KEGG.COMPOUND:C00117"
+                        "CHEBI:78679"
                     ],
                     "name": "D-Ribose 5-phosphate"
                 }

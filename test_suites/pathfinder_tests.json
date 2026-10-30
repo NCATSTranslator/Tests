@@ -216,7 +216,7 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "UniProtKB:P0DTC2"
+                                "NCBIGene:43740568"
                             ],
                             "name": "SARAS-Cov2 - Spike-protein"
                         }
@@ -256,7 +256,7 @@
                         },
                         {
                             "ids": [
-                                "UniProtKB:P0DTC2"
+                                "NCBIGene:43740568"
                             ],
                             "name": "SARAS-Cov2 - Spike-protein"
                         }
@@ -877,7 +877,7 @@
                         {
                             "ids": [
                                 "PR:000003858",
-                                "UniProtKB:P35869"
+                                "NCBIGene:196"
                             ],
                             "name": "aryl hydrocarbon receptor"
                         }
@@ -1584,7 +1584,6 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "UMLS:C5543862",
                                 "NCBIGene:84900"
                             ],
                             "name": "NFT2 pathway"
@@ -1750,7 +1749,7 @@
                         {
                             "ids": [
                                 "PR:000003858",
-                                "UniProtKB:P35869"
+                                "NCBIGene:196"
                             ],
                             "name": "aryl hydrocarbon receptor"
                         }
@@ -1864,7 +1863,7 @@
                         {
                             "ids": [
                                 "PR:000003858",
-                                "UniProtKB:P35869"
+                                "NCBIGene:196"
                             ],
                             "name": "aryl hydrocarbon receptor"
                         }
@@ -1986,7 +1985,7 @@
                         {
                             "ids": [
                                 "PR:000003858",
-                                "UniProtKB:P35869"
+                                "NCBIGene:196"
                             ],
                             "name": "aryl hydrocarbon receptor"
                         }
@@ -2029,7 +2028,6 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "UMLS:C5543862",
                                 "NCBIGene:84900"
                             ],
                             "name": "NFT2 pathway"
@@ -2399,10 +2397,10 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "KEGG.COMPOUND:C01172",
+                    "source_input_id": "CHEBI:17719",
                     "source_input_name": "beta-D-Glucose 6-phosphate",
                     "source_input_category": "biolink:ChemicalEntity",
-                    "target_input_id": "KEGG.COMPOUND:C00668",
+                    "target_input_id": "CHEBI:136602",
                     "target_input_name": "alpha-D-Glucose 6-phosphate",
                     "target_input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:related_to",
@@ -2412,7 +2410,7 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "KEGG.COMPOUND:C00117"
+                                "CHEBI:78679"
                             ],
                             "name": "D-Ribose 5-phosphate"
                         }
@@ -2547,10 +2545,10 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "KEGG.COMPOUND:C00267",
-                    "source_input_name": "alpha-D-Glucose",
+                    "source_input_id": "CHEBI:4167",
+                    "source_input_name": "D-glucopyranose",
                     "source_input_category": "biolink:ChemicalEntity",
-                    "target_input_id": "KEGG.COMPOUND:C00022",
+                    "target_input_id": "CHEBI:15361",
                     "target_input_name": "Pyruvate",
                     "target_input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:related_to",
@@ -2560,7 +2558,7 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "KEGG.COMPOUND:C00197"
+                                "CHEBI:17794"
                             ],
                             "name": "3-Phospho-D-glycerate"
                         }
@@ -2590,10 +2588,10 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "KEGG.COMPOUND:C00111",
+                    "source_input_id": "CHEBI:16108",
                     "source_input_name": "Glycerone phosphate",
                     "source_input_category": "biolink:ChemicalEntity",
-                    "target_input_id": "KEGG.COMPOUND:C00022",
+                    "target_input_id": "CHEBI:15361",
                     "target_input_name": "Pyruvate",
                     "target_input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:related_to",
@@ -2603,7 +2601,7 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "KEGG.COMPOUND:C00197"
+                                "CHEBI:17794"
                             ],
                             "name": "3-Phospho-D-glycerate"
                         }
@@ -2786,11 +2784,11 @@
                     "test_runner_settings": [
                         "pathfinder"
                     ],
-                    "source_input_id": "KEGG.COMPOUND:C00036",
+                    "source_input_id": "CHEBI:30744",
                     "source_input_name": "Oxaloacetate",
                     "source_input_category": "biolink:ChemicalEntity",
-                    "target_input_id": "KEGG.COMPOUND:C00085",
-                    "target_input_name": "D-Fructose 6-phosphate",
+                    "target_input_id": "CHEBI:15946",
+                    "target_input_name": "fructose-6-phosphate",
                     "target_input_category": "biolink:ChemicalEntity",
                     "predicate_id": "biolink:related_to",
                     "predicate_name": "related to",
@@ -2799,7 +2797,7 @@
                     "path_nodes": [
                         {
                             "ids": [
-                                "KEGG.COMPOUND:C00236"
+                                "CHEBI:16001"
                             ],
                             "name": "3-Phospho-D-glyceroyl phosphate"
                         }

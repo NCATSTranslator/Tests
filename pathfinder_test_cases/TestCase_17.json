@@ -15,11 +15,11 @@
             "test_runner_settings": [
                 "pathfinder"
             ],
-            "source_input_id": "KEGG.COMPOUND:C00036",
+            "source_input_id": "CHEBI:30744",
             "source_input_name": "Oxaloacetate",
             "source_input_category": "biolink:ChemicalEntity",
-            "target_input_id": "KEGG.COMPOUND:C00085",
-            "target_input_name": "D-Fructose 6-phosphate",
+            "target_input_id": "CHEBI:15946",
+            "target_input_name": "fructose-6-phosphate",
             "target_input_category": "biolink:ChemicalEntity",
             "predicate_id": "biolink:related_to",
             "predicate_name": "related to",
@@ -28,7 +28,7 @@
             "path_nodes": [
                 {
                     "ids": [
-                        "KEGG.COMPOUND:C00236"
+                        "CHEBI:16001"
                     ],
                     "name": "3-Phospho-D-glyceroyl phosphate"
                 }
