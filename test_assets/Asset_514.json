@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:4513",
+    "output_ids": ["NCBIGene:4513"],
     "output_name": "COX2",
     "output_category": "biolink:Gene",
     "association": null,

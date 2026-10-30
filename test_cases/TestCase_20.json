@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:22977",
+            "output_ids": ["CHEBI:22977"],
             "output_name": "cadmium",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:25195",
+            "output_ids": ["CHEBI:25195"],
             "output_name": "mercury",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -132,6 +132,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

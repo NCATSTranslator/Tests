@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:40632",
+    "output_ids": ["PUBCHEM.COMPOUND:40632"],
     "output_name": "Pirfenidone",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

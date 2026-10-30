@@ -10,12 +10,11 @@ from translator_testing_model.datamodel.pydanticmodel import (
     PathfinderTestCase,
     TestCase,
     TestObjectiveEnum,
-    TestEnvEnum,
     ComponentEnum,
 )
 
 
-def create_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Dict[str, TestCase]:
+def create_test_cases_from_test_assets(test_assets) -> Dict[str, TestCase]:
     # Group test assets based on input_id and relationship
     grouped_assets = {}
     for test_asset in test_assets:
@@ -38,7 +37,6 @@ def create_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Di
             id=test_case_id,
             name="what " + key[1] + " " + key[0],
             description=descriptions,
-            test_env=test_env,
             components=[ComponentEnum.ars],
             test_case_objective=TestObjectiveEnum.AcceptanceTest,
             test_case_predicate_name=first_asset.predicate_name,
@@ -79,7 +77,7 @@ def create_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Di
 
     return test_cases
 
-def create_pathfinder_test_cases_from_test_assets(test_assets, test_env: TestEnvEnum) -> Dict[str, PathfinderTestCase]:
+def create_pathfinder_test_cases_from_test_assets(test_assets) -> Dict[str, PathfinderTestCase]:
     # Group test assets based on input_id and relationship
     grouped_assets = {}
     for test_asset in test_assets:
@@ -101,7 +99,6 @@ def create_pathfinder_test_cases_from_test_assets(test_assets, test_env: TestEnv
             id=test_case_id,
             name=re.findall("[^.:\s]*", first_asset.name)[0],
             description=first_asset.description,
-            test_env=test_env,
             components=[ComponentEnum.ars],
             test_case_objective=TestObjectiveEnum.AcceptanceTest,
             test_assets=assets,

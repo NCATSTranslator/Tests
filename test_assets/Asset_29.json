@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MESH:D006571",
+    "output_ids": ["MESH:D006571"],
     "output_name": "heterocyclic compounds",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:3574",
+    "output_ids": ["NCBIGene:3574"],
     "output_name": "IL7",
     "output_category": "biolink:Gene",
     "association": null,

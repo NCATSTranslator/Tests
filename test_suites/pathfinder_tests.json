@@ -156,8 +156,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_1": {
             "id": "TestCase_1",
@@ -296,8 +295,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_2": {
             "id": "TestCase_2",
@@ -506,8 +504,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_3": {
             "id": "TestCase_3",
@@ -762,8 +759,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_5": {
             "id": "TestCase_5",
@@ -976,8 +972,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_6": {
             "id": "TestCase_6",
@@ -1118,8 +1113,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_7": {
             "id": "TestCase_7",
@@ -1530,8 +1524,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_8": {
             "id": "TestCase_8",
@@ -1659,8 +1652,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_9": {
             "id": "TestCase_9",
@@ -2005,8 +1997,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_10": {
             "id": "TestCase_10",
@@ -2134,8 +2125,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_11": {
             "id": "TestCase_11",
@@ -2390,8 +2380,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_12": {
             "id": "TestCase_12",
@@ -2434,8 +2423,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_13": {
             "id": "TestCase_13",
@@ -2540,8 +2528,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_14": {
             "id": "TestCase_14",
@@ -2584,8 +2571,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_15": {
             "id": "TestCase_15",
@@ -2628,8 +2614,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_16": {
             "id": "TestCase_16",
@@ -2782,8 +2767,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         },
         "TestCase_17": {
             "id": "TestCase_17",
@@ -2826,8 +2810,7 @@
             "test_case_objective": "AcceptanceTest",
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         }
     },
     "test_suite_specification": null

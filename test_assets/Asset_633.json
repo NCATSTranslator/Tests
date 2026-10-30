@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:15347",
+    "output_ids": ["CHEBI:15347"],
     "output_name": "acetone",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

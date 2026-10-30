@@ -19,7 +19,6 @@ from translator_testing_model.datamodel.pydanticmodel import (
     TestPersonaEnum,
     TestSourceEnum,
     TestObjectiveEnum,
-    TestEnvEnum,
 )
 
 from test_generators.utils import create_test_cases_from_test_assets, dump_to_json

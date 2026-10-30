@@ -38,7 +38,7 @@
                     "input_category": null,
                     "predicate_id": null,
                     "predicate_name": null,
-                    "output_id": null,
+                    "output_ids": [],
                     "output_name": null,
                     "output_category": null,
                     "association": null,
@@ -74,8 +74,7 @@
             "output_category": null,
             "components": [
                 "ars"
-            ],
-            "test_env": "ci"
+            ]
         }
     },
     "test_suite_specification": null

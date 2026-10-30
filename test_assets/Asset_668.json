@@ -9,7 +9,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": null,
+    "output_ids": [],
     "output_name": null,
     "output_category": null,
     "association": null,

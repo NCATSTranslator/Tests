@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:3121",
+            "output_ids": ["PUBCHEM.COMPOUND:3121"],
             "output_name": "Valproic acid",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D010575",
+            "output_ids": ["MESH:D010575"],
             "output_name": "Pesticides",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -132,6 +132,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

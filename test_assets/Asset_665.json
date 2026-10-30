@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "PUBCHEM.COMPOUND:156124857",
+    "output_ids": ["PUBCHEM.COMPOUND:156124857"],
     "output_name": "KRASG12D inhibitor MRTX1133",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

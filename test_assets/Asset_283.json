@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:27081",
+    "output_ids": ["CHEBI:27081"],
     "output_name": "Transition element atom",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

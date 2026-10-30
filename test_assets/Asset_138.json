@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:3562",
+    "output_ids": ["PUBCHEM.COMPOUND:3562"],
     "output_name": "Halothane",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

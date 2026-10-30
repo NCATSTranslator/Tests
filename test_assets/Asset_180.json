@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNNI:R581OT55EA",
+    "output_ids": ["UNNI:R581OT55EA"],
     "output_name": "Pegloticase",
     "output_category": null,
     "association": null,

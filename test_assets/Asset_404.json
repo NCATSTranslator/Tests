@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "PUBCHEM.COMPOUND:15606394",
+    "output_ids": ["PUBCHEM.COMPOUND:15606394"],
     "output_name": "afatinib",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

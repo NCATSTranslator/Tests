@@ -21,7 +21,6 @@ from translator_testing_model.datamodel.pydanticmodel import (
     TestPersonaEnum,
     TestSourceEnum,
     TestObjectiveEnum,
-    TestEnvEnum,
     ComponentEnum,
 )
 
@@ -49,7 +48,6 @@ def create_test_cases_from_test_assets(test_assets) -> Dict[str, TestCase]:
             id=test_case_id,
             name="what " + key[1] + " " + key[0],
             description=descriptions,
-            test_env=TestEnvEnum.ci,
             components=[ComponentEnum.ars],
             test_case_objective=TestObjectiveEnum.AcceptanceTest,
             test_case_predicate_name=first_asset.predicate_name,

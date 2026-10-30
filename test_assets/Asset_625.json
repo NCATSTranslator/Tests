@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:6A901E312A",
+    "output_ids": ["UNII:6A901E312A"],
     "output_name": "panitumumab",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

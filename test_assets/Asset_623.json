@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:8768",
+    "output_ids": ["CHEBI:8768"],
     "output_name": "rabeprazole",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

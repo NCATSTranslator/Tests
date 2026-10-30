@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:Q6U6J48BWY",
+    "output_ids": ["UNII:Q6U6J48BWY"],
     "output_name": "Imiglucerase",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

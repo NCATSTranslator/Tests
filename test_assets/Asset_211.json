@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEMBL.COMPOUND:CHEMBL2109152",
+    "output_ids": ["CHEMBL.COMPOUND:CHEMBL2109152"],
     "output_name": "Mineral oil",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

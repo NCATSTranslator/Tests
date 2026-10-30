@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "MONDO:0009131",
+    "output_ids": ["MONDO:0009131"],
     "output_name": "Riley-day Syndrome",
     "output_category": "biolink:Disease",
     "association": null,

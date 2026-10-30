@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:446157",
+    "output_ids": ["PUBCHEM.COMPOUND:446157"],
     "output_name": "Rosuvastatin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

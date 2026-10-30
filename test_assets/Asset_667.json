@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:150",
+    "output_ids": ["NCBIGene:150"],
     "output_name": "ADRA2A",
     "output_category": "biolink:Gene",
     "association": null,

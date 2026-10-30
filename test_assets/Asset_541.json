@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:7442",
+    "output_ids": ["NCBIGene:7442"],
     "output_name": "TRPV1",
     "output_category": "biolink:Gene",
     "association": null,

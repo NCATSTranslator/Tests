@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "UMLS:C0040018",
+    "output_ids": ["UMLS:C0040018"],
     "output_name": "Thrombin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:107736",
+    "output_ids": ["CHEBI:107736"],
     "output_name": "metoclopramide",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": null,
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "PUBCHEM.COMPOUND:31703",
+    "output_ids": ["PUBCHEM.COMPOUND:31703"],
     "output_name": "Doxorubicin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:446157",
+            "output_ids": ["PUBCHEM.COMPOUND:446157"],
             "output_name": "Rosuvastatin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:9853053",
+            "output_ids": ["PUBCHEM.COMPOUND:9853053"],
             "output_name": "Lomitapide",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:9GJ8S4GU0M",
+            "output_ids": ["UNII:9GJ8S4GU0M"],
             "output_name": "Mipomersen",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:LKC0U3A8NJ",
+            "output_ids": ["UNII:LKC0U3A8NJ"],
             "output_name": "Evolocumab",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -230,6 +230,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

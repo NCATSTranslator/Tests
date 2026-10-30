@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEBI:82752",
+            "output_ids": ["CHEBI:82752"],
             "output_name": "Eliglustat",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:Q6U6J48BWY",
+            "output_ids": ["UNII:Q6U6J48BWY"],
             "output_name": "Imiglucerase",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "UNII:0R4NLX88O4",
+            "output_ids": ["UNII:0R4NLX88O4"],
             "output_name": "Taliglucerase alfa",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "CHEMBL.COMPOUND:CHEMBL1201865",
+            "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201865"],
             "output_name": "Velaglucerase-alfa",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -217,7 +217,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:51634",
+            "output_ids": ["PUBCHEM.COMPOUND:51634"],
             "output_name": "Miglustat",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -279,6 +279,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

@@ -21,7 +21,7 @@
             "input_category": "biolink:Gene",
             "predicate_id": "biolink:affects",
             "predicate_name": "affects",
-            "output_id": "PUBCHEM.COMPOUND:54678486",
+            "output_ids": ["PUBCHEM.COMPOUND:54678486"],
             "output_name": "warfarin",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -83,6 +83,5 @@
     "output_category": "biolink:ChemicalEntity",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

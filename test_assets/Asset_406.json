@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "Substance SID: 387065587",
+    "output_ids": ["Substance SID: 387065587"],
     "output_name": "amivantamab-vmjw",
     "output_category": null,
     "association": null,

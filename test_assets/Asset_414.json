@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "UMLS:C0001473",
+    "output_ids": ["UMLS:C0001473"],
     "output_name": "Adenosine Triphosphatases",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

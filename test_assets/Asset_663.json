@@ -11,7 +11,7 @@
     "input_category": null,
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:471948",
+    "output_ids": ["NCBIGene:471948"],
     "output_name": "HLA Class I (NCBIGene:471948)",
     "output_category": "biolink:Gene",
     "association": null,

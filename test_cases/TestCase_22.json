@@ -21,7 +21,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MESH:D016756",
+            "output_ids": ["MESH:D016756"],
             "output_name": "Immunoglobulins, intravenous",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -70,7 +70,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "PUBCHEM.COMPOUND:84098",
+            "output_ids": ["PUBCHEM.COMPOUND:84098"],
             "output_name": "Isoxaflutole",
             "output_category": "biolink:ChemicalEntity",
             "association": null,
@@ -119,7 +119,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MONDO:0016028",
+            "output_ids": ["MONDO:0016028"],
             "output_name": "Erythromelalgia",
             "output_category": "biolink:Disease",
             "association": null,
@@ -168,7 +168,7 @@
             "input_category": "biolink:Disease",
             "predicate_id": "biolink:treats",
             "predicate_name": "treats",
-            "output_id": "MONDO:0009131",
+            "output_ids": ["MONDO:0009131"],
             "output_name": "Riley-day Syndrome",
             "output_category": "biolink:Disease",
             "association": null,
@@ -230,6 +230,5 @@
     "output_category": "biolink:Disease",
     "components": [
         "ars"
-    ],
-    "test_env": "ci"
+    ]
 }

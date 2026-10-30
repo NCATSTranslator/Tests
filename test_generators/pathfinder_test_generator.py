@@ -14,7 +14,6 @@ from translator_testing_model.datamodel.pydanticmodel import (
     TestPersonaEnum,
     TestSourceEnum,
     TestObjectiveEnum,
-    TestEnvEnum,
 )
 
 from utils import create_pathfinder_test_cases_from_test_assets, dump_to_json
@@ -53,7 +52,7 @@ def create_test_suite(
                 except Exception as e:
                     logger.warning(f"Failed to read asset {asset_json['id']}: {e}")
         
-        test_cases = create_pathfinder_test_cases_from_test_assets(test_assets, TestEnvEnum.ci)
+        test_cases = create_pathfinder_test_cases_from_test_assets(test_assets)
 
         suite_id = "pathfinder_tests"
 

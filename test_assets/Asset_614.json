@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:4975",
+    "output_ids": ["CHEBI:4975"],
     "output_name": "famotidine",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

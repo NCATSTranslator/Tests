@@ -11,7 +11,7 @@
     "input_category": "biolink:Gene",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "PUBCHEM.COMPOUND:5702198",
+    "output_ids": ["PUBCHEM.COMPOUND:5702198"],
     "output_name": "Cisplatin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:23424",
+    "output_ids": ["CHEBI:23424"],
     "output_name": "Cyanides",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:15365",
+    "output_ids": ["CHEBI:15365"],
     "output_name": "aspirin",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

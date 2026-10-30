@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "PUBCHEM.COMPOUND:3763",
+    "output_ids": ["PUBCHEM.COMPOUND:3763"],
     "output_name": "isoflurane",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

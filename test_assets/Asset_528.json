@@ -11,7 +11,7 @@
     "input_category": "biolink:ChemicalEntity",
     "predicate_id": "biolink:affects",
     "predicate_name": "affects",
-    "output_id": "NCBIGene:3717",
+    "output_ids": ["NCBIGene:3717"],
     "output_name": "JACK2",
     "output_category": "biolink:Gene",
     "association": null,

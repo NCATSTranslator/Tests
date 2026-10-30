@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEMBL.COMPOUND:CHEMBL1201865",
+    "output_ids": ["CHEMBL.COMPOUND:CHEMBL1201865"],
     "output_name": "Velaglucerase-alfa",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

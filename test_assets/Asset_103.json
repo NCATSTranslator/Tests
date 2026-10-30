@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UMLS:C0699680",
+    "output_ids": ["UMLS:C0699680"],
     "output_name": "Metric",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

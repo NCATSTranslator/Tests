@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "CHEBI:25806",
+    "output_ids": ["CHEBI:25806"],
     "output_name": "oxygen molecular entity",
     "output_category": "biolink:ChemicalEntity",
     "association": null,

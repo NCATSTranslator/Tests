@@ -7,6 +7,7 @@ import httpx
 import io
 import json
 import logging
+from pathlib import Path
 import tempfile
 import zipfile
 
@@ -17,20 +18,17 @@ from translator_testing_model.datamodel.pydanticmodel import (
     TestPersonaEnum,
     TestSourceEnum,
     TestObjectiveEnum,
-    TestEnvEnum,
 )
+
 from test_generators.utils import create_test_cases_from_test_assets, dump_to_json
 
-logger = logging.getLogger(__name__)
 
-
-def create_test_suite() -> None:
+def create_test_suite(
+    url: str,
+    logger: logging.Logger,
+) -> None:
     """Download tests from specified location."""
-    url = "https://github.com/NCATSTranslator/Tests/archive/refs/heads/main.zip"
-    test_env = TestEnvEnum.test
-    suite_id = "test_integration"
-    description = "TEST Integration Tests"
-
+    assert Path(url).suffix == ".zip"
     logger.info(f"Downloading tests from {url}...")
     # download file from internet
     with httpx.Client(follow_redirects=True) as client:
@@ -53,19 +51,21 @@ def create_test_suite() -> None:
                 asset_json = json.load(f)
                 try:
                     test_asset = TestAsset.parse_obj(asset_json)
-                    if test_asset.expected_output in ["TopAnswer", "NeverShow", "Acceptable", "BadButForgivable"]:
-                        # trim any unsupported test types
+                    if test_asset.expected_output in ["TopAnswer", "Acceptable", "BadButForgivable", "NeverShow"]:
                         test_assets.append(test_asset)
                 except Exception as e:
                     logger.warning(f"Failed to read asset {asset_json['id']}: {e}")
         
-        test_cases = create_test_cases_from_test_assets(test_assets, test_env)
+        test_cases = create_test_cases_from_test_assets(test_assets)
+
+        # the same suite runs in every environment; the Test Harness picks one
+        suite_id = "mvp_tests"
 
         # Assemble into a TestSuite
         tmd = TestMetadata(
             id="1",
             name=None,
-            description=description,
+            description="MVP tests",
             test_source=TestSourceEnum.SMURF,
             test_objective=TestObjectiveEnum.AcceptanceTest,
             test_reference=None,
@@ -73,7 +73,7 @@ def create_test_suite() -> None:
         new_suite = TestSuite(
             id=suite_id,
             name=suite_id,
-            description=description,
+            description="MVP tests",
             test_persona=TestPersonaEnum.All,
             test_suite_specification=None,
             test_cases=test_cases,
@@ -84,4 +84,7 @@ def create_test_suite() -> None:
 
 
 if __name__ == "__main__":
-    create_test_suite()
+    create_test_suite(
+        "https://github.com/NCATSTranslator/Tests/archive/refs/heads/main.zip",
+        logging.Logger("tester"),
+    )

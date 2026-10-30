@@ -11,7 +11,7 @@
     "input_category": "biolink:Disease",
     "predicate_id": "biolink:treats",
     "predicate_name": "treats",
-    "output_id": "UNII:DTI67O9503",
+    "output_ids": ["UNII:DTI67O9503"],
     "output_name": "Alglucosidase Alfa",
     "output_category": "biolink:ChemicalEntity",
     "association": null,
