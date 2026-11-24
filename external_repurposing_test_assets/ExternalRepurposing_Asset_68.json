@@ -1,0 +1,70 @@
+{
+    "id": "ExternalRepurposing_Asset_68",
+    "name": "Acceptable: Celiprolol decreases activity or abundance of COL1A1",
+    "description": "Acceptable: Celiprolol decreases activity or abundance of COL1A1",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "UNII:DRB57K47QC",
+    "input_name": "Celiprolol",
+    "input_category": "biolink:ChemicalEntity",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_ids": [
+        "NCBIGene:1277"
+    ],
+    "output_name": "COL1A1",
+    "output_category": "biolink:Gene",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.70288",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "Translator Pub: https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.70288"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP2"
+            },
+            {
+                "parameter": "source_row",
+                "value": "21"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}

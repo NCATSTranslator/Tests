@@ -7,6 +7,7 @@ One suite per kind of test, run in every environment:
 | `mvp_tests` | Acceptance: the MVP queries (drug treats disease, chemical affects gene) |
 | `pathfinder_tests` | Pathfinder queries |
 | `performance_tests` | Load, with [HelmsDeep](https://github.com/TranslatorSRI/HelmsDeep) |
+| `external_repurposing_tests` | Acceptance: drug repurposing outcomes reported outside Translator, with their sources ([more](../external_repurposing_test_assets)) |
 
 Suites don't say which environment they run in: the Test Harness is told, eg
 `test-harness --env prod download mvp_tests`.
@@ -21,8 +22,9 @@ them.
 
 A suite carries its own copy of every test asset it uses, and the copy is what
 the Test Harness runs. To change an asset (eg fix a CURIE), edit it in
-[`test_assets/`](../test_assets) or
-[`pathfinder_test_assets/`](../pathfinder_test_assets), then bring its copies
+[`test_assets/`](../test_assets),
+[`pathfinder_test_assets/`](../pathfinder_test_assets) or
+[`external_repurposing_test_assets/`](../external_repurposing_test_assets), then bring its copies
 up to date:
 
 ```bash

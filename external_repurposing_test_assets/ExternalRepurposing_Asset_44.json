@@ -1,0 +1,70 @@
+{
+    "id": "ExternalRepurposing_Asset_44",
+    "name": "Acceptable: rituximab treats Systemic Sclerosis",
+    "description": "Acceptable: rituximab treats Systemic Sclerosis",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0005100",
+    "input_name": "Systemic Sclerosis",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_ids": [
+        "UNII:4F4X42SYQ6"
+    ],
+    "output_name": "rituximab",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "Translator Pub: https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.13301\nCTS: https://clinicaltrials.gov/search?cond=Systemic%20Sclerosis&intr=rituximab&viewType=Card"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP1"
+            },
+            {
+                "parameter": "source_row",
+                "value": "45"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}

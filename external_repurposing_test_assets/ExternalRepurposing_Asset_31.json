@@ -1,0 +1,70 @@
+{
+    "id": "ExternalRepurposing_Asset_31",
+    "name": "Acceptable: Vamorolone treats Duchenne Muscular Dystrophy",
+    "description": "Acceptable: Vamorolone treats Duchenne Muscular Dystrophy",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0010679",
+    "input_name": "Duchenne Muscular Dystrophy",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_ids": [
+        "CHEBI:228304"
+    ],
+    "output_name": "Vamorolone",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://ncats.nih.gov/research/our-impact/our-impact-drug-discovery-and-development/drug-approvals",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "https://ncats.nih.gov/research/our-impact/our-impact-drug-discovery-and-development/drug-approvals"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP1"
+            },
+            {
+                "parameter": "source_row",
+                "value": "32"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}

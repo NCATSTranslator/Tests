@@ -2,7 +2,8 @@
 
 A suite, and each test case file, carries its own copy of every test asset it
 uses, and the copy is what the Test Harness runs. Edit an asset in
-test_assets/ (or pathfinder_test_assets/), eg to fix a CURIE or to set
+test_assets/ (or pathfinder_test_assets/ or external_repurposing_test_assets/),
+eg to fix a CURIE or to set
 ``skip``, then run this to bring every copy of it up to date:
 
     python test_generators/sync_asset_copies.py           # update the copies
@@ -31,7 +32,10 @@ from typing import Dict, List, Tuple
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # where each kind of asset lives, and where its copies are
-SOURCES = {"acceptance": "test_assets", "pathfinder": "pathfinder_test_assets"}
+SOURCES = {
+    "acceptance": ["test_assets", "external_repurposing_test_assets"],
+    "pathfinder": ["pathfinder_test_assets"],
+}
 COPIES = ["test_suites", "test_cases", "pathfinder_test_cases"]
 
 WS = re.compile(r"[ \t\r\n]*")
@@ -111,11 +115,14 @@ def indented(source: str, indent: str, newline: str) -> str:
 
 def load_sources() -> Dict[Tuple[str, str], Tuple[str, dict]]:
     sources = {}
-    for kind, folder in SOURCES.items():
-        for path in glob.glob(os.path.join(REPO, folder, "*.json")):
-            text = read(path)
-            asset = json.loads(text)
-            sources[(kind, asset["id"])] = (text, asset)
+    for kind, folders in SOURCES.items():
+        for folder in folders:
+            for path in glob.glob(os.path.join(REPO, folder, "*.json")):
+                text = read(path)
+                asset = json.loads(text)
+                if (kind, asset["id"]) in sources:
+                    raise ValueError(f"two {kind} assets have the id {asset['id']}")
+                sources[(kind, asset["id"])] = (text, asset)
     return sources
 
 

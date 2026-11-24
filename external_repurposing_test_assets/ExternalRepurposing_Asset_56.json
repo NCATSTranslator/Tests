@@ -1,0 +1,74 @@
+{
+    "id": "ExternalRepurposing_Asset_56",
+    "name": "Acceptable: Fabesetron decreases activity or abundance of HTR4",
+    "description": "Acceptable: Fabesetron decreases activity or abundance of HTR4",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "NCBIGene:3360",
+    "input_name": "HTR4",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_ids": [
+        "UNII:QU72HVX338"
+    ],
+    "output_name": "Fabesetron",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "decreased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": "questionable",
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401966/#S12",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401966/#S12"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP2"
+            },
+            {
+                "parameter": "source_row",
+                "value": "9"
+            },
+            {
+                "parameter": "questionable_reason",
+                "value": "HTR4 and Fabesetron are listed as both increasing and decreasing"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}

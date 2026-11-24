@@ -1,0 +1,70 @@
+{
+    "id": "ExternalRepurposing_Asset_61",
+    "name": "Acceptable: oxytetracycline increases activity or abundance of MADD",
+    "description": "Acceptable: oxytetracycline increases activity or abundance of MADD",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "NCBIGene:5167",
+    "input_name": "MADD",
+    "input_category": "biolink:Gene",
+    "predicate_id": "biolink:affects",
+    "predicate_name": "affects",
+    "output_ids": [
+        "UNII:X20I9EN955"
+    ],
+    "output_name": "oxytetracycline",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:causes"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": "activity_or_abundance"
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": "increased"
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://www.sciencedirect.com/science/article/pii/S2949774425001335",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "Mayo Clinic BabyForce: https://www.sciencedirect.com/science/article/pii/S2949774425001335"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP2"
+            },
+            {
+                "parameter": "source_row",
+                "value": "14"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}

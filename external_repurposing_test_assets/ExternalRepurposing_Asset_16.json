@@ -1,0 +1,70 @@
+{
+    "id": "ExternalRepurposing_Asset_16",
+    "name": "Acceptable: Ciclopirox treats Glioblastoma",
+    "description": "Acceptable: Ciclopirox treats Glioblastoma",
+    "tags": [],
+    "test_runner_settings": [
+        "inferred"
+    ],
+    "input_id": "MONDO:0018177",
+    "input_name": "Glioblastoma",
+    "input_category": "biolink:Disease",
+    "predicate_id": "biolink:treats",
+    "predicate_name": "treats",
+    "output_ids": [
+        "UNII:19W019ZDRJ"
+    ],
+    "output_name": "Ciclopirox",
+    "output_category": "biolink:ChemicalEntity",
+    "association": null,
+    "qualifiers": [
+        {
+            "parameter": "biolink_qualified_predicate",
+            "value": "biolink:treats"
+        },
+        {
+            "parameter": "biolink_object_aspect_qualifier",
+            "value": ""
+        },
+        {
+            "parameter": "biolink_object_direction_qualifier",
+            "value": ""
+        }
+    ],
+    "expected_output": "Acceptable",
+    "test_issue": null,
+    "semantic_severity": null,
+    "in_v1": null,
+    "well_known": false,
+    "test_reference": null,
+    "test_metadata": {
+        "id": "1",
+        "name": null,
+        "description": null,
+        "tags": [],
+        "test_runner_settings": [],
+        "test_source": "ExternalRepurposing",
+        "test_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11706105/#Sec12)",
+        "test_objective": "AcceptanceTest",
+        "test_annotations": [
+            {
+                "parameter": "source",
+                "value": "IFX RDTR\n(https://pmc.ncbi.nlm.nih.gov/articles/PMC11706105/#Sec12)"
+            },
+            {
+                "parameter": "source_file",
+                "value": "SmartQueryTestCaseProposals.xlsx"
+            },
+            {
+                "parameter": "source_sheet",
+                "value": "MVP1"
+            },
+            {
+                "parameter": "source_row",
+                "value": "17"
+            }
+        ]
+    },
+    "skip": false,
+    "skip_reason": null
+}
